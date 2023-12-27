@@ -13813,22 +13813,9 @@ const arrFilms222 = [
 		sean_bean_17041959: 1,
 	},
 },
-{
-	id: 'trudnaya_mishen_1993',
-	title: { ua: 'Трудная мишень', en: 'Hard Target', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0107076',
-		wiki_ru: '%D0%A2%D1%80%D1%83%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B8%D1%88%D0%B5%D0%BD%D1%8C',
-		baskino: '2281',
-	},
-	cast: {
-		jean_claude_van_damme_18101960: 1,
-		yancy_butler_02071970: 1,
-		arnold_vosloo_16061962: 1,
-	},
-},
+
+
+
 {
 	id: 'tuman_2010',
 	title: { ua: 'Туман', },

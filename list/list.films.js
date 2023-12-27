@@ -515,6 +515,23 @@ const arrFilms = [
 	},
 },
 {
+	id: 'hard_target_1993',
+	title: { ua: 'Важка мішень', en: 'Hard Target', },
+	year: 1993,
+	country: { usa: 1, },
+	genre: { action: 1, thriller: 1, crime: 1, fight: 1, },
+	internet: {
+		imdb: '0107076',
+		wiki_ua: '%D0%92%D0%B0%D0%B6%D0%BA%D0%B0_%D0%BC%D1%96%D1%88%D0%B5%D0%BD%D1%8C',
+		ashdivip: '19859',
+	},
+	cast: {
+		jean_claude_van_damme_18101960: 1,
+		yancy_butler_02071970: 1,
+		arnold_vosloo_16061962: 1,
+	},
+},
+{
 	id: 'cocaine_bear_2023',
 	title: { ua: 'Ведмідь під кайфом', en: 'Cocaine Bear', },
 	year: 2023,
@@ -526,6 +543,19 @@ const arrFilms = [
 		ashdivip: '91155',
 	},
 	cast: {},
+},
+{
+	id: 'retribution_2023',
+	title: { ua: 'Відплата: Дорога помсти', en: 'Retribution', },
+	year: 2023,
+	country: { usa: 1, },
+	genre: { action: 1, terrorist: 1, },
+	internet: {
+		imdb: '6906292',
+	},
+	cast: {
+		liam_neeson_07061952: 1,
+	},
 },
 {
 	id: 'wolf_creek_2_2013',
@@ -739,6 +769,18 @@ const arrFilms = [
 	},
 },
 {
+	id: 'lat_sau_san_taam_1992',
+	title: { ua: 'Круто зварені', en: 'Lat sau san taam', },
+	year: 1992,
+	country: { hkg: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: {
+		imdb: '0104684',
+		wiki_ua: '%D0%9A%D1%80%D1%83%D1%82%D0%BE_%D0%B7%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D1%96',
+		ashdivip: '',
+	},
+},
+{
 	id: 'strays_2023',
 	title: { ua: 'Кудлаті перці', en: 'Strays', },
 	year: 2023,
@@ -765,6 +807,21 @@ const arrFilms = [
 		jean_reno_30071948: 1,
 		natalie_portman_09061981: 1,
 		gary_oldman_21031958: 1,
+	},
+},
+{
+	id: 'the_ice_road_2021',
+	title: { ua: 'Льодовий дрифт', en: 'The Ice Road', },
+	year: 2021,
+	country: { usa: 1, },
+	genre: { action: 1, },
+	internet: {
+		imdb: '3758814',
+		wiki_ua: '%D0%9B%D1%8C%D0%BE%D0%B4%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B4%D1%80%D0%B8%D1%84%D1%82',
+		ashdivip: '47839',
+	},
+	cast: {
+		liam_neeson_07061952: 1,
 	},
 },
 {
@@ -942,6 +999,21 @@ const arrFilms = [
 	},
 },
 {
+	id: 'unknown_2011',
+	title: { ua: 'Невідомий', en: 'Unknown', },
+	year: 2011,
+	country: { usa: 1, },
+	genre: { action: 1, psycho: 1, },
+	internet: {
+		imdb: '1401152',
+		wiki_ua: '%D0%9D%D0%B5%D0%B2%D1%96%D0%B4%D0%BE%D0%BC%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '15117',
+	},
+	cast: {
+		liam_neeson_07061952: 1,
+	},
+},
+{
 	id: 'unstoppable_2010',
 	title: { ua: 'Некерований', en: 'Unstoppable', },
 	year: 2010,
@@ -958,6 +1030,18 @@ const arrFilms = [
 		chris_pine_26081980: 1,
 		jeff_wincott_08051956: 1,
 	},
+},
+{
+	id: 'nemesis_1992',
+	title: { ua: 'Немезида', en: 'Nemesis', },
+	year: 1992,
+	country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, space: 1, techno: 1, world: 1, },
+	internet: {
+		imdb: '0107668',
+		wiki_ua: '%D0%9D%D0%B5%D0%BC%D0%B5%D0%B7%D0%B8%D0%B4%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+	},
+	cast: {},
 },
 {
 	id: 'expend4bles_2023',
@@ -1116,6 +1200,20 @@ const arrFilms = [
 		jamie_lee_curtis_22111958: 1,
 		bill_paxton_17051955: 1,
 		tia_carrere_02011967: 1,
+	},
+},
+{
+	id: 'passengers_2016',
+	title: { ua: 'Пробудження', en: 'Passengers', },
+	year: 2016,
+	country: { usa: 1, },
+	internet: {
+		imdb: '1355644',
+		wiki_ua: '%D0%9F%D1%80%D0%BE%D0%B1%D1%83%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)',
+		ashdivip: '6588',
+	},
+	cast: {
+		jennifer_lawrence_15081990: 1,
 	},
 },
 {
