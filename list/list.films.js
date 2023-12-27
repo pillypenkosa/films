@@ -29,45 +29,46 @@ const arrGenres = [
 	{ id: 'thriller' 	, title: 'Трилер' 		, },
 	{ id: 'fantasy' 	, title: 'Фентезі' 		, },
 
-	{ id: 'air' 		, title: '#_авіація' 				, },
-	{ id: 'apocalypse' 	, title: '#_апокаліпсис' 			, },
-	{ id: 'army' 		, title: '#_армія' 					, },
-	{ id: 'battle' 		, title: '#_битва' 					, },
-	{ id: 'fight' 		, title: '#_бійці' 					, },
-	{ id: 'biomedlab' 	, title: '#_біо_мед_лабораторія' 	, },
-	{ id: 'world' 		, title: '#_вигаданий_світ' 		, },
-	{ id: 'virus' 		, title: '#_вірус' 					, },
-	{ id: 'prison' 		, title: '#_в\'язниця' 				, },
-	{ id: 'groundhog' 	, title: '#_день_бабака' 			, },
-	{ id: 'bond' 		, title: '#_Джеймс_Бонд' 			, },
-	{ id: 'road' 		, title: '#_дорога' 				, },
-	{ id: 'railroad' 	, title: '#_залізниця' 				, },
-	{ id: 'zombie' 		, title: '#_зомбі' 					, },
-	{ id: 'aliens' 		, title: '#_інопланетяни' 			, },
-	{ id: 'planet' 		, title: '#_інші_планети' 			, },
-	{ id: 'cyber' 		, title: '#_кібер' 					, },
-	{ id: 'killer' 		, title: '#_кілери' 				, },
-	{ id: 'space' 		, title: '#_космос' 				, },
-	{ id: 'love' 		, title: '#_кохання' 				, },
-	{ id: 'team' 		, title: '#_команда' 				, },
-	{ id: 'future' 		, title: '#_майбутнє' 				, },
-	{ id: 'travel' 		, title: '#_мандри' 				, },
-	{ id: 'maniac' 		, title: '#_маніяк' 				, },
-	{ id: 'young' 		, title: '#_молодь' 				, },
-	{ id: 'sea' 		, title: '#_море'					, },
-	{ id: 'story' 		, title: '#_на_реальних_подіях' 	, },
-	{ id: 'race' 		, title: '#_перегони' 				, },
-	{ id: 'time' 		, title: '#_переміщення_у_часі' 	, },
-	{ id: 'robbery' 	, title: '#_пограбування' 			, },
-	{ id: 'police' 		, title: '#_поліція' 				, },
-	{ id: 'justice' 	, title: '#_правосуддя' 			, },
-	{ id: 'psycho' 		, title: '#_психо' 					, },
-	{ id: 'sport' 		, title: '#_спорт' 					, },
-	{ id: 'animal' 		, title: '#_тварини' 				, },
-	{ id: 'oneman' 		, title: '#_театр_одного_актора' 	, },
-	{ id: 'terrorist' 	, title: '#_терористи' 				, },
-	{ id: 'techno' 		, title: '#_технології' 			, },
-	{ id: 'utopia' 		, title: '#_утопія' 				, },
+	{ id: 'air' 		, title: '#_авіація' 		, },
+	{ id: 'apocalypse' 	, title: '#_апокаліпсис' 	, },
+	{ id: 'army' 		, title: '#_армія' 			, },
+	{ id: 'groundhog' 	, title: '#_бабак' 			, }, // в стилі Дня Бабака
+	{ id: 'battle' 		, title: '#_битва' 			, },
+	{ id: 'fight' 		, title: '#_бійці' 			, }, // бойові мистецтва
+	{ id: 'biomedlab' 	, title: '#_біомедлаб' 		, }, // досліди в лабораторіях
+	{ id: 'bond' 		, title: '#_Бонд' 			, }, 
+	{ id: 'virus' 		, title: '#_вірус' 			, },
+	{ id: 'prison' 		, title: '#_в\'язниця' 		, },
+	{ id: 'road' 		, title: '#_дорога' 		, }, // події в дорозі
+	{ id: 'railroad' 	, title: '#_залізниця' 		, },
+	{ id: 'zombie' 		, title: '#_зомбі' 			, },
+	{ id: 'aliens' 		, title: '#_інопланетяни' 	, },
+	{ id: 'cyber' 		, title: '#_кібер' 			, },
+	{ id: 'killer' 		, title: '#_кілери' 		, },
+	{ id: 'space' 		, title: '#_космос' 		, },
+	{ id: 'love' 		, title: '#_кохання' 		, },
+	{ id: 'team' 		, title: '#_команда' 		, }, // група осіб
+	{ id: 'future' 		, title: '#_майбутнє' 		, },
+	{ id: 'travel' 		, title: '#_мандри' 		, }, // подорожі по світу
+	{ id: 'maniac' 		, title: '#_маніяк' 		, },
+	{ id: 'young' 		, title: '#_молодь' 		, },
+	{ id: 'sea' 		, title: '#_море'			, },
+	{ id: 'oneman' 		, title: '#_один' 			, }, // театр одного актора
+	{ id: 'trap' 		, title: '#_пастка' 		, }, // випадкові смертельні пастки
+	{ id: 'race' 		, title: '#_перегони' 		, },
+	{ id: 'planet' 		, title: '#_планети' 		, }, // події на інших планетах
+	{ id: 'robbery' 	, title: '#_пограбування' 	, },
+	{ id: 'police' 		, title: '#_поліція' 		, },
+	{ id: 'justice' 	, title: '#_правосуддя' 	, }, 
+	{ id: 'psycho' 		, title: '#_психо' 			, }, // зламай мозок
+	{ id: 'story' 		, title: '#_реальні' 		, }, // засновано на реальних подіях
+	{ id: 'world' 		, title: '#_світ' 			, }, // вигаданий світ
+	{ id: 'sport' 		, title: '#_спорт' 			, },
+	{ id: 'animal' 		, title: '#_тварини' 		, },
+	{ id: 'terrorist' 	, title: '#_терористи' 		, },
+	{ id: 'techno' 		, title: '#_техно' 			, }, // технології
+	{ id: 'utopia' 		, title: '#_утопія' 		, }, 
+	{ id: 'time' 		, title: '#_час' 			, }, // подорожі у часі
 
 
 
@@ -103,16 +104,24 @@ const arrFilms = [
 
 
 
-
-
-
-
-
-
-
-
-
-
+{
+	id: 'golden_eye_1995',
+	title: { ua: '007: Золоте око', en: 'GoldenEye', },
+	year: 1995,
+	country: { usa: 1, },
+	genre: { action: 1, thriller: 1, adventure: 1, bond: 1, },
+	internet: {
+		imdb: '0113189',
+		wiki_ua: '%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%B5_%D0%BE%D0%BA%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '2636',
+		auliki7: 'GoldenEye',
+	},
+	cast: {
+		pierce_brosnan_16051953: 1,
+		sean_bean_17041959: 1,
+		judi_dench_09121934: 1,
+	},
+},
 {
 	id: 'skyfall_2012',
 	title: { ua: '007: Координати Скайфолл', en: 'Skyfall', },
@@ -570,6 +579,24 @@ const arrFilms = [
 	cast: {},
 },
 {
+	id: 'waterworld_1995',
+	title: { ua: 'Водний світ', en: 'Waterworld', },
+	year: 1995,
+	country: { usa: 1, },
+	genre: { action: 1, utopia: 1, world: 1, sea: 1, },
+	internet: {
+		imdb: '0114898',
+		wiki_ua: '%D0%92%D0%BE%D0%B4%D0%BD%D0%B8%D0%B9_%D1%81%D0%B2%D1%96%D1%82',
+		ashdivip: '13486',
+	},
+	cast: {
+		kevin_costner_18011955: 1,
+		jeanne_tripplehorn_10061963: 1,
+		dennis_hopper_17051936: 1,
+		jack_black_28081969: 1,
+	},
+},
+{
 	id: 'wall_e_2008',
 	title: { ua: 'ВОЛЛ-І', en: 'WALL·E', },
 	year: 2008,
@@ -640,6 +667,37 @@ const arrFilms = [
 	},
 },
 {
+	id: 'gravity_2013',
+	title: { ua: 'Гравітація', en: 'Gravity', },
+	year: 2013,
+	country: { usa: 1, },
+	genre: { thriller: 1, sci_fi: 1, drama: 1, space: 1, trap: 1, },
+	internet: {
+		imdb: '1454468',
+		wiki_ua: '%D0%93%D1%80%D0%B0%D0%B2%D1%96%D1%82%D0%B0%D1%86%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '13715',
+	},
+	cast: {
+		sandra_bullock_26071964: 1,
+		george_clooney_06051961: 1,
+		ed_harris_28111950: 1,
+	},
+},
+{
+	id: 'gran_turismo_2023',
+	title: { ua: 'Ґран Туризмо', en: 'Gran Turismo', },
+	year: 2023,
+	country: { usa: 1, },
+	genre: { drama: 1, sport: 1, race: 1, },
+	internet: {
+		imdb: '4495098',
+		wiki_ua: '%D2%90%D1%80%D0%B0%D0%BD_%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+	},
+	cast: {
+		orlando_bloom_13011977: 1,
+	},
+},
+{
 	id: 'twelve_monkeys_1995',
 	title: { ua: 'Дванадцять мавп', en: 'Twelve Monkeys', },
 	year: 1995,
@@ -653,6 +711,36 @@ const arrFilms = [
 		bruce_willis_19031955: 1,
 		brad_pitt_18121963: 1,
 		david_morse_11101953: 1,
+	},
+},
+{
+	id: 'nine_1_2_weeks_1986',
+	title: { ua: 'Дев\'ять з половиною тижнів', en: 'Nine 1/2 Weeks', },
+	year: 1986,
+	country: { usa: 1, },
+	internet: {
+		imdb: '0091635',
+		wiki_ua: '%D0%94%D0%B5%D0%B2%27%D1%8F%D1%82%D1%8C_%D0%B7_%D0%BF%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8%D0%BD%D0%BE%D1%8E_%D1%82%D0%B8%D0%B6%D0%BD%D1%96%D0%B2',
+	},
+	genre: { erotica: 1, drama: 1, },
+	cast: {
+		mickey_rourke_16091952: 1,
+		kim_basinger_08121953: 1,
+	},
+},
+{
+	id: 'groundhog_day_1993',
+	title: { ua: 'День бабака', en: 'Groundhog Day', },
+	year: 1993,
+	country: { usa: 1, },
+	genre: { action: 1, fantasy: 1, groundhog: 1, },
+	internet: {
+		imdb: '0107048',
+		wiki_ua: '%D0%94%D0%B5%D0%BD%D1%8C_%D0%B1%D0%B0%D0%B1%D0%B0%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+	},
+	cast: {
+		bill_murray_21091950: 1,
+		chris_elliott_31051960: 1,
 	},
 },
 {
@@ -678,6 +766,22 @@ const arrFilms = [
 		wiki_ua: '%D0%94%D0%BE%D1%87%D0%BA%D0%B0_%D0%B1%D0%BE%D0%BB%D0%BE%D1%82%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%8F',
 	},
 	cast: {},
+},
+{
+	id: 'elysium_2013',
+	title: { ua: 'Елізіум', en: 'Elysium', },
+	year: 2013,
+	country: { usa: 1, },
+	genre: { action: 1, thriller: 1, sci_fi: 1, space: 1, techno: 1, },
+	internet: {
+		imdb: '1535108',
+		wiki_ua: '%D0%95%D0%BB%D1%96%D0%B7%D1%96%D1%83%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '12799',
+	},
+	cast: {
+		matt_damon_08101970: 1,
+		jodie_foster_19111962: 1,
+	},
 },
 {
 	id: 'the_delta_force_1986',
@@ -723,6 +827,20 @@ const arrFilms = [
 	}
 },
 {
+	id: 'chill_factor_1999',
+	title: { ua: 'Заморожений жах', en: 'Chill Factor', },
+	year: 1999,
+	country: { usa: 1, },
+	genre: { action: 1, comedy: 1, },
+	internet: {
+		imdb: '0163579',
+		wiki_ru: '%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80_%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0',
+	},
+	cast: {
+		cuba_gooding_jr_02011968: 1,
+	},
+},
+{
 	id: 'end_of_days_1999',
 	title: { ua: 'Кінець світу', en: 'End of Days', },
 	year: 1999,
@@ -761,7 +879,7 @@ const arrFilms = [
 	title: { ua: 'Корпорація монстрів', en: 'Monsters Inc', },
 	year: 2001,
 	country: { usa: 1, },
-	genre: { cartoon: 1, world: 1, },
+	genre: { cartoon: 1, },
 	internet: {
 		imdb: '0198781',
 		wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%86%D1%96%D1%8F_%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%96%D0%B2',
@@ -829,7 +947,7 @@ const arrFilms = [
 	title: { ua: 'Міна', en: 'Mine', },
 	year: 2016,
 	country: { usa: 1, },
-	genre: { drama: 1, thriller: 1, army: 1, oneman: 1, },
+	genre: { drama: 1, thriller: 1, army: 1, oneman: 1, trap: 1, },
 	internet: {
 		imdb: '3707104',
 		wiki_ru: '%D0%9C%D0%B8%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2016)',
@@ -996,6 +1114,24 @@ const arrFilms = [
 	},
 	cast: {
 		liam_neeson_07061952: 1,
+	},
+},
+{
+	id: 'executive_decision_1996',
+	title: { ua: 'Наказано знищити', en: 'Executive Decision', },
+	year: 1996,
+	country: { usa: 1, },
+	genre: { action: 1, thriller: 1, terrorist: 1, air: 1, },
+	internet: {
+		imdb: '0116253',
+		wiki_ru: '%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%BE_%D1%83%D0%BD%D0%B8%D1%87%D1%82%D0%BE%D0%B6%D0%B8%D1%82%D1%8C',
+		ashdivip: '79267',
+	},
+	cast: {
+		kurt_russell_17031951: 1,
+		halle_berry_14081966: 1,
+		steven_seagal_10041952: 1,
+		joe_morton_18101947: 1,
 	},
 },
 {
@@ -1169,6 +1305,52 @@ const arrFilms = [
 	},
 },
 {
+	id: 'the_day_after_tomorrow_2004',
+	title: { ua: 'Післязавтра', en: 'The Day After Tomorrow', },
+	year: 2004,
+	country: { usa: 1, },
+	genre: { disaster: 1, sci_fi: 1, apocalypse: 1, },
+	internet: {
+		imdb: '0319262',
+		wiki_ua: '%D0%9F%D1%96%D1%81%D0%BB%D1%8F%D0%B7%D0%B0%D0%B2%D1%82%D1%80%D0%B0',
+	},
+	cast: {
+		jake_gyllenhaal_19121980: 1,
+	},
+},
+{
+	id: 'double_impact_1991',
+	title: { ua: 'Подвійний удар', en: 'Double Impact', },
+	year: 1991,
+	country: { usa: 1, },
+	genre: { action: 1, fight: 1, },
+	internet: {
+		imdb: '0101764',
+		wiki_ua: '%D0%9F%D0%BE%D0%B4%D0%B2%D1%96%D0%B9%D0%BD%D0%B8%D0%B9_%D1%83%D0%B4%D0%B0%D1%80',
+		ashdivip: '2284',
+	},
+	cast: {
+		jean_claude_van_damme_18101960: 1,
+		bolo_yeung_03071946: 1,
+	},
+},
+{
+	id: 'the_hitcher_1986',
+	title: { ua: 'Попутник', en: 'The Hitcher', },
+	year: 1986,
+	country: { usa: 1, },
+	genre: { thriller: 1, maniac: 1, road: 1, },
+	internet: {
+		imdb: '0091209',
+		wiki_ua: '%D0%9F%D0%BE%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)',
+		moviestape: 'The.Hitcher.1986',
+		ashdivip: '19977',
+	},
+	cast: {
+		rutger_hauer_23011944: 1,
+	},
+},
+{
 	id: 'source_code_2011',
 	title: { ua: 'Початковий код', en: 'Source Code', },
 	year: 2011,
@@ -1200,6 +1382,23 @@ const arrFilms = [
 		jamie_lee_curtis_22111958: 1,
 		bill_paxton_17051955: 1,
 		tia_carrere_02011967: 1,
+	},
+},
+{
+	id: 'ghost_1990',
+	title: { ua: 'Привид', en: 'Ghost', },
+	year: 1990,
+	country: { usa: 1, },
+	genre: { fantasy: 1, love: 1, },
+	internet: {
+		imdb: '0099653',
+		wiki_ua: '%D0%9F%D1%80%D0%B8%D0%B2%D0%B8%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1990)',
+		ashdivip: '98287',
+	},
+	cast: {
+		patrick_swayze_18081952: 1,
+		demi_moore_11111962: 1,
+		whoopi_goldberg_13111955: 1,
 	},
 },
 {
@@ -1295,6 +1494,29 @@ const arrFilms = [
 	},
 },
 {
+	id: 'sanctum_2011',
+	title: { ua: 'Санктум', en: 'Sanctum', },
+	year: 2011,
+	country: { usa: 1, },
+	genre: { thriller: 1, drama: 1, story: 1, trap: 1, },
+	internet: {
+		imdb: '0881320',
+		wiki_ua: '%D0%A1%D0%B0%D0%BD%D0%BA%D1%82%D1%83%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '22721',
+	},
+},
+{
+	id: 'soul_surfer_2011',
+	title: { ua: 'Серфер души', en: 'Soul Surfer', },
+	year: 2011,
+	country: { usa: 1, },
+	genre: { drama: 1, biography: 1, sport: 1, young: 1, },
+	internet: {
+		imdb: '1596346',
+		wiki_ua: '%D0%A1%D0%B5%D1%80%D1%84%D0%B5%D1%80_%D0%B4%D1%83%D1%88%D1%96',
+	},
+},
+{
 	id: 'the_rock_1996',
 	title: { ua: 'Скеля', en: 'The Rock', },
 	year: 1996,
@@ -1330,6 +1552,21 @@ const arrFilms = [
 	},
 },
 {
+	id: 'collateral_2004',
+	title: { ua: 'Співучасник', en: 'Collateral', },
+	year: 2004,
+	country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, },
+	internet: {
+		imdb: '0369339',
+		wiki_ua: '%D0%A1%D0%BF%D1%96%D0%B2%D1%83%D1%87%D0%B0%D1%81%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '13805',
+	},
+	cast: {
+		tom_cruise_03071962: 1,
+	},
+},
+{
 	id: 'Dredd_2012',
 	title: { ua: 'Суддя Дредд', en: 'Dredd', },
 	year: 2012,
@@ -1343,6 +1580,18 @@ const arrFilms = [
 	cast: {
 		karl_urban_07061972: 1,
 		lena_headey_03101973: 1,
+	},
+},
+{
+	id: 'cars_2006',
+	title: { ua: 'Тачки', en: 'Cars', },
+	year: 2006,
+	country: { usa: 1, },
+	genre: { cartoon: 1, sport: 1, race: 1, },
+	internet: {
+		imdb: '0317219',
+		wiki_ua: '%D0%A2%D0%B0%D1%87%D0%BA%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '526',
 	},
 },
 {
@@ -1362,7 +1611,7 @@ const arrFilms = [
 	title: { ua: 'Термінатор', en: 'The Terminator', },
 	year: 1984,
 	country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, world: 1, apocalypse: 1, },
+	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, apocalypse: 1, },
 	internet: {
 		imdb: '0088247',
 		wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
@@ -1381,7 +1630,7 @@ const arrFilms = [
 	title: { ua: 'Термінатор - 2', en: 'Terminator 2: Judgment Day', },
 	year: 1991,
 	country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, world: 1, apocalypse: 1, },
+	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, apocalypse: 1, },
 	internet: {
 		imdb: '0103064',
 		wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_2:_%D0%A1%D1%83%D0%B4%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C',
@@ -1402,7 +1651,7 @@ const arrFilms = [
 	title: { ua: 'Термінатор - 3', en: 'Terminator 3: Rise of the Machines', },
 	year: 2003,
 	country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, world: 1, apocalypse: 1, },
+	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, apocalypse: 1, },
 	internet: {
 		imdb: '0181852',
 		wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_3:_%D0%9F%D0%BE%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD',
@@ -1420,7 +1669,7 @@ const arrFilms = [
 	title: { ua: 'Термінатор - 4', en: 'Terminator Salvation', },
 	year: 2009,
 	country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, world: 1, apocalypse: 1, },
+	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, apocalypse: 1, },
 	internet: {
 		imdb: '6450804',
 		wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80:_%D0%A1%D0%BF%D0%B0%D1%81%D1%96%D0%BD%D0%BD%D1%8F_%D0%BF%D1%80%D0%B8%D0%B9%D0%B4%D0%B5',
@@ -1438,7 +1687,7 @@ const arrFilms = [
 	title: { ua: 'Термінатор - 5', en: 'Terminator Genisys', },
 	year: 2015,
 	country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, world: 1, apocalypse: 1, },
+	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, apocalypse: 1, },
 	internet: {
 		imdb: '1340138',
 		wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80:_%D0%93%D0%B5%D0%BD%D0%B5%D0%B7%D0%B8%D1%81',
@@ -1456,7 +1705,7 @@ const arrFilms = [
 	title: { ua: 'Термінатор - 6', en: 'Terminator: Dark Fate', },
 	year: 2019,
 	country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, world: 1, apocalypse: 1, },
+	genre: { action: 1, sci_fi: 1, time: 1, techno: 1, apocalypse: 1, },
 	internet: {
 		imdb: '6450804',
 		wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80:_%D0%A4%D0%B0%D1%82%D1%83%D0%BC',
@@ -1529,6 +1778,52 @@ const arrFilms = [
 	},
 },
 {
+	id: 'traffic_2000',
+	title: { ua: 'Трафік', en: 'Traffic', },
+	year: 2000,
+	country: { usa: 1, },
+	genre: { thriller: 1, drama: 1, crime: 1, },
+	internet: {
+		imdb: '0181865',
+		wiki_ua: '%D0%A2%D1%80%D0%B0%D1%84%D1%96%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+	},
+	cast: {
+		michael_douglas_25091944: 1,
+		catherine_zeta_jones_25091969: 1,
+		salma_hayek_02091966: 1,
+		don_cheadle_29111964: 1,
+	},
+},
+{
+	id: 'crisis_2021',
+	title: { ua: 'Трафік', en: 'Crisis', },
+	year: 2021,
+	country: { usa: 1, },
+	genre: { thriller: 1, drama: 1, },
+	internet: {
+		imdb: '9731682',
+		wiki_ru: '%D0%A2%D1%80%D0%B0%D1%84%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2020)',
+	},
+	cast: {
+		gary_oldman_21031958: 1,
+		michelle_rodriguez_12071978: 1,
+		sam_worthington_02081976: 1,
+	},
+},
+{
+	id: 'the_next_three_days_2010',
+	title: { ua: 'Три дні на втечу', en: 'The Next Three Days', },
+	year: 2010,
+	country: { usa: 1, },
+	internet: {
+		imdb: '1458175',
+		wiki_ua: '%D0%A2%D1%80%D0%B8_%D0%B4%D0%BD%D1%96_%D0%BD%D0%B0_%D0%B2%D1%82%D0%B5%D1%87%D1%83',
+	},
+	cast: {
+		russell_crowe_07041964: 1,
+	},
+},
+{
 	id: 'universal_soldier_1992',
 	title: { ua: 'Універсальний солдат', en: 'Universal Soldier', },
 	year: 1992,
@@ -1590,11 +1885,26 @@ const arrFilms = [
 	},
 },
 {
+	id: 'splice_2009',
+	title: { ua: 'Химера', en: 'Splice', },
+	year: 2009,
+	country: { usa: 1, },
+	genre: { sci_fi: 1, horror: 1, biomedlab: 1, },
+	internet: {
+		imdb: '1017460',
+		wiki_ua: '%D0%A5%D0%B8%D0%BC%D0%B5%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '17306',
+	},
+	cast: {
+		adrien_brody_14041973: 1,
+	},
+},
+{
 	id: 'hitman_2007',
 	title: { ua: 'Хітмен', en: 'Hitman', },
 	year: 2007,
 	country: { usa: 1, gbr: 1, },
-	genre: { action: 1, thriller: 1, crime: 1, biomedlab: 1, },
+	genre: { action: 1, thriller: 1, crime: 1, killer: 1, biomedlab: 1, },
 	internet: {
 		imdb: '0465494',
 		wiki_ua: '%D0%A5%D1%96%D1%82%D0%BC%D0%B5%D0%BD',
@@ -1610,7 +1920,7 @@ const arrFilms = [
 	title: { ua: 'Хітмен: Агент 47', en: 'Hitman: Agent 47', },
 	year: 2015,
 	country: { usa: 1, deu: 1, gbr: 1, },
-	genre: { action: 1, crime: 1, biomedlab: 1, },
+	genre: { action: 1, crime: 1, killer: 1, biomedlab: 1, },
 	internet: {
 		imdb: '2679042',
 		wiki_ua: '%D0%A5%D1%96%D1%82%D0%BC%D0%B5%D0%BD:_%D0%90%D0%B3%D0%B5%D0%BD%D1%82_47',
@@ -1632,6 +1942,38 @@ const arrFilms = [
 	cast: {
 		kevin_costner_18011955: 1,
 		demi_moore_11111962: 1,
+	},
+},
+{
+	id: 'fair_game_1995',
+	title: { ua: 'Чесна гра', en: 'Fair Game', },
+	year: 1995,
+	country: { usa: 1, },
+	genre: { action: 1, thriller: 1, crime: 1, },
+	internet: {
+		imdb: '0113010',
+		wiki_ua: '%D0%A7%D0%B5%D1%81%D0%BD%D0%B0_%D0%B3%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)',
+		ashdivip: '19784',
+	},
+	cast: {
+		william_baldwin_21021963: 1,
+		cindy_crawford_20021966: 1,
+		salma_hayek_02091966: 1,
+	},
+},
+{
+	id: 'black_dog_1998',
+	title: { ua: 'Чорний пес', en: 'Black Dog', },
+	year: 1998,
+	country: { usa: 1, },
+	genre: { action: 1, drama: 1, crime: 1, road: 1, },
+	internet: {
+		imdb: '0120610',
+		wiki_ru: '%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D1%91%D1%81_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '17506',
+	},
+	cast: {
+		patrick_swayze_18081952: 1,
 	},
 },
 {
@@ -1703,6 +2045,21 @@ const arrFilms = [
 	},
 },
 {
+	id: 'boss_level_2020',
+	title: { ua: 'Boss Level: Фінальна гра', en: 'Boss Level', },
+	year: 2020,
+	country: { usa: 1, },
+	genre: { action: 1, fantasy: 1, groundhog: 1, },
+	internet: {
+		imdb: '7638348',
+		wiki_ua: 'Boss_Level:_%D0%92%D1%80%D1%8F%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8_%D0%BA%D0%BE%D0%BB%D0%B8%D1%88%D0%BD%D1%8E',
+	},
+	cast: {
+		mel_gibson_03011956: 1,
+		naomi_watts_28091968: 1,
+	},
+},
+{
 	id: 'uncharted_2022',
 	title: { ua: 'Uncharted: Незвідане', en: 'Uncharted', },
 	year: 2022,
@@ -1717,6 +2074,22 @@ const arrFilms = [
 		mark_wahlberg_05061971: 1,
 	},
 },
+{
+	id: 'i_am_legend_2007',
+	title: { ua: 'Я - легенда', en: 'I Am Legend', },
+	year: 2007,
+	country: { usa: 1, },
+	genre: { action: 1, thriller: 1, horror: 1, biomedlab: 1, oneman: 1, zombie: 1, },
+	internet: {
+		imdb: '0480249',
+		wiki_ua: '%D0%AF_%E2%80%94_%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '14363',
+	},
+	cast: {
+		will_smith_25091968: 1,
+	},
+},
+
 
 
 

@@ -936,7 +936,7 @@ const arrFilms222 = [
 	},
 },
 {
-	id: 'beguschy_v_labirinte_2_2018',
+	id: 'beguschy_v_labirinte_3_2018',
 	title: { ua: 'Бегущий в лабиринте - 3', en: 'Maze Runner: The Death Cure', },
 	year: 2018,
 	country: { usa: 1, },
@@ -2012,16 +2012,10 @@ const arrFilms222 = [
 		wiki_ru: '%D0%92%D0%B8%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2018)',
 	},
 },
-{
-	id: 'vidplata_2023',
-	title: { ua: 'Відплата: Дорога помсти', en: 'Retribution', },
-	year: 2023,
-	country: { usa: 1, },
-	internet: {
-		imdb: '6742252',
-		//wiki_ru: '',
-	},
-},
+
+
+
+
 {
 	id: 'vne_polya_zrenia_1998',
 	title: { ua: 'Вне поля зрения', en: 'Out of Sight', },
@@ -2096,22 +2090,18 @@ const arrFilms222 = [
 		nina_siemaszko_14071970: 1,
 	},
 },
-{
-	id: 'vodny_mir_1995',
-	title: { ua: 'Водный мир', en: 'Waterworld', },
-	year: 1995,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0114898',
-		wiki_ru: '%D0%92%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D1%80',
-	},
-	cast: {
-		kevin_costner_18011955: 1,
-		jeanne_tripplehorn_10061963: 1,
-		dennis_hopper_17051936: 1,
-		jack_black_28081969: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'vodovorot_2020',
 	title: { ua: 'Водоворот', },
@@ -3130,35 +3120,18 @@ const arrFilms222 = [
 		penelope_cruz_28041974: 1,
 	},
 },
-{
-	id: 'gravitacia_2013',
-	title: { ua: 'Гравитация', en: 'Gravity', },
-	year: 2013,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1454468',
-		wiki_ru: '%D0%93%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		sandra_bullock_26071964: 1,
-		george_clooney_06051961: 1,
-		ed_harris_28111950: 1,
-	},
-},
 
-{
-	id: 'gran_turyzmo_2023',
-	title: { ua: 'Ґран Туризмо', en: 'Gran Turismo', },
-	year: 2023,
-	country: { usa: 1, },
-	internet: {
-		imdb: '4495098',
-		wiki_ru: '%D0%93%D1%80%D0%B0%D0%BD_%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		orlando_bloom_13011977: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
 
 
 {
@@ -3190,21 +3163,6 @@ const arrFilms222 = [
 		bruce_willis_19031955: 1,
 	},
 },
-
-{
-	id: ' Gran Turismo 2023',
-	title: { ua: 'Ґран Туризмо', en: ' Gran Turismo', },
-	year: 2023,
-	country: { usa: 1, },
-	internet: {
-		imdb: '4495098',
-		wiki_ua: '%D0%93%D1%80%D0%B0%D0%BD_%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		orlando_bloom_13011977: 1,
-	},
-},
-
 
 
 
@@ -3314,21 +3272,16 @@ const arrFilms222 = [
 		ashley_judd_19041968: 1,
 	},
 },
-{
-	id: 'dvoynoy_udar_1991',
-	title: { ua: 'Двойной удар', en: 'Double Impact', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0101764',
-		wiki_ru: '%D0%94%D0%B2%D0%BE%D0%B9%D0%BD%D0%BE%D0%B9_%D1%83%D0%B4%D0%B0%D1%80',
-		baskino: '28130',
-	},
-	cast: {
-		jean_claude_van_damme_18101960: 1,
-		bolo_yeung_03071946: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'devochka_hochesh_snimatsya_v_kino_1978',
 	title: { ua: 'Девочка хочешь сниматься в кино', },
@@ -3374,23 +3327,6 @@ const arrFilms222 = [
 
 
 
-
-
-{
-	id: 'nine_1_2_weeks_1986',
-	title: { ua: 'Дев\'ять з половиною тижнів', en: 'Nine 1/2 Weeks', },
-	year: 1986,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0091635',
-		wiki_ua: '%D0%94%D0%B5%D0%B2%27%D1%8F%D1%82%D1%8C_%D0%B7_%D0%BF%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8%D0%BD%D0%BE%D1%8E_%D1%82%D0%B8%D0%B6%D0%BD%D1%96%D0%B2',
-	},
-	genre: { drama: 1, erotica: 1, },
-	cast: {
-		mickey_rourke_16091952: 1,
-		kim_basinger_08121953: 1,
-	},
-},
 
 
 
@@ -3521,34 +3457,13 @@ const arrFilms222 = [
 		ashton_kutcher_07021978: 1,
 	},
 },
-{
-	id: 'den_kurka_2021',
-	title: { ua: 'День курка', en: 'Boss Level', },
-	year: 2021,
-	country: { usa: 1, },
-	internet: {
-		imdb: '7638348',
-		wiki_ru: '%D0%94%D0%B5%D0%BD%D1%8C_%D0%BA%D1%83%D1%80%D0%BA%D0%B0',
-	},
-	cast: {
-		mel_gibson_03011956: 1,
-		naomi_watts_28091968: 1,
-	},
-},
-{
-	id: 'den_surka_1993',
-	title: { ua: 'День Сурка', en: 'Groundhog Day', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0107048',
-		wiki_ru: '%D0%94%D0%B5%D0%BD%D1%8C_%D1%81%D1%83%D1%80%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		bill_murray_21091950: 1,
-		chris_elliott_31051960: 1,
-	},
-},
+
+
+
+
+
+
+
 {
 	id: 'dengi_reshayut_vse_1997',
 	title: { ua: 'Деньги решают всё', en: 'Money Talks', },
@@ -4895,23 +4810,11 @@ const arrFilms222 = [
 		wiki_ru: '%D0%97%D0%BB%D0%BE%D0%B2%D0%B5%D1%89%D0%B8%D0%B5_%D0%BC%D0%B5%D1%80%D1%82%D0%B2%D0%B5%D1%86%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
 	},
 },
-{
-	id: 'zolotoy_glaz_1995',
-	title: { ua: 'Золотой глаз', en: 'GoldenEye', },
-	year: 1995,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0113189',
-		wiki_ru: '%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9_%D0%B3%D0%BB%D0%B0%D0%B7_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1995)',
-		baskino: '3556',
-		moviestape: 'GoldenEye',
-	},
-	cast: {
-		pierce_brosnan_16051953: 1,
-		sean_bean_17041959: 1,
-		judi_dench_09121934: 1,
-	},
-},
+
+
+
+
+
 {
 	id: 'zona_51_1997',
 	title: { ua: 'Зона 51', en: 'Trucks', },
@@ -10958,23 +10861,16 @@ const arrFilms222 = [
 		alisa_freindlih_08121934: 1,
 	},
 },
-{
-	id: 'poputchik_1986',
-	title: { ua: 'Попутчик', en: 'The Hitcher', },
-	year: 1986,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0091209',
-		wiki_ru: '%D0%9F%D0%BE%D0%BF%D1%83%D1%82%D1%87%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1986,_%D0%A1%D0%A8%D0%90)',
-		moviestape: 'The.Hitcher.1986',
-		other: [
-			'https://ashdi.vip/vod/19977',
-		],
-	},
-	cast: {
-		rutger_hauer_23011944: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'Poseydon_2006',
 	title: { ua: 'Посейдон', en: 'Poseidon', },
@@ -11050,16 +10946,11 @@ const arrFilms222 = [
 		eugeny_gerasimov_25021951: 1,
 	},
 },
-{
-	id: 'poslezavtra_2004',
-	title: { ua: 'Послезавтра', en: 'The Day After Tomorrow', },
-	year: 2004,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0319262',
-		wiki_ru: '%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B7%D0%B0%D0%B2%D1%82%D1%80%D0%B0',
-	},
-},
+
+
+
+
+
 {
 	id: 'pravda_ili_deystvie_2018',
 	title: { ua: 'Правда или действие', en: 'Truth or Dare', },
@@ -11191,22 +11082,21 @@ const arrFilms222 = [
 	},
 	cast: {},
 },
-{
-	id: 'prividenie_1990',
-	title: { ua: 'Привидение', en: 'Ghost', },
-	year: 1990,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0099653',
-		wiki_ru: '%D0%9F%D1%80%D0%B8%D0%B2%D0%B8%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1990)',
-		baskino: '1991',
-	},
-	cast: {
-		patrick_swayze_18081952: 1,
-		demi_moore_11111962: 1,
-		whoopi_goldberg_13111955: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'privychka_zhenitsya_1991',
 	title: { ua: 'Привычка жениться', en: 'The Marrying Man', },
@@ -11261,23 +11151,18 @@ const arrFilms222 = [
 		eugeny_gerasimov_25021951: 1,
 	},
 },
-{
-	id: 'prikazano_unichtozhit_1996',
-	title: { ua: 'Приказано уничтожить', en: 'Executive Decision', },
-	year: 1996,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0116253',
-		wiki_ru: '%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%BE_%D1%83%D0%BD%D0%B8%D1%87%D1%82%D0%BE%D0%B6%D0%B8%D1%82%D1%8C',
-		baskino: '3532',
-	},
-	cast: {
-		kurt_russell_17031951: 1,
-		halle_berry_14081966: 1,
-		steven_seagal_10041952: 1,
-		joe_morton_18101947: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'priklyuchenia_v_kanikuly_1978',
 	title: { ua: 'Приключения в каникулы', en: 'Spadla z oblakov', },
@@ -12100,16 +11985,16 @@ const arrFilms222 = [
 		andrey_gradov_29011954: 1,
 	},
 },
-{
-	id: 'sanctum_2011',
-	title: { ua: 'Санктум', en: 'Sanctum', },
-	year: 2011,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0881320',
-		wiki_ru: '%D0%A1%D0%B0%D0%BD%D0%BA%D1%82%D1%83%D0%BC',
-	},
-},
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'sbezhavshaya_nevesta_1999',
 	title: { ua: 'Сбежавшая невеста', en: 'Runaway Bride', },
@@ -12290,16 +12175,16 @@ const arrFilms222 = [
 		wiki_ru: '%D0%A1%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D1%82_%D0%91%D0%B8%D0%BB%D0%BA%D0%BE',
 	},
 },
-{
-	id: 'serfer_dushi_2011',
-	title: { ua: 'Серфер души', en: 'Soul Surfer', },
-	year: 2011,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1596346',
-		wiki_ru: '%D0%A1%D1%91%D1%80%D1%84%D0%B5%D1%80_%D0%B4%D1%83%D1%88%D0%B8',
-	},
-},
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'set_1995',
 	title: { ua: 'Сеть', en: 'The Net', },
@@ -12736,19 +12621,18 @@ const arrFilms222 = [
 		jason_statham_26071967: 1,
 	},
 },
-{
-	id: 'souchastnik_2004',
-	title: { ua: 'Соучастник', en: 'Collateral', },
-	year: 2004,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0369339',
-		wiki_ru: '%D0%A1%D0%BE%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		tom_cruise_03071962: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'spasatel_2006',
 	title: { ua: 'Спасатель', en: 'The Guardian', },
@@ -13290,17 +13174,17 @@ const arrFilms222 = [
 		lembit_ulfsak_04071947: 1,
 	},
 },
-{
-	id: 'tachki_1_2006',
-	title: { ua: 'Тачки', en: 'Cars', },
-	year: 2006,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0317219',
-		wiki_ru: '%D0%A2%D0%B0%D1%87%D0%BA%D0%B8',
-	},
-	cartoon: 1,
-},
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'text_2019',
 	title: { ua: 'Текст', },
@@ -13618,37 +13502,17 @@ const arrFilms222 = [
 		alexandr_tyutin_25111962: 1,
 	},
 },
-{
-	id: 'traffic_2000',
-	title: { ua: 'Траффик', en: 'Traffic', },
-	year: 2000,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0181865',
-		wiki_ru: '%D0%A2%D1%80%D0%B0%D1%84%D1%84%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		michael_douglas_25091944: 1,
-		catherine_zeta_jones_25091969: 1,
-		salma_hayek_02091966: 1,
-		don_cheadle_29111964: 1,
-	},
-},
-{
-	id: 'traffic_2021',
-	title: { ua: 'Траффик', en: 'Crisis', },
-	year: 2021,
-	country: { usa: 1, },
-	internet: {
-		imdb: '9731682',
-		wiki_ru: '%D0%A2%D1%80%D0%B0%D1%84%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2020)',
-	},
-	cast: {
-		gary_oldman_21031958: 1,
-		michelle_rodriguez_12071978: 1,
-		sam_worthington_02081976: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'trevozhnoe_voskresnie_1983',
 	title: { ua: 'Тревожное воскресенье', },
@@ -13704,19 +13568,17 @@ const arrFilms222 = [
 		youtube: 'o4Euseha2jI',
 	},
 },
-{
-	id: '3_dnya_na_pobeg_2010',
-	title: { ua: 'Три дня на побег', en: 'The Next Three Days', },
-	year: 2010,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1458175',
-		wiki_ru: '%D0%A2%D1%80%D0%B8_%D0%B4%D0%BD%D1%8F_%D0%BD%D0%B0_%D0%BF%D0%BE%D0%B1%D0%B5%D0%B3',
-	},
-	cast: {
-		russell_crowe_07041964: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: '3_mushketera_1993',
 	title: { ua: 'Три мушкетёра', en: 'The Three Musketeers', },
@@ -14069,19 +13931,20 @@ const arrFilms222 = [
 		alexandr_fisenko_05121975: 1,
 	},
 },
-{
-	id: 'faktor_holoda_1999',
-	title: { ua: 'Фактор холода', en: 'Chill Factor', },
-	year: 1999,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0163579',
-		wiki_ru: '%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80_%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0',
-	},
-	cast: {
-		cuba_gooding_jr_02011968: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'fanat_1989',
 	title: { ua: 'Фанат', },
@@ -14257,19 +14120,17 @@ const arrFilms222 = [
 
 
 
-{
-	id: 'himera_2009',
-	title: { ua: 'Химера', en: 'Splice', },
-	year: 2009,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1017460',
-		wiki_ru: '%D0%A5%D0%B8%D0%BC%D0%B5%D1%80%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		adrien_brody_14041973: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'hiromant_2005',
 	title: { ua: 'Хиромант', },
@@ -14816,36 +14677,27 @@ const arrFilms222 = [
 		dmitry_maryanov_01121969: 1,
 	},
 },
-{
-	id: 'cherniy_pes_1998',
-	title: { ua: 'Черный пес', en: 'Black Dog', },
-	year: 1998,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0120610',
-		wiki_ru: '%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D1%91%D1%81_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		baskino: '1985',
-	},
-	cast: {
-		patrick_swayze_18081952: 1,
-	},
-},
-{
-	id: 'chestnaya_igra_1995',
-	title: { ua: 'Честная игра', en: 'Fair Game', },
-	year: 1995,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0113010',
-		wiki_ru: '%D0%A7%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1995)',
-		baskino: '7422',
-	},
-	cast: {
-		william_baldwin_21021963: 1,
-		cindy_crawford_20021966: 1,
-		salma_hayek_02091966: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'chetyre_komnaty_1995',
 	title: { ua: 'Четыре комнаты', en: 'Four Rooms', },
@@ -15307,20 +15159,16 @@ const arrFilms222 = [
 		forest_whitaker_15071961: 1,
 	},
 },
-{
-	id: 'elysium_2013',
-	title: { ua: 'Элизиум', en: 'Elysium', },
-	year: 2013,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1535108',
-		wiki_ru: '%D0%AD%D0%BB%D0%B8%D0%B7%D0%B8%D1%83%D0%BC_%E2%80%94_%D1%80%D0%B0%D0%B9_%D0%BD%D0%B5_%D0%BD%D0%B0_%D0%97%D0%B5%D0%BC%D0%BB%D0%B5',
-	},
-	cast: {
-		matt_damon_08101970: 1,
-		jodie_foster_19111962: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'Elvira_povelitelnica_tmy_1988',
 	title: { ua: 'Эльвира повелительница тьмы', en: 'Elvira: Mistress of the Dark', },
@@ -15442,19 +15290,17 @@ const arrFilms222 = [
 		nikolay_chindyaykin_08031947: 1,
 	},
 },
-{
-	id: 'ya_legenda_2007',
-	title: { ua: 'Я легенда', en: 'I Am Legend', },
-	year: 2007,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0480249',
-		wiki_ru: '%D0%AF_%E2%80%94_%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		will_smith_25091968: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'ya_robot_2004',
 	title: { ua: 'Я робот', en: 'I Robot', },
