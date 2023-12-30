@@ -145,7 +145,6 @@ const arrFilms222 = [
 		roman_madyanov_22071962: 1,
 	},
 },
-
 {
 	id: '12_stulev_1971',
 	title: { ua: '12 стульев', },
@@ -177,8 +176,6 @@ const arrFilms222 = [
 		natalya_vorobyeva_18111949: 1,
 	},
 },
-
-
 {
 	id: '22_minuty_2014',
 	title: { ua: '22 минуты', },
@@ -197,9 +194,6 @@ const arrFilms222 = [
 		dmitry_endalcev_20021989: 1,
 	},
 },
-
-
-
 {
 	id: '31_iyunya_1978',
 	title: { ua: '31 июня', },
@@ -246,12 +240,6 @@ const arrFilms222 = [
 		lev_durov_23121931: 1,
 	},
 },
-
-
-
-
-
-
 {
 	id: 'avaria_doch_menta_1989',
 	title: { ua: 'Авария — дочь мента', },
@@ -265,37 +253,6 @@ const arrFilms222 = [
 	cast: {
 		vladimir_ilyin_16111947: 1,
 		lyubov_sokolova_31071921: 1,
-	},
-},
-
-
-
-
-
-{
-	id: 'avtobus_657_2015',
-	title: { ua: 'Автобус 657', en: 'Heist', },
-	year: 2015,
-	country: { usa: 1, },
-	internet: {
-		imdb: '3276924',
-		wiki_ru: '%D0%A1%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%8C:_%D0%90%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81_657',
-	},
-	cast: {
-		robert_de_niro_17081943: 1,
-	},
-},
-{
-	id: 'avtomobil_beglec_1996',
-	title: { ua: 'Автомобиль-беглец', en: 'Runaway Car', },
-	year: 1996,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0120041',
-		baskino: '94886',
-	},
-	cast: {
-		nina_siemaszko_14071970: 1,
 	},
 },
 {
@@ -317,33 +274,6 @@ const arrFilms222 = [
 	},
 },
 {
-	id: 'avtostopom_po_galaktike_2005',
-	title: { ua: 'Автостопом по галактике', en: 'The Hitchhiker`s Guide to the Galaxy', },
-	year: 2005,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0371724',
-		wiki_ru: '%D0%90%D0%B2%D1%82%D0%BE%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BC_%D0%BF%D0%BE_%D0%B3%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B5_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		john_malkovich_09121953: 1,
-	},
-},
-{
-	id: 'agent_1991',
-	title: { ua: 'Агент', en: 'The Hitman', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0102045',
-		wiki_ru: '%D0%90%D0%B3%D0%B5%D0%BD%D1%82_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1991)',
-	},
-	cast: {
-		chuck_norris_10031940: 1,
-	},
-},
-
-{
 	id: 'admiral_2008',
 	title: { ua: 'Адмирал', },
 	year: 2008,
@@ -362,34 +292,6 @@ const arrFilms222 = [
 		alexandr_tyutin_25111962: 1,
 		egor_beroev_09101977: 1,
 		anatoly_pashinin_15091978: 1,
-	},
-},
-{
-	id: 'adrenalin_1_2006',
-	title: { ua: 'Адреналин - 1', en: 'Crank', },
-	year: 2006,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0479884',
-		wiki_ru: '%D0%90%D0%B4%D1%80%D0%B5%D0%BD%D0%B0%D0%BB%D0%B8%D0%BD_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2006)',
-	},
-	cast: {
-		jason_statham_26071967: 1,
-		amy_smart_26031976: 1,
-	},
-},
-{
-	id: 'adrenalin_2_2009',
-	title: { ua: 'Адреналин - 2', en: 'Crank: High Voltage', },
-	year: 2009,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1121931',
-		wiki_ru: '%D0%90%D0%B4%D1%80%D0%B5%D0%BD%D0%B0%D0%BB%D0%B8%D0%BD_2:_%D0%92%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%B5_%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5',
-	},
-	cast: {
-		jason_statham_26071967: 1,
-		amy_smart_26031976: 1,
 	},
 },
 {
@@ -423,8 +325,6 @@ const arrFilms222 = [
 		alika_smehova_27031968: 1,
 	},
 },
-
-
 {
 	id: 'alfons_1993',
 	title: { ua: 'Альфонс', },
@@ -457,92 +357,6 @@ const arrFilms222 = [
 		alisa_grebenschikova_12061978: 1,
 	},
 },
-{
-	id: 'amerikansky_zhigolo_1980',
-	title: { ua: 'Американский жиголо', en: 'American Gigolo', },
-	year: 1980,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0080365',
-		wiki_ru: '%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B6%D0%B8%D0%B3%D0%BE%D0%BB%D0%BE',
-	},
-	cast: {
-		richard_gere_31081949: 1,
-	},
-},
-{
-	id: 'amnezia_2004',
-	title: { ua: 'Амнезия', en: 'Twisted', },
-	year: 2004,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0315297',
-		wiki_ru: '%D0%90%D0%BC%D0%BD%D0%B5%D0%B7%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2004)',
-	},
-	cast: {
-		ashley_judd_19041968: 1,
-		samuel_l_jackson_21121948: 1,
-		andy_garcia_12041956: 1,
-	},
-},
-{
-	id: 'anaconda_1997',
-	title: { ua: 'Анаконда', en: 'Anaconda', },
-	year: 1997,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0118615',
-		wiki_ru: '%D0%90%D0%BD%D0%B0%D0%BA%D0%BE%D0%BD%D0%B4%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		baskino: '3959',
-	},
-	cast: {
-		jennifer_lopez_24071969: 1,
-		jon_voight_29121938: 1,
-		danny_trejo_16051944: 1,
-	},
-},
-{
-	id: 'angely_Charli_2000',
-	title: { ua: 'Ангелы Чарли', en: 'Charlie\'s Angels', },
-	year: 2000,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0160127',
-		wiki_ru: '%D0%90%D0%BD%D0%B3%D0%B5%D0%BB%D1%8B_%D0%A7%D0%B0%D1%80%D0%BB%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2000)',
-	},
-	cast: {
-		cameron_diaz_30081972: 1,
-		drew_barrymore_22021975: 1,
-		bill_murray_21091950: 1,
-		tim_curry_19041946: 1,
-		crispin_glover_20041964: 1,
-	},
-},
-{
-	id: 'angely_Charli_vpered_2003',
-	title: { ua: 'Ангелы Чарли: Только вперёд', en: 'Charlie\'s Angels: Full Throttle', },
-	year: 2003,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0305357',
-		wiki_ru: '%D0%90%D0%BD%D0%B3%D0%B5%D0%BB%D1%8B_%D0%A7%D0%B0%D1%80%D0%BB%D0%B8:_%D0%A2%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE_%D0%B2%D0%BF%D0%B5%D1%80%D1%91%D0%B4',
-	},
-	cast: {
-		cameron_diaz_30081972: 1,
-		drew_barrymore_22021975: 1,
-		shia_labeouf_11061986: 1,
-		demi_moore_11111962: 1,
-		bruce_willis_19031955: 1,
-		robert_patrick_05111958: 1,
-		crispin_glover_20041964: 1,
-	},
-},
-
-
-
-
-
-
 {
 	id: 'antikiller_1_2002',
 	title: { ua: 'Антикиллер - 1', },
@@ -628,35 +442,6 @@ const arrFilms222 = [
 		sergey_badyuk_03071970: 1,
 	},
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-	id: 'Arabela_1979',
-	title: { ua: 'Арабелла', en: 'Arabela', },
-	year: 1979,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0175381',
-		wiki_ru: '%D0%90%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D0%BB%D0%B0_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB)',
-		youtube: '2Cvahwf-4BM',
-	},
-},
-
 {
 	id: 'assa_1987',
 	title: { ua: 'Асса', },
@@ -695,19 +480,6 @@ const arrFilms222 = [
 		viktor_bychkov_04091954: 1,
 		alexandr_rozenbaum_13091951: 1,
 		dmitry_titov_05041952: 1,
-	},
-},
-{
-	id: 'afera_Tomasa_Krauna_1999',
-	title: { ua: 'Афера Томаса Крауна', en: 'The Thomas Crown Affair', },
-	year: 1999,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0155267',
-		wiki_ru: '%D0%90%D1%84%D0%B5%D1%80%D0%B0_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81%D0%B0_%D0%9A%D1%80%D0%B0%D1%83%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1999)',
-	},
-	cast: {
-		pierce_brosnan_16051953: 1,
 	},
 },
 {
@@ -778,47 +550,6 @@ const arrFilms222 = [
 	},
 },
 {
-	id: 'bagrovie_reki_2000',
-	title: { ua: 'Багровые реки', en: 'Les rivières pourpres', },
-	year: 2000,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0228786',
-		wiki_ru: '%D0%91%D0%B0%D0%B3%D1%80%D0%BE%D0%B2%D1%8B%D0%B5_%D1%80%D0%B5%D0%BA%D0%B8',
-	},
-	cast: {
-		jean_reno_30071948: 1,
-	},
-},
-{
-	id: 'bandity_2001',
-	title: { ua: 'Бандиты', en: 'Bandits', },
-	year: 2001,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0219965',
-		wiki_ru: '%D0%91%D0%B0%D0%BD%D0%B4%D0%B8%D1%82%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2001)',
-	},
-	cast: {
-		bruce_willis_19031955: 1,
-		cate_blanchett_14051969: 1,
-	},
-},
-{
-	id: 'bandy_New_Yorka_2002',
-	title: { ua: 'Банды Нью-Йорка', en: 'Gangs of New York', },
-	year: 2002,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0217505',
-		wiki_ru: '%D0%91%D0%B0%D0%BD%D0%B4%D1%8B_%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA%D0%B0',
-	},
-	cast: {
-		leonardo_dicaprio_11111974: 1,
-		cameron_diaz_30081972: 1,
-	},
-},
-{
 	id: 'batalyon_2015',
 	title: { ua: 'Батальон', },
 	year: 2015,
@@ -855,231 +586,6 @@ const arrFilms222 = [
 		borislav_brondukov_01031938: 1,
 		alexandr_pankratov_cherny_28061949: 1,
 		vladimir_talashko_06031946: 1,
-	},
-},
-{
-	id: 'Bounty_1984',
-	title: { ua: 'Баунти', en: 'The Bounty', },
-	year: 1984,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0086993',
-		wiki_ru: '%D0%91%D0%B0%D1%83%D0%BD%D1%82%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		mel_gibson_03011956: 1,
-		anthony_hopkins_31121937: 1,
-	},
-},
-{
-	id: 'bashnya_smerti_1981',
-	title: { ua: 'Башня смерти', en: 'Sei mong tap', },
-	year: 1981,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0076709',
-		wiki_ru: '%D0%91%D0%B0%D1%88%D0%BD%D1%8F_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1981)',
-	},
-	cast: {
-		bruce_lee_27111940: 1,
-	},
-},
-{
-	id: 'beglec_1993',
-	title: { ua: 'Беглец', en: 'The Fugitive', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0106977',
-		wiki_ru: '%D0%91%D0%B5%D0%B3%D0%BB%D0%B5%D1%86_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1993)',
-	},
-	cast: {
-		harrison_ford_13071942: 1,
-		tommy_lee_jones_15091946: 1,
-		julianne_moore_03121960: 1,
-	},
-},
-{
-	id: 'beglec_s_togo_sveta_1992',
-	title: { ua: 'Беглец с того света', en: 'Freejack', },
-	year: 1992,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0104299',
-		wiki_ru: '%D0%9A%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%C2%AB%D0%91%D0%B5%D1%81%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%B8%D0%B5%C2%BB_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		emilio_estevez_12051962: 1,
-		mick_jagger_26071943: 1,
-		rene_russo_17021954: 1,
-		anthony_hopkins_31121937: 1,
-	},
-},
-{
-	id: 'beguschy_v_labirinte_1_2014',
-	title: { ua: 'Бегущий в лабиринте - 1', en: 'The Maze Runner', },
-	year: 2014,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1790864',
-		wiki_ru: '%D0%91%D0%B5%D0%B3%D1%83%D1%89%D0%B8%D0%B9_%D0%B2_%D0%BB%D0%B0%D0%B1%D0%B8%D1%80%D0%B8%D0%BD%D1%82%D0%B5_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-},
-{
-	id: 'beguschy_v_labirinte_2_2015',
-	title: { ua: 'Бегущий в лабиринте - 2', en: 'Maze Runner: The Scorch Trials', },
-	year: 2015,
-	country: { usa: 1, },
-	internet: {
-		imdb: '4046784',
-		wiki_ru: '%D0%91%D0%B5%D0%B3%D1%83%D1%89%D0%B8%D0%B9_%D0%B2_%D0%BB%D0%B0%D0%B1%D0%B8%D1%80%D0%B8%D0%BD%D1%82%D0%B5:_%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BE%D0%B3%D0%BD%D1%91%D0%BC',
-	},
-},
-{
-	id: 'beguschy_v_labirinte_3_2018',
-	title: { ua: 'Бегущий в лабиринте - 3', en: 'Maze Runner: The Death Cure', },
-	year: 2018,
-	country: { usa: 1, },
-	internet: {
-		imdb: '4500922',
-		wiki_ru: '%D0%91%D0%B5%D0%B3%D1%83%D1%89%D0%B8%D0%B9_%D0%B2_%D0%BB%D0%B0%D0%B1%D0%B8%D1%80%D0%B8%D0%BD%D1%82%D0%B5:_%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D0%BE%D1%82_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%B8',
-	},
-},
-{
-	id: 'beguschy_po_lezviyu_1982',
-	title: { ua: 'Бегущий по лезвию', en: 'Blade Runner', },
-	year: 1982,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0083658',
-		wiki_ru: '%D0%91%D0%B5%D0%B3%D1%83%D1%89%D0%B8%D0%B9_%D0%BF%D0%BE_%D0%BB%D0%B5%D0%B7%D0%B2%D0%B8%D1%8E',
-	},
-	cast: {
-		harrison_ford_13071942: 1,
-		rutger_hauer_23011944: 1,
-		sean_young_20111959: 1,
-		brion_james_20021945: 1,
-	},
-},
-{
-	id: 'beguschy_chelovek_1987',
-	title: { ua: 'Бегущий человек', en: 'The Running Man', },
-	year: 1987,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0093894',
-		wiki_ru: '%D0%91%D0%B5%D0%B3%D1%83%D1%89%D0%B8%D0%B9_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		arnold_schwarzenegger_30071947: 1,
-	},
-},
-{
-	id: 'bez_vesti_propavshie_1984',
-	title: { ua: 'Без вести пропавшие', en: 'Missing in Action', },
-	year: 1984,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0087727',
-		wiki_ru: '%D0%91%D0%B5%D0%B7_%D0%B2%D0%B5%D1%81%D1%82%D0%B8_%D0%BF%D1%80%D0%BE%D0%BF%D0%B0%D0%B2%D1%88%D0%B8%D0%B5',
-	},
-	cast: {
-		chuck_norris_10031940: 1,
-	},
-},
-{
-	id: 'bez_kompromissov_1986',
-	title: { ua: 'Без компромиссов', en: 'Raw Deal', },
-	year: 1986,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0091828',
-		wiki_ru: '%D0%91%D0%B5%D0%B7_%D0%BA%D0%BE%D0%BC%D0%BF%D1%80%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%BE%D0%B2_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1986)',
-	},
-	cast: {
-		arnold_schwarzenegger_30071947: 1,
-	},
-},
-{
-	id: 'bez_tormozov_2016',
-	title: { ua: 'Без тормозов', en: 'À fond', },
-	year: 2016,
-	country: { usa: 1, },
-	internet: {
-		imdb: '4993964',
-		wiki_ru: '%D0%91%D0%B5%D0%B7_%D1%82%D0%BE%D1%80%D0%BC%D0%BE%D0%B7%D0%BE%D0%B2_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		youtube: 'z2ro8E6Ns0M',
-	},
-},
-{
-	id: 'bezdna_1989',
-	title: { ua: 'Бездна', en: 'The Abyss', },
-	year: 1989,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0096754',
-		wiki_ru: '%D0%91%D0%B5%D0%B7%D0%B4%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1989)',
-	},
-	cast: {
-		ed_harris_28111950: 1,
-		michael_biehn_31071956: 1,
-	},
-},
-{
-	id: 'bezumny_max_1_1979',
-	title: { ua: 'Безумный Макс - 1', en: 'Mad Max', },
-	year: 1979,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0079501',
-		wiki_ru: '%D0%91%D0%B5%D0%B7%D1%83%D0%BC%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81',
-	},
-	cast: {
-		mel_gibson_03011956: 1,
-	},
-},
-{
-	id: 'bezumny_max_2_1981',
-	title: { ua: 'Безумный Макс - 2', en: 'Mad Max 2', },
-	year: 1981,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0082694',
-		wiki_ru: '%D0%91%D0%B5%D0%B7%D1%83%D0%BC%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81_2:_%D0%92%D0%BE%D0%B8%D0%BD_%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B8',
-		baskino: '8374',
-	},
-	cast: {
-		mel_gibson_03011956: 1,
-		bruce_spence_17091945: 1,
-	},
-},
-{
-	id: 'bezumny_max_3_1985',
-	title: { ua: 'Безумный Макс - 3', en: 'Mad Max Beyond Thunderdome', },
-	year: 1985,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0089530',
-		wiki_ru: '%D0%91%D0%B5%D0%B7%D1%83%D0%BC%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81_3:_%D0%9F%D0%BE%D0%B4_%D0%BA%D1%83%D0%BF%D0%BE%D0%BB%D0%BE%D0%BC_%D0%B3%D1%80%D0%BE%D0%BC%D0%B0',
-	},
-	cast: {
-		mel_gibson_03011956: 1,
-		tina_turner_26111939: 1,
-		bruce_spence_17091945: 1,
-	},
-},
-{
-	id: 'bezumny_max_4_2015',
-	title: { ua: 'Безумный Макс - 4', en: 'Mad Max: Fury Road', },
-	year: 2015,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1392190',
-		wiki_ru: '%D0%91%D0%B5%D0%B7%D1%83%D0%BC%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81:_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B0_%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%B8',
-	},
-	cast: {
-		tom_hardy_15091977: 1,
-		charlize_theron_07081975: 1,
 	},
 },
 {
@@ -1126,6 +632,42 @@ const arrFilms222 = [
 		maria_skvorcova_11041911: 1,
 	},
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'bely_plen_2005',
 	title: { ua: 'Белый плен', en: 'Eight Below', },
@@ -3120,20 +2662,6 @@ const arrFilms222 = [
 		penelope_cruz_28041974: 1,
 	},
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'gruz_200_2007',
 	title: { ua: 'Груз 200', },
@@ -3163,24 +2691,6 @@ const arrFilms222 = [
 		bruce_willis_19031955: 1,
 	},
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'damy_priglashayut_kavalerov_1980',
 	title: { ua: 'Дамы приглашают кавалеров', },
@@ -8326,21 +7836,15 @@ const arrFilms222 = [
 		ed_harris_28111950: 1,
 	},
 },
-{
-	id: 'na_grebne_volny_1991',
-	title: { ua: 'На гребне волны', en: 'Point Break', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0102685',
-		wiki_ru: '%D0%9D%D0%B0_%D0%B3%D1%80%D0%B5%D0%B1%D0%BD%D0%B5_%D0%B2%D0%BE%D0%BB%D0%BD%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1991)',
-	},
-	cast: {
-		patrick_swayze_18081952: 1,
-		keanu_reeves_02091964: 1,
-		gary_busey_29061944: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
 {
 	id: 'na_Deribasovskoy_1992',
 	title: { ua: 'На Дерибасовской хорошая погода, или на Брайтон-Бич опять идут дожди', },
@@ -8439,76 +7943,14 @@ const arrFilms222 = [
 		sharon_stone_10031958: 1,
 	},
 },
-{
-	id: 'naemnie_ubiycy_1995',
-	title: { ua: 'Наёмные убийцы', en: 'Assassins', },
-	year: 1995,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0112401',
-		wiki_ru: '%D0%9D%D0%B0%D1%91%D0%BC%D0%BD%D1%8B%D0%B5_%D1%83%D0%B1%D0%B8%D0%B9%D1%86%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		baskino: '4047',
-	},
-	cast: {
-		sylvester_stallone_06071946: 1,
-		antonio_banderas_10081960: 1,
-		julianne_moore_03121960: 1,
-	},
-},
-{
-	id: 'nazad_v_buduschee_1_1985',
-	title: { ua: 'Назад в будущее - 1', en: 'Back to the Future', },
-	year: 1985,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0088763',
-		wiki_ru: '%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D0%B2_%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		baskino: '476',
-		moviestape: 'Nazad.u.majbutnje',
-	},
-	cast: {
-		michael_j_fox_09061961: 1,
-		christopher_lloyd_22101938: 1,
-		crispin_glover_20041964: 1,
-	},
-},
-{
-	id: 'nazad_v_buduschee_2_1989',
-	title: { ua: 'Назад в будущее - 2', en: 'Back to the Future Part II', },
-	year: 1989,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0096874',
-		wiki_ru: '%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D0%B2_%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5_2',
-		baskino: '5502',
-		moviestape: 'Nazad.u.majbutnje.2',
-	},
-	cast: {
-		michael_j_fox_09061961: 1,
-		christopher_lloyd_22101938: 1,
-		crispin_glover_20041964: 1,
-		elisabeth_shue_06101963: 1,
-		billy_zane_24021966: 1,
-	},
-},
-{
-	id: 'nazad_v_buduschee_3_1990',
-	title: { ua: 'Назад в будущее - 3', en: 'Back to the Future Part III', },
-	year: 1990,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0099088',
-		wiki_ru: '%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D0%B2_%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5_3',
-		baskino: '7103',
-		moviestape: 'Nazad.u.majbutnje.3',
-	},
-	cast: {
-		michael_j_fox_09061961: 1,
-		christopher_lloyd_22101938: 1,
-		crispin_glover_20041964: 1,
-		elisabeth_shue_06101963: 1,
-	},
-},
+
+
+
+
+
+
+
+
 {
 	id: 'nalet_2017',
 	title: { ua: 'Налёт', },
