@@ -2045,6 +2045,25 @@ const arrFilms = [
 	},
 },
 {
+	id: 'i_am_legend_2007',
+	title: { ua: 'Я - легенда', en: 'I Am Legend', },
+	year: 2007,
+	country: { usa: 1, },
+	genre: { action: 1, thriller: 1, horror: 1, biomedlab: 1, oneman: 1, zombie: 1, },
+	internet: {
+		imdb: '0480249',
+		wiki_ua: '%D0%AF_%E2%80%94_%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+		ashdivip: '14363',
+	},
+	cast: {
+		will_smith_25091968: 1,
+	},
+},
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+{
 	id: 'boss_level_2020',
 	title: { ua: 'Boss Level: Фінальна гра', en: 'Boss Level', },
 	year: 2020,
@@ -2074,22 +2093,6 @@ const arrFilms = [
 		mark_wahlberg_05061971: 1,
 	},
 },
-{
-	id: 'i_am_legend_2007',
-	title: { ua: 'Я - легенда', en: 'I Am Legend', },
-	year: 2007,
-	country: { usa: 1, },
-	genre: { action: 1, thriller: 1, horror: 1, biomedlab: 1, oneman: 1, zombie: 1, },
-	internet: {
-		imdb: '0480249',
-		wiki_ua: '%D0%AF_%E2%80%94_%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
-		ashdivip: '14363',
-	},
-	cast: {
-		will_smith_25091968: 1,
-	},
-},
-
 
 
 
