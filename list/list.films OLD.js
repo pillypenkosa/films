@@ -632,78 +632,20 @@ const arrFilms222 = [
 		maria_skvorcova_11041911: 1,
 	},
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-	id: 'bely_plen_2005',
-	title: { ua: 'Белый плен', en: 'Eight Below', },
-	year: 2005,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0397313',
-		wiki_ru: '%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D0%BF%D0%BB%D0%B5%D0%BD',
-	},
-	cast: {
-		paul_walker_12091973: 1,
-	},
-},
 {
 	id: 'bely_tigr_2012',
-	title: { ua: 'Белый тигр', },
+	title: { ua: 'Білий тигр', },
 	year: 2012,
-	country: { rus: 1, our: 1, },
+	country: { rus: 1, },
 	internet: {
 		imdb: '2318405',
-		wiki_ru: '%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D1%82%D0%B8%D0%B3%D1%80_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2012)',
-		kinoteatr: 'https://www.kino-teatr.ru/kino/movie/ros/96697/titr/',
+		wiki_ua: '%D0%91%D1%96%D0%BB%D0%B8%D0%B9_%D1%82%D0%B8%D0%B3%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
 	cast: {
 		vitaly_kischenko_25051964: 1,
 		vladimir_ilyin_16111947: 1,
 	},
 },
-
-
-
-
-
-
-
-
 {
 	id: 'beregis_avtomobilya_1966',
 	title: { ua: 'Берегись автомобиля', },
@@ -729,36 +671,6 @@ const arrFilms222 = [
 	},
 },
 {
-	id: 'beskonechnaya_istoria_1_1984',
-	title: { ua: 'Бесконечная история - 1', en: 'Die unendliche Geschichte', },
-	year: 1984,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0088323',
-		wiki_ru: '%D0%91%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%B0%D1%8F_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-},
-{
-	id: 'beskonechnaya_istoria_2_1990',
-	title: { ua: 'Бесконечная история - 2', en: 'The NeverEnding Story II: The Next', },
-	year: 1990,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0100240',
-		wiki_ru: '%D0%91%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%B0%D1%8F_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_2',
-	},
-},
-{
-	id: 'bessmertnaya_vozlyublennaya_1994',
-	title: { ua: 'Бессмертная возлюбленная', en: 'Immortal Beloved', },
-	year: 1994,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0110116',
-		wiki_ru: '%D0%91%D0%B5%D1%81%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B7%D0%BB%D1%8E%D0%B1%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1994)',
-	},
-},
-{
 	id: 'bessonnica_2014',
 	title: { ua: 'Бессонница', },
 	year: 2014,
@@ -780,60 +692,6 @@ const arrFilms222 = [
 	},
 },
 {
-	id: 'besshabashnoe_ograblenie_2002',
-	title: { ua: 'Бесшабашное ограбление', en: 'Stark Raving Mad', },
-	year: 2002,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0286152',
-		wiki_ru: '%D0%91%D0%B5%D1%81%D1%88%D0%B0%D0%B1%D0%B0%D1%88%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B3%D1%80%D0%B0%D0%B1%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5',
-	},
-	cast: {
-		seann_william_scott_03101976: 1,
-	},
-},
-{
-	id: 'Bethoven_1_1992',
-	title: { ua: 'Бетховен - 1', en: 'Beethoven', },
-	year: 1992,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0103786',
-		wiki_ru: '%D0%91%D0%B5%D1%82%D1%85%D0%BE%D0%B2%D0%B5%D0%BD_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		bonnie_hunt_22091961: 1,
-		david_duchovny_07081960: 1,
-	},
-},
-{
-	id: 'Bethoven_2_1993',
-	title: { ua: 'Бетховен - 2', en: 'Beethoven\'s 2nd', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0106375',
-		wiki_ru: '%D0%91%D0%B5%D1%82%D1%85%D0%BE%D0%B2%D0%B5%D0%BD_2',
-	},
-	cast: {
-		bonnie_hunt_22091961: 1,
-	},
-},
-{
-	id: 'bingo_bongo_1982',
-	title: { ua: 'Бинго Бонго', en: 'Bingo Bongo', },
-	year: 1982,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0083655',
-		wiki_ru: '%D0%91%D0%B8%D0%BD%D0%B3%D0%BE-%D0%91%D0%BE%D0%BD%D0%B3%D0%BE',
-	},
-	cast: {
-		adriano_celentano_06011938: 1,
-		carole_bouquet_18081957: 1,
-	},
-},
-{
 	id: 'bitva_za_Moskvu_1985',
 	title: { ua: 'Битва за Москву', },
 	year: 1985,
@@ -850,40 +708,6 @@ const arrFilms222 = [
 		alexandr_pankratov_cherny_28061949: 1,
 		irina_shmeleva_24011961: 1,
 		valery_barinov_27111945: 1,
-	},
-},
-{
-	id: 'bliznecy_1988',
-	title: { ua: 'Близнецы', en: 'Twins', },
-	year: 1988,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0096320',
-		wiki_ru: '%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B5%D1%86%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1988)',
-	},
-	cast: {
-		arnold_schwarzenegger_30071947: 1,
-		danny_devito_17111944: 1,
-	},
-},
-{
-	id: 'bogi_naverno_soshli_s_uma_1_1980',
-	title: { ua: 'Боги наверно сошли с ума - 1', en: 'The Gods Must Be Crazy', },
-	year: 1980,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0080801',
-		wiki_ru: '%D0%9D%D0%B0%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B5,_%D0%B1%D0%BE%D0%B3%D0%B8_%D1%81%D0%BE%D1%88%D0%BB%D0%B8_%D1%81_%D1%83%D0%BC%D0%B0',
-	},
-},
-{
-	id: 'bogi_naverno_soshli_s_uma_2_1989',
-	title: { ua: 'Боги наверно сошли с ума - 2', en: 'The Gods Must Be Crazy II', },
-	year: 1989,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0097443',
-		wiki_ru: '%D0%9D%D0%B0%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B5,_%D0%B1%D0%BE%D0%B3%D0%B8_%D1%81%D0%BE%D1%88%D0%BB%D0%B8_%D1%81_%D1%83%D0%BC%D0%B0_2',
 	},
 },
 {
@@ -923,32 +747,6 @@ const arrFilms222 = [
 	},
 },
 {
-	id: 'boycovsky_club_1999',
-	title: { ua: 'Бойцовский клуб', en: 'Fight Club', },
-	year: 1999,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0137523',
-		wiki_ru: '%D0%91%D0%BE%D0%B9%D1%86%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		brad_pitt_18121963: 1,
-	},
-},
-{
-	id: 'bolshaya_progulka_1966',
-	title: { ua: 'Большая прогулка', en: 'La grande vadrouille', },
-	year: 1966,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0060474',
-		wiki_ru: '%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%83%D0%BB%D0%BA%D0%B0',
-	},
-	cast: {
-		louis_de_funes_31071914: 1,
-	},
-},
-{
 	id: 'bolshoe_priklyuchenie_1985',
 	title: { ua: 'Большое приключение', },
 	year: 1985,
@@ -962,47 +760,6 @@ const arrFilms222 = [
 		vladimir_shevelkov_08051961: 1,
 	},
 	note: 'BEcq9T2jX_c - 1 серия, cToB1dKEI_o - 2 серия',
-},
-{
-	id: 'bolshoy_boss_1971',
-	title: { ua: 'Большой босс', en: 'Tang shan da xiong', },
-	year: 1971,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0067824',
-		wiki_ru: '%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%B1%D0%BE%D1%81%D1%81',
-	},
-	cast: {
-		bruce_lee_27111940: 1,
-	},
-},
-{
-	id: 'bolshoy_Lebovsky_1998',
-	title: { ua: 'Большой Лебовски', en: 'The Big Lebowski', },
-	year: 1998,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0118715',
-		wiki_ru: '%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%9B%D0%B5%D0%B1%D0%BE%D0%B2%D1%81%D0%BA%D0%B8',
-		baskino: '555',
-	},
-	cast: {
-		julianne_moore_03121960: 1,
-		steve_buscemi_13121957: 1,
-	},
-},
-{
-	id: 'brazilia_1985',
-	title: { ua: 'Бразилия', en: 'Brazil', },
-	year: 1985,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0088846',
-		wiki_ru: '%D0%91%D1%80%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		robert_de_niro_17081943: 1,
-	},
 },
 {
 	id: 'brat_1_1997',
@@ -1092,59 +849,6 @@ const arrFilms222 = [
 	},
 },
 {
-	id: 'brilliantovy_policeysky_1999',
-	title: { ua: 'Бриллиантовый полицейский', en: 'Blue Streak', },
-	year: 1999,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0181316',
-		wiki_ru: '%D0%91%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D0%BE%D0%BB%D0%B8%D1%86%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9',
-	},
-	cast: {
-		martin_lawrence_16041965: 1,
-		peter_greene_08101965: 1,
-	},
-},
-{
-	id: 'Bronx_story_1993',
-	title: { ua: 'Бронкская история', en: 'A Bronx Tale', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0106489',
-		wiki_ru: '%D0%91%D1%80%D0%BE%D0%BD%D0%BA%D1%81%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C',
-		youtube: '9idqo1-7vSg',
-	},
-	cast: {
-		robert_de_niro_17081943: 1,
-		joe_pesci_09021943: 1,
-	},
-},
-{
-	id: 'brosok_kobry_1_2009',
-	title: { ua: 'Бросок кобры - 1', en: 'G.I. Joe: The Rise of Cobra', },
-	year: 2009,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1046173',
-		wiki_ru: '%D0%91%D1%80%D0%BE%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B1%D1%80%D1%8B',
-	},
-},
-{
-	id: 'brosok_kobry_2_2013',
-	title: { ua: 'Бросок кобры - 2', en: 'G.I. Joe: Retaliation', },
-	year: 2013,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1583421',
-		wiki_ru: 'G.I._Joe:_%D0%91%D1%80%D0%BE%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B1%D1%80%D1%8B_2',
-	},
-	cast: {
-		dwayne_johnson_02051972: 1,
-		bruce_willis_19031955: 1,
-	},
-},
-{
 	id: 'budni_i_prazdniki_Serafimy_Glyukinoy_1988',
 	title: { ua: 'Будни и праздники Серафимы Глюкиной', },
 	year: 1988,
@@ -1159,17 +863,6 @@ const arrFilms222 = [
 		nikolay_eremenko_14021949: 1,
 		nina_urgant_04091929: 1,
 	},
-},
-{
-	id: 'bumazhny_dom_2017',
-	title: { ua: 'Бумажный дом', en: 'La casa de papel', },
-	year: 2017,
-	country: { usa: 1, },
-	internet: {
-		imdb: '6468322',
-		wiki_ru: '%D0%91%D1%83%D0%BC%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB)',
-	},
-	serial: 1,
 },
 {
 	id: 'bumer_1_2003',
@@ -1210,51 +903,6 @@ const arrFilms222 = [
 		dmitry_persin_14101963: 1,
 		oleg_protasov_04121967: 1,
 		igor_artashonov_17031964: 1,
-	},
-},
-{
-	id: 'batman_i_Robin_1997',
-	title: { ua: 'Бэтмен и Робин', en: 'Batman & Robin', },
-	year: 1997,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0118688',
-		wiki_ru: '%D0%91%D1%8D%D1%82%D0%BC%D0%B5%D0%BD_%D0%B8_%D0%A0%D0%BE%D0%B1%D0%B8%D0%BD_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		george_clooney_06051961: 1,
-		alicia_silverstone_04101976: 1,
-		arnold_schwarzenegger_30071947: 1,
-		uma_thurman_29041970: 1,
-	},
-},
-{
-	id: 'bunker_1981',
-	title: { ua: 'Бункер', en: 'The Bunker', },
-	year: 1981,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0082114',
-		wiki_ru: '%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1981,_%D0%A1%D0%A8%D0%90)',
-	},
-	cast: {
-		anthony_hopkins_31121937: 1,
-	},
-},
-{
-	id: 'byt_Jonom_Malkovichem_1999',
-	title: { ua: 'Быть Джоном Малковичем', en: 'Being John Malkovich', },
-	year: 1999,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0120601',
-		wiki_ru: '%D0%91%D1%8B%D1%82%D1%8C_%D0%94%D0%B6%D0%BE%D0%BD%D0%BE%D0%BC_%D0%9C%D0%B0%D0%BB%D0%BA%D0%BE%D0%B2%D0%B8%D1%87%D0%B5%D0%BC',
-	},
-	cast: {
-		john_malkovich_09121953: 1,
-		john_cusack_28061966: 1,
-		cameron_diaz_30081972: 1,
-		charlie_sheen_03091965: 1,
 	},
 },
 {
@@ -1319,18 +967,6 @@ const arrFilms222 = [
 		larisa_udovichenko_29041955: 1,
 	},
 },
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'v_poiskah_kapitana_Granta_1986',
 	title: { ua: 'В поисках капитана Гранта', },
@@ -1367,6 +1003,46 @@ const arrFilms222 = [
 		eugeny_gerasimov_25021951: 1,
 	},
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'Van_Helsing_2004',
 	title: { ua: 'Ван Хельсинг', en: 'Van Helsing', },
@@ -1917,25 +1593,6 @@ const arrFilms222 = [
 	},
 	cast: {
 		justin_timberlake_31011981: 1,
-	},
-},
-{
-	id: 'vremya_ubivat_1996',
-	title: { ua: 'Время убивать', en: 'A Time to Kill', },
-	year: 1996,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0117913',
-		wiki_ru: '%D0%92%D1%80%D0%B5%D0%BC%D1%8F_%D1%83%D0%B1%D0%B8%D0%B2%D0%B0%D1%82%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1996)',
-	},
-	cast: {
-		sandra_bullock_26071964: 1,
-		samuel_l_jackson_21121948: 1,
-		ashley_judd_19041968: 1,
-		kevin_spacey_26071959: 1,
-		donald_sutherland_17071935: 1,
-		chris_cooper_09071951: 1,
-		matthew_mcconaughey_04111969: 1,
 	},
 },
 {
@@ -8417,20 +8074,11 @@ const arrFilms222 = [
 
 
 
-{
-	id: 'neuyazvimiy_2000',
-	title: { ua: 'Неуязвимый', en: 'Unbreakable', },
-	year: 2000,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0217869',
-		wiki_ru: '%D0%9D%D0%B5%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D1%8B%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2000)',
-	},
-	cast: {
-		bruce_willis_19031955: 1,
-		samuel_l_jackson_21121948: 1,
-	},
-},
+
+
+
+
+
 {
 	id: 'nechto_1982',
 	title: { ua: 'Нечто', en: 'The Thing', },
@@ -12124,20 +11772,14 @@ const arrFilms222 = [
 		sharon_stone_10031958: 1,
 	},
 },
-{
-	id: 'swat_2003',
-	title: { ua: 'Спецназ города ангелов S.W.A.T.', en: 'S.W.A.T.', },
-	year: 2003,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0257076',
-		wiki_ru: 'S.W.A.T.:_%D0%A1%D0%BF%D0%B5%D1%86%D0%BD%D0%B0%D0%B7_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D0%BE%D0%B2',
-	},
-	cast: {
-		samuel_l_jackson_21121948: 1,
-		michelle_rodriguez_12071978: 1,
-	},
-},
+
+
+
+
+
+
+
+
 {
 	id: 'sportloto_1982',
 	title: { ua: 'Спортлото', },
@@ -12408,21 +12050,21 @@ const arrFilms222 = [
 		ving_rhames_12051959: 1,
 	},
 },
-{
-	id: 'sfera_1998',
-	title: { ua: 'Сфера', en: 'Sphere', },
-	year: 1998,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0120184',
-		wiki_ru: '%D0%A1%D1%84%D0%B5%D1%80%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1998)',
-	},
-	cast: {
-		dustin_hoffman_08081937: 1,
-		sharon_stone_10031958: 1,
-		samuel_l_jackson_21121948: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'sfera_2017',
 	title: { ua: 'Сфера', en: 'The Circle', },
