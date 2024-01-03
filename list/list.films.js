@@ -11,6 +11,7 @@
 const arrGenres = [
 
 	{ id: 'sci_fi' 		, title: 'Sci-Fi' 		, },
+	{ id: 'animation' 	, title: 'Анімація' 	, },
 	{ id: 'biography' 	, title: 'Біографія' 	, },
 	{ id: 'action' 		, title: 'Бойовик' 		, },
 	{ id: 'western' 	, title: 'Вестерн' 		, },
@@ -706,35 +707,38 @@ const arrFilms = [
 		michael_biehn_31071956: 1,
 	},
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+	id: 'Beowulf_2007',
+	title: { ua: 'Беовульф', en: 'Beowulf', },
+	year: 2007,
+	country: { usa: 1, },
+	genre: { animation: 1, action: 1, adventure: 1, },
+	internet: {
+		imdb: '0442933',
+		wiki_ua: '%D0%91%D0%B5%D0%BE%D0%B2%D1%83%D0%BB%D1%8C%D1%84',
+	},
+	cast: {
+		angelina_jolie_04061975: 1,
+		anthony_hopkins_31121937: 1,
+		john_malkovich_09121953: 1,
+		crispin_glover_20041964: 1,
+		ray_winstone_19021957: 1,
+	},
+},
+{
+	id: 'rebel_moon_2023',
+	title: { ua: 'Бунтівний місяць', en: 'Rebel Moon - Part One: A Child of Fire', },
+	year: 2023,
+	country: { usa: 1, },
+	genre: { action: 1, adventure: 1, sci_fi: 1, space: 1, planet: 1, },
+	internet: {
+		imdb: '14998742',
+		wiki_ua: '%D0%91%D1%83%D0%BD%D1%82%D1%96%D0%B2%D0%BD%D0%B8%D0%B9_%D0%BC%D1%96%D1%81%D1%8F%D1%86%D1%8C',
+	},
+	cast: {
+		anthony_hopkins_31121937: 1,
+	},
+},
 {
 	id: 'under_siege_1992',
 	title: { ua: 'В облозі', en: 'Under Siege', },
@@ -783,6 +787,20 @@ const arrFilms = [
 		jean_claude_van_damme_18101960: 1,
 		yancy_butler_02071970: 1,
 		arnold_vosloo_16061962: 1,
+	},
+},
+{
+	id: 'the_killer_2023',
+	title: { ua: 'Вбивця', en: 'The Killer', },
+	year: 2023,
+	country: { usa: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: {
+		imdb: '1136617',
+		wiki_ua: '%D0%92%D0%B1%D0%B8%D0%B2%D1%86%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)',
+	},
+	cast: {
+		tilda_swinton_05111960: 1,		
 	},
 },
 {
@@ -1160,6 +1178,20 @@ const arrFilms = [
 	},
 	cast: {
 		chuck_norris_10031940: 1,
+	},
+},
+{
+	id: 'leave_the_world_behind_2023',
+	title: { ua: 'Ілюзія безпеки', en: 'Leave the World Behind', },
+	year: 2023,
+	country: { usa: 1, },
+	genre: { mystic: 1, thriller: 1, },
+	internet: {
+		imdb: '12747748',
+		wiki_ua: '%D0%86%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B8',
+	},
+	cast: {
+		julia_roberts_28101967: 1,
 	},
 },
 {
@@ -1864,6 +1896,7 @@ const arrFilms = [
 	},
 	cast: {
 		jennifer_lawrence_15081990: 1,
+		chris_pratt_21061979: 1,
 	},
 },
 {
@@ -1968,6 +2001,22 @@ const arrFilms = [
 	},
 },
 {
+	id: 'the_family_plan_2023',
+	title: { ua: 'Сімейний план', en: 'The Family Plan', },
+	year: 2023,
+	country: { usa: 1, },
+	genre: { action: 1, comedy: 1, },
+	internet: {
+		imdb: '16431870',
+		wiki_ua: '%D0%A1%D1%96%D0%BC%D0%B5%D0%B9%D0%BD%D0%B8%D0%B9_%D0%BF%D0%BB%D0%B0%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)',
+	},
+	cast: {
+		mark_wahlberg_05061971: 1,
+		michelle_monaghan_23031976: 1,
+		maggie_q_22051979: 1,
+	},
+},
+{
 	id: 'mad_Max_1979',
 	title: { ua: 'Скажений Макс', en: 'Mad Max', },
 	year: 1979,
@@ -2056,10 +2105,10 @@ const arrFilms = [
 	internet: {
 		imdb: '0770703',
 		wiki_ua: '%D0%A1%D0%BA%D1%96%D0%BB%D1%8C%D0%BA%D0%B8_%D1%83_%D1%82%D0%B5%D0%B1%D0%B5%3F',
-		ashdivip: '13862',
 	},
 	cast: {
 		chris_evans_13061981: 1,
+		chris_pratt_21061979: 1,
 	},
 },
 {
@@ -2091,6 +2140,20 @@ const arrFilms = [
 	cast: {
 		karl_urban_07061972: 1,
 		lena_headey_03101973: 1,
+	},
+},
+{
+	id: 'dream_scenario_2023',
+	title: { ua: 'Сценарій із сну', en: 'Dream Scenario', },
+	year: 2023,
+	country: { usa: 1, },
+	genre: { comedy: 1, fantasy: 1, },
+	internet: {
+		imdb: '21942866',
+		wiki_ru: '%D0%93%D0%B5%D1%80%D0%BE%D0%B9_%D0%BD%D0%B0%D1%88%D0%B8%D1%85_%D1%81%D0%BD%D0%BE%D0%B2',
+	},
+	cast: {
+		nicolas_cage_07011964: 1,
 	},
 },
 {
@@ -2382,7 +2445,8 @@ const arrFilms = [
 	genre: { thriller: 1, drama: 1, },
 	internet: {
 		imdb: '9731682',
-		wiki_ru: '%D0%A2%D1%80%D0%B0%D1%84%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2020)',
+		wiki_ru: '%D0%A2%D1%80%D0%B0%D1%84%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2021)',
+		ashdivip: '44855',
 	},
 	cast: {
 		gary_oldman_21031958: 1,
@@ -2451,6 +2515,22 @@ const arrFilms = [
 		mick_jagger_26071943: 1,
 		rene_russo_17021954: 1,
 		anthony_hopkins_31121937: 1,
+	},
+},
+{
+	id: 'memory_2022',
+	title: { ua: 'Флешбек', en: 'Memory', },
+	year: 2022,
+	country: { usa: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: {
+		imdb: '11827628',
+		wiki_ua: '%D0%9F%D0%B0%D0%BC%27%D1%8F%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)',
+	},
+	cast: {
+		liam_neeson_07061952: 1,
+		monica_bellucci_30091964: 1,
+
 	},
 },
 {
@@ -2572,6 +2652,22 @@ const arrFilms = [
 		william_baldwin_21021963: 1,
 		cindy_crawford_20021966: 1,
 		salma_hayek_02091966: 1,
+	},
+},
+{
+	id: 'honest_thief_2020',
+	title: { ua: 'Чесний злодій', en: 'Honest Thief', },
+	year: 2020,
+	country: { usa: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: {
+		imdb: '1838556',
+		wiki_ua: '%D0%A7%D0%B5%D1%81%D0%BD%D0%B8%D0%B9_%D0%B7%D0%BB%D0%BE%D0%B4%D1%96%D0%B9',
+	},
+	cast: {
+		liam_neeson_07061952: 1,
+		jai_courtney_15031986: 1,
+		robert_patrick_05111958: 1,
 	},
 },
 {

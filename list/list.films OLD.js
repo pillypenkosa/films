@@ -696,23 +696,14 @@ const arrFilms222 = [
 		vladimir_ilyin_16111947: 1,
 	},
 },
-{
-	id: 'Beowulf_2007',
-	title: { ua: 'Беовульф', en: 'Beowulf', },
-	year: 2007,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0442933',
-		wiki_ru: '%D0%91%D0%B5%D0%BE%D0%B2%D1%83%D0%BB%D1%8C%D1%84_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2007)',
-	},
-	cast: {
-		ray_winstone_19021957: 1,
-		angelina_jolie_04061975: 1,
-		crispin_glover_20041964: 1,
-		john_malkovich_09121953: 1,
-		anthony_hopkins_31121937: 1,
-	},
-},
+
+
+
+
+
+
+
+
 {
 	id: 'beregis_avtomobilya_1966',
 	title: { ua: 'Берегись автомобиля', },
