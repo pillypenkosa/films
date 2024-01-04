@@ -37,6 +37,16 @@ class LoadDependences {
 				document.head.append( script );
 			}
 
+/*
+			// сервіси 
+			if ( k.service ) {
+				let script = document.createElement( 'script' );
+				script.src = `service/service.${ k.service }.js`;
+				script.setAttribute( 'defer', '' );
+				//divList.append( script ); 	// divList = <div id="divList">
+				document.head.append( script );
+			}
+*/
 
 
 			// компоненти

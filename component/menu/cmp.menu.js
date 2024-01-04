@@ -76,6 +76,44 @@ class ComponentMenu {
  		});
 
  		let optionActor = '<option value="all">Актор(ка) (всі)</option>';
+
+ 		//Prepare.getActors4searchMenu();
+
+
+
+		//console.log( arrFilmsActors.sort() );
+
+		arrFilmsActors.sort().forEach( k => {
+
+			//console.log( k );
+
+
+
+			let name = '';
+			if ( objListPeople[ k ] ) {
+				if ( objListPeople[ k ].name ) {
+
+					if ( objListPeople[ k ].name.n ) 
+						name += objListPeople[ k ].name.n;
+
+					if ( objListPeople[ k ].name.s ) 
+						name += ' ' + objListPeople[ k ].name.s;
+
+				} 
+			}
+
+
+
+		 	optionActor += `<option value="${ k }">${ name }</option>`;
+
+		 	//console.log( objListPeople[ k ] );
+
+		});
+
+
+
+
+ 		/*
  		arrListPeople.forEach( k => {
  			if ( k.hash ) {
  				if ( k.hash.actor ) {
@@ -94,6 +132,8 @@ class ComponentMenu {
  				}
  			}
  		});
+
+*/
 
 
 

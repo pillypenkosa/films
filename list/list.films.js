@@ -110,6 +110,24 @@ const arrFilms = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'golden_eye_1995',
 	title: { ua: '007: Золоте око', en: 'GoldenEye', },
@@ -1003,6 +1021,21 @@ const arrFilms = [
 		jean_claude_van_damme_18101960: 1,
 		yancy_butler_02071970: 1,
 		arnold_vosloo_16061962: 1,
+	},
+},
+{
+	id: 'wasabi_2001',
+	title: { ua: 'Васабі', en: 'Wasabi', },
+	year: 2001,
+	country: { fra: 1, jpn: 1, },
+	genre: { action: 1, comedy: 1, crime: 1, },
+	internet: {
+		imdb: '0281364',
+		wiki_ua: '%D0%92%D0%B0%D1%81%D0%B0%D0%B1%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
+	},
+	cast: {
+		jean_reno_30071948: 1,
+		carole_bouquet_18081957: 1,
 	},
 },
 {
@@ -3304,6 +3337,9 @@ const arrFilms = [
 let objFilmsYear = {};
 let objFilmsCountry = {};
 
+let arrFilmsActors = [];
+
+
 
 
 
@@ -3317,6 +3353,20 @@ arrFilms.forEach( k => {
 	if ( k.country ) {
 		for ( let k1 in k.country ) 
 			objFilmsCountry[ k1 ] = 1;
+	}
+
+	if ( k.cast ) {
+		for ( let k2 in k.cast ) {
+
+			if (  arrFilmsActors.indexOf( k2 ) == -1 ) {
+
+				arrFilmsActors.push( k2 );
+
+				//see( arr.indexOf( 'matilda' )); // -1  если нет такого значения в массиве
+
+				//arr.indexOf( 'matilda' );
+			}
+		}
 	}
 
 });

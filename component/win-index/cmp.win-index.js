@@ -82,8 +82,8 @@ class ComponentWinIndex {
 		const fooName = this.name + '.showSelectedFilms()';
 
 
-		console.log( 'fooName: ', fooName );
-		console.log( 'data: ', data );
+		//console.log( 'fooName: ', fooName );
+		//console.log( 'data: ', data );
 
 
 

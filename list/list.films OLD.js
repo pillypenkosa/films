@@ -1057,6 +1057,20 @@ const arrFilms222 = [
 		kate_beckinsale_26071973: 1,
 	},
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'vanilnoe_nebo_2001',
 	title: { ua: 'Ванильное небо', en: 'Vanilla Sky', },
@@ -1076,20 +1090,24 @@ const arrFilms222 = [
 		steven_spielberg_18121946: 1,
 	},
 },
-{
-	id: 'wasabi_2001',
-	title: { ua: 'Васаби', en: 'Wasabi', },
-	year: 2001,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0281364',
-		wiki_ru: '%D0%92%D0%B0%D1%81%D0%B0%D0%B1%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		jean_reno_30071948: 1,
-		carole_bouquet_18081957: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'vertikal_1966',
 	title: { ua: 'Вертикаль', },
