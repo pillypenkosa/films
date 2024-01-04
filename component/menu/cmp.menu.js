@@ -87,8 +87,6 @@ class ComponentMenu {
 
 			//console.log( k );
 
-
-
 			let name = '';
 			if ( objListPeople[ k ] ) {
 				if ( objListPeople[ k ].name ) {
@@ -98,42 +96,13 @@ class ComponentMenu {
 
 					if ( objListPeople[ k ].name.s ) 
 						name += ' ' + objListPeople[ k ].name.s;
-
 				} 
 			}
 
-
-
 		 	optionActor += `<option value="${ k }">${ name }</option>`;
-
-		 	//console.log( objListPeople[ k ] );
-
 		});
 
 
-
-
- 		/*
- 		arrListPeople.forEach( k => {
- 			if ( k.hash ) {
- 				if ( k.hash.actor ) {
-
-		 			let name = '';
-		 			if ( k.name ) {
-
-		 				if ( k.name.n )
-							name += k.name.n;
-
-		 				if ( k.name.s )
-							name += ' ' + k.name.s;
-		 			} 
-
-		 			optionActor += `<option value="${ k.id }">${ name }</option>`;
- 				}
- 			}
- 		});
-
-*/
 
 
 
@@ -143,6 +112,10 @@ class ComponentMenu {
  		});
 
 
+ 		let optionHash = '<option value="all">Хештеги (всі)</option>';
+ 		arrHashes.forEach( k => {
+ 			optionHash += `<option value="${ k.id }">${ k.title }</option>`;
+ 		});
 
 
 
@@ -154,15 +127,26 @@ class ComponentMenu {
  				<select data-id="year" onchange="${ this.name }.change( this )">${ optionYear }</select>
  			</div>
  			<div>
+ 				<select data-id="hash" onchange="${ this.name }.change( this )">${ optionHash }</select>
+ 			</div>
+ 			<div>
  				<select data-id="country" onchange="${ this.name }.change( this )">${ optionCountry }</select>
  			</div>
  			<div>
  				<select data-id="actor" onchange="${ this.name }.change( this )">${ optionActor }</select>
  			</div>
-
  			<div>
  				<select data-id="letter" onchange="${ this.name }.change( this )">${ optionLetter }</select>
  			</div>
+
+
+
+
+
+
+
+
+
  		`;
 
 

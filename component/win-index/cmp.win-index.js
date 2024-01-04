@@ -131,6 +131,21 @@ class ComponentWinIndex {
 			}
 		}
 
+
+		if ( data.hash ) {
+			if ( data.hash != 'all' ) {
+
+				arrSelectedFilms = arrSelectedFilms.filter( k => {
+
+					if ( k.hash ) {
+						if ( k.hash[ data.hash ] ) 
+							return true;
+					}
+				});
+			}
+		}
+
+
 		if ( data.year ) {
 			if ( data.year != 'all' ) {
 
@@ -142,9 +157,6 @@ class ComponentWinIndex {
 				});
 			}
 		}
-
-
-
 
 
 		if ( data.letter ) {
@@ -241,6 +253,21 @@ class ComponentWinIndex {
 
 
 
+			let htmlHash = '';
+			if ( k.hash ) {
+				for ( let k1 in k.hash ) {
+					if ( objHashes[ k1 ] ) {
+						if ( objHashes[ k1 ].title ) {
+							htmlHash += `#${ objHashes[ k1 ].title }, `;
+						}	
+					}
+				}
+
+				htmlHash = htmlHash.slice( 0, -2 );
+			}
+
+
+
 
 
 			let htmlImdb = '';
@@ -306,6 +333,7 @@ class ComponentWinIndex {
 							<div class="year"><span class="key">рік:</span> ${ k.year ? k.year : '' }</div>
 							<div class="country"><span class="key">країна:</span> ${ htmlCountry }</div>
 							<div class="genre"><span class="key">жанр:</span> ${ htmlGenre }</div>
+							<div class="hash"><span class="key">хештеги:</span> ${ htmlHash }</div>
 						</div>
 
 						<div class="internet">

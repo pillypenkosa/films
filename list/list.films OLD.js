@@ -1017,32 +1017,6 @@ const arrFilms222 = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'Van_Helsing_2004',
 	title: { ua: 'Ван Хельсинг', en: 'Van Helsing', },
@@ -1057,19 +1031,6 @@ const arrFilms222 = [
 		kate_beckinsale_26071973: 1,
 	},
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 {
 	id: 'vanilnoe_nebo_2001',
@@ -1098,16 +1059,6 @@ const arrFilms222 = [
 
 
 
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'vertikal_1966',
 	title: { ua: 'Вертикаль', },
@@ -1123,20 +1074,16 @@ const arrFilms222 = [
 		vladimir_vysocky_25011938: 1,
 	},
 },
-{
-	id: 'vertikalny_predel_2000',
-	title: { ua: 'Вертикальный предел', en: 'Vertical Limit', },
-	year: 2000,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0190865',
-		wiki_ru: '%D0%92%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB',
-		baskino: '2209',
-	},
-	cast: {
-		bill_paxton_17051955: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'veselie_istorii_1973',
 	title: { ua: 'Весёлые истории', },
@@ -1167,22 +1114,15 @@ const arrFilms222 = [
 		olga_sumskaya_22081966: 1,
 	},
 },
-{
-	id: 'vzaperti_1989',
-	title: { ua: 'Взаперти', en: 'Lock Up', },
-	year: 1989,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0097770',
-		wiki_ru: '%D0%92%D0%B7%D0%B0%D0%BF%D0%B5%D1%80%D1%82%D0%B8',
-	},
-	cast: {
-		sylvester_stallone_06071946: 1,
-		donald_sutherland_17071935: 1,
-		tom_sizemore_29111961: 1,
-		danny_trejo_16051944: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
 {
 	id: 'vzvod_1986',
 	title: { ua: 'Взвод', en: 'Platoon', },
@@ -1216,29 +1156,8 @@ const arrFilms222 = [
 		natalya_varley_22061947: 1,
 	},
 },
-{
-	id: 'willow_1988',
-	title: { ua: 'Виллоу', en: 'Willow', },
-	year: 1988,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0096446',
-		wiki_ru: '%D0%A3%D0%B8%D0%BB%D0%BB%D0%BE%D1%83',
-	},
-	cast: {
-		val_kilmer_31121959: 1,
-	},
-},
-{
-	id: 'vinovny_2018',
-	title: { ua: 'Виновный', en: 'Den skyldige', },
-	year: 2018,
-	country: { usa: 1, },
-	internet: {
-		imdb: '6742252',
-		wiki_ru: '%D0%92%D0%B8%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2018)',
-	},
-},
+
+
 
 
 
@@ -1304,20 +1223,6 @@ const arrFilms222 = [
 		bogdan_stupka_27081941: 1,
 	},
 },
-{
-	id: 'voditelskie_prava_1988',
-	title: { ua: 'Водительские права', en: 'License to Drive', },
-	year: 1988,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0095519',
-		wiki_ru: '%D0%92%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		nina_siemaszko_14071970: 1,
-	},
-},
-
 
 
 
@@ -1374,27 +1279,19 @@ const arrFilms222 = [
 		forest_whitaker_15071961: 1,
 	},
 },
-{
-	id: 'vozdushnaya_tyurma_1997',
-	title: { ua: 'Воздушная тюрьма', en: 'Con Air', },
-	year: 1997,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0118880',
-		wiki_ru: '%D0%92%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D0%B0%D1%8F_%D1%82%D1%8E%D1%80%D1%8C%D0%BC%D0%B0',
-		baskino: '6113',
-		moviestape: 'Con.Air',
-	},
-	cast: {
-		nicolas_cage_07011964: 1,
-		john_cusack_28061966: 1,
-		john_malkovich_09121953: 1,
-		ving_rhames_12051959: 1,
-		danny_trejo_16051944: 1,
-		steve_buscemi_13121957: 1,
-		monica_potter_30061971: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'vozdushny_marshal_2014',
 	title: { ua: 'Воздушный маршал', en: 'Non-Stop', },
@@ -1600,19 +1497,14 @@ const arrFilms222 = [
 		tom_sizemore_29111961: 1,
 	},
 },
-{
-	id: 'vremya_2011',
-	title: { ua: 'Время', en: 'In Time', },
-	year: 2011,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1637688',
-		wiki_ru: '%D0%92%D1%80%D0%B5%D0%BC%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2011)',
-	},
-	cast: {
-		justin_timberlake_31011981: 1,
-	},
-},
+
+
+
+
+
+
+
+
 {
 	id: 'vsadnik_bez_golovy_1973',
 	title: { ua: 'Всадник без головы', },
@@ -2060,21 +1952,15 @@ const arrFilms222 = [
 		peter_fonda_23021940: 1,
 	},
 },
-{
-	id: 'gonschik_2001',
-	title: { ua: 'Гонщик', en: 'Driven', },
-	year: 2001,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0132245',
-		wiki_ru: '%D0%93%D0%BE%D0%BD%D1%89%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2001)',
-	},
-	cast: {
-		sylvester_stallone_06071946: 1,
-		burt_reynolds_11021936: 1,
-		gina_gershon_10061962: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
 {
 	id: 'gorec_1_1986',
 	title: { ua: 'Горец - 1', en: 'Highlander', },
@@ -2182,19 +2068,15 @@ const arrFilms222 = [
 		billy_crystal_14031948: 1,
 	},
 },
-{
-	id: 'gorkayay_luna_1992',
-	title: { ua: 'Горькая луна', en: 'Bitter Moon', },
-	year: 1992,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0104779',
-		wiki_ru: '%D0%93%D0%BE%D1%80%D1%8C%D0%BA%D0%B0%D1%8F_%D0%BB%D1%83%D0%BD%D0%B0',
-	},
-	cast: {
-		hugh_grant_09091960: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
 {
 	id: 'gorko_1_2013',
 	title: { ua: 'Горько - 1', },
@@ -2226,40 +2108,16 @@ const arrFilms222 = [
 		alexandr_robak_28121973: 1,
 	},
 },
-{
-	id: 'goryachie_golovy_1_1991',
-	title: { ua: 'Горячие головы - 1', en: 'Hot Shots', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0102059',
-		wiki_ru: '%D0%93%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B5_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D1%8B!',
-	},
-	cast: {
-		charlie_sheen_03091965: 1,
-		valeria_golino_22101965: 1,
-		lloyd_bridges_15011913: 1,
-	},
-},
-{
-	id: 'goryachie_golovy_2_1993',
-	title: { ua: 'Горячие головы - 2', en: 'Hot Shots! Part Deux', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0107144',
-		wiki_ru: '%D0%93%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B5_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D1%8B!_%D0%A7%D0%B0%D1%81%D1%82%D1%8C_%D0%B2%D1%82%D0%BE%D1%80%D0%B0%D1%8F',
-	},
-	cast: {
-		charlie_sheen_03091965: 1,
-		valeria_golino_22101965: 1,
-		brenda_bakke_15051963: 1,
-		lloyd_bridges_15011913: 1,
-		rowan_atkinson_06011955: 1,
-		richard_crenna_30111926: 1,
-		martin_sheen_03081940: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'goryachiy_sneg_1972',
 	title: { ua: 'Горячий снег', },
@@ -2492,37 +2350,6 @@ const arrFilms222 = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: '9_yardov_2000',
 	title: { ua: 'Девять ярдов', en: 'The Whole Nine Yards', },
@@ -2554,21 +2381,10 @@ const arrFilms222 = [
 		anatoly_kotenev_25091958: 1,
 	},
 },
-{
-	id: 'deja_vu_2006',
-	title: { ua: 'Дежа вю', en: 'Deja Vu', },
-	year: 2006,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0453467',
-		wiki_ru: '%D0%94%D0%B5%D0%B6%D0%B0_%D0%B2%D1%8E_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2006)',
-	},
-	cast: {
-		denzel_washington_28121954: 1,
-		val_kilmer_31121959: 1,
-		paula_patton_05121975: 1,
-	},
-},
+
+
+
+
 {
 	id: 'denezhniy_poezd_1995',
 	title: { ua: 'Денежный поезд', en: 'Money Train', },
@@ -2730,19 +2546,17 @@ const arrFilms222 = [
 		youtube: 'McKSeyRgZ4k',
 	},
 },
-{
-	id: 'detsadovsky_cop_1990',
-	title: { ua: 'Детсадовский полицейский', en: 'Kindergarten Cop', },
-	year: 1990,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0099938',
-		wiki_ru: '%D0%94%D0%B5%D1%82%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BB%D0%B8%D1%86%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9',
-	},
-	cast: {
-		arnold_schwarzenegger_30071947: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'Jay_&_Bob_2001',
 	title: { ua: 'Джей и молчаливый Боб наносят ответный удар', en: 'Jay and Silent Bob Strike Back', },
@@ -2882,51 +2696,19 @@ const arrFilms222 = [
 		dolph_lundgren_03111957: 1,
 	},
 },
-{
-	id: 'jumanji_1995',
-	title: { ua: 'Джуманджи', en: 'Jumanji', },
-	year: 1995,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0113497',
-		wiki_ru: '%D0%94%D0%B6%D1%83%D0%BC%D0%B0%D0%BD%D0%B4%D0%B6%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		robin_williams_21071951: 1,
-		bonnie_hunt_22091961: 1,
-	},
-},
-{
-	id: 'jumanji_1_2017',
-	title: { ua: 'Джуманджи - 1', en: 'Jumanji: Welcome to the Jungle', },
-	year: 2017,
-	country: { usa: 1, },
-	internet: {
-		imdb: '2283362',
-		wiki_ru: '%D0%94%D0%B6%D1%83%D0%BC%D0%B0%D0%BD%D0%B4%D0%B6%D0%B8:_%D0%97%D0%BE%D0%B2_%D0%B4%D0%B6%D1%83%D0%BD%D0%B3%D0%BB%D0%B5%D0%B9',
-		baskino: '695609',
-	},
-	cast: {
-		dwayne_johnson_02051972: 1,
-		jack_black_28081969: 1,
-	},
-},
-{
-	id: 'jumanji_2_2019',
-	title: { ua: 'Джуманджи - 2', en: 'Jumanji: The Next Level', },
-	year: 2019,
-	country: { usa: 1, },
-	internet: {
-		imdb: '7975244',
-		wiki_ru: '%D0%94%D0%B6%D1%83%D0%BC%D0%B0%D0%BD%D0%B4%D0%B6%D0%B8:_%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C',
-	},
-	cast: {
-		dwayne_johnson_02051972: 1,
-		jack_black_28081969: 1,
-		danny_glover_22071946: 1,
-		danny_devito_17111944: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'junior_1994',
 	title: { ua: 'Джуниор', en: 'Junior', },
@@ -3009,33 +2791,13 @@ const arrFilms222 = [
 		kinoteatr: 'https://www.kino-teatr.ru/kino/movie/sov/1836/titr/',
 	},
 },
-{
-	id: 'dikaya_orhideya_1_1989',
-	title: { ua: 'Дикая орхидея - 1', en: 'Wild Orchid', },
-	year: 1989,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0100934',
-		wiki_ru: '%D0%94%D0%B8%D0%BA%D0%B0%D1%8F_%D0%BE%D1%80%D1%85%D0%B8%D0%B4%D0%B5%D1%8F',
-	},
-	cast: {
-		mickey_rourke_16091952: 1,
-		oleg_vidov_11061943: 1,
-	},
-},
-{
-	id: 'dikaya_orhideya_2_1991',
-	title: { ua: 'Дикая орхидея - 2', en: 'Wild Orchid II: Two Shades of Blue', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0105819',
-		wiki_ru: '%D0%94%D0%B8%D0%BA%D0%B0%D1%8F_%D0%BE%D1%80%D1%85%D0%B8%D0%B4%D0%B5%D1%8F_2:_%D0%94%D0%B2%D0%B0_%D0%BE%D1%82%D1%82%D0%B5%D0%BD%D0%BA%D0%B0_%D0%B3%D1%80%D1%83%D1%81%D1%82%D0%B8',
-	},
-	cast: {
-		nina_siemaszko_14071970: 1,
-	},
-},
+
+
+
+
+
+
+
 {
 	id: 'dnevnoy_dozor_2006',
 	title: { ua: 'Дневной дозор', },
@@ -3057,33 +2819,23 @@ const arrFilms222 = [
 		nikolay_olyalin_22051941: 1,
 	},
 },
-{
-	id: 'dnevnoy_svet_1996',
-	title: { ua: 'Дневной свет', en: 'Daylight', },
-	year: 1996,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0116040',
-		wiki_ru: '%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%BE%D0%B9_%D1%81%D0%B2%D0%B5%D1%82_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1996)',
-	},
-	cast: {
-		sylvester_stallone_06071946: 1,
-	},
-},
-{
-	id: 'dni_groma_1990',
-	title: { ua: 'Дни грома', en: 'Days of Thunder', },
-	year: 1990,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0099371',
-		wiki_ru: '%D0%94%D0%BD%D0%B8_%D0%B3%D1%80%D0%BE%D0%BC%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1990)',
-	},
-	cast: {
-		tom_cruise_03071962: 1,
-		nicole_kidman_20061967: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'do_pervoy_krovi_1989',
 	title: { ua: 'До первой крови', },
@@ -3095,20 +2847,14 @@ const arrFilms222 = [
 		youtube: 'pwh4PZsqkk4',
 	},
 },
-{
-	id: 'dobro_pozhalovat_v_ray_2005',
-	title: { ua: 'Добро пожаловать в рай', en: 'Into the Blue', },
-	year: 2005,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0378109',
-		wiki_ru: '%D0%94%D0%BE%D0%B1%D1%80%D0%BE_%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C_%D0%B2_%D1%80%D0%B0%D0%B9!',
-	},
-	cast: {
-		paul_walker_12091973: 1,
-		jessica_alba_28041981: 1,
-	},
-},
+
+
+
+
+
+
+
+
 {
 	id: 'dobro_pozhalovat_ili_postoronnim_vhod_vospreschen_1964',
 	title: { ua: 'Добро пожаловать или посторонним вход воспрещен', },
@@ -3124,17 +2870,15 @@ const arrFilms222 = [
 		alexey_smirnov_28021920: 1,
 	},
 },
-{
-	id: 'dovod_2020',
-	title: { ua: 'Довод', en: 'Tenet', },
-	year: 2020,
-	country: { usa: 1, },
-	internet: {
-		imdb: '6723592',
-		wiki_ru: '%D0%94%D0%BE%D0%B2%D0%BE%D0%B4_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		baskino: '1236063',
-	},
-},
+
+
+
+
+
+
+
+
+
 {
 	id: 'dogma_1999',
 	title: { ua: 'Догма', en: 'Dogma', },
@@ -3308,17 +3052,17 @@ const arrFilms222 = [
 		charlie_sheen_03091965: 1,
 	},
 },
-{
-	id: 'duel_1971',
-	title: { ua: 'Дуэль', en: 'Duel', },
-	year: 1971,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0067023',
-		wiki_ru: '%D0%94%D1%83%D1%8D%D0%BB%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1971,_%D0%A1%D0%A8%D0%90)',
-		baskino: '81372',
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'dyavol_2010',
 	title: { ua: 'Дьявол', en: 'Devil ', },
@@ -3601,11 +3345,10 @@ const arrFilms222 = [
 	id: 'za_granyu_realnosti_2018',
 	title: { ua: 'За гранью реальности', },
 	year: 2018,
-	country: { rus: 1, our: 1, },
+	country: { rus: 1, },
 	internet: {
 		imdb: '5629524',
 		wiki_ru: '%D0%97%D0%B0_%D0%B3%D1%80%D0%B0%D0%BD%D1%8C%D1%8E_%D1%80%D0%B5%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8',
-		kinoteatr: 'https://www.kino-teatr.ru/kino/movie/ros/119516/titr/',
 	},
 	cast: {
 		lyubov_axenova_15031990: 1,
@@ -3652,7 +3395,6 @@ const arrFilms222 = [
 	internet: {
 		imdb: '14068428',
 		wiki_ru: '%D0%97%D0%B0_%D1%87%D0%B0%D1%81_%D0%B4%D0%BE_%D1%80%D0%B0%D1%81%D1%81%D0%B2%D0%B5%D1%82%D0%B0_(%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB)',
-		kinoteatr: 'https://www.kino-teatr.ru/kino/movie/ros/138789/titr/',
 	},
 	serial: 1,
 	cast: {
@@ -3739,18 +3481,10 @@ const arrFilms222 = [
 	},
 },
 
-{
-	id: 'zaklyatie_doliny_zmey_1987',
-	title: { ua: 'Заклятие долины змей', en: 'Klatwa doliny wezy', },
-	year: 1987,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0095456',
-		wiki_ru: '%D0%97%D0%B0%D0%BA%D0%BB%D1%8F%D1%82%D0%B8%D0%B5_%D0%B4%D0%BE%D0%BB%D0%B8%D0%BD%D1%8B_%D0%B7%D0%BC%D0%B5%D0%B9',
-		youtube: '8Fmr1bv4Tug',
-		baskino: '44819',
-	},
-},
+
+
+
+
 {
 	id: 'zakonoposlushniy_grazhdanin_2009',
 	title: { ua: 'Законопослушный гражданин', en: 'Law Abiding Citizen', },
@@ -9773,24 +9507,13 @@ const arrFilms222 = [
 		jean_reno_30071948: 1,
 	},
 },
-{
-	id: 'poezd_beglec_1985',
-	title: { ua: 'Поезд-беглец', en: 'Runaway Train', },
-	year: 1985,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0089941',
-		wiki_ru: '%D0%9F%D0%BE%D0%B5%D0%B7%D0%B4-%D0%B1%D0%B5%D0%B3%D0%BB%D0%B5%D1%86',
-		youtube: '7EQWooQUosI,GWvHdKZNc7o',
-		baskino: '3965',
-		moviestape: 'Runaway.Train',
-	},
-	cast: {
-		jon_voight_29121938: 1,
-		danny_trejo_16051944: 1,
-		rebecca_de_mornay_29081959: 1,
-	},
-},
+
+
+
+
+
+
+
 {
 	id: 'poezd_vne_rasspisania_1985',
 	title: { ua: 'Поезд вне рассписания', },
