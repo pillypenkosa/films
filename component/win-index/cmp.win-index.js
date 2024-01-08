@@ -263,7 +263,8 @@ class ComponentWinIndex {
 					}
 				}
 
-				htmlHash = htmlHash.slice( 0, -2 );
+				//htmlHash = htmlHash.slice( 0, -2 );
+				htmlHash = `<div class="hash"><span class="key">хештеги: </span>${ htmlHash.slice( 0, -2 ) }</div>`;
 			}
 
 
@@ -320,6 +321,7 @@ class ComponentWinIndex {
 
 
 
+							//<div class="hash"><span class="key">хештеги:</span> ${ htmlHash }</div>
 			html += `<div class="each">
 
 				<div class="title">${ htmlTitle }</div>
@@ -333,7 +335,7 @@ class ComponentWinIndex {
 							<div class="year"><span class="key">рік:</span> ${ k.year ? k.year : '' }</div>
 							<div class="country"><span class="key">країна:</span> ${ htmlCountry }</div>
 							<div class="genre"><span class="key">жанр:</span> ${ htmlGenre }</div>
-							<div class="hash"><span class="key">хештеги:</span> ${ htmlHash }</div>
+							${ htmlHash }
 						</div>
 
 						<div class="internet">

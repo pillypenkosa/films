@@ -53,32 +53,26 @@ cmp-win-index {
 				font-weight: normal;
 			}
 
-
-
 		cmp-win-index .each .descr {
 			color: #fff;
 		}
 			cmp-win-index .each .descr .txt {
 				margin: 0 0 15px 0;
 			}
+				cmp-win-index .each .descr .txt .hash {
+					color: #777;
+				}
+
 				cmp-win-index .each .descr .txt .key {
 					color: #aaa;
 				}
 
-
-
-
-
-
-
 			cmp-win-index .each .descr .internet {
 
 			}
-
 				cmp-win-index .each .descr .internet a  {
 
 				}
-
 					cmp-win-index .each .descr .internet a img {
 						height: 30px;
 						width: 80px;
@@ -86,26 +80,17 @@ cmp-win-index {
 					}
 
 
-
-
-
 	cmp-win-index .each .info {
 		display: flex;
 		margin: 5px 0 0 0;
 	}
 
-
-
 	cmp-win-index .each .info .img {
 		margin: 0 10px 0 5px;
 	}
-
 		cmp-win-index .each .info .img img {
 			border-radius: 10px;
 		}
-
-
-
 
 
 
