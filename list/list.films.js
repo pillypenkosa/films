@@ -1139,6 +1139,12 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, jason_statham_26071967: 1, dolph_lundgren_03111957: 1, megan_fox_16051986: 1, },
 },
 {
+	id: 'night_train_2023', title: { ua: 'Нічний поїзд', en: 'Night Train', }, year: 2023, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '15727212', },
+	cast: { daniel_c_ryan_09061993: 1, },
+},
+{
 	id: 'last_action_hero_1993', title: { ua: 'Останній кіногерой', en: 'Last Action Hero', }, year: 1993, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, }, hash: { world: 1, children: 1, },
 	internet: { imdb: '0107362', wiki_ua: '%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96%D0%B9_%D0%BA%D1%96%D0%BD%D0%BE%D0%B3%D0%B5%D1%80%D0%BE%D0%B9', ashdivip: '792', },
@@ -1215,6 +1221,7 @@ const arrFilms = [
 	id: 'double_threat_2022', title: { ua: 'Подвійна загроза', en: 'Double Threat', }, year: 2022, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, },
 	internet: { imdb: '13302660', },
+	cast: { daniel_c_ryan_09061993: 1, },
 },
 {
 	id: 'double_impact_1991', title: { ua: 'Подвійний удар', en: 'Double Impact', }, year: 1991, country: { usa: 1, },
