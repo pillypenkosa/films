@@ -72,6 +72,7 @@ const arrHashes = [
 	{ id: 'cars' 		, title: 'машини' 			, },
 	{ id: 'young' 		, title: 'молодь' 			, },
 	{ id: 'sea' 		, title: 'море'				, },
+	{ id: 'motorbike' 	, title: 'мотоцикли'		, },
 	{ id: 'subway' 		, title: 'метро'			, },
 	{ id: 'drugs' 		, title: 'наркотики' 		, },
 	{ id: 'oneman' 		, title: 'один' 			, }, // театр одного актора
@@ -704,7 +705,7 @@ const arrFilms = [
 },
 {
 	id: 'Harley_Davidson_and_the_Marlboro_man_1991', title: { ua: 'Гарлі Девідсон та ковбой Мальборо', en: 'Harley Davidson and the Marlboro Man', }, year: 1991, country: { usa: 1, },
-	genre: { action: 1, crime: 1, }, hash: { drugs: 1, robbery: 1, bank: 1, },
+	genre: { action: 1, crime: 1, }, hash: { drugs: 1, robbery: 1, bank: 1, motorbike: 1, },
 	internet: { imdb: '0102005', wiki_ua: '%D0%93%D0%B0%D1%80%D0%BB%D1%96-%D0%94%D0%B5%D0%B2%D1%96%D0%B4%D1%81%D0%BE%D0%BD_%D1%96_%D0%BA%D0%BE%D0%B2%D0%B1%D0%BE%D0%B9_%D0%9C%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D1%80%D0%BE', ashdivip: '63609', auliki7: 'Harley.Davidson.and.the.Marlboro.Man', },
 	cast: { mickey_rourke_16091952: 1, don_johnson_15121949: 1, tom_sizemore_29111961: 1, daniel_baldwin_07081960: 1, tia_carrere_02011967: 1, },
 },
@@ -804,6 +805,12 @@ const arrFilms = [
 	cast: { sandra_bullock_26071964: 1, george_clooney_06051961: 1, ed_harris_28111950: 1, },
 },
 {
+	id: 'money_talks_1997', title: { ua: 'Гроші вирішують все', en: 'Money Talks', }, year: 1997, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, crime: 1, },
+	internet: { imdb: '0119695', wiki_ua: '%D0%93%D1%80%D0%BE%D1%88%D1%96_%D0%B2%D0%B8%D1%80%D1%96%D1%88%D1%83%D1%8E%D1%82%D1%8C_%D0%B2%D1%81%D0%B5', },
+	cast: { chris_tucker_31081971: 1, charlie_sheen_03091965: 1, heather_locklear_25091961: 1, },
+},
+{
 	id: 'hudson_hawk_1991', title: { ua: 'Гудзонський яструб', en: 'Hudson Hawk', }, year: 1991, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, },
 	internet: { imdb: '0102070', wiki_ua: '%D0%93%D1%83%D0%B4%D0%B7%D0%BE%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%8F%D1%81%D1%82%D1%80%D1%83%D0%B1', },
@@ -862,6 +869,29 @@ const arrFilms = [
 	genre: { action: 1, fantasy: 1, }, hash: { groundhog: 1, },
 	internet: { imdb: '0107048', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%8C_%D0%B1%D0%B0%D0%B1%D0%B0%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { bill_murray_21091950: 1, chris_elliott_31051960: 1, },
+},
+{
+	id: 'the_day_the_earth_stood_still_1951', title: { ua: 'День коли Земля зупинилась', en: 'The Day the Earth Stood Still', }, year: 1951, country: { usa: 1, },
+	genre: { sci_fi: 1, }, hash: { aliens: 1, robot: 1, },
+	internet: { imdb: '0043456', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%8C,_%D0%BA%D0%BE%D0%BB%D0%B8_%D0%97%D0%B5%D0%BC%D0%BB%D1%8F_%D0%B7%D1%83%D0%BF%D0%B8%D0%BD%D0%B8%D0%BB%D0%B0%D1%81%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1951)', },
+},
+{
+	id: 'independence_day_1996', title: { ua: 'День незалежності', en: 'Independence Day', }, year: 1996, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { aliens: 1, space: 1, battle: 1, },
+	internet: { imdb: '0116629', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%8C_%D0%BD%D0%B5%D0%B7%D0%B0%D0%BB%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { will_smith_25091968: 1, },
+},
+{
+	id: 'independence_day_2_2016', title: { ua: 'День незалежності - 2', en: 'Independence Day: Resurgence', }, year: 2016, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { aliens: 1, space: 1, battle: 1, },
+	internet: { imdb: '1628841', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%8C_%D0%BD%D0%B5%D0%B7%D0%B0%D0%BB%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%96:_%D0%92%D1%96%D0%B4%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F', },
+	cast: { bill_pullman_17121953: 1, },
+},
+{
+	id: 'Valentine_s_day_2010', title: { ua: 'День Святого Валентина', en: 'Valentine\'s Day', }, year: 2010, country: { usa: 1, },
+	genre: { comedy: 1, }, 
+	internet: { imdb: '0817230', wiki_ua: '%D0%94%D0%B5%D0%BD%D1%8C_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { jessica_alba_28041981: 1, julia_roberts_28101967: 1, ashton_kutcher_07021978: 1, },
 },
 {
 	id: 'jack_mimoun_2022', title: { ua: 'Джек Мімун', en: 'Jack Mimoun & les secrets de Val Verde', }, year: 2022, country: { fra: 1, },
@@ -1403,6 +1433,12 @@ const arrFilms = [
 	cast: { milla_jovovich_17121975: 1, },
 },
 {
+
+	id: 'return_to_sender_2015', title: { ua: 'Повернути відправнику', en: 'Return to Sender', }, year: 2015, country: { usa: 1, },
+	genre: { thriller: 1, }, 
+	internet: { imdb: '2948790', wiki_ua: '%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D1%82%D0%B8_%D0%B2%D1%96%D0%B4%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%BA%D1%83', },
+},
+{
 	id: 'con_air_1997', title: { ua: 'Повітряна в\'язниця', en: 'Con Air', }, year: 1997, country: { usa: 1, },
 	genre: { action: 1, thriller: 1, crime: 1, }, hash: { prison: 1, plane: 1, },
 	internet: { imdb: '0118880', wiki_ua: '%D0%9F%D0%BE%D0%B2%D1%96%D1%82%D1%80%D1%8F%D0%BD%D0%B0_%D1%82%D1%8E%D1%80%D0%BC%D0%B0', moviestape: 'Con.Air', },
@@ -1437,6 +1473,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0101764', wiki_ua: '%D0%9F%D0%BE%D0%B4%D0%B2%D1%96%D0%B9%D0%BD%D0%B8%D0%B9_%D1%83%D0%B4%D0%B0%D1%80', ashdivip: '2284', },
 	cast: { jean_claude_van_damme_18101960: 1, bolo_yeung_03071946: 1, },
+},
+{
+	id: 'beyond_the_law_1993', title: { ua: 'Поза законом', en: ' Beyond the Law', }, year: 1993, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, }, hash: { police: 1, motorbike: 1, },
+	internet: { imdb: '0103805', wiki_ua: '%D0%97%D0%B0_%D0%BC%D0%B5%D0%B6%D0%B0%D0%BC%D0%B8_%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D1%83', },
+	cast: { charlie_sheen_03091965: 1, },
 },
 {
 	id: 'out_of_sight_1998', title: { ua: 'Поза полем зору', en: 'Out of Sight', }, year: 1998, country: { usa: 1, },
@@ -1880,6 +1922,11 @@ const arrFilms = [
 	cast: { arnold_schwarzenegger_30071947: 1, james_belushi_15061954: 1, gina_gershon_10061962: 1, laurence_fishburne_30071961: 1, savely_kramarov_13101934: 1, oleg_vidov_11061943: 1, },
 },
 {
+	id: 'red_sparrow_2018', title: { ua: 'Червоний горобець', en: 'Red Sparrow', }, year: 2018, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '2873282', wiki_ua: '%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D0%BE%D0%B1%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: 'fair_game_1995', title: { ua: 'Чесна гра', en: 'Fair Game', }, year: 1995, country: { usa: 1, },
 	genre: { action: 1, thriller: 1, crime: 1, },
 	internet: { imdb: '0113010', wiki_ua: '%D0%A7%D0%B5%D1%81%D0%BD%D0%B0_%D0%B3%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)', ashdivip: '19784', },
@@ -1920,6 +1967,12 @@ const arrFilms = [
 	genre: { action: 1, },
 	internet: { imdb: '1975249', wiki_ru: '%D0%A8%D0%B5%D1%81%D1%82%D1%8C_%D0%BF%D1%83%D0%BB%D1%8C', },
 	cast: { jean_claude_van_damme_18101960: 1, },
+},
+{
+	id: 'la_piel_que_habito_2011', title: { ua: 'Шкіра в якій я живу', en: '6 ', }, year: 2011, country: { usa: 1, },
+	genre: { mystics: 1, }, hash: { biomedlab: 1, },
+	internet: { imdb: '1189073', wiki_ua: '%D0%A8%D0%BA%D1%96%D1%80%D0%B0,_%D0%B2_%D1%8F%D0%BA%D1%96%D0%B9_%D1%8F_%D0%B6%D0%B8%D0%B2%D1%83', },
+	cast: { antonio_banderas_10081960: 1, },
 },
 {
 	id: 'meng_long_guo_jiang_1972', title: { ua: 'Шлях Дракона', en: 'Meng long guo jiang', }, year: 1972, country: { hkg: 1, },
@@ -2022,69 +2075,11 @@ const arrFilms = [
 
 
 
-{
-	id: 'den_kogda_Zemlya_ostanovilas_1951',
-	title: { ua: 'День когда Земля остановилась', en: 'The Day the Earth Stood Still', },
-	year: 1951,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0043456',
-		wiki_ru: '%D0%94%D0%B5%D0%BD%D1%8C,_%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0_%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D0%BB%D0%B0%D1%81%D1%8C_%D0%97%D0%B5%D0%BC%D0%BB%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1951)',
-	},
-},
-{
-	id: 'den_nezavisimosti_1_1996',
-	title: { ua: 'День независимости - 1', en: 'Independence Day', },
-	year: 1996,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0116629',
-		wiki_ru: '%D0%94%D0%B5%D0%BD%D1%8C_%D0%BD%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1996)',
-	},
-	cast: {
-		will_smith_25091968: 1,
-	},
-},
-{
-	id: 'den_nezavisimosti_2_2016',
-	title: { ua: 'День независимости - 2', en: 'Independence Day: Resurgence', },
-	year: 2016,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1628841',
-		wiki_ru: '%D0%94%D0%B5%D0%BD%D1%8C_%D0%BD%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8:_%D0%92%D0%BE%D0%B7%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5',
-	},
-},
-{
-	id: 'den_svyatogo_Valentina_2010',
-	title: { ua: 'День святого Валентина', en: 'Valentine\'s Day', },
-	year: 2010,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0817230',
-		wiki_ru: '%D0%94%D0%B5%D0%BD%D1%8C_%D1%81%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2010)',
-	},
-	cast: {
-		jessica_alba_28041981: 1,
-		julia_roberts_28101967: 1,
-		ashton_kutcher_07021978: 1,
-	},
-},
-{
-	id: 'dengi_reshayut_vse_1997',
-	title: { ua: 'Деньги решают всё', en: 'Money Talks', },
-	year: 1997,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0119695',
-		wiki_ru: '%D0%94%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8_%D1%80%D0%B5%D1%88%D0%B0%D1%8E%D1%82_%D0%B2%D1%81%D1%91',
-	},
-	cast: {
-		chris_tucker_31081971: 1,
-		charlie_sheen_03091965: 1,
-		heather_locklear_25091961: 1,
-	},
-},
+
+
+
+
+
 {
 	id: 'derevo_Joshua_1993',
 	title: { ua: 'Дерево Джошуа', en: 'Joshua Tree', },
@@ -2531,20 +2526,10 @@ const arrFilms = [
 		goldie_hawn_21111945: 1,
 	},
 },
-{
-	id: 'za_predelami_zakona_1993',
-	title: { ua: 'За пределами закона', en: '', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0103805',
-		wiki_ru: '%D0%97%D0%B0_%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B0%D0%BC%D0%B8_%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B0',
-		youtube: '4sKgUPucf0s',
-	},
-	cast: {
-		charlie_sheen_03091965: 1,
-	},
-},
+
+
+
+
 {
 	id: 'zabegalovka_1982',
 	title: { ua: 'Забегаловка', en: 'Diner', },
@@ -3203,7 +3188,7 @@ const arrFilms = [
 	year: 2016,
 	country: { usa: 1, },
 	internet: {
-		imdb: 'tt2679552',
+		imdb: '2679552',
 		wiki_ru: '%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82._%D0%94%D0%BE%D1%81%D1%82%D1%83%D0%BF_%D0%BD%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D0%BD',
 	},
 	cast: {
@@ -4603,21 +4588,6 @@ const arrFilms = [
 	},
 },
 {
-	id: 'my_angel_hranitel_2009',
-	title: { ua: 'Мой ангел-хранитель', en: 'My Sister\'s Keeper', },
-	year: 2009,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1078588',
-		wiki_ru: '%D0%9C%D0%BE%D0%B9_%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C',
-	},
-	cast: {
-		cameron_diaz_30081972: 1,
-		alec_baldwin_03041958: 1,
-		john_cusack_28061966: 1,
-	},
-},
-{
 	id: 'molchanie_vetchiny_1994',
 	title: { ua: 'Молчание ветчины', en: 'Il silenzio dei prosciutti', },
 	year: 1994,
@@ -4984,9 +4954,27 @@ const arrFilms = [
 		wiki_ru: '%D0%9D%D0%B5%D0%BC%D0%B5%D0%B7%D0%B8%D0%B4%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1993)',
 	},
 },
+
+
+
+
+
+{
+	id: 'obsuzhdeniyu_ne_podlezhit_2002',
+	title: { ua: 'Обговоренню не підлягає', en: 'Undisputed', },
+	year: 2002,
+	country: { usa: 1, },
+	internet: {
+		imdb: '0281322',
+		wiki_ru: '%D0%9E%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8E_%D0%BD%D0%B5_%D0%BF%D0%BE%D0%B4%D0%BB%D0%B5%D0%B6%D0%B8%D1%82',
+	},
+	cast: {
+		peter_falk_16091927: 1,
+	},
+},
 {
 	id: 'neosporimiy_2_2006',
-	title: { ua: 'Неоспоримый - 2', en: 'Undisputed II: Last Man Standing', },
+	title: { ua: 'Обговоренню не підлягає - 2', en: 'Undisputed II: Last Man Standing', },
 	year: 2006,
 	country: { usa: 1, },
 	internet: {
@@ -5000,7 +4988,7 @@ const arrFilms = [
 },
 {
 	id: 'neosporimiy_3_2010',
-	title: { ua: 'Неоспоримый - 3', en: 'Undisputed III: Redemption', },
+	title: { ua: 'Обговоренню не підлягає - 3', en: 'Undisputed III: Redemption', },
 	year: 2010,
 	country: { usa: 1, },
 	internet: {
@@ -5011,6 +4999,21 @@ const arrFilms = [
 		scott_adkins_17061976: 1,
 	},
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'neproschennaya_2021',
 	title: { ua: 'Непрощенная', en: 'The Unforgivable', },
@@ -5182,19 +5185,9 @@ const arrFilms = [
 		donald_sutherland_17071935: 1,
 	},
 },
-{
-	id: 'obsuzhdeniyu_ne_podlezhit_2002',
-	title: { ua: 'Обсуждению не подлежит', en: 'Undisputed', },
-	year: 2002,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0281322',
-		wiki_ru: '%D0%9E%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8E_%D0%BD%D0%B5_%D0%BF%D0%BE%D0%B4%D0%BB%D0%B5%D0%B6%D0%B8%D1%82',
-	},
-	cast: {
-		peter_falk_16091927: 1,
-	},
-},
+
+
+
 {
 	id: 'overdrive_2017',
 	title: { ua: 'Овердрайв', en: 'Overdrive', },
