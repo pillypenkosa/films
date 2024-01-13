@@ -1017,6 +1017,12 @@ const arrFilms = [
 	cast: { cuba_gooding_jr_02011968: 1, },
 },
 {
+	id: 'loaded_weapon_1_1993', title: { ua: 'Заряджена зброя', en: 'Loaded Weapon 1', }, year: 1993, country: { usa: 1, },
+	genre: { parody: 1, action: 1, crime: 1, }, 
+	internet: { imdb: '0107659', wiki_ua: '%D0%97%D0%B0%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%B0_%D0%B7%D0%B1%D1%80%D0%BE%D1%8F_1', },
+	cast: { emilio_estevez_12051962: 1, samuel_l_jackson_21121948: 1, bruce_willis_19031955: 1, charlie_sheen_03091965: 1, christopher_lambert_29031957: 1, whoopi_goldberg_13111955: 1, tim_curry_19041946: 1, denise_richards_17021971: 1, },
+},
+{
 	id: 'twisted_2004', title: { ua: 'Збоченка', en: 'Twisted', }, year: 2004, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0315297', wiki_ru: '%D0%90%D0%BC%D0%BD%D0%B5%D0%B7%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2004)', },
@@ -1487,6 +1493,11 @@ const arrFilms = [
 	cast: { george_clooney_06051961: 1, jennifer_lopez_24071969: 1, ving_rhames_12051959: 1, samuel_l_jackson_21121948: 1, don_cheadle_29111964: 1, },
 },
 {
+	id: 'time_lapse_2014', title: { ua: 'Помилка часу  ', en: 'Time Lapse', }, year: 2014, country: { usa: 1, },
+	genre: { comedy: 1, crime: 1, },
+	internet: { imdb: '2669336', wiki_ua: '%D0%9F%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B0_%D1%87%D0%B0%D1%81%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: 'the_hitcher_1986', title: { ua: 'Попутник', en: 'The Hitcher', }, year: 1986, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { maniac: 1, road: 1, desert: 1, },
 	internet: { imdb: '0091209', wiki_ua: '%D0%9F%D0%BE%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)', ashdivip: '19977', moviestape: 'The.Hitcher.1986', },
@@ -1527,6 +1538,12 @@ const arrFilms = [
 	genre: { sci_fi: 1, }, hash: { space: 1, love: 1, }, 
 	internet: { imdb: '1355644', wiki_ua: '%D0%9F%D1%80%D0%BE%D0%B1%D1%83%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', ashdivip: '6588', },
 	cast: { jennifer_lawrence_15081990: 1, chris_pratt_21061979: 1, },
+},
+{
+	id: 'the_Adam_project_2022', title: { ua: 'Проєкт Адам', en: 'The Adam Project', }, year: 2022, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, }, 
+	internet: { imdb: '2463208', wiki_ua: '%D0%9F%D1%80%D0%BE%D1%94%D0%BA%D1%82_%D0%90%D0%B4%D0%B0%D0%BC', },
+	cast: { zoe_saldana_19061978: 1,},
 },
 {
 	id: 'rambo_1982', title: { ua: 'Рембо', en: 'First Blood', }, year: 1982, country: { usa: 1, },
@@ -1673,6 +1690,12 @@ const arrFilms = [
 	genre: { comedy: 1, },
 	internet: { imdb: '0770703', wiki_ua: '%D0%A1%D0%BA%D1%96%D0%BB%D1%8C%D0%BA%D0%B8_%D1%83_%D1%82%D0%B5%D0%B1%D0%B5%3F', },
 	cast: { chris_evans_13061981: 1, chris_pratt_21061979: 1, },
+},
+{
+	id: 'glass_2019', title: { ua: 'Скло', en: 'Glass', }, year: 2019, country: { usa: 1, },
+	genre: { horror: 1, sci_fi: 1,  },
+	internet: { imdb: '6823368', wiki_ua: '%D0%A1%D0%BA%D0%BB%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', },
+	cast: { bruce_willis_19031955: 1, samuel_l_jackson_21121948: 1, },
 },
 {
 	id: 'deception_2008', title: { ua: 'Список контактів', en: 'Deception', }, year: 2008, country: { usa: 1, },
@@ -2615,26 +2638,15 @@ const arrFilms = [
 		al_pacino_25041940: 1,
 	},
 },
-{
-	id: 'zaryazhenoe_oruzhie_1993',
-	title: { ua: 'Заряженное оружие', en: 'Loaded Weapon 1', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0107659',
-		wiki_ru: '%D0%97%D0%B0%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BE%D1%80%D1%83%D0%B6%D0%B8%D0%B5',
-	},
-	cast: {
-		emilio_estevez_12051962: 1,
-		samuel_l_jackson_21121948: 1,
-		bruce_willis_19031955: 1,
-		charlie_sheen_03091965: 1,
-		christopher_lambert_29031957: 1,
-		whoopi_goldberg_13111955: 1,
-		tim_curry_19041946: 1,
-		denise_richards_17021971: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
 {
 	id: 'zatyazhnoy_pryzhok_2000',
 	title: { ua: 'Затяжной прыжок', en: 'Cutaway', },
@@ -7145,20 +7157,9 @@ const arrFilms = [
 		sharon_stone_10031958: 1,
 	},
 },
-{
-	id: 'steklo_2019',
-	title: { ua: 'Стекло', en: 'Glass', },
-	year: 2019,
-	country: { usa: 1, },
-	internet: {
-		imdb: '6823368',
-		wiki_ru: '%D0%A1%D1%82%D0%B5%D0%BA%D0%BB%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2019)',
-	},
-	cast: {
-		bruce_willis_19031955: 1,
-		samuel_l_jackson_21121948: 1,
-	},
-},
+
+
+
 {
 	id: 'stealth_2005',
 	title: { ua: 'Стелс', en: 'Stealth', },
