@@ -74,7 +74,9 @@ const arrHashes = [
 	{ id: 'sea' 		, title: 'море'				, },
 	{ id: 'motorbike' 	, title: 'мотоцикли'		, },
 	{ id: 'subway' 		, title: 'метро'			, },
+	{ id: 'real' 		, title: 'наРеальнихПодіях' , }, // засновано на реальних подіях
 	{ id: 'drugs' 		, title: 'наркотики' 		, },
+	{ id: 'newyork' 	, title: 'Нью-Йорк' 		, },
 	{ id: 'oneman' 		, title: 'один' 			, }, // театр одного актора
 	{ id: 'island' 		, title: 'острів' 			, }, 
 	{ id: 'trap' 		, title: 'пастка' 			, }, // випадкові смертельні пастки
@@ -88,7 +90,6 @@ const arrHashes = [
 	{ id: 'justice' 	, title: 'правосуддя' 		, }, 
 	{ id: 'psycho' 		, title: 'психо' 			, }, // зламай мозок
 	{ id: 'desert' 		, title: 'пустеля' 			, },
-	{ id: 'real' 		, title: 'наРеальнихПодіях' , }, // засновано на реальних подіях
 	{ id: 'robot' 		, title: 'роботи' 			, },
 	{ id: 'world' 		, title: 'світ' 			, }, // вигаданий світ
 	{ id: 'treasure' 	, title: 'скарби' 			, },
@@ -201,7 +202,7 @@ const arrFilms = [
 {
 	id: '9_11_2017', title: { ua: '9/11', en: '9/11', }, year: 2017, country: { usa: 1, },
 	internet: { imdb: '4917224', wiki_ua: '9/11_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2017)', },
-	genre: { disaster: 1, },
+	genre: { disaster: 1, }, hash: { newyork: 1, },
 	cast: { charlie_sheen_03091965: 1, whoopi_goldberg_13111955: 1, gina_gershon_10061962: 1, },
 },
 {
@@ -375,7 +376,7 @@ const arrFilms = [
 },
 {
 	id: 'gangs_of_New_York_2002', title: { ua: 'Банди Нью-Йорка', en: 'Gangs of New York', }, year: 2002, country: { usa: 1, },
-	genre: { crime: 1, drama: 1, },
+	genre: { crime: 1, drama: 1, }, hash: { newyork: 1, },
 	internet: { imdb: '0217505', wiki_ua: '%D0%91%D0%B0%D0%BD%D0%B4%D0%B8_%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA%D0%B0', },
 	cast: { leonardo_dicaprio_11111974: 1, cameron_diaz_30081972: 1, liam_neeson_07061952: 1, },
 },
@@ -484,7 +485,7 @@ const arrFilms = [
 },
 {
 	id: 'a_Bronx_tale_1993', title: { ua: 'Бронкська історія', en: 'A Bronx Tale', }, year: 1993, country: { usa: 1, },
-	genre: { drama: 1, crime: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { newyork: 1, },
 	internet: { imdb: '0106489', wiki_ua: '%D0%91%D1%80%D0%BE%D0%BD%D0%BA%D1%81%D1%8C%D0%BA%D0%B0_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F', },
 	cast: { robert_de_niro_17081943: 1, joe_pesci_09021943: 1, },
 },
@@ -799,6 +800,12 @@ const arrFilms = [
 	cast: { bruce_lee_27111940: 1, chuck_norris_10031940: 1, },
 },
 {
+	id: 'blacklight_2022', title: { ua: 'Гра тіней', en: 'Blacklight', }, year: 2022, country: { hkg: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '14060094', wiki_ru: '%D0%98%D0%B3%D1%80%D0%B0_%D1%82%D0%B5%D0%BD%D0%B5%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2022)', },
+	cast: { liam_neeson_07061952: 1, },
+},
+{
 	id: 'gravity_2013', title: { ua: 'Гравітація', en: 'Gravity', }, year: 2013, country: { usa: 1, },
 	genre: { thriller: 1, sci_fi: 1, drama: 1, }, hash: { space: 1, trap: 1, },
 	internet: { imdb: '1454468', wiki_ua: '%D0%93%D1%80%D0%B0%D0%B2%D1%96%D1%82%D0%B0%D1%86%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '13715', },
@@ -824,7 +831,7 @@ const arrFilms = [
 },
 {
 	id: 'money_train_1995', title: { ua: 'Грошовий потяг', en: 'Money Train', }, year: 1995, country: { usa: 1, },
-	genre: { action: 1, comedy: 1, crime: 1, }, hash: { subway: 1, robbery: 1, police: 1, },
+	genre: { action: 1, comedy: 1, crime: 1, }, hash: { subway: 1, robbery: 1, police: 1, newyork: 1, },
 	internet: { imdb: '0113845', wiki_ua: '%D0%93%D1%80%D0%BE%D1%88%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D0%BE%D1%97%D0%B7%D0%B4', },
 	cast: { wesley_snipes_31071962: 1, woody_harrelson_23071961: 1, jennifer_lopez_24071969: 1, chris_cooper_09071951: 1, },
 },
@@ -894,6 +901,18 @@ const arrFilms = [
 	cast: { jessica_alba_28041981: 1, julia_roberts_28101967: 1, ashton_kutcher_07021978: 1, },
 },
 {
+	id: 'joshua_tree_1993', title: { ua: 'Дерево Джошуа', en: 'Joshua Tree', }, year: 1993, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '0106309', wiki_ua: '%D0%90%D1%80%D0%BC%D1%96%D1%8F_%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0%D0%BA%D0%B0', },
+	cast: { dolph_lundgren_03111957: 1, },
+},
+{
+	id: 'Destiny_turns_on_the_radio_1995', title: { ua: 'Дестіні вмикає радіо', en: 'Destiny Turns on the Radio', }, year: 1995, country: { usa: 1, },
+	genre: { comedy: 1, crime: 1, },
+	internet: { imdb: '0112854', wiki_ru: '%D0%94%D0%B5%D1%81%D1%82%D0%B8%D0%BD%D0%B8_%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%D0%B5%D1%82_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE', },
+	cast: { quentin_tarantino_27031963: 1, james_belushi_15061954: 1, },
+},
+{
 	id: 'jack_mimoun_2022', title: { ua: 'Джек Мімун', en: 'Jack Mimoun & les secrets de Val Verde', }, year: 2022, country: { fra: 1, },
 	genre: { adventure: 1, comedy: 1, }, hash: { travel: 1, },
 	internet: { imdb: '21249808', wiki_ua: '', },
@@ -952,6 +971,32 @@ const arrFilms = [
 	internet: { imdb: '3152624', wiki_ua: '%D0%94%D1%96%D0%B2%D1%87%D0%B8%D0%BD%D0%B0_%D0%B1%D0%B5%D0%B7_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B2', },
 	cast: { tilda_swinton_05111960: 1, brie_larson_01101989: 1, },
 },
+{
+	id: 'the_children_of_Times_Square_1986', title: { ua: 'Діти Таймс-Скверу', en: 'The Children of Times Square', }, year: 1986, country: { usa: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { children: 1, newyork: 1, },
+	internet: { imdb: '0090829', },
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'days_of_thunder_1990', title: { ua: 'Дні грому', en: 'Days of Thunder', }, year: 1990, country: { usa: 1, },
 	genre: { drama: 1, sport: 1, }, hash: { sport: 1, race: 1, cars: 1, },
@@ -1053,6 +1098,11 @@ const arrFilms = [
 	cast: { chuck_norris_10031940: 1, },
 },
 {
+	id: 'abgeschnitten_2018', title: { ua: 'Ізоляція', en: 'Abgeschnitten', }, year: 2018, country: { deu: 1, },
+	genre: { action: 1, crime: 1, }, hash: { biomedlab: 1, },
+	internet: { imdb: '3645988', },
+},
+{
 	id: 'leave_the_world_behind_2023', title: { ua: 'Ілюзія безпеки', en: 'Leave the World Behind', }, year: 2023, country: { usa: 1, },
 	genre: { mystic: 1, thriller: 1, },
 	internet: { imdb: '12747748', wiki_ua: '%D0%86%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B8', },
@@ -1063,6 +1113,24 @@ const arrFilms = [
 	genre: { action: 1, mystic: 1, },
 	internet: { imdb: '0146675', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B5%D1%86%D1%8C_%D1%81%D0%B2%D1%96%D1%82%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', ashdivip: '4460', },
 	cast: { arnold_schwarzenegger_30071947: 1, kevin_pollak_30101957: 1, },
+},
+{
+	id: 'king_kong_1976', title: { ua: 'Кінг-Конг', en: 'King Kong', }, year: 1976, country: { usa: 1, },
+	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, sea: 1, island: 1, jungle: 1, newyork: 1, },
+	internet: { imdb: '0074751', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1976)', },
+	cast: { jessica_lange_20041949: 1, },
+},
+{
+	id: 'king_kong_lives_1986', title: { ua: 'Кінг Конг живий', en: 'King Kong Lives', }, year: 1986, country: { usa: 1, },
+	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, },
+	internet: { imdb: '0091344', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_%D0%B6%D0%B8%D0%B2%D0%B8%D0%B9', },
+	cast: { linda_hamilton_26091956: 1, },
+},
+{
+	id: 'king_kong_2005', title: { ua: 'Кінг-Конг', en: 'King Kong', }, year: 2005, country: { usa: 1, },
+	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, sea: 1, island: 1, jungle: 1, newyork: 1, },
+	internet: { imdb: '0360717', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
+	cast: { naomi_watts_28091968: 1, jack_black_28081969: 1, adrien_brody_14041973: 1, kyle_chandler_17091965: 1, },
 },
 {
 	id: 'commando_1985', title: { ua: 'Командо', en: 'Commando', }, year: 1985, country: { usa: 1, },
@@ -1192,7 +1260,7 @@ const arrFilms = [
 },
 {
 	id: 'die_hard_1988', title: { ua: 'Міцний горішок', en: 'Die Hard', }, year: 1988, country: { usa: 1, },
-	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, },
+	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, newyork: 1, },
 	internet: { imdb: '0095016', wiki_ua: '%D0%9C%D1%96%D1%86%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BE%D0%BA', },
 	cast: { bruce_willis_19031955: 1, },
 },
@@ -1204,7 +1272,7 @@ const arrFilms = [
 },
 {
 	id: 'die_hard_3_1995', title: { ua: 'Міцний горішок - 3', en: 'Die Hard: With a Vengeance', }, year: 1995, country: { usa: 1, },
-	genre: { action: 1, thriller: 1,  }, hash: { terrorist: 1, bank: 1, },
+	genre: { action: 1, thriller: 1,  }, hash: { terrorist: 1, bank: 1, newyork: 1, },
 	internet: { imdb: '0112864', wiki_ua: '%D0%9C%D1%96%D1%86%D0%BD%D0%B8%D0%B9_%D0%93%D0%BE%D1%80%D1%96%D1%88%D0%BE%D0%BA_3:_%D0%9F%D0%BE%D0%BC%D0%B8%D1%80%D0%B0%D1%82%D0%B8_%D0%B7_%D0%BF%D1%96%D1%81%D0%BD%D0%B5%D1%8E', },
 	cast: { bruce_willis_19031955: 1, samuel_l_jackson_21121948: 1, },
 },
@@ -1391,6 +1459,12 @@ const arrFilms = [
 	genre: { comedy: 1, }, hash: { race: 1,cars: 1, },
 	internet: { imdb: '0082136', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%BD%D0%B8_%C2%AB%D0%93%D0%B0%D1%80%D0%BC%D0%B0%D1%82%D0%BD%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE%C2%BB', },
 	cast: { burt_reynolds_11021936: 1, roger_moore_14101927: 1, jackie_chan_07041954: 1, peter_fonda_23021940: 1, },
+},
+{
+	id: 'nou_fo_2021', title: { ua: 'Перехресний вогонь', en: 'Nou fo', }, year: 2021, country: { hkg: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '8165192', wiki_ru: '%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D1%80%D1%91%D1%81%D1%82%D0%BD%D1%8B%D0%B9_%D0%BE%D0%B3%D0%BE%D0%BD%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2021)', },
+	cast: { donnie_yen_27071963: 1, },
 },
 {
 	id: 'free_guy_2021', title: { ua: 'Персонаж', en: 'Free Guy', }, year: 2021, country: { usa: 1, },
@@ -2097,49 +2171,6 @@ const arrFilms = [
 
 
 
-
-
-
-
-
-
-{
-	id: 'derevo_Joshua_1993',
-	title: { ua: 'Дерево Джошуа', en: 'Joshua Tree', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0106309',
-		wiki_ru: '%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%BE_%D0%94%D0%B6%D0%BE%D1%88%D1%83%D0%B0',
-	},
-	cast: {
-		dolph_lundgren_03111957: 1,
-	},
-},
-{
-	id: 'Destiny_vklyuchaet_radio_1995',
-	title: { ua: 'Дестини включает радио', en: 'Destiny Turns on the Radio', },
-	year: 1995,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0112854',
-		wiki_ru: '%D0%94%D0%B5%D1%81%D1%82%D0%B8%D0%BD%D0%B8_%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%D0%B5%D1%82_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE',
-	},
-	cast: {
-		quentin_tarantino_27031963: 1,
-		james_belushi_15061954: 1,
-	},
-},
-{
-	id: 'deti_Times_skvera_1986',
-	title: { ua: 'Дети Таймс-сквера', en: 'The Children of Times Square', },
-	year: 1986,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0090829',
-		youtube: 'McKSeyRgZ4k',
-	},
-},
 {
 	id: 'Jay_&_Bob_2001',
 	title: { ua: 'Джей и молчаливый Боб наносят ответный удар', en: 'Jay and Silent Bob Strike Back', },
@@ -3315,48 +3346,11 @@ const arrFilms = [
 		mike_tyson_30061966: 1,
 	},
 },
-{
-	id: 'king_kong_1976',
-	title: { ua: 'Кинг Конг', en: 'King Kong', },
-	year: 1976,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0074751',
-		wiki_ru: '%D0%9A%D0%B8%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1976)',
-	},
-	cast: {
-		jessica_lange_20041949: 1,
-	},
-},
-{
-	id: 'king_kong_zhiv_1986',
-	title: { ua: 'Кинг Конг жив', en: 'King Kong Lives', },
-	year: 1986,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0091344',
-		wiki_ru: '%D0%9A%D0%B8%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_%D0%B6%D0%B8%D0%B2',
-	},
-	cast: {
-		linda_hamilton_26091956: 1,
-	},
-},
-{
-	id: 'king_kong_2005',
-	title: { ua: 'Кинг Конг', en: 'King Kong', },
-	year: 2005,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0360717',
-		wiki_ru: '%D0%9A%D0%B8%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2005)',
-	},
-	cast: {
-		naomi_watts_28091968: 1,
-		jack_black_28081969: 1,
-		adrien_brody_14041973: 1,
-		kyle_chandler_17091965: 1,
-	},
-},
+
+
+
+
+
 {
 	id: 'king_kong_2017',
 	title: { ua: 'Кинг Конг', en: 'Kong: Skull Island', },
