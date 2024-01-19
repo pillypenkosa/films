@@ -256,9 +256,9 @@ class ComponentWinIndex {
 			let htmlHash = '';
 			if ( k.hash ) {
 				for ( let k1 in k.hash ) {
-					if ( objHashes[ k1 ] ) {
-						if ( objHashes[ k1 ].title ) {
-							htmlHash += `#${ objHashes[ k1 ].title }, `;
+					if ( objHashTags[ k1 ] ) {
+						if ( objHashTags[ k1 ].title ) {
+							htmlHash += `#${ objHashTags[ k1 ].title }, `;
 						}	
 					}
 				}

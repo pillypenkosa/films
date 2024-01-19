@@ -113,7 +113,7 @@ class ComponentMenu {
 
 
  		let optionHash = '<option value="all">Хештеги (всі)</option>';
- 		arrHashes.forEach( k => {
+ 		arrHashTags.forEach( k => {
  			optionHash += `<option value="${ k.id }">${ k.title }</option>`;
  		});
 
