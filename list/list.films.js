@@ -483,6 +483,12 @@ const arrFilms = [
 	cast: { robert_de_niro_17081943: 1, joe_pesci_09021943: 1, },
 },
 {
+	id: 'the_lake_house_2006', title: { ua: 'Будинок біля озера', en: 'The Lake House', }, year: 2006, country: { usa: 1, },
+	genre: { drama: 1, fantasy: 1, }, hash: { love: 1, },
+	internet: { imdb: '0410297', wiki_ua: '%D0%91%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_%D0%B1%D1%96%D0%BB%D1%8F_%D0%BE%D0%B7%D0%B5%D1%80%D0%B0', },
+	cast: { keanu_reeves_02091964: 1, sandra_bullock_26071964: 1, christopher_plummer_13121929: 1, },
+},
+{
 	id: 'the_bunker_1981', title: { ua: 'Бункер', en: 'The Bunker', }, year: 1981, country: { fra: 1, usa: 1, },
 	genre: { war: 1, history: 1, }, hash: { real: 1, war2: 1, },
 	internet: { imdb: '0082114', wiki_ru: '%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1981,_%D0%A1%D0%A8%D0%90)', },
@@ -921,7 +927,7 @@ const arrFilms = [
 	id: 'Jay_and_silent_Bob_reboot_2019', title: { ua: 'Джей и молчаливый Боб: Перезагрузка', en: 'Jay and Silent Bob Reboot', }, year: 2019, country: { usa: 1, },
 	genre: { comedy: 1, },
 	internet: { imdb: '6521876', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9_%D1%82%D0%B0_%D0%9C%D0%BE%D0%B2%D1%87%D0%B0%D0%B7%D0%BD%D0%B8%D0%B9_%D0%91%D0%BE%D0%B1:_%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B2%D0%B0%D0%BD%D1%82%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F', },
-	cast: { chris_hemsworth_11081983: 1, },
+	cast: { chris_hemsworth_11081983: 1, jason_lee_25041970: 1, },
 },
 {
 	id: 'jack_mimoun_2022', title: { ua: 'Джек Мімун', en: 'Jack Mimoun & les secrets de Val Verde', }, year: 2022, country: { fra: 1, },
@@ -939,6 +945,18 @@ const arrFilms = [
 	genre: { action: 1, },
 	internet: { imdb: '3393786', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BA_%D0%A0%D1%96%D1%87%D0%B5%D1%80:_%D0%9D%D0%B5_%D0%B2%D1%96%D0%B4%D1%81%D1%82%D1%83%D0%BF%D0%B0%D0%B9', },
 	cast: { tom_cruise_03071962: 1, },
+},
+{
+	id: 'Jobs_2013', title: { ua: 'Джобс: Імперія спокуси', en: 'Jobs', }, year: 2013, country: { usa: 1, },
+	genre: { biography: 1, drama: 1, },
+	internet: { imdb: '2357129', wiki_ua: '%D0%94%D0%B6%D0%BE%D0%B1%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { ashton_kutcher_07021978: 1, },
+},
+{
+	id: 'John_Wick_2014', title: { ua: 'Джон Вік', en: 'John Wick', }, year: 2014, country: { chn: 1, can: 1, usa: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '2911666', wiki_ua: '%D0%94%D0%B6%D0%BE%D0%BD_%D0%A3%D1%96%D0%BA', },
+	cast: { keanu_reeves_02091964: 1, willem_dafoe_22071955: 1, },
 },
 {
 	id: 'Johnny_mnemonic_1995', title: { ua: 'Джонні Мнемонік', en: 'Johnny Mnemonic', }, year: 1995, country: { can: 1, usa: 1, },
@@ -969,6 +987,18 @@ const arrFilms = [
 	genre: { comedy: 1, sci_fi: 1, },
 	internet: { imdb: '0110216', wiki_ua: '%D0%94%D0%B6%D1%83%D0%BD%D1%96%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { arnold_schwarzenegger_30071947: 1, danny_devito_17111944: 1, },
+},
+{
+	id: 'divergent_2014', title: { ua: 'Дивергент', en: 'Divergent', }, year: 2014, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, jungle: 1, bodyChange: 1, cyber: 1, },
+	internet: { imdb: '1840309', wiki_ua: '%D0%94%D0%B8%D0%B2%D0%B5%D1%80%D0%B3%D0%B5%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { kate_winslet_05101975: 1, ashley_judd_19041968: 1, jai_courtney_15031986: 1, maggie_q_22051979: 1, zoe_kravitz_01121988: 1, },
+},
+{
+	id: 'insurgent_2015', title: { ua: 'Дивергент - 2: Інсургент', en: 'Insurgent', }, year: 2015, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, jungle: 1, bodyChange: 1, cyber: 1, },
+	internet: { imdb: '2908446', wiki_ua: '%D0%86%D0%BD%D1%81%D1%83%D1%80%D0%B3%D0%B5%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { kate_winslet_05101975: 1, jai_courtney_15031986: 1, zoe_kravitz_01121988: 1, ashley_judd_19041968: 1, naomi_watts_28091968: 1, maggie_q_22051979: 1, },
 },
 {
 	id: 'wild_orchid_1989', title: { ua: 'Дика орхідея', en: 'Wild Orchid', }, year: 1989, country: { usa: 1, },
@@ -1010,6 +1040,18 @@ const arrFilms = [
 	genre: { drama: 1, sport: 1, }, hash: { sport: 1, race: 1, cars: 1, },
 	internet: { imdb: '0099371', wiki_ua: '%D0%94%D0%BD%D1%96_%D0%B3%D1%80%D0%BE%D0%BC%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1990)', },
 	cast: { tom_cruise_03071962: 1, nicole_kidman_20061967: 1, },
+},
+{
+	id: 'dogma_1999', title: { ua: 'Догма', en: 'Dogma', }, year: 1999, country: { usa: 1, },
+	genre: { comedy: 1, adventure: 1, }, hash: { psycho: 1, },
+	internet: { imdb: '0120655', wiki_ua: '%D0%94%D0%BE%D0%B3%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { ben_affleck_15081972: 1, matt_damon_08101970: 1, salma_hayek_02091966: 1, jason_lee_25041970: 1, },
+},
+{
+	id: 'highway_to_hell_1991', title: { ua: 'Дорога в пекло', en: 'Highway to Hell', }, year: 1991, country: { usa: 1, },
+	genre: { comedy: 1, adventure: 1, fantasy: 1, }, hash: { road: 1, },
+	internet: { imdb: '0104418', wiki_ru: '%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82_%D1%81_%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B8_%D0%B2_%D0%B0%D0%B4', },
+
 },
 {
 	id: 'the_marsh_kings_daughter_2023', title: { ua: 'Дочка болотного короля', en: 'The Marsh King\'s Daughter', }, year: 2023, country: { usa: 1, },
@@ -1153,6 +1195,12 @@ const arrFilms = [
 	cast: { julia_roberts_28101967: 1, },
 },
 {
+	id: 'k9_1989', title: { ua: 'К-9: Собача робота', en: 'K-9', }, year: 1989, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, crime: 1, }, hash: { dog: 1, police: 1, },
+	internet: { imdb: '0097637', wiki_ru: '%D0%9A-9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	cast: { james_belushi_15061954: 1, },
+},
+{
 	id: 'end_of_days_1999', title: { ua: 'Кінець світу', en: 'End of Days', }, year: 1999, country: { usa: 1, },
 	genre: { action: 1, mystic: 1, },
 	internet: { imdb: '0146675', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B5%D1%86%D1%8C_%D1%81%D0%B2%D1%96%D1%82%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', ashdivip: '4460', },
@@ -1175,6 +1223,12 @@ const arrFilms = [
 	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, sea: 1, island: 1, jungle: 1, newyork: 1, },
 	internet: { imdb: '0360717', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
 	cast: { naomi_watts_28091968: 1, jack_black_28081969: 1, adrien_brody_14041973: 1, kyle_chandler_17091965: 1, },
+},
+{
+	id: 'cobra_1986', title: { ua: 'Кобра', en: 'Cobra', }, year: 1986, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { police: 1, },
+	internet: { imdb: '0090859', wiki_ua: '%D0%9A%D0%BE%D0%B1%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { sylvester_stallone_06071946: 1, },
 },
 {
 	id: 'commando_1985', title: { ua: 'Командо', en: 'Commando', }, year: 1985, country: { usa: 1, },
@@ -1614,6 +1668,11 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { plane: 1, },
 	internet: { imdb: '2024469', wiki_ua: '%D0%9F%D0%BE%D0%B2%D1%96%D1%82%D1%80%D1%8F%D0%BD%D0%B8%D0%B9_%D0%BC%D0%B0%D1%80%D1%88%D0%B0%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { liam_neeson_07061952: 1, julianne_moore_03121960: 1, },
+},
+{
+	id: 'wrong_turn_2021', title: { ua: 'Поворот не туди - 7: Основа', en: 'Wrong Turn', }, year: 2021, country: { usa: 1, can: 1, deu: 1,},
+	genre: { horror: 1, },
+	internet: { imdb: '9110170', wiki_ua: '%D0%9F%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82_%D0%BD%D0%B5_%D1%82%D1%83%D0%B4%D0%B8_7:_%D0%A1%D0%BF%D0%B0%D0%B4%D1%89%D0%B8%D0%BD%D0%B0', },
 },
 {
 	id: 'jingle_all_the_way_1996', title: { ua: 'Подарунок на Різдво', en: 'Jingle All the Way', }, year: 1996, country: { usa: 1, },
@@ -2116,6 +2175,11 @@ const arrFilms = [
 	cast: { kevin_costner_18011955: 1, demi_moore_11111962: 1, },
 },
 {
+	id: 'cicada_3301_2021', title: { ua: 'Цикада 3301: Квест для хакера', en: 'Dark Web: Cicada 3301', }, year: 2021, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, },
+	internet: { imdb: '8110246', },
+},
+{
 	id: 'in_time_2011', title: { ua: 'Чaс', en: 'In Time', }, year: 2011, country: { usa: 1, },
 	genre: { thriller: 1, sci_fi: 1, crime: 1, }, hash: { utopia: 1, },
 	internet: { imdb: '1637688', wiki_ua: '%D0%A7%D0%B0%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', },
@@ -2306,109 +2370,13 @@ const arrFilms = [
 
 
 
-{
-	id: 'Jobs_2013',
-	title: { ua: 'Джобс: Империя соблазна', en: 'Jobs', },
-	year: 2013,
-	country: { usa: 1, },
-	internet: {
-		imdb: '2357129',
-		wiki_ru: '%D0%94%D0%B6%D0%BE%D0%B1%D1%81:_%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D1%8F_%D1%81%D0%BE%D0%B1%D0%BB%D0%B0%D0%B7%D0%BD%D0%B0',
-	},
-	cast: {
-		ashton_kutcher_07021978: 1,
-	},
-},
-{
-	id: 'John_Wick_2014',
-	title: { ua: 'Джон Уик', en: 'John Wick', },
-	year: 2014,
-	country: { usa: 1, },
-	internet: {
-		imdb: '2911666',
-		wiki_ru: '%D0%94%D0%B6%D0%BE%D0%BD_%D0%A3%D0%B8%D0%BA',
-	},
-	cast: {
-		keanu_reeves_02091964: 1,
-		willem_dafoe_22071955: 1,
-	},
-},
-{
-	id: 'divergent_1_2014',
-	title: { ua: 'Дивергент - 1', en: 'Divergent', },
-	year: 2014,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1840309',
-		wiki_ru: '%D0%94%D0%B8%D0%B2%D0%B5%D1%80%D0%B3%D0%B5%D0%BD%D1%82_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		kate_winslet_05101975: 1,
-		ashley_judd_19041968: 1,
-		maggie_q_22051979: 1,
-	},
-},
-{
-	id: 'divergent_2_2015',
-	title: { ua: 'Дивергент - 2', en: 'Insurgent', },
-	year: 2015,
-	country: { usa: 1, },
-	internet: {
-		imdb: '2908446',
-		wiki_ru: '%D0%94%D0%B8%D0%B2%D0%B5%D1%80%D0%B3%D0%B5%D0%BD%D1%82,_%D0%B3%D0%BB%D0%B0%D0%B2%D0%B0_2:_%D0%98%D0%BD%D1%81%D1%83%D1%80%D0%B3%D0%B5%D0%BD%D1%82',
-	},
-	cast: {
-		kate_winslet_05101975: 1,
-		ashley_judd_19041968: 1,
-		naomi_watts_28091968: 1,
-		maggie_q_22051979: 1,
-		zoe_kravitz_01121988: 1,
-	},
-},
-{
-	id: 'dogma_1999',
-	title: { ua: 'Догма', en: 'Dogma', },
-	year: 1999,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0120655',
-		wiki_ru: '%D0%94%D0%BE%D0%B3%D0%BC%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		ben_affleck_15081972: 1,
-		matt_damon_08101970: 1,
-		salma_hayek_02091966: 1,
-		jason_lee_25041970: 1,
-	},
-},
-{
-	id: 'dom_u_ozera_2006',
-	title: { ua: 'Дом у озера', en: 'The Lake House', },
-	year: 2006,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0410297',
-		wiki_ru: '%D0%94%D0%BE%D0%BC_%D1%83_%D0%BE%D0%B7%D0%B5%D1%80%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2006)',
-	},
-	cast: {
-		keanu_reeves_02091964: 1,
-		sandra_bullock_26071964: 1,
-	},
-},
 
-{
-	id: 'doroga_v_ad_1991',
-	title: { ua: 'Дорога в ад', en: 'Highway to Hell', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0104418',
-		wiki_ru: '%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82_%D1%81_%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B8_%D0%B2_%D0%B0%D0%B4',
-	},
-	cast: {
-		ben_stiller_30111965: 1,
-	},
-},
+
+
+
+
+
+
 {
 	id: 'dorogaya_ya_umenshil_detey_1989',
 	title: { ua: 'Дорогая я уменьшил детей', en: 'Honey I Shrunk the Kids', },
@@ -3198,19 +3166,14 @@ const arrFilms = [
 		pierce_brosnan_16051953: 1,
 	},
 },
-{
-	id: 'k9_1989',
-	title: { ua: 'К-9: Собачья работа', en: 'K-9', },
-	year: 1989,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0097637',
-		wiki_ru: '%D0%9A-9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		james_belushi_15061954: 1,
-	},
-},
+
+
+
+
+
+
+
+
 {
 	id: 'cabaret_1972',
 	title: { ua: 'Кабаре', en: 'Cabaret', },
@@ -3370,19 +3333,10 @@ const arrFilms = [
 		gary_oldman_21031958: 1,
 	},
 },
-{
-	id: 'kobra_1986',
-	title: { ua: 'Кобра', en: 'Cobra', },
-	year: 1986,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0090859',
-		wiki_ru: '%D0%9A%D0%BE%D0%B1%D1%80%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1986)',
-	},
-	cast: {
-		sylvester_stallone_06071946: 1,
-	},
-},
+
+
+
+
 {
 	id: 'kogda_Garri_vstretil_Salli_1989',
 	title: { ua: 'Когда Гарри встретил Салли', en: 'When Harry Met Sally', },
@@ -5846,16 +5800,11 @@ const arrFilms = [
 		kurt_russell_17031951: 1,
 	},
 },
-{
-	id: 'povorot_ne_tuda_7_2021',
-	title: { ua: 'Поворот не туда - 7', en: 'Wrong Turn', },
-	year: 2021,
-	country: { usa: 1, },
-	internet: {
-		imdb: '9110170',
-		wiki_ru: '%D0%9F%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82_%D0%BD%D0%B5_%D1%82%D1%83%D0%B4%D0%B0_7:_%D0%9D%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%B8%D0%B5',
-	},
-},
+
+
+
+
+
 {
 	id: 'pogonya_1994',
 	title: { ua: 'Погоня', en: 'The Chase', },
@@ -7937,15 +7886,11 @@ const arrFilms = [
 		morgan_freeman_01061937: 1,
 	},
 },
-{
-	id: 'cikada_3301_2021',
-	title: { ua: 'Цикада 3301: Квест для хакера', en: 'Dark Web: Cicada 3301', },
-	year: 2021,
-	country: { usa: 1, },
-	internet: {
-		imdb: '8110246',
-	},
-},
+
+
+
+
+
 {
 	id: 'chasovoy_mehanizm_2001',
 	title: { ua: 'Чaсовой механизм', en: 'Ticker', },
