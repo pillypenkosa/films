@@ -823,6 +823,12 @@ const arrFilms = [
 	cast: { sandra_bullock_26071964: 1, george_clooney_06051961: 1, ed_harris_28111950: 1, },
 },
 {
+	id: 'grudge_match_2013', title: { ua: 'Гранд реванш', en: 'Grudge Match', }, year: 2013, country: { usa: 1, },
+	genre: { drama: 1, }, hash: { fight: 1, sport: 1, },
+	internet: { imdb: '1661382', wiki_ua: '%D0%93%D1%80%D0%B0%D0%BD%D0%B4_%D1%80%D0%B5%D0%B2%D0%B0%D0%BD%D1%88', },
+	cast: { sylvester_stallone_06071946: 1, robert_de_niro_17081943: 1, kim_basinger_08121953: 1, mike_tyson_30061966: 1, },
+},
+{
 	id: 'money_talks_1997', title: { ua: 'Гроші вирішують все', en: 'Money Talks', }, year: 1997, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, },
 	internet: { imdb: '0119695', wiki_ua: '%D0%93%D1%80%D0%BE%D1%88%D1%96_%D0%B2%D0%B8%D1%80%D1%96%D1%88%D1%83%D1%8E%D1%82%D1%8C_%D0%B2%D1%81%D0%B5', },
@@ -1122,6 +1128,22 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, dean_norris_08041963: 1, elisabeth_shue_06101963: 1, },
 },
 {
+	id: 'catwoman_2004', title: { ua: 'Жінка-кішка', en: 'Catwoman', }, year: 2004, country: { usa: 1, },
+	genre: { fantasy: 1, crime: 1, },
+	internet: { imdb: '0327554', wiki_ua: '%D0%96%D1%96%D0%BD%D0%BA%D0%B0-%D0%BA%D1%96%D1%88%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { halle_berry_14081966: 1, sharon_stone_10031958: 1, },
+},
+{
+	id: 'life_stinks_1991', title: { ua: 'Життя лайно', en: 'Life Stinks', }, year: 1991, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '0102303', wiki_ru: '%D0%96%D0%B8%D0%B7%D0%BD%D1%8C_%E2%80%94_%D0%B4%D0%B5%D1%80%D1%8C%D0%BC%D0%BE', },
+},
+{
+	id: 'life_of_Pi_2012', title: { ua: 'Життя Пі', en: 'Life of Pi', }, year: 2012, country: { usa: 1, },
+	genre: { adventure: 1, }, hash: { sea: 1, animal: 1, surviving: 1, travel: 1, },
+	internet: { imdb: '0454876', wiki_ua: '%D0%96%D0%B8%D1%82%D1%82%D1%8F_%D0%9F%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: 'falling_down_1993', title: { ua: 'З мене досить', en: 'Falling Down', }, year: 1993, country: { usa: 1, },
 	genre: { action: 1, drama: 1, crime: 1,  }, hash: { psycho: 1, },
 	internet: { imdb: '0106856', wiki_ua: '%D0%97_%D0%BC%D0%B5%D0%BD%D0%B5_%D0%B4%D0%BE%D1%81%D0%B8%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1129,9 +1151,27 @@ const arrFilms = [
 },
 {
 	id: 'from_Paris_with_love_2010', title: { ua: 'З Парижу з любов\'ю', en: 'From Paris with Love', }, year: 2010, country: { fra: 1, },
-	genre: { action: 1, crime: 1,  },
+	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1179034', wiki_ua: '%D0%97_%D0%9F%D0%B0%D1%80%D0%B8%D0%B6%D0%B0_%D0%B7_%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%27%D1%8E', ashdivip: '3832', },
 	cast: { john_travolta_18021954: 1, },
+},
+{
+	id: 'overboard_1987', title: { ua: 'За бортом', en: 'Overboard', }, year: 1987, country: { usa: 1, },
+	genre: { comedy: 1, }, hash: { ship: 1, beach: 1, },
+	internet: { imdb: '0093693', wiki_ua: '%D0%97%D0%B0_%D0%B1%D0%BE%D1%80%D1%82%D0%BE%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { kurt_russell_17031951: 1, goldie_hawn_21111945: 1, },
+},
+{
+	id: 'diner_1982', title: { ua: 'Забігайлівка', en: 'Diner', }, year: 1982, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '0083833', wiki_ru: '%D0%97%D0%B0%D0%B1%D0%B5%D0%B3%D0%B0%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	cast: { mickey_rourke_16091952: 1, kevin_bacon_08071958: 1, daniel_stern_28081957: 1, },
+},
+{
+	id: 'dimenticare_Palermo_1990', title: { ua: 'Забути Палермо', en: 'Dimenticare Palermo', }, year: 1990, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, },
+	internet: { imdb: '0099430', wiki_ru: '%D0%97%D0%B0%D0%B1%D1%8B%D1%82%D1%8C_%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	cast: { james_belushi_15061954: 1, },
 },
 {
 	id: 'the_delta_force_1986', title: { ua: 'Загін Дельта', en: 'The Delta Force', }, year: 1986, country: { usa: 1, },
@@ -1162,6 +1202,12 @@ const arrFilms = [
 	genre: { adventure: 1, history: 1, }, hash: { real: 1, sea: 1, ship: 1, },
 	internet: { imdb: '0086993', wiki_ua: '%D0%97%D0%B0%D0%BA%D0%BE%D0%BB%D0%BE%D1%82_%D0%BD%D0%B0_%D0%91%D0%B0%D1%83%D0%BD%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1984)', },
 	cast: { mel_gibson_03011956: 1, anthony_hopkins_31121937: 1, liam_neeson_07061952: 1, },
+},
+{
+	id: 'law_abiding_citizen_2009', title: { ua: 'Законослухняний громадянин', en: 'Law Abiding Citizen', }, year: 2009, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { justice: 1, },
+	internet: { imdb: '1197624', wiki_ua: '%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D1%81%D0%BB%D1%83%D1%85%D0%BD%D1%8F%D0%BD%D0%B8%D0%B9_%D0%B3%D1%80%D0%BE%D0%BC%D0%B0%D0%B4%D1%8F%D0%BD%D0%B8%D0%BD', },
+	cast: { gerard_butler_13111969: 1, },
 },
 {
 	id: 'chill_factor_1999', title: { ua: 'Заморожений жах', en: 'Chill Factor', }, year: 1999, country: { usa: 1, },
@@ -1506,6 +1552,12 @@ const arrFilms = [
 	id: 'muzzle_2023', title: { ua: 'Морда', en: 'Muzzle', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, crime: 1,  }, hash: { dog: 1, police: 1, },
 	internet: { imdb: '17663876', },
+},
+{
+	id: 'extremely_loud_incredibly_close_2011', title: { ua: 'Моторошно голосно і несамовито близько', en: 'Extremely Loud & Incredibly Close', }, year: 2011, country: { usa: 1, },
+	genre: { drama: 1, disaster: 1, }, hash: { newyork: 1, },
+	internet: { imdb: '0477302', wiki_ua: '%D0%A1%D1%82%D1%80%D0%B0%D1%88%D0%B5%D0%BD%D0%BD%D0%BE_%D0%B3%D0%BE%D0%BB%D0%BE%D1%81%D0%BD%D0%BE_%D1%96_%D0%BD%D0%B5%D0%B9%D0%BC%D0%BE%D0%B2%D1%96%D1%80%D0%BD%D0%BE_%D0%B1%D0%BB%D0%B8%D0%B7%D1%8C%D0%BA%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { tom_hanks_09071956: 1, sandra_bullock_26071964: 1, },
 },
 {
 	id: 'the_mummy_1999', title: { ua: 'Мумія', en: 'The Mummy', }, year: 1999, country: { usa: 1, },
@@ -2538,131 +2590,6 @@ const arrFilms = [
 
 
 
-{
-	id: 'zhenschina-koshka_2004',
-	title: { ua: 'Женщина-кошка', en: 'Catwoman', },
-	year: 2004,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0327554',
-		wiki_ru: '%D0%96%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0-%D0%BA%D0%BE%D1%88%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		halle_berry_14081966: 1,
-		sharon_stone_10031958: 1,
-	},
-},
-{
-	id: 'zhizn_dermo_1991',
-	title: { ua: 'Жизнь дерьмо', en: 'Life Stinks', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0102303',
-		wiki_ru: '%D0%96%D0%B8%D0%B7%D0%BD%D1%8C_%E2%80%94_%D0%B4%D0%B5%D1%80%D1%8C%D0%BC%D0%BE',
-		kinoteatr: 'https://www.kino-teatr.ru/kino/movie/hollywood/33726/titr/',
-		youtube: 'T4NE7uLNN6E',
-	},
-},
-{
-	id: 'zhizn_Pi_2012',
-	title: { ua: 'Жизнь Пи', en: 'Life of Pi', },
-	year: 2012,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0454876',
-		wiki_ru: '%D0%96%D0%B8%D0%B7%D0%BD%D1%8C_%D0%9F%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-},
-{
-	id: 'zhutko_gromko_i_zapredelno_blizko_2011',
-	title: { ua: 'Жутко громко и запредельно близко', en: 'Extremely Loud & Incredibly Close', },
-	year: 2011,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0477302',
-		wiki_ru: '%D0%96%D1%83%D1%82%D0%BA%D0%BE_%D0%B3%D1%80%D0%BE%D0%BC%D0%BA%D0%BE_%D0%B8_%D0%B7%D0%B0%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE_%D0%B1%D0%BB%D0%B8%D0%B7%D0%BA%D0%BE',
-	},
-	cast: {
-		tom_hanks_09071956: 1,
-		sandra_bullock_26071964: 1,
-	},
-},
-{
-	id: 'za_bortom_1987',
-	title: { ua: 'За бортом', en: 'Overboard', },
-	year: 1987,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0093693',
-		wiki_ru: '%D0%97%D0%B0_%D0%B1%D0%BE%D1%80%D1%82%D0%BE%D0%BC_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1987)',
-	},
-	cast: {
-		kurt_russell_17031951: 1,
-		goldie_hawn_21111945: 1,
-	},
-},
-
-
-
-
-{
-	id: 'zabegalovka_1982',
-	title: { ua: 'Забегаловка', en: 'Diner', },
-	year: 1982,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0083833',
-		wiki_ru: '%D0%97%D0%B0%D0%B1%D0%B5%D0%B3%D0%B0%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		mickey_rourke_16091952: 1,
-		kevin_bacon_08071958: 1,
-		daniel_stern_28081957: 1,
-	},
-},
-{
-	id: 'zaboyniy_revansh_2013',
-	title: { ua: 'Забойный реванш', en: 'Grudge Match', },
-	year: 2013,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1661382',
-		wiki_ru: '%D0%97%D0%B0%D0%B1%D0%BE%D0%B9%D0%BD%D1%8B%D0%B9_%D1%80%D0%B5%D0%B2%D0%B0%D0%BD%D1%88',
-	},
-	cast: {
-		sylvester_stallone_06071946: 1,
-		robert_de_niro_17081943: 1,
-		kim_basinger_08121953: 1,
-		mike_tyson_30061966: 1,
-	},
-},
-{
-	id: 'zabyt_Palermo_1990',
-	title: { ua: 'Забыть Палермо', en: 'Dimenticare Palermo', },
-	year: 1990,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0099430',
-		wiki_ru: '%D0%97%D0%B0%D0%B1%D1%8B%D1%82%D1%8C_%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		james_belushi_15061954: 1,
-	},
-},
-{
-	id: 'zakonoposlushniy_grazhdanin_2009',
-	title: { ua: 'Законопослушный гражданин', en: 'Law Abiding Citizen', },
-	year: 2009,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1197624',
-		wiki_ru: '%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%BF%D0%BE%D1%81%D0%BB%D1%83%D1%88%D0%BD%D1%8B%D0%B9_%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8%D0%BD',
-	},
-	cast: {
-		gerard_butler_13111969: 1,
-	},
-},
 {
 	id: 'zalozhnik_2005',
 	title: { ua: 'Заложник', en: 'Hostage', },
