@@ -1216,6 +1216,18 @@ const arrFilms = [
 	cast: { cuba_gooding_jr_02011968: 1, },
 },
 {
+	id: 'scent_of_a_woman_1992', title: { ua: 'Запах жінки', en: 'Scent of a Woman', }, year: 1992, country: { usa: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '0105323', wiki_ua: '%D0%97%D0%B0%D0%BF%D0%B0%D1%85_%D0%B6%D1%96%D0%BD%D0%BA%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1992)', },
+	cast: { al_pacino_25041940: 1, },
+},
+{
+	id: 'hostage_2005', title: { ua: 'Заручник', en: 'Hostage', }, year: 2005, country: { usa: 1, deu: 1, },
+	genre: { action: 1, crime: 1, }, hash: { cars: 1, },
+	internet: { imdb: '0340163', wiki_ua: '%D0%97%D0%B0%D1%80%D1%83%D1%87%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
+	cast: { bruce_willis_19031955: 1, kevin_pollak_30101957: 1, },
+},
+{
 	id: 'loaded_weapon_1_1993', title: { ua: 'Заряджена зброя', en: 'Loaded Weapon 1', }, year: 1993, country: { usa: 1, },
 	genre: { parody: 1, action: 1, crime: 1, }, 
 	internet: { imdb: '0107659', wiki_ua: '%D0%97%D0%B0%D1%80%D1%8F%D0%B4%D0%B6%D0%B5%D0%BD%D0%B0_%D0%B7%D0%B1%D1%80%D0%BE%D1%8F_1', },
@@ -1261,6 +1273,11 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0087727', wiki_ua: '%D0%97%D0%BD%D0%B8%D0%BA%D0%BB%D1%96_%D0%B1%D0%B5%D0%B7%D0%B2%D1%96%D1%81%D1%82%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { chuck_norris_10031940: 1, },
+},
+{
+	id: 'toy_soldiers_1991', title: { ua: 'Іграшкові солдатики', en: 'Toy Soldiers', }, year: 1991, country: { usa: 1, },
+	genre: { action: 1, }, hash: { terrorist: 1, children: 1, army: 1, },
+	internet: { imdb: '0103112', wiki_ua: '%D0%86%D0%B3%D1%80%D0%B0%D1%88%D0%BA%D0%BE%D0%B2%D1%96_%D1%81%D0%BE%D0%BB%D0%B4%D0%B0%D1%82%D0%B8%D0%BA%D0%B8', },
 },
 {
 	id: 'patriot_games_1992', title: { ua: 'Ігри патріотів', en: 'Patriot Games', }, year: 1992, country: { usa: 1, },
@@ -2588,45 +2605,6 @@ const arrFilms = [
 
 
 
-
-
-{
-	id: 'zalozhnik_2005',
-	title: { ua: 'Заложник', en: 'Hostage', },
-	year: 2005,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0340163',
-		wiki_ru: '%D0%97%D0%B0%D0%BB%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2005)',
-	},
-	cast: {
-		bruce_willis_19031955: 1,
-		kevin_pollak_30101957: 1,
-	},
-},
-
-{
-	id: 'zapah_zhenschiny_1992',
-	title: { ua: 'Запах женщины', en: 'Scent of a Woman', },
-	year: 1992,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0105323',
-		wiki_ru: '%D0%97%D0%B0%D0%BF%D0%B0%D1%85_%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1992)',
-	},
-	cast: {
-		al_pacino_25041940: 1,
-	},
-},
-
-
-
-
-
-
-
-
-
 {
 	id: 'zatyazhnoy_pryzhok_2000',
 	title: { ua: 'Затяжной прыжок', en: 'Cutaway', },
@@ -2841,16 +2819,10 @@ const arrFilms = [
 		sean_penn_17081960: 1,
 	},
 },
-{
-	id: 'igrushechnie_soldatiki_1991',
-	title: { ua: 'Игрушечные солдатики', en: 'Toy Soldiers', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0103112',
-		wiki_ru: '%D0%98%D0%B3%D1%80%D1%83%D1%88%D0%B5%D1%87%D0%BD%D1%8B%D0%B5_%D1%81%D0%BE%D0%BB%D0%B4%D0%B0%D1%82%D0%B8%D0%BA%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1991)',
-	},
-},
+
+
+
+
 {
 	id: 'igrushka_1976',
 	title: { ua: 'Игрушка', en: 'Le jouet', },
