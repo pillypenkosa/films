@@ -345,6 +345,11 @@ const arrFilms = [
 	cast: { tom_hanks_09071956: 1, kevin_bacon_08071958: 1, bill_paxton_17051955: 1, ed_harris_28111950: 1, },
 },
 {
+	id: 'upgrade_2018', title: { ua: 'Апгрейд', en: 'Upgrade', }, year: 2018, country: { aus: 1, },
+	genre: { sci_fi: 1, thriller: 1, }, 
+	internet: { imdb: '6499752', wiki_ua: '%D0%90%D0%BF%D0%B3%D1%80%D0%B5%D0%B9%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: 'Arabela_1979', title: { ua: 'Арабелла', en: 'Arabela', }, year: 1979, country: { usa: 1, },
 	genre: { serial: 1, fantasy: 1, comedy: 1, }, hash: { young: 1, children: 1, },
 	internet: { imdb: '0175381', wiki_ua: '%D0%90%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D0%BB%D0%B0_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
@@ -1848,6 +1853,7 @@ const arrFilms = [
 	id: 'free_guy_2021', title: { ua: 'Персонаж', en: 'Free Guy', }, year: 2021, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, comedy: 1, }, hash: { cyber: 1, world: 1, },
 	internet: { imdb: '6264654', wiki_ua: '%D0%9F%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2021)', ashdivip: '48814', },
+	cast: { ryan_reynolds_23101976: 1, },
 },
 {
 	id: 'saw_x_2023', title: { ua: 'Пила - 10', en: 'Saw X', }, year: 2023, country: { usa: 1, },
