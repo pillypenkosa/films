@@ -590,6 +590,12 @@ const arrFilms = [
 	cast: { charlie_sheen_03091965: 1, tom_berenger_31051949: 1, willem_dafoe_22071955: 1, johnny_depp_09061963: 1, forest_whitaker_15071961: 1, },
 },
 {
+	id: 'wanted_dead_or_alive_1986', title: { ua: 'Взяти живим або мертвим', en: 'Wanted: Dead or Alive', }, year: 1986, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '0094293', wiki_ua: '%D0%92%D0%B7%D1%8F%D1%82%D0%B8_%D0%B6%D0%B8%D0%B2%D0%B8%D0%BC_%D0%B0%D0%B1%D0%BE_%D0%BC%D0%B5%D1%80%D1%82%D0%B2%D0%B8%D0%BC', },
+	cast: { rutger_hauer_23011944: 1, },
+},
+{
 	id: 'den_skyldige_2018', title: { ua: 'Винний', en: 'Den skyldige', }, year: 2018, country: { dnk: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { police: 1, phone: 1, },
 	internet: { imdb: '6742252', wiki_ru: '%D0%92%D0%B8%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2018)', },
@@ -1171,7 +1177,7 @@ const arrFilms = [
 	id: 'dimenticare_Palermo_1990', title: { ua: 'Забути Палермо', en: 'Dimenticare Palermo', }, year: 1990, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0099430', wiki_ru: '%D0%97%D0%B0%D0%B1%D1%8B%D1%82%D1%8C_%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
-	cast: { james_belushi_15061954: 1, },
+	cast: { james_belushi_15061954: 1, philippe_noiret_01101930: 1, },
 },
 {
 	id: 'the_delta_force_1986', title: { ua: 'Загін Дельта', en: 'The Delta Force', }, year: 1986, country: { usa: 1, },
@@ -1315,6 +1321,11 @@ const arrFilms = [
 	cast: { james_belushi_15061954: 1, },
 },
 {
+	id: 'acide_2023', title: { ua: 'Кислотний дощ', en: 'Acide', }, year: 2023, country: { fra: 1, },
+	genre: { sci_fi: 1, disaster: 1, },
+	internet: { imdb: '17569526', },
+},
+{
 	id: 'end_of_days_1999', title: { ua: 'Кінець світу', en: 'End of Days', }, year: 1999, country: { usa: 1, },
 	genre: { action: 1, mystic: 1, },
 	internet: { imdb: '0146675', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B5%D1%86%D1%8C_%D1%81%D0%B2%D1%96%D1%82%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', ashdivip: '4460', },
@@ -1343,6 +1354,18 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0090859', wiki_ua: '%D0%9A%D0%BE%D0%B1%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { sylvester_stallone_06071946: 1, },
+},
+{
+	id: 'safe_house_2012', title: { ua: 'Код доступу Кейптаун', en: 'Safe House', }, year: 2012, country: { usa: 1, },
+	genre: { action: 1, }, 
+	internet: { imdb: '1599348', wiki_ua: '%D0%9A%D0%BE%D0%B4_%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D1%83_%C2%AB%D0%9A%D0%B5%D0%B9%D0%BF%D1%82%D0%B0%D1%83%D0%BD%C2%BB', },
+	cast: { denzel_washington_28121954: 1, ryan_reynolds_23101976: 1, robert_patrick_05111958: 1,  },
+},
+{
+	id: 'the_protege_2021', title: { ua: 'Кодекс кілера', en: 'The Protege', }, year: 2021, country: { usa: 1, },
+	genre: { action: 1, }, hash: { killer: 1, },
+	internet: { imdb: '6079772', wiki_ua: '%D0%9A%D0%BE%D0%B4%D0%B5%D0%BA%D1%81_%D0%BA%D1%96%D0%BB%D0%B5%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { maggie_q_22051979: 1, samuel_l_jackson_21121948: 1, robert_patrick_05111958: 1, },
 },
 {
 	id: 'commando_1985', title: { ua: 'Командо', en: 'Commando', }, year: 1985, country: { usa: 1, },
@@ -1405,6 +1428,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0102045', wiki_ua: '%D0%9B%D1%96%D0%BA%D0%B2%D1%96%D0%B4%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { chuck_norris_10031940: 1, },
+},
+{
+	id: 'split_second_1992', title: { ua: 'Лічені секунди', en: 'Split Second', }, year: 1992, country: { gbr: 1, usa: 1, },
+	genre: { action: 1, horror: 1, crime: 1, }, 
+	internet: { imdb: '0105459', wiki_ua: '%D0%9B%D1%96%D1%87%D0%B5%D0%BD%D1%96_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B8', },
+	cast: { rutger_hauer_23011944: 1, },
 },
 {
 	id: 'the_ice_road_2021', title: { ua: 'Льодовий дрифт', en: 'The Ice Road', }, year: 2021, country: { usa: 1, },
@@ -1605,6 +1634,18 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '15782690', 	wiki_ru: '%D0%9D%D0%B0_%D0%B7%D0%B5%D0%BC%D0%BB%D0%B5_%D1%81%D0%B2%D1%8F%D1%82%D1%8B%D1%85_%D0%B8_%D0%B3%D1%80%D0%B5%D1%88%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2', },
 	cast: { liam_neeson_07061952: 1, },
+},
+{
+	id: 'in_the_line_of_fire_1993', title: { ua: 'На лінії вогню', en: 'In the Line of Fire', }, year: 1993, country: { usa: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '0107206', 	wiki_ua: '%D0%9D%D0%B0_%D0%BB%D1%96%D0%BD%D1%96%D1%97_%D0%B2%D0%BE%D0%B3%D0%BD%D1%8E', },
+	cast: { clint_eastwood_31051930: 1, john_malkovich_09121953: 1, rene_russo_17021954: 1, },
+},
+{
+	id: 'around_the_world_in_80_days_2004', title: { ua: 'Навколо світу за 80 днів', en: 'Around the World in 80 Days', }, year: 2004, country: { usa: 1, gbr: 1, deu: 1, irl: 1, },
+	genre: { action: 1, adventure: 1, comedy: 1, }, hash: { fight: 1, trap: 1, },
+	internet: { imdb: '0327437', wiki_ua: '%D0%9D%D0%B0%D0%B2%D0%BA%D0%BE%D0%BB%D0%BE_%D1%81%D0%B2%D1%96%D1%82%D1%83_%D0%B7%D0%B0_80_%D0%B4%D0%BD%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2004)', },
+	cast: { jackie_chan_07041954: 1, arnold_schwarzenegger_30071947: 1, maggie_q_22051979: 1, },
 },
 {
 	id: 'back_to_the_future_1985', title: { ua: 'Назад у майбутнє', en: 'Back to the Future', }, year: 1985, country: { usa: 1, },
@@ -1914,13 +1955,19 @@ const arrFilms = [
 	cast: { george_clooney_06051961: 1, jennifer_lopez_24071969: 1, ving_rhames_12051959: 1, samuel_l_jackson_21121948: 1, don_cheadle_29111964: 1, },
 },
 {
+	id: 'cop_car_2015', title: { ua: 'Поліцейський автомобіль', en: 'Cop Car', }, year: 2015, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, }, hash: { police: 1, cars: 1, children: 1, },
+	internet: { imdb: '3813310', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D1%96%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { kevin_bacon_08071958: 1, },
+},
+{
 	id: 'time_lapse_2014', title: { ua: 'Помилка часу  ', en: 'Time Lapse', }, year: 2014, country: { usa: 1, },
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '2669336', wiki_ua: '%D0%9F%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B0_%D1%87%D0%B0%D1%81%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'the_hitcher_1986', title: { ua: 'Попутник', en: 'The Hitcher', }, year: 1986, country: { usa: 1, },
-	genre: { thriller: 1, crime: 1, }, hash: { maniac: 1, road: 1, desert: 1, },
+	genre: { action: 1, thriller: 1, crime: 1, }, hash: { maniac: 1, road: 1, desert: 1, police: 1, },
 	internet: { imdb: '0091209', wiki_ua: '%D0%9F%D0%BE%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)', ashdivip: '19977', moviestape: 'The.Hitcher.1986', },
 	cast: { rutger_hauer_23011944: 1, },
 },
@@ -2036,6 +2083,11 @@ const arrFilms = [
 	internet: { imdb: '13786042', },
 },
 {
+	id: 'role_play_2024', title: { ua: 'Рольові ігри', en: 'Role Play', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, crime: 1, }, hash: { robot: 1, police: 1, },
+	internet: { imdb: '12964320', wiki_ua: '%D0%A0%D0%BE%D0%BB%D1%8C%D0%BE%D0%B2%D1%96_%D1%96%D0%B3%D1%80%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: 'sabotazh_2014', title: { ua: 'Саботаж', en: 'Sabotage', }, year: 2014, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1742334', wiki_ua: '%D0%A1%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B6_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2014)', },
@@ -2117,7 +2169,6 @@ const arrFilms = [
 	internet: { imdb: '0327850', wiki_ua: '%D0%A1%D0%BA%D0%B0%D1%80%D0%B1_%D0%90%D0%BC%D0%B0%D0%B7%D0%BE%D0%BD%D0%BA%D0%B8', },
 	cast: { dwayne_johnson_02051972: 1, seann_william_scott_03101976: 1, arnold_schwarzenegger_30071947: 1, },
 },
-
 {
 	id: 'cliffhanger_1995', title: { ua: 'Скелелаз', en: 'Cliffhanger', }, year: 1995, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, thriller: 1, }, hash: { mountains: 1, winter: 1, },
@@ -2141,6 +2192,18 @@ const arrFilms = [
 	genre: { horror: 1, sci_fi: 1,  },
 	internet: { imdb: '6823368', wiki_ua: '%D0%A1%D0%BA%D0%BB%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', },
 	cast: { bruce_willis_19031955: 1, samuel_l_jackson_21121948: 1, },
+},
+{
+	id: 'blind_fury_1989', title: { ua: 'Сліпа лють', en: 'Blind Fury', }, year: 1989, country: { usa: 1, },
+	genre: { action: 1, }, hash: { fight: 1, children: 1, },
+	internet: { imdb: '0096945', wiki_ua: '%D0%A1%D0%BB%D1%96%D0%BF%D0%B0_%D0%BB%D1%8E%D1%82%D1%8C', },
+	cast: { rutger_hauer_23011944: 1, },
+},
+{
+	id: 'wedlock_1991', title: { ua: 'Смертельні узи', en: 'Wedlock', }, year: 1991, country: { usa: 1, },
+	genre: { action: 1, crime: 1, sci_fi: 1, }, hash: { prison: 1, techno: 1, },
+	internet: { imdb: '0103239', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%96_%D1%83%D0%B7%D0%B8', },
+	cast: { rutger_hauer_23011944: 1, danny_trejo_16051944: 1, },
 },
 {
 	id: 'death_becomes_her_1992', title: { ua: 'Смерть їй личить', en: 'Death Becomes Her', }, year: 1992, country: { usa: 1, },
@@ -2170,6 +2233,18 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0116213', wiki_ua: '%D0%A1%D1%82%D0%B8%D1%80%D0%B0%D1%87', },
 	cast: { arnold_schwarzenegger_30071947: 1, },
+},
+{
+	id: 'stop_or_my_mom_will_shoot_1992', title: { ua: 'Стій бо моя мама стрілятиме', en: 'Stop! Or My Mom Will Shoot', }, year: 1992, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, }, hash: { police: 1, },
+	internet: { imdb: '0105477', wiki_ua: '%D0%A1%D1%82%D1%96%D0%B9,_%D0%B0%D0%B1%D0%BE_%D0%BC%D0%BE%D1%8F_%D0%BC%D0%B0%D0%BC%D0%B0_%D1%81%D1%82%D1%80%D1%96%D0%BB%D1%8F%D1%82%D0%B8%D0%BC%D0%B5', ashdivip: '14024', },
+	cast: { sylvester_stallone_06071946: 1, ving_rhames_12051959: 1, },
+},
+{
+	id: 'striptease_1996', title: { ua: 'Стриптиз', en: 'Striptease', }, year: 1996, country: { usa: 1, },
+	genre: { drama: 1, crime: 1, },
+	internet: { imdb: '0117765', wiki_ua: '%D0%A1%D1%82%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D0%B7_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { demi_moore_11111962: 1, burt_reynolds_11021936: 1, ving_rhames_12051959: 1, robert_patrick_05111958: 1, },
 },
 {
 	id: 'Dredd_2012', title: { ua: 'Суддя Дредд', en: 'Dredd', }, year: 2012, country: { usa: 1, },
@@ -2308,6 +2383,12 @@ const arrFilms = [
 	cast: { kevin_bacon_08071958: 1, },
 },
 {
+	id: 'Ted_2012', title: { ua: 'Третій зайвий', en: 'Ted', }, year: 2012, country: { usa: 1, },
+	genre: { comedy: 1, fantasy: 1, }, hash: { bear: 1, },
+	internet: { imdb: '1637725', wiki_ua: '%D0%A2%D1%80%D0%B5%D1%82%D1%96%D0%B9_%D0%B7%D0%B0%D0%B9%D0%B2%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { mark_wahlberg_05061971: 1, },
+},
+{
 	id: 'the_next_three_days_2010', title: { ua: 'Три дні на втечу', en: 'The Next Three Days', }, year: 2010, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1458175', wiki_ua: '%D0%A2%D1%80%D0%B8_%D0%B4%D0%BD%D1%96_%D0%BD%D0%B0_%D0%B2%D1%82%D0%B5%D1%87%D1%83', },
@@ -2353,6 +2434,12 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, crime: 1, }, hash: { time: 1, future: 1, },
 	internet: { imdb: '0104299', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%86%D1%96%D1%8F_%C2%AB%D0%91%D0%B5%D0%B7%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%8F%C2%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { emilio_estevez_12051962: 1, mick_jagger_26071943: 1, rene_russo_17021954: 1, anthony_hopkins_31121937: 1, },
+},
+{
+	id: 'the_faculty_1998', title: { ua: 'Факультет', en: 'The Faculty', }, year: 1998, country: { usa: 1, },
+	genre: { horror: 1, sci_fi: 1, }, hash: { aliens: 1, },
+	internet: { imdb: '0133751', wiki_ua: '%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { elijah_wood_28011981: 1, josh_hartnett_21071978: 1, robert_patrick_05111958: 1, salma_hayek_02091966: 1, },
 },
 {
 	id: 'memory_2022', title: { ua: 'Флешбек', en: 'Memory', }, year: 2022, country: { usa: 1, },
@@ -5631,19 +5718,8 @@ const arrFilms = [
 		wiki_ru: '%D0%9F%D0%BE%D0%BB%D0%B8%D1%86%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F_7:_%D0%9C%D0%B8%D1%81%D1%81%D0%B8%D1%8F_%D0%B2_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5',
 	},
 },
-{
-	id: 'policeyskaya_tachka_2015',
-	title: { ua: 'Полицейская тачка', en: 'Cop Car', },
-	year: 2015,
-	country: { usa: 1, },
-	internet: {
-		imdb: '3813310',
-		wiki_ru: '%D0%9F%D0%BE%D0%BB%D0%B8%D1%86%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B0%D1%87%D0%BA%D0%B0',
-	},
-	cast: {
-		kevin_bacon_08071958: 1,
-	},
-},
+
+
 {
 	id: 'policeyskiy_2000_goda_1993',
 	title: { ua: 'Полицейский 2000 года', en: 'TC 2000', },
@@ -6409,19 +6485,8 @@ const arrFilms = [
 		danny_trejo_16051944: 1,
 	},
 },
-{
-	id: 'slepaya_yarost_1989',
-	title: { ua: 'Слепая ярость', en: 'Blind Fury', },
-	year: 1989,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0096945',
-		wiki_ru: '%D0%A1%D0%BB%D0%B5%D0%BF%D0%B0%D1%8F_%D1%8F%D1%80%D0%BE%D1%81%D1%82%D1%8C',
-	},
-	cast: {
-		rutger_hauer_23011944: 1,
-	},
-},
+
+
 {
 	id: 'slezy_solnca_2003',
 	title: { ua: 'Слёзы солнца', en: 'Tears of the Sun', },
@@ -6719,21 +6784,7 @@ const arrFilms = [
 		brenda_bakke_15051963: 1,
 	},
 },
-{
-	id: 'striptiz_1996',
-	title: { ua: 'Стриптиз', en: 'Striptease', },
-	year: 1996,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0117765',
-		wiki_ru: '%D0%A1%D1%82%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D0%B7_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		demi_moore_11111962: 1,
-		ving_rhames_12051959: 1,
-		patrick_swayze_18081952: 1,
-	},
-},
+
 {
 	id: 'sudniy_den_2008',
 	title: { ua: 'Судный день', en: 'Doomsday', },
