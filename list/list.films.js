@@ -299,6 +299,12 @@ const arrFilms = [
 	cast: { jason_statham_26071967: 1, amy_smart_26031976: 1, },
 },
 {
+	id: 'i_t_2016', title: { ua: 'Ай Ті', en: 'I.T.', }, year: 2016, country: { irl: 1, fra: 1, usa: 1, },
+	genre: { thriller: 1, }, hash: { cyber: 1, },
+	internet: { imdb: '2679552', wiki_ru: '%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82._%D0%94%D0%BE%D1%81%D1%82%D1%83%D0%BF_%D0%BD%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D0%BD', },
+	cast: { pierce_brosnan_16051953: 1, },
+},
+{
 	id: 'a_x_l_2018', title: { ua: 'Аксель', en: 'A-X-L', }, year: 2018, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, drama: 1, }, hash: { techno: 1, young: 1, robot: 1, },
 	internet: { imdb: '5709188', wiki_ua: '%D0%90%D0%BA%D1%81%D0%B5%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -531,7 +537,7 @@ const arrFilms = [
 },
 {
 	id: 'hard_target_1993', title: { ua: 'Важка мішень', en: 'Hard Target', }, year: 1993, country: { usa: 1, },
-	genre: { action: 1, thriller: 1, crime: 1, }, hash: { fight: 1, },
+	genre: { action: 1, thriller: 1, crime: 1, }, hash: { fight: 1, hunting: 1, },
 	internet: { imdb: '0107076', wiki_ua: '%D0%92%D0%B0%D0%B6%D0%BA%D0%B0_%D0%BC%D1%96%D1%88%D0%B5%D0%BD%D1%8C', ashdivip: '19859', },
 	cast: { jean_claude_van_damme_18101960: 1, yancy_butler_02071970: 1, arnold_vosloo_16061962: 1, },
 },
@@ -558,6 +564,11 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1136617', wiki_ua: '%D0%92%D0%B1%D0%B8%D0%B2%D1%86%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
 	cast: { tilda_swinton_05111960: 1, },
+},
+{
+	id: 'l_ours_1988', title: { ua: 'Ведмідь', en: 'L\'ours', }, year: 1988, country: { fra: 1, },
+	genre: { adventure: 1, }, hash: { animal: 1, bear: 1, },
+	internet: { imdb: '0095800', wiki_ru: '%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1988)', },
 },
 {
 	id: 'cocaine_bear_2023', title: { ua: 'Ведмідь під кайфом', en: 'Cocaine Bear', }, year: 2023, country: { usa: 1, },
@@ -739,6 +750,12 @@ const arrFilms = [
 	cast: { charlie_sheen_03091965: 1, valeria_golino_22101965: 1, brenda_bakke_15051963: 1, lloyd_bridges_15011913: 1, rowan_atkinson_06011955: 1, richard_crenna_30111926: 1, martin_sheen_03081940: 1, },
 },
 {
+	id: 'the_professor_and_the_madman_2019', title: { ua: 'Геній і безумець', en: 'The Professor and the Madman', }, year: 2019, country: { irl: 1, },
+	genre: { drama: 1, }, hash: { psycho: 1, madhouse: 1, },
+	internet: { imdb: '5932728', wiki_ua: '%D0%93%D0%B5%D0%BD%D1%96%D0%B9_%D1%96_%D0%B1%D0%B5%D0%B7%D1%83%D0%BC%D0%B5%D1%86%D1%8C', },
+	cast: { mel_gibson_03011956: 1, natalie_dormer_11021982: 1, sean_penn_17081960: 1, },
+},
+{
 	id: 'geoshtorm_2017', title: { ua: 'Геошторм', en: 'Geostorm', }, year: 2017, country: { usa: 1, },
 	genre: { disaster: 1, sci_fi: 1, }, hash: { space: 1, },
 	internet: { imdb: '1981128', wiki_ua: '%D0%93%D0%B5%D0%BE%D1%88%D1%82%D0%BE%D1%80%D0%BC', },
@@ -810,8 +827,13 @@ const arrFilms = [
 	cast: { halle_berry_14081966: 1, penelope_cruz_28041974: 1, },
 },
 {
+	id: 'squid_game_2021', title: { ua: 'Гра в кальмара', en: 'Squid Game', }, year: 2021, country: { kor: 1, },
+	genre: { serial: 1, horror: 1, surviving: 1, }, hash: { quest: 1, surviving: 1, },
+	internet: { imdb: '10919420', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%B2_%D0%BA%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D1%80%D0%B0', },
+},
+{
 	id: 'surviving_the_game_1994', title: { ua: 'Гра на виживання', en: 'Surviving the Game', }, year: 1994, country: { usa: 1, },
-	genre: { action: 1, crime: 1, adventure: 1, }, hash: { hunting: 1, surviving: 1, trap: 1, },
+	genre: { action: 1, crime: 1, adventure: 1, }, hash: { hunting: 1, surviving: 1, },
 	internet: { imdb: '0111323', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1994)', },
 	cast: { ice_t_16021958: 1, rutger_hauer_23011944: 1, gary_busey_29061944: 1, },
 },
@@ -823,7 +845,7 @@ const arrFilms = [
 },
 {
 	id: 'blacklight_2022', title: { ua: 'Гра тіней', en: 'Blacklight', }, year: 2022, country: { hkg: 1, },
-	genre: { action: 1, },
+	genre: { action: 1, }, hash: { politic: 1, },
 	internet: { imdb: '14060094', wiki_ru: '%D0%98%D0%B3%D1%80%D0%B0_%D1%82%D0%B5%D0%BD%D0%B5%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2022)', },
 	cast: { liam_neeson_07061952: 1, },
 },
@@ -1024,6 +1046,12 @@ const arrFilms = [
 	cast: { arnold_schwarzenegger_30071947: 1, danny_devito_17111944: 1, },
 },
 {
+	id: 'the_ring_2020', title: { ua: 'Дзвінок', en: 'The Ring', }, year: 2002, country: { usa: 1, },
+	genre: { horror: 1, mystic: 1, },
+	internet: { imdb: '0298130', wiki_ua: '%D0%94%D0%B7%D0%B2%D1%96%D0%BD%D0%BE%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2002)', },
+	cast: { naomi_watts_28091968: 1, },
+},
+{
 	id: 'divergent_2014', title: { ua: 'Дивергент', en: 'Divergent', }, year: 2014, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, },
 	internet: { imdb: '1840309', wiki_ua: '%D0%94%D0%B8%D0%B2%D0%B5%D1%80%D0%B3%D0%B5%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1121,6 +1149,12 @@ const arrFilms = [
 	cast: { charlie_sheen_03091965: 1, },
 },
 {
+	id: 'the_experiment_2010', title: { ua: 'Експеримент', en: 'The Experiment', }, year: 2010, country: { usa: 1, },
+	genre: { thriller: 1, }, hash: { prison: 1, surviving: 1, },
+	internet: { imdb: '0997152', wiki_ua: '%D0%95%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2010)', },
+	cast: { adrien_brody_14041973: 1, forest_whitaker_15071961: 1, },
+},
+{
 	id: 'elysium_2013', title: { ua: 'Елізіум', en: 'Elysium', }, year: 2013, country: { usa: 1, },
 	genre: { action: 1, thriller: 1, sci_fi: 1, }, hash: { future: 1, space: 1, techno: 1, },
 	internet: { imdb: '1535108', wiki_ua: '%D0%95%D0%BB%D1%96%D0%B7%D1%96%D1%83%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '12799', },
@@ -1146,7 +1180,7 @@ const arrFilms = [
 },
 {
 	id: 'life_stinks_1991', title: { ua: 'Життя лайно', en: 'Life Stinks', }, year: 1991, country: { usa: 1, },
-	genre: { comedy: 1, },
+	genre: { comedy: 1, }, hash: { politic: 1, },
 	internet: { imdb: '0102303', wiki_ru: '%D0%96%D0%B8%D0%B7%D0%BD%D1%8C_%E2%80%94_%D0%B4%D0%B5%D1%80%D1%8C%D0%BC%D0%BE', },
 },
 {
@@ -1180,7 +1214,7 @@ const arrFilms = [
 },
 {
 	id: 'dimenticare_Palermo_1990', title: { ua: 'Забути Палермо', en: 'Dimenticare Palermo', }, year: 1990, country: { usa: 1, },
-	genre: { thriller: 1, crime: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { politic: 1, },
 	internet: { imdb: '0099430', wiki_ru: '%D0%97%D0%B0%D0%B1%D1%8B%D1%82%D1%8C_%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 	cast: { james_belushi_15061954: 1, philippe_noiret_01101930: 1, },
 },
@@ -1250,10 +1284,21 @@ const arrFilms = [
 	internet: { imdb: '0406375', wiki_ua: '%D0%97%D0%B0%D1%82%D1%83%D1%80%D0%B0:_%D0%9A%D0%BE%D1%81%D0%BC%D1%96%D1%87%D0%BD%D0%B0_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B0', ashdivip: '16057', },
 },
 {
+	id: 'cutaway_2000', title: { ua: 'Затяжний стрибок', en: 'Cutaway', }, year: 2000, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { skydive: 1, },
+	internet: { imdb: '0211792', wiki_ru: '%D0%97%D0%B0%D1%82%D1%8F%D0%B6%D0%BD%D0%BE%D0%B9_%D0%BF%D1%80%D1%8B%D0%B6%D0%BE%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	cast: { tom_berenger_31051949: 1, stephen_baldwin_12051966: 1, casper_van_dien_18121968: 1, },
+},
+{
 	id: 'twisted_2004', title: { ua: 'Збоченка', en: 'Twisted', }, year: 2004, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0315297', wiki_ru: '%D0%90%D0%BC%D0%BD%D0%B5%D0%B7%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2004)', },
 	cast: { ashley_judd_19041968: 1, samuel_l_jackson_21121948: 1, andy_garcia_12041956: 1, },
+},
+{
+	id: 'sound_of_noise_2010', title: { ua: 'Звуки шуму', en: 'Sound of Noise', }, year: 2010, country: { swe: 1, fra: 1, },
+	genre: { comedy: 1, crime: 1, },
+	internet: { imdb: '1278449', wiki_ua: '%D0%97%D0%B2%D1%83%D0%BA%D0%B8_%D1%88%D1%83%D0%BC%D1%83', },
 },
 {
 	id: 'total_recall_1990', title: { ua: 'Згадати все', en: 'Total Recall', }, year: 1990, country: { usa: 1, },
@@ -1274,16 +1319,71 @@ const arrFilms = [
 	cast: { tom_hanks_09071956: 1, michael_clarke_duncan_10121957: 1, david_morse_11101953: 1, bonnie_hunt_22091961: 1, barry_pepper_04041970: 1, },
 },
 {
+	id: 'the_evil_dead_1981', title: { ua: 'Зловісні мерці', en: 'The Evil Dead', }, year: 1981, country: { usa: 1, },
+	genre: { horror: 1, trash: 1, },
+	internet: { imdb: '0083907', wiki_ua: '%D0%97%D0%BB%D0%BE%D0%B2%D1%96%D1%81%D0%BD%D1%96_%D0%BC%D0%B5%D1%80%D1%86%D1%96', },
+},
+{
 	id: 'get_shorty_1995', title: { ua: 'Знайти коротуна', en: 'Get Shorty', }, year: 1995, country: { usa: 1, },
 	genre: { comedy: 1, crime: 1, thriller: 1, },
 	internet: { imdb: '0113161', wiki_ua: '%D0%97%D0%BD%D0%B0%D0%B9%D1%82%D0%B8_%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D1%83%D0%BD%D0%B0', },
 	cast: { john_travolta_18021954: 1, danny_devito_17111944: 1, rene_russo_17021954: 1, },
 },
 {
+	id: 'znachor_1982', title: { ua: 'Знахар', en: 'Znachor', }, year: 1982, country: { pol: 1, },
+	genre: { drama: 1, }, hash: { medicine: 1, },
+	internet: { imdb: '0084953', wiki_ua: '%D0%97%D0%BD%D0%B0%D1%85%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1982)', },
+},
+{
 	id: 'missing_in_action_1984', title: { ua: 'Зниклі безвісти', en: 'Missing in Action', }, year: 1984, country: { usa: 1, },
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0087727', wiki_ua: '%D0%97%D0%BD%D0%B8%D0%BA%D0%BB%D1%96_%D0%B1%D0%B5%D0%B7%D0%B2%D1%96%D1%81%D1%82%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { chuck_norris_10031940: 1, },
+},
+{
+	id: 'trucks_1997', title: { ua: 'Зона 51', en: 'Trucks', }, year: 1997, country: { usa: 1, },
+	genre: { mystic: 1, sci_fi: 1, }, hash: { cars: 1, },
+	internet: { imdb: '0120380', wiki_ua: '%D0%97%D0%BE%D0%BD%D0%B0_51_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: 'drop_zone_1994', title: { ua: 'Зона висадки', en: 'Drop Zone', }, year: 1994, country: { usa: 1, },
+	genre: { action: 1, }, hash: { skydive: 1, },
+	internet: { imdb: '0109676', wiki_ua: '%D0%97%D0%BE%D0%BD%D0%B0_%D0%B2%D0%B8%D1%81%D0%B0%D0%B4%D0%BA%D0%B8', },
+	cast: { wesley_snipes_31071962: 1, gary_busey_29061944: 1, yancy_butler_02071970: 1, },
+},
+{
+	id: 'speed_zone_1989', title: { ua: 'Зона швидкості', en: 'Speed Zone', }, year: 1989, country: { can: 1, },
+	genre: { comedy: 1, }, hash: { race: 1, cars: 1, },
+	internet: { imdb: '0098369', wiki_ru: '%D0%97%D0%BE%D0%BD%D0%B0_%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B8', },
+},
+{
+	id: 'zootopia_2016', title: { ua: 'Зоотрополіс', en: 'Zootopia', }, year: 2016, country: { usa: 1, },
+	genre: { cartoon: 1, }, hash: { police: 1, },
+	internet: { imdb: '2948356', wiki_ua: '%D0%97%D0%BE%D0%BE%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%96%D1%81', },
+},
+{
+	id: 'stargate_1994', title: { ua: 'Зоряна брама', en: 'Stargate', }, year: 1994, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { planet: 1, battle: 1, desert: 1, },
+	internet: { imdb: '0111282', wiki_ua: '%D0%97%D0%BE%D1%80%D1%8F%D0%BD%D0%B0_%D0%B1%D1%80%D0%B0%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { kurt_russell_17031951: 1, james_spader_07021960: 1, },
+},
+{
+	id: 'starship_troopers_1997', title: { ua: 'Зоряний десант', en: 'Starship Troopers', }, year: 1997, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { battle: 1, aliens: 1, future: 1, },
+	internet: { imdb: '0120201', wiki_ua: '%D0%97%D0%BE%D1%80%D1%8F%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D1%81%D0%B0%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { casper_van_dien_18121968: 1, amy_smart_26031976: 1, dean_norris_08041963: 1, denise_richards_17021971: 1, },
+},
+{
+	id: 'critters_1986', title: { ua: 'Зубастики', en: 'Critters', }, year: 1986, country: { usa: 1, },
+	genre: { horror: 1, comedy: 1, sci_fi: 1, }, hash: { aliens: 1, },
+	internet: { imdb: '0090887', wiki_ua: '%D0%97%D1%83%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B8', },
+	cast: { billy_zane_24021966: 1, },
+},
+{
+	id: 'tooth_fairy_2010', title: { ua: 'Зубная фея', en: 'Tooth Fairy', }, year: 2010, country: { usa: 1, },
+	genre: { fantasy: 1, comedy: 1, },
+	internet: { imdb: '0808510', wiki_ua: '%D0%97%D1%83%D0%B1%D0%BD%D0%B0_%D1%84%D0%B5%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2010)', },
+	cast: { dwayne_johnson_02051972: 1, ashley_judd_19041968: 1, billy_crystal_14031948: 1, },
 },
 {
 	id: 'toy_soldiers_1991', title: { ua: 'Іграшкові солдатики', en: 'Toy Soldiers', }, year: 1991, country: { usa: 1, },
@@ -1353,6 +1453,11 @@ const arrFilms = [
 	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, sea: 1, island: 1, jungle: 1, newyork: 1, },
 	internet: { imdb: '0360717', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
 	cast: { naomi_watts_28091968: 1, jack_black_28081969: 1, adrien_brody_14041973: 1, kyle_chandler_17091965: 1, },
+},
+{
+	id: 'escape_room_2017', title: { ua: 'Клаустрофобія', en: 'Escape Room', }, year: 2017, country: { usa: 1, },
+	genre: { horror: 1, thriller: 1, }, hash: { quest: 1, surviving: 1, },
+	internet: { imdb: '5159414', wiki_ua: '%D0%9A%D0%BB%D0%B0%D1%83%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%BE%D0%B1%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'cobra_1986', title: { ua: 'Кобра', en: 'Cobra', }, year: 1986, country: { usa: 1, },
@@ -1476,7 +1581,7 @@ const arrFilms = [
 },
 {
 	id: 'the_shallows_2016', title: { ua: 'Мілина', en: 'The Shallows', }, year: 2016, country: { usa: 1, },
-	genre: { horror: 1, drama: 1, }, hash: { trap: 1, shark: 1, beach: 1, surviving: 1, },
+	genre: { horror: 1, drama: 1, }, hash: { trap: 1, shark: 1, surfing: 1, beach: 1, surviving: 1, },
 	internet: { imdb: '4052882', wiki_ua: '%D0%9C%D1%96%D0%BB%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { lively_blake_25081987: 1, },
 },
@@ -1624,7 +1729,7 @@ const arrFilms = [
 },
 {
 	id: 'point_break_1991', title: { ua: 'На гребені хвилі', en: 'Point Break', }, year: 1991, country: { usa: 1, },
-	genre: { action: 1, thriller: 1, crime: 1, }, hash: { police: 1, robbery: 1, },
+	genre: { action: 1, thriller: 1, crime: 1, }, hash: { skydive: 1, surfing: 1, police: 1, robbery: 1, },
 	internet: { imdb: '0102685', wiki_ua: '%D0%9D%D0%B0_%D0%B3%D1%80%D0%B5%D0%B1%D0%B5%D0%BD%D1%96_%D1%85%D0%B2%D0%B8%D0%BB%D1%96', ashdivip: '14484', },
 	cast: { patrick_swayze_18081952: 1, keanu_reeves_02091964: 1, gary_busey_29061944: 1, },
 },
@@ -1891,6 +1996,11 @@ const arrFilms = [
 	cast: { johnny_depp_09061963: 1, },
 },
 {
+	id: 'el_hoyo_2019', title: { ua: 'Платформа', en: 'El hoyo', }, year: 2019, country: { esp: 1, },
+	genre: { thriller: 1, },
+	internet: { imdb: '8228288', wiki_ua: '%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: 'the_last_stand_2013', title: { ua: 'Повернення героя', en: 'The Last Stand', }, year: 2013, country: { usa: 1, },
 	genre: { action: 1, },
 	internet: { imdb: '1549920', wiki_ua: '%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B3%D0%B5%D1%80%D0%BE%D1%8F', },
@@ -2026,6 +2136,12 @@ const arrFilms = [
 	cast: { zoe_saldana_19061978: 1,},
 },
 {
+	id: 'one_flew_over_the_cuckoo_s_nest_1975', title: { ua: 'Пролітаючи над гніздом зозулі', en: 'One Flew Over the Cuckoo\'s Nest', }, year: 1975, country: { usa: 1, },
+	genre: { drama: 1, comedy: 1, }, hash: { madhouse: 1, },
+	internet: { imdb: '5932728', wiki_ua: '%D0%9F%D1%80%D0%BE%D0%BB%D1%96%D1%82%D0%B0%D1%8E%D1%87%D0%B8_%D0%BD%D0%B0%D0%B4_%D0%B3%D0%BD%D1%96%D0%B7%D0%B4%D0%BE%D0%BC_%D0%B7%D0%BE%D0%B7%D1%83%D0%BB%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { jack_nicholson_22041937: 1, danny_devito_17111944: 1, christopher_lloyd_22101938: 1, },
+},
+{
 	id: 'final_destination_2_2003', title: { ua: 'Пункт призначення - 2', en: 'Final Destination 2', }, year: 2003, country: { usa: 1, },
 	genre: { horror: 1, thriller: 1, trash: 1, }, hash: { young: 1, },
 	internet: { imdb: '0309593', wiki_ua: '%D0%9F%D1%83%D0%BD%D0%BA%D1%82_%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_2', ashdivip: '98914', },
@@ -2094,6 +2210,12 @@ const arrFilms = [
 	internet: { imdb: '12964320', wiki_ua: '%D0%A0%D0%BE%D0%BB%D1%8C%D0%BE%D0%B2%D1%96_%D1%96%D0%B3%D1%80%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
+	id: 'demolition_man_1993', title: { ua: 'Руйнівник', en: 'Demolition Man', }, year: 1993, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, utopia: 1, police: 1, },
+	internet: { imdb: '0106697', wiki_ua: '%D0%A0%D1%83%D0%B9%D0%BD%D1%96%D0%B2%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { sylvester_stallone_06071946: 1, wesley_snipes_31071962: 1, sandra_bullock_26071964: 1, },
+},
+{
 	id: 'sabotazh_2014', title: { ua: 'Саботаж', en: 'Sabotage', }, year: 2014, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1742334', wiki_ua: '%D0%A1%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B6_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2014)', },
@@ -2136,7 +2258,7 @@ const arrFilms = [
 },
 {
 	id: 'soul_surfer_2011', title: { ua: 'Серфер души', en: 'Soul Surfer', }, year: 2011, country: { usa: 1, },
-	genre: { drama: 1, biography: 1, }, hash: { sport: 1, young: 1, },
+	genre: { drama: 1, biography: 1, }, hash: { surfing: 1, young: 1, },
 	internet: { imdb: '1596346', wiki_ua: '%D0%A1%D0%B5%D1%80%D1%84%D0%B5%D1%80_%D0%B4%D1%83%D1%88%D1%96', },
 },
 {
@@ -2206,6 +2328,16 @@ const arrFilms = [
 	cast: { rutger_hauer_23011944: 1, },
 },
 {
+	id: 'escape_room_2019', title: { ua: 'Смертельний лабіринт', en: 'Escape Room', }, year: 2019, country: { usa: 1, },
+	genre: { horror: 1, thriller: 1, }, hash: { quest: 1, surviving: 1, },
+	internet: { imdb: '5886046', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82', },
+},
+{
+	id: 'escape_room_2_2021', title: { ua: 'Смертельний лабіринт - 2', en: 'Escape Room: Tournament of Champions', }, year: 2021, country: { usa: 1, },
+	genre: { horror: 1, thriller: 1, }, hash: { quest: 1, surviving: 1, },
+	internet: { imdb: '9844522', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82_2:_%D0%9D%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B0_%D0%B2%D1%81%D1%8E%D0%B4%D0%B8', },
+},
+{
 	id: 'wedlock_1991', title: { ua: 'Смертельні узи', en: 'Wedlock', }, year: 1991, country: { usa: 1, },
 	genre: { action: 1, crime: 1, sci_fi: 1, }, hash: { prison: 1, techno: 1, },
 	internet: { imdb: '0103239', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%96_%D1%83%D0%B7%D0%B8', },
@@ -2216,6 +2348,12 @@ const arrFilms = [
 	genre: { comedy: 1, horror: 1, fantasy: 1, },
 	internet: { imdb: '0104070', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D1%8C_%D1%97%D0%B9_%D0%BB%D0%B8%D1%87%D0%B8%D1%82%D1%8C', },
 	cast: { bruce_willis_19031955: 1, goldie_hawn_21111945: 1, },
+},
+{
+	id: 'the_specialist_1994', title: { ua: 'Спеціаліст', en: 'The Specialist', }, year: 1994, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '0111255', wiki_ua: '%D0%A1%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%96%D1%81%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { sylvester_stallone_06071946: 1, sharon_stone_10031958: 1, },
 },
 {
 	id: 'deception_2008', title: { ua: 'Список контактів', en: 'Deception', }, year: 2008, country: { usa: 1, },
@@ -2269,6 +2407,12 @@ const arrFilms = [
 	genre: { comedy: 1, fantasy: 1, },
 	internet: { imdb: '21942866', wiki_ru: '%D0%93%D0%B5%D1%80%D0%BE%D0%B9_%D0%BD%D0%B0%D1%88%D0%B8%D1%85_%D1%81%D0%BD%D0%BE%D0%B2', },
 	cast: { nicolas_cage_07011964: 1, },
+},
+{
+	id: 'Tango_&_Cash_1989', title: { ua: 'Танго і Кеш', en: 'Tango & Cash', }, year: 1989, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, crime: 1, },
+	internet: { imdb: '0098439', wiki_ua: '%D0%A2%D0%B0%D0%BD%D0%B3%D0%BE_%D1%96_%D0%9A%D0%B5%D1%88', },
+	cast: { sylvester_stallone_06071946: 1, kurt_russell_17031951: 1, savely_kramarov_13101934: 1, },
 },
 {
 	id: 'cars_2006', title: { ua: 'Тачки', en: 'Cars', }, year: 2006, country: { usa: 1, },
@@ -2541,7 +2685,7 @@ const arrFilms = [
 },
 {
 	id: 'black_dog_1998', title: { ua: 'Чорний пес', en: 'Black Dog', }, year: 1998, country: { usa: 1, },
-	genre: { action: 1, drama: 1, crime: 1, }, hash: { road: 1, cars: 1, },
+	genre: { action: 1, drama: 1, crime: 1, }, hash: { road: 1, cars: 1, truckers: 1, },
 	internet: { imdb: '0120610', wiki_ru: '%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D1%91%D1%81_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', ashdivip: '17506', },
 	cast: { patrick_swayze_18081952: 1, },
 },
@@ -2606,6 +2750,12 @@ const arrFilms = [
 	id: 'jaws_4_1987', title: { ua: 'Щелепи - 4', en: 'Jaws: The Revenge', }, year: 1987, country: { usa: 1, },
 	genre: { horror: 1, thriller: 1, }, hash: { shark: 1, beach: 1, },
 	internet: { imdb: '0093300', wiki_ua: '%D0%A9%D0%B5%D0%BB%D0%B5%D0%BF%D0%B8_4:_%D0%9F%D0%BE%D0%BC%D1%81%D1%82%D0%B0', },
+},
+{
+	id: 'over_the_top_1987', title: { ua: 'Щосили', en: 'Over the Top', }, year: 1987, country: { usa: 1, },
+	genre: { action: 1, }, hash: { armwrestling: 1, truckers: 1, },
+	internet: { imdb: '0093692', wiki_ua: '%D0%A9%D0%BE%D1%81%D0%B8%D0%BB%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { sylvester_stallone_06071946: 1, },
 },
 {
 	id: 'i_am_legend_2007', title: { ua: 'Я - легенда', en: 'I Am Legend', }, year: 2007, country: { usa: 1, },
@@ -2698,236 +2848,23 @@ const arrFilms = [
 
 
 
-{
-	id: 'zatyazhnoy_pryzhok_2000',
-	title: { ua: 'Затяжной прыжок', en: 'Cutaway', },
-	year: 2000,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0211792',
-		wiki_ru: '%D0%97%D0%B0%D1%82%D1%8F%D0%B6%D0%BD%D0%BE%D0%B9_%D0%BF%D1%80%D1%8B%D0%B6%D0%BE%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		baskino: '9345',
-	},
-	cast: {
-		tom_berenger_31051949: 1,
-		stephen_baldwin_12051966: 1,
-		casper_van_dien_18121968: 1,
-	},
-},
-{
-	id: 'zveropolis_2016',
-	title: { ua: 'Зверополис', en: 'Zootopia', },
-	year: 2016,
-	country: { usa: 1, },
-	internet: {
-		imdb: '2948356',
-		wiki_ru: '%D0%97%D0%B2%D0%B5%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%81',
-		youtube: 'tAi-Uem1fRQ',
-	},
-	cartoon: 1,
-},
-{
-	id: 'zvezdnie_vrata_1994',
-	title: { ua: 'Звёздные врата', en: 'Stargate', },
-	year: 1994,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0111282',
-		wiki_ru: '%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D1%80%D0%B0%D1%82%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		kurt_russell_17031951: 1,
-		james_spader_07021960: 1,
-	},
-},
-{
-	id: 'zvezdniy_desant_1997',
-	title: { ua: 'Звёздный десант', en: 'Starship Troopers', },
-	year: 1997,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0120201',
-		wiki_ru: '%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B5%D1%81%D0%B0%D0%BD%D1%82_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		casper_van_dien_18121968: 1,
-		amy_smart_26031976: 1,
-		dean_norris_08041963: 1,
-		denise_richards_17021971: 1,
-	},
-},
-{
-	id: 'zvonok_2020',
-	title: { ua: 'Звонок', en: 'The Ring', },
-	year: 2002,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0298130',
-		wiki_ru: '%D0%97%D0%B2%D0%BE%D0%BD%D0%BE%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2002)',
-	},
-	cast: {
-		naomi_watts_28091968: 1,
-	},
-},
-{
-	id: 'zvuki_shuma_2010',
-	title: { ua: 'Звуки шума', en: 'Sound of Noise', },
-	year: 2010,
-	country: { usa: 1, },
-	internet: {
-		imdb: '1278449',
-		wiki_ru: '%D0%97%D0%B2%D1%83%D0%BA%D0%B8_%D1%88%D1%83%D0%BC%D0%B0',
-	},
-},
 
 
-
-
-
-
-{
-	id: 'znahar_1982',
-	title: { ua: 'Знахарь', en: 'Znachor', },
-	year: 1982,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0084953',
-		wiki_ru: '%D0%97%D0%BD%D0%B0%D1%85%D0%B0%D1%80%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1982)',
-		youtube: 'v89zm9tF8CA',
-	},
-},
-{
-	id: 'zloveschie_mertvecy_1981',
-	title: { ua: 'Зловещие мертвецы', en: 'The Evil Dead', },
-	year: 1981,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0083907',
-		wiki_ru: '%D0%97%D0%BB%D0%BE%D0%B2%D0%B5%D1%89%D0%B8%D0%B5_%D0%BC%D0%B5%D1%80%D1%82%D0%B2%D0%B5%D1%86%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-},
-{
-	id: 'zona_51_1997',
-	title: { ua: 'Зона 51', en: 'Trucks', },
-	year: 1997,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0120380',
-		wiki_ru: '%D0%97%D0%BE%D0%BD%D0%B0_51_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-},
-{
-	id: 'zona_vysadki_1994',
-	title: { ua: 'Зона высадки', en: 'Drop Zone', },
-	year: 1994,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0109676',
-		wiki_ru: '%D0%97%D0%BE%D0%BD%D0%B0_%D0%B2%D1%8B%D1%81%D0%B0%D0%B4%D0%BA%D0%B8',
-	},
-	cast: {
-		wesley_snipes_31071962: 1,
-		gary_busey_29061944: 1,
-		yancy_butler_02071970: 1,
-	},
-},
-{
-	id: 'zona_skorosti_1989',
-	title: { ua: 'Зона скорости', en: 'Speed Zone', },
-	year: 1989,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0098369',
-		wiki_ru: '%D0%97%D0%BE%D0%BD%D0%B0_%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B8',
-	},
-},
-{
-	id: 'zubastiki_1986',
-	title: { ua: 'Зубастики', en: 'Critters', },
-	year: 1986,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0090887',
-		wiki_ru: '%D0%97%D1%83%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		billy_zane_24021966: 1,
-	},
-},
-{
-	id: 'zubnaya_feya_2010',
-	title: { ua: 'Зубная фея', en: 'Tooth Fairy', },
-	year: 2010,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0808510',
-		wiki_ru: '%D0%97%D1%83%D0%B1%D0%BD%D0%B0%D1%8F_%D1%84%D0%B5%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2010)',
-	},
-	cast: {
-		dwayne_johnson_02051972: 1,
-		ashley_judd_19041968: 1,
-		billy_crystal_14031948: 1,
-	},
-},
 {
 	id: 'igra_1997',
 	title: { ua: 'Игра', en: 'The Game', },
 	year: 1997,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0119174',
-		wiki_ru: '%D0%98%D0%B3%D1%80%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1997)',
-	},
-	cast: {
-		michael_douglas_25091944: 1,
-		sean_penn_17081960: 1,
-	},
+	internet: { imdb: '0119174', wiki_ua: '%D0%93%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { michael_douglas_25091944: 1, sean_penn_17081960: 1, },
 },
-{
-	id: 'igra_v_kalmara_2021',
-	title: { ua: 'Игра в кальмара', en: 'Squid Game', },
-	year: 2021,
-	country: { usa: 1, },
-	internet: {
-		imdb: '10919420',
-		wiki_ru: '%D0%98%D0%B3%D1%80%D0%B0_%D0%B2_%D0%BA%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D1%80%D0%B0',
-	},
-	serial: 1,
-},
-
-
-
-{
-	id: 'igry_razumov_2019',
-	title: { ua: 'Игры разумов', en: 'The Professor and the Madman', },
-	year: 2019,
-	country: { usa: 1, },
-	internet: {
-		imdb: '5932728',
-		wiki_ru: '%D0%98%D0%B3%D1%80%D1%8B_%D1%80%D0%B0%D0%B7%D1%83%D0%BC%D0%BE%D0%B2',
-	},
-	cast: {
-		mel_gibson_03011956: 1,
-		natalie_dormer_11021982: 1,
-		sean_penn_17081960: 1,
-	},
-},
-
-
-
-
 {
 	id: 'igrushka_1976',
 	title: { ua: 'Игрушка', en: 'Le jouet', },
 	year: 1976,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0074720',
-		wiki_ru: '%D0%98%D0%B3%D1%80%D1%83%D1%88%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1976)',
-	},
-	cast: {
-		pierre_richard_16081934: 1,
-	},
+	internet: { imdb: '0074720', wiki_ua: '%D0%86%D0%B3%D1%80%D0%B0%D1%88%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { pierre_richard_16081934: 1, },
 },
 {
 	id: 'igra_prestolov_2011',
@@ -2936,19 +2873,10 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0944947',
-		wiki_ru: '%D0%98%D0%B3%D1%80%D0%B0_%D0%BF%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BB%D0%BE%D0%B2_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB)',
+		wiki_ua: '%D0%93%D1%80%D0%B0_%D0%BF%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BB%D1%96%D0%B2',
 	},
 	serial: 1,
-	cast: {
-		emilia_clarke_23101986: 1,
-		lena_headey_03101973: 1,
-		peter_dinklage_11061969: 1,
-		sophie_turner_21021996: 1,
-		jason_momoa_01081979: 1,
-		sean_bean_17041959: 1,
-		natalie_dormer_11021982: 1,
-		rose_leslie_09021987: 1,
-	},
+	cast: { emilia_clarke_23101986: 1, lena_headey_03101973: 1, peter_dinklage_11061969: 1, sophie_turner_21021996: 1, jason_momoa_01081979: 1, sean_bean_17041959: 1, natalie_dormer_11021982: 1, rose_leslie_09021987: 1, },
 },
 {
 	id: 'igry_killerov_2011',
@@ -2957,15 +2885,10 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '1436568',
-		wiki_ru: '%D0%98%D0%B3%D1%80%D1%8B_%D0%BA%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%D0%BE%D0%B2',
+		wiki_ua: '%D0%86%D0%B3%D1%80%D0%B8_%D0%BA%D1%96%D0%BB%D0%B5%D1%80%D1%96%D0%B2',
 	},
-	cast: {
-		jean_claude_van_damme_18101960: 1,
-		scott_adkins_17061976: 1,
-	},
+	cast: { jean_claude_van_damme_18101960: 1, scott_adkins_17061976: 1, },
 },
-
-
 {
 	id: 'idealniy_neznakomec_2007',
 	title: { ua: 'Идеальный незнакомец', en: 'Perfect Stranger', },
@@ -2973,12 +2896,9 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0457433',
-		wiki_ru: '%D0%98%D0%B4%D0%B5%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BD%D0%B5%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D0%B5%D1%86',
+		wiki_ua: '%D0%86%D0%B4%D0%B5%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BD%D0%B5%D0%B7%D0%BD%D0%B0%D0%B9%D0%BE%D0%BC%D0%B5%D1%86%D1%8C',
 	},
-	cast: {
-		bruce_willis_19031955: 1,
-		halle_berry_14081966: 1,
-	},
+	cast: { bruce_willis_19031955: 1, halle_berry_14081966: 1, },
 },
 {
 	id: 'identifikacia_Borna_2002',
@@ -2987,11 +2907,9 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0258463',
-		wiki_ru: '%D0%98%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_%D0%91%D0%BE%D1%80%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		wiki_ua: '%D0%86%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F_%D0%91%D0%BE%D1%80%D0%BD%D0%B0',
 	},
-	cast: {
-		matt_damon_08101970: 1,
-	},
+	cast: { matt_damon_08101970: 1, },
 },
 {
 	id: 'izgoi_1983',
@@ -3000,14 +2918,9 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0086066',
-		wiki_ru: '%D0%98%D0%B7%D0%B3%D0%BE%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1983)',
+		wiki_ua: '%D0%86%D0%B7%D0%B3%D0%BE%D1%97_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
-	cast: {
-		patrick_swayze_18081952: 1,
-		tom_cruise_03071962: 1,
-		matt_dillon_18021964: 1,
-		emilio_estevez_12051962: 1,
-	},
+	cast: { patrick_swayze_18081952: 1, tom_cruise_03071962: 1, matt_dillon_18021964: 1, emilio_estevez_12051962: 1, },
 },
 {
 	id: 'izgoy_2000',
@@ -3016,27 +2929,14 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0162222',
-		wiki_ru: '%D0%98%D0%B7%D0%B3%D0%BE%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2000)',
-		kinoteatr: 'https://www.kino-teatr.ru/kino/movie/hollywood/11141/titr/',
+		wiki_ua: '%D0%92%D0%B8%D0%B3%D0%BD%D0%B0%D0%BD%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
-	cast: {
-		tom_hanks_09071956: 1,
-		dmitry_dyuzhev_09071978: 1,
-	},
+	cast: { tom_hanks_09071956: 1, dmitry_dyuzhev_09071978: 1, },
 },
-{
-	id: 'izo_vseh_sil_1987',
-	title: { ua: 'Изо всех сил', en: 'Over the Top', },
-	year: 1987,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0093692',
-		wiki_ru: '%D0%98%D0%B7%D0%BE_%D0%B2%D1%81%D0%B5%D1%85_%D1%81%D0%B8%D0%BB',
-	},
-	cast: {
-		sylvester_stallone_06071946: 1,
-	},
-},
+
+
+
+
 {
 	id: 'illyuzia_obmana_1_2013',
 	title: { ua: 'Иллюзия обмана - 1', en: 'Now You See Me', },
@@ -3044,12 +2944,9 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '1670345',
-		wiki_ru: '%D0%98%D0%BB%D0%BB%D1%8E%D0%B7%D0%B8%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D0%B0',
+		wiki_ua: '%D0%86%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
-	cast: {
-		woody_harrelson_23071961: 1,
-		morgan_freeman_01061937: 1,
-	},
+	cast: { woody_harrelson_23071961: 1, morgan_freeman_01061937: 1, },
 },
 {
 	id: 'illyuzia_obmana_2_2016',
@@ -3058,12 +2955,9 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '3110958',
-		wiki_ru: '%D0%98%D0%BB%D0%BB%D1%8E%D0%B7%D0%B8%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D0%B0_2',
+		wiki_ua: '%D0%86%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%83:_%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B9_%D0%B0%D0%BA%D1%82',
 	},
-	cast: {
-		woody_harrelson_23071961: 1,
-		morgan_freeman_01061937: 1,
-	},
+	cast: { woody_harrelson_23071961: 1, morgan_freeman_01061937: 1, },
 },
 {
 	id: 'illyuzia_poleta_2005',
@@ -3074,10 +2968,7 @@ const arrFilms = [
 		imdb: '0408790',
 		wiki_ru: '%D0%98%D0%BB%D0%BB%D1%8E%D0%B7%D0%B8%D1%8F_%D0%BF%D0%BE%D0%BB%D1%91%D1%82%D0%B0',
 	},
-	cast: {
-		jodie_foster_19111962: 1,
-		sean_bean_17041959: 1,
-	},
+	cast: { jodie_foster_19111962: 1, sean_bean_17041959: 1, },
 },
 {
 	id: 'imya_rozy_1986',
@@ -3088,9 +2979,7 @@ const arrFilms = [
 		imdb: '0091605',
 		wiki_ru: '%D0%98%D0%BC%D1%8F_%D1%80%D0%BE%D0%B7%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
 	},
-	cast: {
-		sean_connery_25081930: 1,
-	},
+	cast: { sean_connery_25081930: 1, },
 },
 {
 	id: 'Indiana_Johns_1_1981',
@@ -3099,11 +2988,9 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0082971',
-		wiki_ru: '%D0%98%D0%BD%D0%B4%D0%B8%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81:_%D0%92_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%D1%85_%D1%83%D1%82%D1%80%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%B2%D1%87%D0%B5%D0%B3%D0%B0',
+		wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81:_%D0%A3_%D0%BF%D0%BE%D1%88%D1%83%D0%BA%D0%B0%D1%85_%D0%B2%D1%82%D1%80%D0%B0%D1%87%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%B2%D1%87%D0%B5%D0%B3%D0%B0',
 	},
-	cast: {
-		harrison_ford_13071942: 1,
-	},
+	cast: { harrison_ford_13071942: 1, },
 },
 {
 	id: 'Indiana_Johns_2_1984',
@@ -3112,11 +2999,9 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0087469',
-		wiki_ru: '%D0%98%D0%BD%D0%B4%D0%B8%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D0%B8_%D1%85%D1%80%D0%B0%D0%BC_%D1%81%D1%83%D0%B4%D1%8C%D0%B1%D1%8B',
+		wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D1%96_%D0%A5%D1%80%D0%B0%D0%BC_%D0%94%D0%BE%D0%BB%D1%96',
 	},
-	cast: {
-		harrison_ford_13071942: 1,
-	},
+	cast: { harrison_ford_13071942: 1, },
 },
 {
 	id: 'Indiana_Johns_3_1989',
@@ -3125,12 +3010,9 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0097576',
-		wiki_ru: '%D0%98%D0%BD%D0%B4%D0%B8%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D0%B8_%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9_%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D0%BE%D1%85%D0%BE%D0%B4',
+		wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D1%96_%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96%D0%B9_%D1%85%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D0%BE%D1%85%D1%96%D0%B4',
 	},
-	cast: {
-		harrison_ford_13071942: 1,
-		sean_connery_25081930: 1,
-	},
+	cast: { harrison_ford_13071942: 1, sean_connery_25081930: 1, },
 },
 {
 	id: 'inkassator_2009',
@@ -3139,13 +3021,9 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0913354',
-		wiki_ru: '%D0%98%D0%BD%D0%BA%D0%B0%D1%81%D1%81%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2009)',
+		wiki_ua: '%D0%86%D0%BD%D0%BA%D0%B0%D1%81%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2009)',
 	},
-	cast: {
-		jean_reno_30071948: 1,
-		laurence_fishburne_30071961: 1,
-		matt_dillon_18021964: 1,
-	},
+	cast: { jean_reno_30071948: 1, laurence_fishburne_30071961: 1, matt_dillon_18021964: 1, },
 },
 {
 	id: 'interstellar_2014',
@@ -3154,18 +3032,11 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0816692',
-		wiki_ru: '%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B5%D0%BB%D0%BB%D0%B0%D1%80',
-		baskino: '258687',
+		wiki_ua: '%D0%86%D0%BD%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B5%D0%BB%D0%BB%D0%B0%D1%80',
 		moviestape: 'Interstellar',
-		other: [
-			'https://ashdi.vip/vod/2', // uakino.club
-		],
+		ashdivip: '2',
 	},
-	cast: {
-		matthew_mcconaughey_04111969: 1,
-		matt_damon_08101970: 1,
-		casey_affleck_12081975: 1,
-	},
+	cast: { matthew_mcconaughey_04111969: 1, matt_damon_08101970: 1, casey_affleck_12081975: 1, },
 },
 {
 	id: 'irlandec_2019',
@@ -3174,27 +3045,23 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '1302006',
-		wiki_ru: '%D0%98%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D0%B5%D1%86_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2019)',
+		wiki_ua: '%D0%86%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)',
 	},
-	cast: {
-		robert_de_niro_17081943: 1,
-		al_pacino_25041940: 1,
-		joe_pesci_09021943: 1,
-	},
+	cast: { robert_de_niro_17081943: 1, al_pacino_25041940: 1, joe_pesci_09021943: 1, },
 },
-{
-	id: 'iskusstvenniy_intellekt_2016',
-	title: { ua: 'Искусственный интелект', en: 'I.T.', },
-	year: 2016,
-	country: { usa: 1, },
-	internet: {
-		imdb: '2679552',
-		wiki_ru: '%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82._%D0%94%D0%BE%D1%81%D1%82%D1%83%D0%BF_%D0%BD%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D0%BD',
-	},
-	cast: {
-		pierce_brosnan_16051953: 1,
-	},
-},
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3208,46 +3075,24 @@ const arrFilms = [
 	title: { ua: 'Кабаре', en: 'Cabaret', },
 	year: 1972,
 	country: { usa: 1,  },
-	internet: {
-		imdb: '0068327',
-		wiki_ua: '%D0%9A%D0%B0%D0%B1%D0%B0%D1%80%D0%B5_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		liza_minnelli_12031946: 1,
-	},
+	internet: { imdb: '0068327', wiki_ua: '%D0%9A%D0%B0%D0%B1%D0%B0%D1%80%D0%B5_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { liza_minnelli_12031946: 1, },
 },
-
-
-
-
-
 {
 	id: 'kapitan_Marvel_2019',
 	title: { ua: 'Капитан Марвел', en: 'Captain Marvel', },
 	year: 2019,
 	country: { usa: 1, },
-	internet: {
-		imdb: '4154664',
-		wiki_ru: '%D0%9A%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD_%D0%9C%D0%B0%D1%80%D0%B2%D0%B5%D0%BB_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		brie_larson_01101989: 1,
-		samuel_l_jackson_21121948: 1,
-		don_cheadle_29111964: 1,
-	},
+	internet: { imdb: '4154664', wiki_ua: '%D0%9A%D0%B0%D0%BF%D1%96%D1%82%D0%B0%D0%BD_%D0%9C%D0%B0%D1%80%D0%B2%D0%B5%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { brie_larson_01101989: 1, samuel_l_jackson_21121948: 1, don_cheadle_29111964: 1, },
 },
 {
 	id: 'karatel_1989',
 	title: { ua: 'Каратель', en: 'The Punisher', },
 	year: 1989,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0098141',
-		wiki_ru: '%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1989)',
-	},
-	cast: {
-		dolph_lundgren_03111957: 1,
-	},
+	internet: { imdb: '0098141', wiki_ua: '%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1989)', },
+	cast: { dolph_lundgren_03111957: 1, },
 },
 {
 	id: 'kuffs_1992',
@@ -3256,7 +3101,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0104647',
-		wiki_ru: '%D0%9A%D0%B0%D1%84%D1%84%D1%81',
+		wiki_ua: '%D0%9A%D0%B0%D1%84%D1%84%D1%81',
 	},
 	cast: {
 		milla_jovovich_17121975: 1,
@@ -3270,8 +3115,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0097659',
-		wiki_ru: '%D0%9A%D0%B8%D0%BA%D0%B1%D0%BE%D0%BA%D1%81%D0%B5%D1%80_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1989)',
-		youtube: 'xJgGKcNuzIw',
+		wiki_ua: '%D0%9A%D1%96%D0%BA%D0%B1%D0%BE%D0%BA%D1%81%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1989)',
 	},
 	cast: {
 		jean_claude_van_damme_18101960: 1,
@@ -3284,27 +3128,18 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '5208950',
-		wiki_ru: '%D0%9A%D0%B8%D0%BA%D0%B1%D0%BE%D0%BA%D1%81%D0%B5%D1%80_%D0%B2%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B0%D0%B5%D1%82%D1%81%D1%8F',
+		wiki_ua: '%D0%9A%D1%96%D0%BA%D0%B1%D0%BE%D0%BA%D1%81%D0%B5%D1%80:_%D0%A0%D0%B5%D0%B2%D0%B0%D0%BD%D1%88',
 	},
-	cast: {
-		jean_claude_van_damme_18101960: 1,
-		christopher_lambert_29031957: 1,
-		mike_tyson_30061966: 1,
-	},
+	cast: { jean_claude_van_damme_18101960: 1, christopher_lambert_29031957: 1, mike_tyson_30061966: 1, },
 },
-
-
-
-
-
 {
 	id: 'king_kong_2017',
-	title: { ua: 'Кинг Конг', en: 'Kong: Skull Island', },
+	title: { ua: 'Конг: Острів черепа', en: 'Kong: Skull Island', },
 	year: 2017,
 	country: { usa: 1, },
 	internet: {
 		imdb: '3731562',
-		wiki_ru: '%D0%9A%D0%BE%D0%BD%D0%B3:_%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B2_%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0',
+		wiki_ua: '%D0%9A%D0%BE%D0%BD%D0%B3:_%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%A7%D0%B5%D1%80%D0%B5%D0%BF%D0%B0',
 	},
 	cast: {
 		brie_larson_01101989: 1,
@@ -3316,45 +3151,15 @@ const arrFilms = [
 	title: { ua: 'Кингсайз', en: 'Kingsajz', },
 	year: 1988,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0095452',
-		wiki_ru: '%D0%9A%D0%B8%D0%BD%D0%B3%D1%81%D0%B0%D0%B9%D0%B7',
-	},
-},
-{
-	id: 'klaustrofobia_2017',
-	title: { ua: 'Клаустрофобия', en: 'Escape Room', },
-	year: 2017,
-	country: { usa: 1, },
-	internet: {
-		imdb: '5159414',
-		wiki_ru: '%D0%9A%D0%BB%D0%B0%D1%83%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%BE%D0%B1%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		baskino: '946735',
-	},
-},
-{
-	id: 'klaustrofoby_2019',
-	title: { ua: 'Клаустрофобы', en: 'Escape Room', },
-	year: 2019,
-	country: { usa: 1, },
-	internet: {
-		imdb: '5886046',
-		wiki_ru: '%D0%9A%D0%BB%D0%B0%D1%83%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%BE%D0%B1%D1%8B',
-	},
+	internet: { imdb: '0095452', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3%D1%81%D0%B0%D0%B9%D0%B7_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'kniga_Ilaya_2010',
 	title: { ua: 'Книга Илая', en: 'The Book of Eli', },
 	year: 2010,
 	country: { usa: 1, },
-	internet: {
-		imdb: '1037705',
-		wiki_ru: '%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_%D0%98%D0%BB%D0%B0%D1%8F',
-	},
-	cast: {
-		denzel_washington_28121954: 1,
-		gary_oldman_21031958: 1,
-	},
+	internet: { imdb: '1037705', wiki_ua: '%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_%D0%86%D0%BB%D0%B0%D1%8F', },
+	cast: { denzel_washington_28121954: 1, gary_oldman_21031958: 1, },
 },
 
 
@@ -3367,25 +3172,17 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0098635',
-		wiki_ru: '%D0%9A%D0%BE%D0%B3%D0%B4%D0%B0_%D0%93%D0%B0%D1%80%D1%80%D0%B8_%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%82%D0%B8%D0%BB_%D0%A1%D0%B0%D0%BB%D0%BB%D0%B8',
+		wiki_ua: '%D0%9A%D0%BE%D0%BB%D0%B8_%D0%93%D0%B0%D1%80%D1%80%D1%96_%D0%B7%D1%83%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%A1%D0%B0%D0%BB%D0%BB%D1%96',
 	},
-	cast: {
-		billy_crystal_14031948: 1,
-		meg_ryan_19111961: 1,
-	},
+	cast: { billy_crystal_14031948: 1, meg_ryan_19111961: 1, },
 },
 {
 	id: 'kogot_tigra_1991',
 	title: { ua: 'Коготь тигра', en: 'Tiger Claws', },
 	year: 1991,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0105592',
-		wiki_ru: '%D0%9A%D0%BE%D0%B3%D0%BE%D1%82%D1%8C_%D1%82%D0%B8%D0%B3%D1%80%D0%B0',
-	},
-	cast: {
-		bolo_yeung_03071946: 1,
-	},
+	internet: { imdb: '0105592', wiki_ru: '%D0%9A%D0%BE%D0%B3%D0%BE%D1%82%D1%8C_%D1%82%D0%B8%D0%B3%D1%80%D0%B0', },
+	cast: { bolo_yeung_03071946: 1, },
 },
 {
 	id: 'kod_da_Vinchi_2006',
@@ -3394,13 +3191,9 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0382625',
-		wiki_ru: '%D0%9A%D0%BE%D0%B4_%D0%B4%D0%B0_%D0%92%D0%B8%D0%BD%D1%87%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		wiki_ua: '%D0%9A%D0%BE%D0%B4_%D0%B4%D0%B0_%D0%92%D1%96%D0%BD%D1%87%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
-	cast: {
-		tom_hanks_09071956: 1,
-		audrey_tautou_09081976: 1,
-		jean_reno_30071948: 1,
-	},
+	cast: { tom_hanks_09071956: 1, audrey_tautou_09081976: 1, jean_reno_30071948: 1, },
 },
 {
 	id: 'Koko_de_Shanel_2009',
@@ -3409,7 +3202,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '1035736',
-		wiki_ru: '%D0%9A%D0%BE%D0%BA%D0%BE_%D0%B4%D0%BE_%D0%A8%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C',
+		wiki_ua: '%D0%9A%D0%BE%D0%BA%D0%BE_%D0%B4%D0%BE_%D0%A8%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C',
 	},
 	cast: {
 		audrey_tautou_09081976: 1,
@@ -3422,7 +3215,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '1466074',
-		wiki_ru: '%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B1%D0%BE_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB)',
+		wiki_ua: '%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B1%D0%BE_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)',
 	},
 	cast: {
 		peter_falk_16091927: 1,
@@ -3435,7 +3228,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '1160996',
-		wiki_ru: '%D0%9A%D0%BE%D0%BB%D0%BE%D0%BD%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2013)',
+		wiki_ua: '%D0%9A%D0%BE%D0%BB%D0%BE%D0%BD%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013)',
 	},
 	cast: {
 		laurence_fishburne_30071961: 1,
@@ -3449,7 +3242,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0099582',
-		wiki_ru: '%D0%9A%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1990)',
+		wiki_ua: '%D0%9A%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA%D0%B8',
 	},
 	cast: {
 		julia_roberts_28101967: 1,
@@ -3465,7 +3258,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '2039338',
-		wiki_ru: '%D0%9A%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2017)',
+		wiki_ua: '%D0%9A%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2017)',
 	},
 	cast: {
 		kiefer_sutherland_21121966: 1,
@@ -3474,23 +3267,13 @@ const arrFilms = [
 
 
 
-
-
-
-
-
 {
 	id: 'konvoy_1978',
 	title: { ua: 'Конвой', en: 'Convoy', },
 	year: 1978,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0077369',
-		wiki_ru: '%D0%9A%D0%BE%D0%BD%D0%B2%D0%BE%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1978)',
-	},
-	cast: {
-		kris_kristofferson_22061936: 1,
-	},
+	internet: { imdb: '0077369', wiki_ru: '%D0%9A%D0%BE%D0%BD%D0%B2%D0%BE%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1978)', },
+	cast: { kris_kristofferson_22061936: 1, },
 },
 
 {
@@ -3498,41 +3281,24 @@ const arrFilms = [
 	title: { ua: 'Константин', en: 'Constantine', },
 	year: 2005,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0360486',
-		wiki_ru: '%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD:_%D0%9F%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D1%82%D1%8C%D0%BC%D1%8B',
-	},
-	cast: {
-		keanu_reeves_02091964: 1,
-		shia_labeouf_11061986: 1,
-		tilda_swinton_05111960: 1,
-	},
+	internet: { imdb: '0360486', wiki_ua: '%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD:_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0%D1%80_%D1%82%D0%B5%D0%BC%D1%80%D1%8F%D0%B2%D0%B8', },
+	cast: { keanu_reeves_02091964: 1, shia_labeouf_11061986: 1, tilda_swinton_05111960: 1, },
 },
 {
 	id: 'kopi_carya_Solomona_1985',
-	title: { ua: 'Копи царя Соломона', en: 'King Solomon`s Mines', },
+	title: { ua: 'Копальні царя Соломона', en: 'King Solomon\'s Mines', },
 	year: 1985,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0089421',
-		wiki_ru: '%D0%9A%D0%BE%D0%BF%D0%B8_%D1%86%D0%B0%D1%80%D1%8F_%D0%A1%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1985)',
-	},
-	cast: {
-		sharon_stone_10031958: 1,
-	},
+	internet: { imdb: '0089421', wiki_ru: '%D0%9A%D0%BE%D0%BF%D0%B8_%D1%86%D0%B0%D1%80%D1%8F_%D0%A1%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1985)', },
+	cast: { sharon_stone_10031958: 1, },
 },
 {
 	id: 'kopy_v_yubkah_2013',
 	title: { ua: 'Копы в юбках', en: 'The Heat', },
 	year: 2013,
 	country: { usa: 1, },
-	internet: {
-		imdb: '2404463',
-		wiki_ru: '%D0%9A%D0%BE%D0%BF%D1%8B_%D0%B2_%D1%8E%D0%B1%D0%BA%D0%B0%D1%85',
-	},
-	cast: {
-		sandra_bullock_26071964: 1,
-	},
+	internet: { imdb: '2404463', wiki_ua: '%D0%9E%D0%B7%D0%B1%D1%80%D0%BE%D1%94%D0%BD%D1%96_%D1%96_%D0%BD%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%BD%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013)', },
+	cast: { sandra_bullock_26071964: 1, },
 },
 {
 	id: 'korol_lev_1994',
@@ -3541,8 +3307,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0110357',
-		wiki_ru: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2',
-		baskino: '2360',
+		wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2',
 	},
 	cartoon: 1,
 },
@@ -3553,7 +3318,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '6105098',
-		wiki_ru: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2_(%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2019)',
+		wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)',
 	},
 	cartoon: 1,
 },
@@ -3564,7 +3329,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0091949',
-		wiki_ru: '%D0%9A%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE%D0%B5_%D0%B7%D0%B0%D0%BC%D1%8B%D0%BA%D0%B0%D0%BD%D0%B8%D0%B5_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1986)',
+		wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%B5_%D0%B7%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)',
 	},
 },
 {
@@ -3572,10 +3337,7 @@ const arrFilms = [
 	title: { ua: 'Короткое замыкание - 2', en: 'Short Circuit 2', },
 	year: 1988,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0096101',
-		wiki_ru: '%D0%9A%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE%D0%B5_%D0%B7%D0%B0%D0%BC%D1%8B%D0%BA%D0%B0%D0%BD%D0%B8%D0%B5_2',
-	},
+	internet: { imdb: '0096101', wiki_ru: '%D0%9A%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE%D0%B5_%D0%B7%D0%B0%D0%BC%D1%8B%D0%BA%D0%B0%D0%BD%D0%B8%D0%B5_2', },
 },
 {
 	id: 'kosmicheskie_yayca_1987',
@@ -3584,8 +3346,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0094012',
-		wiki_ru: '%D0%9A%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%8F%D0%B9%D1%86%D0%B0',
-		kinoteatr: 'https://www.kino-teatr.ru/kino/movie/hollywood/23956/titr/',
+		wiki_ua: '%D0%9A%D0%BE%D1%81%D0%BC%D1%96%D1%87%D0%BD%D1%96_%D1%8F%D0%B9%D1%86%D1%8F',
 	},
 	cast: {
 		bill_pullman_17121953: 1,
@@ -3598,7 +3359,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0087800',
-		wiki_ru: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D1%83%D0%BB%D0%B8%D1%86%D0%B5_%D0%92%D1%8F%D0%B7%D0%BE%D0%B2_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1984)',
+		wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1984)',
 	},
 	cast: {
 		robert_englund_06061947: 1,
@@ -3612,8 +3373,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0101917',
-		wiki_ru: '%D0%A4%D1%80%D0%B5%D0%B4%D0%B4%D0%B8_%D0%BC%D1%91%D1%80%D1%82%D0%B2._%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9_%D0%BA%D0%BE%D1%88%D0%BC%D0%B0%D1%80',
-		baskino: '17283',
+		wiki_ua: '%D0%A4%D1%80%D0%B5%D0%B4%D0%B4%D1%96_%D0%BC%D0%B5%D1%80%D1%82%D0%B2%D0%B8%D0%B9._%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96%D0%B9_%D0%BA%D0%BE%D1%88%D0%BC%D0%B0%D1%80',
 	},
 	cast: {
 		robert_englund_06061947: 1,
@@ -3630,29 +3390,17 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0199753',
-		wiki_ru: '%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		youtube: 'JWfpErisXU0',
+		wiki_ua: '%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0',
 	},
-	cast: {
-		val_kilmer_31121959: 1,
-		carrie_anne_moss_21081967: 1,
-		tom_sizemore_29111961: 1,
-	},
+	cast: { val_kilmer_31121959: 1, carrie_anne_moss_21081967: 1, tom_sizemore_29111961: 1, },
 },
 {
 	id: 'krasnoe_uvedomlenie_2021',
 	title: { ua: 'Красное уведомлени ', en: 'Red Notice', },
 	year: 2021,
 	country: { usa: 1, },
-	internet: {
-		imdb: '7991608',
-		wiki_ru: '%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B5_%D1%83%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		wiki_ua: '%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B5_%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F',
-	},
-	cast: {
-		dwayne_johnson_02051972: 1,
-		gal_gadot_30041985: 1,
-	},
+	internet: { imdb: '7991608', wiki_ua: '%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B5_%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F', },
+	cast: { dwayne_johnson_02051972: 1, gal_gadot_30041985: 1, },
 },
 {
 	id: 'krasniy_drakon_2002',
@@ -3661,7 +3409,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0289765',
-		wiki_ru: '%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		wiki_ua: '%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B8%D0%B9_%D0%94%D1%80%D0%B0%D0%BA%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
 	cast: {
 		anthony_hopkins_31121937: 1,
@@ -3675,7 +3423,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0098180',
-		wiki_ru: '%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_%D1%81%D0%BA%D0%BE%D1%80%D0%BF%D0%B8%D0%BE%D0%BD',
+		wiki_ua: '%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B8%D0%B9_%D1%81%D0%BA%D0%BE%D1%80%D0%BF%D1%96%D0%BE%D0%BD',
 	},
 	cast: {
 		dolph_lundgren_03111957: 1,
@@ -3688,7 +3436,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0100405',
-		wiki_ru: '%D0%9A%D1%80%D0%B0%D1%81%D0%BE%D1%82%D0%BA%D0%B0',
+		wiki_ua: '%D0%9A%D1%80%D0%B0%D1%81%D1%83%D0%BD%D1%8F',
 	},
 	cast: {
 		julia_roberts_28101967: 1,
@@ -3702,7 +3450,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0106950',
-		wiki_ru: '%D0%9A%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1992)',
+		wiki_ua: '%D0%A4%D0%BE%D1%80%D1%82%D0%B5%D1%86%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
 	cast: {
 		christopher_lambert_29031957: 1,
@@ -3715,7 +3463,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0179183',
-		wiki_ru: '%D0%9A%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1992)',
+		wiki_ua: '%D0%A4%D0%BE%D1%80%D1%82%D0%B5%D1%86%D1%8F_2:_%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F',
 	},
 	cast: {
 		christopher_lambert_29031957: 1,
@@ -3728,7 +3476,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0068646',
-		wiki_ru: '%D0%9A%D1%80%D1%91%D1%81%D1%82%D0%BD%D1%8B%D0%B9_%D0%BE%D1%82%D0%B5%D1%86_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		wiki_ua: '%D0%A5%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9_%D0%B1%D0%B0%D1%82%D1%8C%D0%BA%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
 	cast: {
 		marlon_brando_03041924: 1,
@@ -3742,7 +3490,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0110912',
-		wiki_ru: '%D0%9A%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%87%D1%82%D0%B8%D0%B2%D0%BE',
+		wiki_ua: '%D0%9A%D1%80%D0%B8%D0%BC%D1%96%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D1%87%D1%82%D0%B8%D0%B2%D0%BE',
 	},
 	cast: {
 		john_travolta_18021954: 1,
@@ -3762,7 +3510,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0085333',
-		wiki_ru: '%D0%9A%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1983)',
+		wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D1%96%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1983)',
 	},
 },
 {
@@ -3772,7 +3520,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0450259',
-		wiki_ru: '%D0%9A%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D1%8B%D0%B9_%D0%B0%D0%BB%D0%BC%D0%B0%D0%B7',
+		wiki_ua: '%D0%9A%D1%80%D0%B8%D0%B2%D0%B0%D0%B2%D0%B8%D0%B9_%D0%B4%D1%96%D0%B0%D0%BC%D0%B0%D0%BD%D1%82',
 	},
 	cast: {
 		leonardo_dicaprio_11111974: 1,
@@ -3786,7 +3534,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0092675',
-		wiki_ru: '%D0%9A%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D1%8B%D0%B9_%D1%81%D0%BF%D0%BE%D1%80%D1%82',
+		wiki_ua: '%D0%9A%D1%80%D0%B8%D0%B2%D0%B0%D0%B2%D0%B8%D0%B9_%D1%81%D0%BF%D0%BE%D1%80%D1%82',
 	},
 	cast: {
 		jean_claude_van_damme_18101960: 1,
@@ -3797,10 +3545,10 @@ const arrFilms = [
 	id: 'krokodil_Dundee_1_1986',
 	title: { ua: 'Крокодил Данди - 1', en: 'Crocodile Dundee', },
 	year: 1986,
-	country: { usa: 1, },
+	country: { aus: 1, usa: 1, },
 	internet: {
 		imdb: '0090555',
-		wiki_ru: '%D0%94%D0%B0%D0%BD%D0%B4%D0%B8_%D0%BF%D0%BE_%D0%BF%D1%80%D0%BE%D0%B7%D0%B2%D0%B8%D1%89%D1%83_%C2%AB%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB%C2%BB',
+		wiki_ua: '%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB_%D0%94%D0%B0%D0%BD%D0%B4%D1%96',
 	},
 	cast: {
 		'paul_hogan_08101939': 1,
@@ -3810,24 +3558,13 @@ const arrFilms = [
 	id: 'krokodil_Dundee_2_1988',
 	title: { ua: 'Крокодил Данди - 2', en: 'Crocodile Dundee 2', },
 	year: 1988,
-	country: { usa: 1, },
+	country: { aus: 1, usa: 1, },
 	internet: {
 		imdb: '0092493',
-		wiki_ru: '%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB_%D0%94%D0%B0%D0%BD%D0%B4%D0%B8_2',
-		youtube: 'ffLqYa2X1_0',
+		wiki_ua: '%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB_%D0%94%D0%B0%D0%BD%D0%B4%D1%96_2',
 	},
 	cast: {
 		'paul_hogan_08101939': 1,
-	},
-},
-{
-	id: 'kruto_svarennye_1992',
-	title: { ua: 'Круто сваренные', en: 'Lat sau san taam', },
-	year: 1992,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0104684',
-		wiki_ru: '%D0%9A%D1%80%D1%83%D1%82%D0%BE_%D1%81%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5',
 	},
 },
 {
@@ -3837,7 +3574,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0250687',
-		wiki_ru: '%D0%9A%D1%80%D1%8B%D1%81%D0%B8%D0%BD%D1%8B%D0%B5_%D0%B1%D0%B5%D0%B3%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		wiki_ua: '%D0%A9%D1%83%D1%80%D1%8F%D1%87%D1%96_%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%BD%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
 	cast: {
 		amy_smart_26031976: 1,
@@ -3853,8 +3590,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0285492',
-		wiki_ru: '%D0%9A%D1%83%D0%B1_2:_%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D0%BA%D1%83%D0%B1',
-		baskino: '8121',
+		wiki_ua: '%D0%9A%D1%83%D0%B1_2:_%D0%93%D1%96%D0%BF%D0%B5%D1%80%D0%BA%D1%83%D0%B1',
 	},
 	cast: {
 		kari_matchett_25031970: 1,
@@ -3867,12 +3603,29 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0101635',
-		wiki_ru: '%D0%9A%D1%83%D0%B4%D1%80%D1%8F%D1%88%D0%BA%D0%B0_%D0%A1%D1%8C%D1%8E',
+		wiki_ua: '%D0%9A%D1%83%D1%87%D0%B5%D1%80%D1%8F%D0%B2%D0%BA%D0%B0_%D0%A1%D1%8C%D1%8E',
 	},
 	cast: {
 		james_belushi_15061954: 1,
 	},
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'labirint_1986',
 	title: { ua: 'Лабиринт', en: 'Labyrinth', },
@@ -3880,7 +3633,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0091369',
-		wiki_ru: '%D0%9B%D0%B0%D0%B1%D0%B8%D1%80%D0%B8%D0%BD%D1%82_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1986)',
+		wiki_ua: '%D0%9B%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)',
 	},
 	cast: {
 		jennifer_connelly_12121970: 1,
@@ -3894,7 +3647,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0146316',
-		wiki_ru: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82:_%D0%A0%D0%B0%D1%81%D1%85%D0%B8%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82:_%D0%A0%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
 	cast: {
 		angelina_jolie_04061975: 1,
@@ -3909,7 +3662,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0325703',
-		wiki_ru: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82:_%D0%A0%D0%B0%D1%81%D1%85%D0%B8%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86_2_%E2%80%94_%D0%9A%D0%BE%D0%BB%D1%8B%D0%B1%D0%B5%D0%BB%D1%8C_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8',
+		wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82_%D1%80%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C:_%D0%BA%D0%BE%D0%BB%D0%B8%D1%81%D0%BA%D0%B0_%D0%B6%D0%B8%D1%82%D1%82%D1%8F',
 	},
 	cast: {
 		angelina_jolie_04061975: 1,
@@ -3923,7 +3676,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0386140',
-		wiki_ru: '%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0_%D0%97%D0%BE%D1%80%D1%80%D0%BE',
+		wiki_ua: '%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0_%D0%97%D0%BE%D1%80%D1%80%D0%BE',
 	},
 	cast: {
 		antonio_banderas_10081960: 1,
@@ -3932,12 +3685,12 @@ const arrFilms = [
 },
 {
 	id: 'lico_so_shramom_1983',
-	title: { ua: 'Лицо со шрамом', en: 'Scarface ', },
+	title: { ua: 'Лицо со шрамом', en: 'Scarface', },
 	year: 1983,
 	country: { usa: 1, },
 	internet: {
 		imdb: '0086250',
-		wiki_ru: '%D0%9B%D0%B8%D1%86%D0%BE_%D1%81%D0%BE_%D1%88%D1%80%D0%B0%D0%BC%D0%BE%D0%BC_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1983)',
+		wiki_ua: '%D0%9E%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F_%D0%B7%D1%96_%D1%88%D1%80%D0%B0%D0%BC%D0%BE%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1983)',
 	},
 	cast: {
 		al_pacino_25041940: 1,
@@ -3946,13 +3699,12 @@ const arrFilms = [
 },
 {
 	id: 'lovushka_dlya_koshek_1986',
-	title: { ua: 'Ловушка для кошек', en: 'Macskafogó', },
+	title: { ua: 'Ловушка для кошек', en: 'Macskafogo', },
 	year: 1986,
 	country: { usa: 1, },
 	internet: {
 		imdb: '0179955',
-		wiki_ru: '%D0%9B%D0%BE%D0%B2%D1%83%D1%88%D0%BA%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BA%D0%BE%D1%88%D0%B5%D0%BA',
-		baskino: '55873',
+		wiki_ua: '%D0%9F%D0%B0%D1%81%D1%82%D0%BA%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BA%D0%BE%D1%82%D1%96%D0%B2',
 	},
 	cartoon: 1,
 },
@@ -3963,8 +3715,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0102250',
-		wiki_ru: '%D0%9B%D0%BE%D1%81-%D0%B0%D0%BD%D0%B4%D0%B6%D0%B5%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F',
-		baskino: '3481',
+		wiki_ua: '%D0%9B%D0%BE%D1%81-%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%BB%D0%B5%D1%81%D1%8C%D0%BA%D0%B0_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F',
 	},
 	cast: {
 		kevin_pollak_30101957: 1,
@@ -3975,19 +3726,14 @@ const arrFilms = [
 	title: { ua: 'Лучшие из лучших', en: 'Best of the Best', },
 	year: 1989,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0096913',
-		wiki_ru: '%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5_%D0%B8%D0%B7_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D1%85',
-	},
+	internet: { imdb: '0096913', wiki_ru: '%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5_%D0%B8%D0%B7_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D1%85', },
 },
 {
 	id: 'lyzhniy_patrul_1989',
 	title: { ua: 'Лыжный патруль', en: 'Ski Patrol', },
 	year: 1989,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0100631',
-	},
+	internet: { imdb: '0100631', },
 },
 {
 	id: 'lyudi_x_2006',
@@ -3996,7 +3742,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0376994',
-		wiki_ru: '%D0%9B%D1%8E%D0%B4%D0%B8_%D0%98%D0%BA%D1%81:_%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0',
+		wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8_%D0%86%D0%BA%D1%81:_%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0',
 	},
 	cast: {
 		hugh_jackman_12101968: 1,
@@ -4012,12 +3758,30 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0139414',
-		wiki_ru: '%D0%9B%D1%8D%D0%B9%D0%BA_%D0%9F%D0%BB%D1%8D%D1%81%D0%B8%D0%B4:_%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%B0',
+		wiki_ua: '%D0%9B%D0%B5%D0%B9%D0%BA_%D0%9F%D0%BB%D0%B5%D1%81%D1%96%D0%B4:_%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83',
 	},
 	cast: {
 		bridget_fonda_27011964: 1,
 	},
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'maximalnoe_uskorenie_1986',
 	title: { ua: 'Максимальное ускорение', en: 'Maximum Overdrive', },
@@ -4025,7 +3789,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0091499',
-		wiki_ru: '%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%83%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5',
+		wiki_ua: '%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D0%BF%D1%80%D0%B8%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F',
 	},
 	cast: {
 		emilio_estevez_12051962: 1,
@@ -4039,7 +3803,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '2119474',
-		wiki_ru: '%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D1%80%D0%BE%D0%BA',
+		wiki_ua: '%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%82%D0%B5%D1%80%D0%BC%D1%96%D0%BD',
 	},
 	cast: {
 		steven_seagal_10041952: 1,
@@ -4050,10 +3814,10 @@ const arrFilms = [
 	id: 'Maleficenta_1_2014',
 	title: { ua: 'Малефисента - 1', en: 'Maleficent', },
 	year: 2014,
-	country: { usa: 1, },
+	country: { gbr: 1, usa: 1, },
 	internet: {
 		imdb: '1587310',
-		wiki_ru: '%D0%9C%D0%B0%D0%BB%D0%B5%D1%84%D0%B8%D1%81%D0%B5%D0%BD%D1%82%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		wiki_ua: '%D0%A7%D0%B0%D0%BA%D0%BB%D1%83%D0%BD%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
 	cast: {
 		angelina_jolie_04061975: 1,
@@ -4066,7 +3830,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0116996',
-		wiki_ru: '%D0%9C%D0%B0%D1%80%D1%81_%D0%B0%D1%82%D0%B0%D0%BA%D1%83%D0%B5%D1%82!',
+		wiki_ua: '%D0%9C%D0%B0%D1%80%D1%81_%D0%B0%D1%82%D0%B0%D0%BA%D1%83%D1%94!',
 	},
 	cast: {
 		jack_nicholson_22041937: 1,
@@ -4084,7 +3848,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '3659388',
-		wiki_ru: '%D0%9C%D0%B0%D1%80%D1%81%D0%B8%D0%B0%D0%BD%D0%B8%D0%BD_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		wiki_ua: '%D0%9C%D0%B0%D1%80%D1%81%D1%96%D1%8F%D0%BD%D0%B8%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
 	cast: {
 		matt_damon_08101970: 1,
@@ -4098,7 +3862,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0110475',
-		wiki_ru: '%D0%9C%D0%B0%D1%81%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1994)',
+		wiki_ua: '%D0%9C%D0%B0%D1%81%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1994)',
 	},
 	cast: {
 		jim_carrey_17011962: 1,
@@ -4113,7 +3877,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0120746',
-		wiki_ru: '%D0%9C%D0%B0%D1%81%D0%BA%D0%B0_%D0%97%D0%BE%D1%80%D1%80%D0%BE',
+		wiki_ua: '%D0%9C%D0%B0%D1%81%D0%BA%D0%B0_%D0%97%D0%BE%D1%80%D1%80%D0%BE',
 	},
 	cast: {
 		antonio_banderas_10081960: 1,
@@ -4128,7 +3892,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0133093',
-		wiki_ru: '%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		wiki_ua: '%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 		moviestape: 'The.Matrix',
 	},
 	cast: {
@@ -4145,7 +3909,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0234215',
-		wiki_ru: '%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0:_%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0',
+		wiki_ua: '%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D1%8F:_%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B2%D0%B0%D0%BD%D1%82%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F',
 		moviestape: 'The.Matrix.Reloaded',
 	},
 	cast: {
@@ -4163,7 +3927,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0242653',
-		wiki_ru: '%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0:_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F',
+		wiki_ua: '%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%86%D1%8F:_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D1%96%D1%8F',
 		baskino: '316',
 	},
 	cast: {
@@ -4180,21 +3944,8 @@ const arrFilms = [
 	title: { ua: 'Мачете убивает', en: 'Machete Kills', },
 	year: 2013,
 	country: { usa: 1, },
-	internet: {
-		imdb: '2002718',
-		wiki_ru: '%D0%9C%D0%B0%D1%87%D0%B5%D1%82%D0%B5_%D1%83%D0%B1%D0%B8%D0%B2%D0%B0%D0%B5%D1%82',
-	},
-	cast: {
-		danny_trejo_16051944: 1,
-		michelle_rodriguez_12071978: 1,
-		mel_gibson_03011956: 1,
-		charlie_sheen_03091965: 1,
-		cuba_gooding_jr_02011968: 1,
-		lady_gaga_28031986: 1,
-		antonio_banderas_10081960: 1,
-		jessica_alba_28041981: 1,
-		elon_musk_28061971: 1,
-	},
+	internet: { imdb: '2002718', wiki_ru: '%D0%9C%D0%B0%D1%87%D0%B5%D1%82%D0%B5_%D1%83%D0%B1%D0%B8%D0%B2%D0%B0%D0%B5%D1%82', },
+	cast: { danny_trejo_16051944: 1, michelle_rodriguez_12071978: 1, mel_gibson_03011956: 1, charlie_sheen_03091965: 1, cuba_gooding_jr_02011968: 1, lady_gaga_28031986: 1, antonio_banderas_10081960: 1, jessica_alba_28041981: 1, elon_musk_28061971: 1, },
 },
 {
 	id: 'macho_i_botan_2012',
@@ -4203,23 +3954,15 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '1232829',
-		wiki_ru: '%D0%9C%D0%B0%D1%87%D0%BE_%D0%B8_%D0%B1%D0%BE%D1%82%D0%B0%D0%BD',
+		wiki_ua: '%D0%9C%D0%B0%D1%87%D0%BE_%D1%96_%D0%B1%D0%BE%D1%82%D0%B0%D0%BD',
 	},
 	cast: {
 		brie_larson_01101989: 1,
 		johnny_depp_09061963: 1,
 	},
 },
-{
-	id: 'medved_1988',
-	title: { ua: 'Медведь', en: 'L\'ours', },
-	year: 1988,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0095800',
-		wiki_ru: '%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1988)',
-	},
-},
+
+
 {
 	id: 'medvezhatnik_2001',
 	title: { ua: 'Медвежатник', en: 'The Score', },
@@ -4227,7 +3970,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0227445',
-		wiki_ru: '%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B6%D0%B0%D1%82%D0%BD%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
+		wiki_ua: '%D0%92%D0%B5%D0%B4%D0%BC%D0%B5%D0%B6%D0%B0%D1%82%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
 	cast: {
 		marlon_brando_03041924: 1,
@@ -4241,7 +3984,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0120749',
-		wiki_ru: '%D0%9C%D0%B5%D1%80%D0%BA%D1%83%D1%80%D0%B8%D0%B9_%D0%B2_%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8',
+		wiki_ua: '%D0%9C%D0%B5%D1%80%D0%BA%D1%83%D1%80%D1%96%D0%B9_%D0%B2_%D0%BD%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%86%D1%96',
 	},
 	cast: {
 		bruce_willis_19031955: 1,
@@ -4253,14 +3996,8 @@ const arrFilms = [
 	title: { ua: 'Мёртвый штиль', en: 'Dead Calm', },
 	year: 1989,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0097162',
-		wiki_ru: '%D0%9C%D1%91%D1%80%D1%82%D0%B2%D1%8B%D0%B9_%D1%88%D1%82%D0%B8%D0%BB%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		nicole_kidman_20061967: 1,
-		billy_zane_24021966: 1,
-	},
+	internet: { imdb: '0097162', wiki_ru: '%D0%9C%D1%91%D1%80%D1%82%D0%B2%D1%8B%D0%B9_%D1%88%D1%82%D0%B8%D0%BB%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	cast: { nicole_kidman_20061967: 1, billy_zane_24021966: 1, },
 },
 {
 	id: 'Mio_my_Mio_1987',
@@ -4269,8 +4006,7 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0093543',
-		wiki_ru: '%D0%9C%D0%B8%D0%BE,_%D0%BC%D0%BE%D0%B9_%D0%9C%D0%B8%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		youtube: 'D3rHyQkXqkE',
+		wiki_ua: '%D0%9C%D1%96%D0%BE,_%D0%BC%D1%96%D0%B9_%D0%9C%D1%96%D0%BE',
 	},
 	cast: {
 		christian_bale_30011974: 1,
@@ -4282,86 +4018,48 @@ const arrFilms = [
 	title: { ua: 'Мир будущего', en: 'Future World', },
 	year: 2018,
 	country: { usa: 1, },
-	internet: {
-		imdb: '5737536',
-		wiki_ru: '%D0%9C%D0%B8%D1%80_%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B3%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2018)',
-	},
-	cast: {
-		milla_jovovich_17121975: 1,
-		snoop_dogg_20101971: 1,
-	},
+	internet: { imdb: '5737536', wiki_ua: '%D0%A1%D0%B2%D1%96%D1%82_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%8C%D0%BE%D0%B3%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
+	cast: { milla_jovovich_17121975: 1, snoop_dogg_20101971: 1, },
 },
 {
 	id: 'ms_Kongenialnost_1_2000',
 	title: { ua: 'Мисс Конгениальность - 1', en: 'Miss Congeniality', },
 	year: 2000,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0212346',
-		wiki_ru: '%D0%9C%D0%B8%D1%81%D1%81_%D0%9A%D0%BE%D0%BD%D0%B3%D0%B5%D0%BD%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C',
-	},
-	cast: {
-		sandra_bullock_26071964: 1,
-	},
+	internet: { imdb: '0212346', wiki_ua: '%D0%9C%D1%96%D1%81_%D0%9A%D0%BE%D0%BD%D0%B3%D0%B5%D0%BD%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D1%81%D1%82%D1%8C', },
+	cast: { sandra_bullock_26071964: 1, },
 },
 {
 	id: 'ms_Kongenialnost_2_2005',
 	title: { ua: 'Мисс Конгениальность - 2', en: 'Miss Congeniality 2: Armed & Fabulous', },
 	year: 2005,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0385307',
-		wiki_ru: '%D0%9C%D0%B8%D1%81%D1%81_%D0%9A%D0%BE%D0%BD%D0%B3%D0%B5%D0%BD%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C_2:_%D0%9F%D1%80%D0%B5%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%B0_%D0%B8_%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%B0',
-	},
-	cast: {
-		sandra_bullock_26071964: 1,
-	},
+	internet: { imdb: '0385307', wiki_ua: '%D0%9C%D1%96%D1%81_%D0%9A%D0%BE%D0%BD%D0%B3%D0%B5%D0%BD%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D1%81%D1%82%D1%8C_2:_%D0%9E%D0%B7%D0%B1%D1%80%D0%BE%D1%94%D0%BD%D0%B0_%D1%96_%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%BD%D0%B0', },
+	cast: { sandra_bullock_26071964: 1, },
 },
 {
 	id: 'mrs_Doubtfire_1993',
 	title: { ua: 'Миссис Даутфайр', en: 'Mrs. Doubtfire', },
 	year: 1993,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0107614',
-		wiki_ru: '%D0%9C%D0%B8%D1%81%D1%81%D0%B8%D1%81_%D0%94%D0%B0%D1%83%D1%82%D1%84%D0%B0%D0%B9%D1%80',
-	},
-	cast: {
-		robin_williams_21071951: 1,
-		pierce_brosnan_16051953: 1,
-	},
+	internet: { imdb: '0107614', wiki_ua: '%D0%9C%D1%96%D1%81%D1%96%D1%81_%D0%94%D0%B0%D1%83%D1%82%D1%84%D0%B0%D0%B9%D1%80', },
+	cast: { robin_williams_21071951: 1, pierce_brosnan_16051953: 1, },
 },
-
-
-
-
 {
 	id: 'miissia_pravosudia_1992',
 	title: { ua: 'Миссия правосудия', en: 'Mission of Justice', },
 	year: 1992,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0104888',
-		wiki_ru: '%D0%9C%D0%B8%D1%81%D1%81%D0%B8%D1%8F_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%81%D1%83%D0%B4%D0%B8%D1%8F',
-	},
-	cast: {
-		jeff_wincott_08051956: 1,
-	},
+	internet: { imdb: '0104888', wiki_ua: '%D0%9C%D1%96%D1%81%D1%96%D1%8F_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%81%D1%83%D0%B4%D0%B4%D1%8F', },
+	cast: { jeff_wincott_08051956: 1, },
 },
 {
 	id: 'mr_i_mrs_Smith_2005',
 	title: { ua: 'Мистер и миссис Смит', en: 'Mr. & Mrs. Smith', },
 	year: 2005,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0356910',
-		wiki_ru: '%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%B8_%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D1%81_%D0%A1%D0%BC%D0%B8%D1%82_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2005)',
-	},
-	cast: {
-		brad_pitt_18121963: 1,
-		angelina_jolie_04061975: 1,
-		michelle_monaghan_23031976: 1,
-	},
+	internet: { imdb: '0356910', wiki_ru: '%D0%9C%D1%96%D1%81%D1%82%D0%B5%D1%80_%D1%96_%D0%BC%D1%96%D1%81%D1%96%D1%81_%D0%A1%D0%BC%D1%96%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
+	cast: { brad_pitt_18121963: 1, angelina_jolie_04061975: 1, michelle_monaghan_23031976: 1, },
 },
 
 {
@@ -4369,169 +4067,97 @@ const arrFilms = [
 	title: { ua: 'Много шума из ничего', en: 'Much Ado About', },
 	year: 1993,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0107616',
-		wiki_ru: '%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE_%D1%88%D1%83%D0%BC%D0%B0_%D0%B8%D0%B7_%D0%BD%D0%B8%D1%87%D0%B5%D0%B3%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1993)',
-	},
-	cast: {
-		keanu_reeves_02091964: 1,
-		kate_beckinsale_26071973: 1,
-		denzel_washington_28121954: 1,
-	},
+	internet: { imdb: '0107616', wiki_ua: '%D0%91%D0%B0%D0%B3%D0%B0%D1%82%D0%BE_%D0%B3%D0%B0%D0%BB%D0%B0%D1%81%D1%83_%D0%B7_%D0%BD%D1%96%D1%87%D0%BE%D0%B3%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1993)', },
+	cast: { keanu_reeves_02091964: 1, kate_beckinsale_26071973: 1, denzel_washington_28121954: 1, },
 },
 {
 	id: 'moguchy_Joe_Young_1998',
 	title: { ua: 'Могучий Джо Янг', en: 'Mighty Joe Young', },
 	year: 1998,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0120751',
-		wiki_ru: '%D0%9C%D0%BE%D0%B3%D1%83%D1%87%D0%B8%D0%B9_%D0%94%D0%B6%D0%BE_%D0%AF%D0%BD%D0%B3_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1998)',
-	},
-	cast: {
-		charlize_theron_07081975: 1,
-		bill_paxton_17051955: 1,
-	},
+	internet: { imdb: '0120751', wiki_ua: '%D0%9C%D0%BE%D0%B3%D1%83%D1%82%D0%BD%D1%96%D0%B9_%D0%94%D0%B6%D0%BE_%D0%AF%D0%BD%D0%B3_%E2%80%8B%E2%80%8B(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', },
+	cast: { charlize_theron_07081975: 1, bill_paxton_17051955: 1, },
 },
 {
 	id: 'molchanie_vetchiny_1994',
 	title: { ua: 'Молчание ветчины', en: 'Il silenzio dei prosciutti', },
 	year: 1994,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0111190',
-		wiki_ru: '%D0%9C%D0%BE%D0%BB%D1%87%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B2%D0%B5%D1%82%D1%87%D0%B8%D0%BD%D1%8B',
-	},
-	cast: {
-		billy_zane_24021966: 1,
-	},
+	internet: { imdb: '0111190', wiki_ru: '%D0%9C%D0%BE%D0%BB%D1%87%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B2%D0%B5%D1%82%D1%87%D0%B8%D0%BD%D1%8B', },
+	cast: { billy_zane_24021966: 1, },
 },
 {
 	id: 'molchanie_yagnyat_1991',
 	title: { ua: 'Молчание ягнят', en: 'The Silence of the Lambs', },
 	year: 1991,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0102926',
-		wiki_ru: '%D0%9C%D0%BE%D0%BB%D1%87%D0%B0%D0%BD%D0%B8%D0%B5_%D1%8F%D0%B3%D0%BD%D1%8F%D1%82_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		jodie_foster_19111962: 1,
-		anthony_hopkins_31121937: 1,
-	},
+	internet: { imdb: '0102926', wiki_ua: '%D0%9C%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F_%D1%8F%D0%B3%D0%BD%D1%8F%D1%82', },
+	cast: { jodie_foster_19111962: 1, anthony_hopkins_31121937: 1, },
 },
 {
 	id: 'moya_macheha_inoplanetyanka_1988',
 	title: { ua: 'Моя мачеха - инопланетянка', en: 'My Stepmother Is an Alien', },
 	year: 1988,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0095687',
-		wiki_ru: '%D0%9C%D0%BE%D1%8F_%D0%BC%D0%B0%D1%87%D0%B5%D1%85%D0%B0_%E2%80%94_%D0%B8%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8F%D0%BD%D0%BA%D0%B0',
-	},
-	cast: {
-		kim_basinger_08121953: 1,
-		juliette_lewis_21061973: 1,
-	},
+	internet: { imdb: '0095687', wiki_ua: '%D0%9C%D0%BE%D1%8F_%D0%BC%D0%B0%D1%87%D1%83%D1%85%D0%B0_%E2%80%94_%D1%96%D0%BD%D1%88%D0%BE%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8F%D0%BD%D0%BA%D0%B0', },
+	cast: { kim_basinger_08121953: 1, juliette_lewis_21061973: 1, },
 },
 {
 	id: 'mstiteli_final_2019',
 	title: { ua: 'Мстители: Финал', en: 'Avengers: Endgame', },
 	year: 2019,
 	country: { usa: 1, },
-	internet: {
-		imdb: '4154796',
-		wiki_ru: '%D0%9C%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D0%B8:_%D0%A4%D0%B8%D0%BD%D0%B0%D0%BB',
-	},
-	cast: {
-		chris_evans_13061981: 1,
-		chris_hemsworth_11081983: 1,
-		scarlett_johansson_22111984: 1,
-		brie_larson_01101989: 1,
-		gwyneth_paltrow_27091972: 1,
-		zoe_saldana_19061978: 1,
-		vin_diesel_18071967: 1,
-		samuel_l_jackson_21121948: 1,
-		rene_russo_17021954: 1,
-		tilda_swinton_05111960: 1,
-		michael_douglas_25091944: 1,
-		michelle_pfeiffer_29041958: 1,
-		natalie_portman_09061981: 1,
-		don_cheadle_29111964: 1,
-	},
+	internet: { imdb: '4154796', wiki_ua: '%D0%9C%D0%B5%D1%81%D0%BD%D0%B8%D0%BA%D0%B8:_%D0%97%D0%B0%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D1%8F', },
+	cast: { chris_evans_13061981: 1, chris_hemsworth_11081983: 1, scarlett_johansson_22111984: 1, brie_larson_01101989: 1, gwyneth_paltrow_27091972: 1, zoe_saldana_19061978: 1, vin_diesel_18071967: 1, samuel_l_jackson_21121948: 1, rene_russo_17021954: 1, tilda_swinton_05111960: 1, michael_douglas_25091944: 1, michelle_pfeiffer_29041958: 1, natalie_portman_09061981: 1, don_cheadle_29111964: 1, },
 },
 {
 	id: 'movie_43_2013',
 	title: { ua: 'Муви 43', en: 'Movie 43', },
 	year: 2013,
 	country: { usa: 1, },
-	internet: {
-		imdb: '1333125',
-		wiki_ru: '%D0%9C%D1%83%D0%B2%D0%B8_43',
-	},
-	cast: {
-		richard_gere_31081949: 1,
-		hugh_jackman_12101968: 1,
-		gerard_butler_13111969: 1,
-		seann_william_scott_03101976: 1,
-		halle_berry_14081966: 1,
-		kate_winslet_05101975: 1,
-		naomi_watts_28091968: 1,
-		uma_thurman_29041970: 1,
-	},
+	internet: { imdb: '1333125', wiki_ua: '%D0%A4%D1%96%D0%BB%D1%8C%D0%BC_43', },
+	cast: { richard_gere_31081949: 1, hugh_jackman_12101968: 1, gerard_butler_13111969: 1, seann_william_scott_03101976: 1, halle_berry_14081966: 1, kate_winslet_05101975: 1, naomi_watts_28091968: 1, uma_thurman_29041970: 1, },
 },
-
-
-
 {
 	id: 'muha_1_1986',
 	title: { ua: 'Муха - 1', en: 'The Fly', },
 	year: 1986,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0091064',
-		wiki_ru: '%D0%9C%D1%83%D1%85%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1986)',
-	},
+	internet: { imdb: '0091064', wiki_ua: '%D0%9C%D1%83%D1%85%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)', },
 },
 {
 	id: 'muha_2_1989',
 	title: { ua: 'Муха - 2', en: 'The Fly II', },
 	year: 1989,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0097368',
-		wiki_ru: '%D0%9C%D1%83%D1%85%D0%B0_2',
-	},
+	internet: { imdb: '0097368', wiki_ua: '%D0%9C%D1%83%D1%85%D0%B0_2', },
 },
 {
 	id: 'my_byli_soldatami_2002',
 	title: { ua: 'Мы были солдатами', en: 'We Were Soldiers', },
 	year: 2002,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0277434',
-		wiki_ru: '%D0%9C%D1%8B_%D0%B1%D1%8B%D0%BB%D0%B8_%D1%81%D0%BE%D0%BB%D0%B4%D0%B0%D1%82%D0%B0%D0%BC%D0%B8',
-	},
-	cast: {
-		mel_gibson_03011956: 1,
-		barry_pepper_04041970: 1,
-	},
+	internet: { imdb: '0277434', wiki_ua: '%D0%9C%D0%B8_%D0%B1%D1%83%D0%BB%D0%B8_%D1%81%D0%BE%D0%BB%D0%B4%D0%B0%D1%82%D0%B0%D0%BC%D0%B8', },
+	cast: { mel_gibson_03011956: 1, barry_pepper_04041970: 1, },
 },
 {
 	id: 'Maverick_1994',
 	title: { ua: 'Мэверик', en: 'Maverick', },
 	year: 1994,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0110478',
-		wiki_ru: '%D0%9C%D1%8D%D0%B2%D0%B5%D1%80%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		mel_gibson_03011956: 1,
-		jodie_foster_19111962: 1,
-		danny_glover_22071946: 1,
-	},
+	internet: { imdb: '0110478', wiki_ua: '%D0%9C%D0%B5%D0%B2%D0%B5%D1%80%D1%96%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { mel_gibson_03011956: 1, jodie_foster_19111962: 1, danny_glover_22071946: 1, },
 },
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'na_grani_1997',
 	title: { ua: 'На грани', en: 'The Edge', },
@@ -6177,21 +5803,6 @@ const arrFilms = [
 	},
 },
 {
-	id: 'razrushitel_1993',
-	title: { ua: 'Разрушитель', en: 'Demolition Man', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0106697',
-		wiki_ru: '%D0%A0%D0%B0%D0%B7%D1%80%D1%83%D1%88%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		sylvester_stallone_06071946: 1,
-		wesley_snipes_31071962: 1,
-		sandra_bullock_26071964: 1,
-	},
-},
-{
 	id: 'rasplata_1999',
 	title: { ua: 'Расплата', en: 'Payback', },
 	year: 1999,
@@ -6730,20 +6341,6 @@ const arrFilms = [
 		vin_diesel_18071967: 1,
 	},
 },
-{
-	id: 'specialist_1994',
-	title: { ua: 'Специалист', en: 'The Specialist', },
-	year: 1994,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0111255',
-		wiki_ru: '%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		sylvester_stallone_06071946: 1,
-		sharon_stone_10031958: 1,
-	},
-},
 
 
 
@@ -6890,21 +6487,9 @@ const arrFilms = [
 		samy_naceri_02071961: 1,
 	},
 },
-{
-	id: 'Tango_&_Cash_1989',
-	title: { ua: 'Танго и Кэш', en: 'Tango & Cash', },
-	year: 1989,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0098439',
-		wiki_ru: '%D0%A2%D0%B0%D0%BD%D0%B3%D0%BE_%D0%B8_%D0%9A%D1%8D%D1%88',
-	},
-	cast: {
-		sylvester_stallone_06071946: 1,
-		kurt_russell_17031951: 1,
-		savely_kramarov_13101934: 1,
-	},
-},
+
+
+
 {
 	id: 'tancor_disco_1982',
 	title: { ua: 'Танцор диско', en: 'Disco Dancer', },
@@ -8000,20 +7585,9 @@ const arrFilms = [
 		don_cheadle_29111964: 1,
 	},
 },
-{
-	id: 'experiment_2010',
-	title: { ua: 'Эксперимент', en: 'The Experiment', },
-	year: 2010,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0997152',
-		wiki_ru: '%D0%AD%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2010)',
-	},
-	cast: {
-		adrien_brody_14041973: 1,
-		forest_whitaker_15071961: 1,
-	},
-},
+
+
+
 {
 	id: 'Elvira_povelitelnica_tmy_1988',
 	title: { ua: 'Эльвира повелительница тьмы', en: 'Elvira: Mistress of the Dark', },

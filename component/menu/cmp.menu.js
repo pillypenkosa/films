@@ -77,10 +77,6 @@ class ComponentMenu {
 
  		let optionActor = '<option value="all">Актор(ка) (всі)</option>';
 
- 		//Prepare.getActors4searchMenu();
-
-
-
 		//console.log( arrFilmsActors.sort() );
 
 		arrFilmsActors.sort().forEach( k => {
@@ -90,6 +86,8 @@ class ComponentMenu {
 			let name = '';
 			if ( objListPeople[ k ] ) {
 				if ( objListPeople[ k ].name ) {
+
+
 
 					if ( objListPeople[ k ].name.n ) 
 						name += objListPeople[ k ].name.n;
