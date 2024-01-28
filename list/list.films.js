@@ -151,6 +151,12 @@ const arrFilms = [
 	cast: { robert_de_niro_17081943: 1, },
 },
 {
+	id: 'bus_stop_1956', title: { ua: 'Автобусна зупинка', en: 'Bus Stop', }, year: 1956, country: { usa: 1, },
+	genre: { comedy: 1, drama: 1, },
+	internet: { imdb: '0049038', wiki_ru: '%D0%90%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%BD%D0%B0%D1%8F_%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	cast: { marilyn_monroe_01061926: 1, },
+},
+{
 	id: 'runaway_car_1996', title: { ua: 'Автомобіль-утікач', en: 'Runaway Car', }, year: 1996, country: { usa: 1, },
 	genre: { thriller: 1, }, hash: { trap: 1, cars: 1, road: 1, },
 	internet: { imdb: '0120041', },
@@ -1064,25 +1070,6 @@ const arrFilms = [
 	internet: { imdb: '0119472', wiki_ua: '%D0%94%D0%BE%D1%81%D1%82%D1%83%D0%BA%D0%B0%D1%82%D0%B8%D1%81%D1%8C_%D0%B4%D0%BE_%D0%BD%D0%B5%D0%B1%D0%B5%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { rutger_hauer_23011944: 1, },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'the_marsh_kings_daughter_2023', title: { ua: 'Дочка болотного короля', en: 'The Marsh King\'s Daughter', }, year: 2023, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, },
@@ -1991,6 +1978,22 @@ const arrFilms = [
 	cast: { tom_hanks_09071956: 1, sandra_bullock_26071964: 1, },
 },
 {
+	id: 'the_bricklayer_2023', title: { ua: 'Муляр', en: 'The Bricklayer', }, year: 2023, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '2016303', wiki_ru: '%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D1%89%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	cast: { aaron_eckhart_12031968: 1, },
+},
+
+
+
+
+
+
+
+
+
+
+{
 	id: 'the_mummy_1999', title: { ua: 'Мумія', en: 'The Mummy', }, year: 1999, country: { usa: 1, },
 	genre: { adventure: 1, fantasy: 1, }, hash: { desert: 1, treasure: 1, },
 	internet: { imdb: '0120616', wiki_ua: '%D0%9C%D1%83%D0%BC%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', },
@@ -2439,6 +2442,12 @@ const arrFilms = [
 	internet: { imdb: '0309593', wiki_ua: '%D0%9F%D1%83%D0%BD%D0%BA%D1%82_%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_2', ashdivip: '98914', },
 },
 {
+	id: 'requiem_for_a_dream_2000', title: { ua: 'Реквієм за мрією', en: 'Requiem for a Dream', }, year: 2000, country: { usa: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '0180093', wiki_ua: '%D0%A0%D0%B5%D0%BA%D0%B2%D1%96%D1%94%D0%BC_%D0%B7%D0%B0_%D0%BC%D1%80%D1%96%D1%94%D1%8E_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { jennifer_connelly_12121970: 1, },
+},
+{
 	id: 'rambo_1982', title: { ua: 'Рембо', en: 'First Blood', }, year: 1982, country: { usa: 1, },
 	genre: { action: 1, thriller: 1, }, hash: { army: 1, police: 1, },
 	internet: { imdb: '0083944', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%B1%D0%BE:_%D0%9F%D0%B5%D1%80%D1%88%D0%B0_%D0%BA%D1%80%D0%BE%D0%B2', ashdivip: '985', },
@@ -2860,6 +2869,12 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, donald_sutherland_17071935: 1, tom_sizemore_29111961: 1, danny_trejo_16051944: 1, },
 },
 {
+	id: 'some_like_it_hot_1959', title: { ua: 'У джазі тільки дівчата', en: 'Some Like It Hot', }, year: 1959, country: { usa: 1, },
+	genre: { comedy: 1, crime: 1, },
+	internet: { imdb: '0053291', wiki_ua: '%D0%A3_%D0%B4%D0%B6%D0%B0%D0%B7%D1%96_%D1%82%D1%96%D0%BB%D1%8C%D0%BA%D0%B8_%D0%B4%D1%96%D0%B2%D1%87%D0%B0%D1%82%D0%B0', },
+	cast: { marilyn_monroe_01061926: 1, },
+},
+{
 	id: 'universal_soldier_1992', title: { ua: 'Універсальний солдат', en: 'Universal Soldier', }, year: 1992, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { army: 1, techno: 1, },
 	internet: { imdb: '0105698', wiki_ua: '%D0%A3%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%81%D0%BE%D0%BB%D0%B4%D0%B0%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '4209', },
@@ -2905,6 +2920,12 @@ const arrFilms = [
 	id: 'freelance_2023', title: { ua: 'Фрілансер', en: 'Freelance', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, hash: { travel: 1, },
 	internet: { imdb: '15744298', wiki_ru: '%D0%A2%D0%B5%D0%BB%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%BD%D0%B0_%D1%84%D1%80%D0%B8%D0%BB%D0%B0%D0%BD%D1%81%D0%B5', },
+},
+{
+	id: 'Hachi_a_dog_s_tale_2009', title: { ua: 'Хатіко', en: 'Hachi: A Dog\'s Tale', }, year: 2009, country: { usa: 1, },
+	genre: { drama: 1, }, hash: { animal: 1, dog: 1, },
+	internet: { imdb: '1028532', wiki_ua: '%D0%A5%D0%B0%D1%82%D1%96%D0%BA%D0%BE:_%D0%92%D1%96%D1%80%D0%BD%D0%B8%D0%B9_%D0%B4%D1%80%D1%83%D0%B3', },
+	cast: { richard_gere_31081949: 1,  },
 },
 {
 	id: 'predator_1987', title: { ua: 'Хижак', en: 'Predator', }, year: 1987, country: { usa: 1, },
@@ -5595,20 +5616,13 @@ const arrFilms = [
 		wiki_ua: '',		
 	},
 },
-{
-	id: 'rekviem_po_mechte_2000',
-	title: { ua: 'Реквием по мечте', en: 'Requiem for a Dream', },
-	year: 2000,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0180093',
-		wiki_ru: '%D0%A0%D0%B5%D0%BA%D0%B2%D0%B8%D0%B5%D0%BC_%D0%BF%D0%BE_%D0%BC%D0%B5%D1%87%D1%82%D0%B5',
-		wiki_ua: '',		
-	},
-	cast: {
-		jennifer_connelly_12121970: 1,
-	},
-},
+
+
+
+
+
+
+
 {
 	id: 'rekrut_2003',
 	title: { ua: 'Рекрут', en: 'The Recruit', },
