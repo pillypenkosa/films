@@ -105,6 +105,34 @@ class ComponentWinIndex {
 			}
 		}
 
+
+		if ( data.director ) {
+			if ( data.director != 'all' ) {
+
+				arrSelectedFilms = arrSelectedFilms.filter( k => {
+
+					if ( k.director ) {
+						if ( k.director[ data.director ] ) 
+							return true;
+					}
+				});
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		if ( data.country ) {
 			if ( data.country != 'all' ) {
 

@@ -75,7 +75,10 @@ class ComponentMenu {
  			}
  		});
 
- 		let optionActor = '<option value="all">Актор(ка) (всі)</option>';
+ 		let optionActor = '<option value="all">Актори (всі)</option>';
+ 		let optionDirectors = '<option value="all">Режисери (всі)</option>';
+
+
 
 		//console.log( arrFilmsActors.sort() );
 
@@ -86,7 +89,6 @@ class ComponentMenu {
 			let name = '';
 			if ( objListPeople[ k ] ) {
 				if ( objListPeople[ k ].name ) {
-
 
 
 					if ( objListPeople[ k ].name.n ) 
@@ -101,6 +103,22 @@ class ComponentMenu {
 		});
 
 
+
+		arrFilmsDirectors.sort().forEach( k => {
+
+			let name = '';
+
+			if ( objListPeople[ k ] ) {
+
+				if ( objListPeople[ k ].name.n ) 
+					name += objListPeople[ k ].name.n;
+
+				if ( objListPeople[ k ].name.s ) 
+					name += ' ' + objListPeople[ k ].name.s;
+			}
+
+		 	optionDirectors += `<option value="${ k }">${ name }</option>`;
+		});
 
 
 
@@ -134,12 +152,12 @@ class ComponentMenu {
  				<select data-id="actor" onchange="${ this.name }.change( this )">${ optionActor }</select>
  			</div>
  			<div>
+ 				<select data-id="director" onchange="${ this.name }.change( this )">${ optionDirectors }</select>
+ 			</div>
+ 			<div>
  				<select data-id="letter" onchange="${ this.name }.change( this )">${ optionLetter }</select>
  			</div>
-
  		`;
-
-
 
 		return { tagParam, html };  
 	} 

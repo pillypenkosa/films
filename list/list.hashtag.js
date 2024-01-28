@@ -25,6 +25,7 @@ const arrHashTags = [
 	{ id: 'prison' 			, title: 'в\'язниця' 			, app: { films: 1, }, },
 	{ id: 'mountains' 		, title: 'гори' 				, app: { films: 1, }, },
 	{ id: 'truckers' 		, title: 'далекобійники' 		, app: { films: 1, }, },
+	{ id: 'dinosaur' 		, title: 'динозаври' 			, app: { films: 1, }, },
 	{ id: 'children' 		, title: 'діти' 				, app: { films: 1, }, },
 	{ id: 'jungle' 			, title: 'джунглі' 				, app: { films: 1, }, }, 
 	{ id: 'road' 			, title: 'дорога' 				, app: { films: 1, }, }, // події в дорозі

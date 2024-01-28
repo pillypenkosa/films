@@ -124,7 +124,7 @@ const arrFilms = [
 	id: 'breakdown_1997', title: { ua: 'Аварія', en: 'Breakdown', }, year: 1997, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { road: 1, },
 	internet: { imdb: '0118771', wiki_ua: '%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D1%8E', },
-	cast: { kurt_russell_17031951: 1, },
+	cast: { kurt_russell_17031951: 1, }, director: { jonathan_mostow_28111961: 1, },
 },
 {
 	id: 'avatar_1_2009', title: { ua: 'Аватар', en: 'Avatar', }, year: 2009, country: { usa: 1, },
@@ -534,6 +534,12 @@ const arrFilms = [
 	cast: { arnold_schwarzenegger_30071947: 1, },
 },
 {
+	id: 'war_of_the_worlds_2005', title: { ua: 'Війна світів', en: 'War of the Worlds', }, year: 2005, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { aliens: 1, },
+	internet: { imdb: '0407304', wiki_ua: '%D0%92%D1%96%D0%B9%D0%BD%D0%B0_%D1%81%D0%B2%D1%96%D1%82%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
+	cast: { tom_cruise_03071962: 1, }, director: { steven_spielberg_18121946: 1, },
+},
+{
 	id: 'Willow_1988', title: { ua: 'Віллоу', en: 'Willow', }, year: 1988, country: { gbr: 1, usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0096446', wiki_ua: '%D0%92%D1%96%D0%BB%D0%BB%D0%BE%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -597,6 +603,12 @@ const arrFilms = [
 	cast: { brandon_lee_01021965: 1, },
 },
 {
+	id: 'saving_private_Ryan_1998', title: { ua: 'Врятувати рядового Раяна', en: 'Saving Private Ryan', }, year: 1998, country: { usa: 1, },
+	genre: { war: 1, history: 1, }, hash: { war2: 1, },
+	internet: { imdb: '0120815', wiki_ua: '%D0%92%D1%80%D1%8F%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8_%D1%80%D1%8F%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%A0%D0%B0%D1%8F%D0%BD%D0%B0',		 },
+	cast: { tom_hanks_09071956: 1, matt_damon_08101970: 1, tom_sizemore_29111961: 1, barry_pepper_04041970: 1, vin_diesel_18071967: 1, }, director: { steven_spielberg_18121946: 1, },
+},
+{
 	id: 'world_war_z_2013', title: { ua: 'Всесвітня війна Z', en: 'World War Z', }, year: 2013, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, horror: 1, }, hash: { apocalypse: 1, zombie: 1, },
 	internet: { imdb: '0816711', wiki_ua: '%D0%92%D1%81%D0%B5%D1%81%D0%B2%D1%96%D1%82%D0%BD%D1%8F_%D0%B2%D1%96%D0%B9%D0%BD%D0%B0_Z', },
@@ -618,15 +630,6 @@ const arrFilms = [
 	internet: { imdb: '0111161', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_%D0%B7_%D0%A8%D0%BE%D1%83%D1%88%D0%B5%D0%BD%D0%BA%D0%B0',		 },
 	cast: { morgan_freeman_01061937: 1, },
 },
-
-
-
-
-
-
-
-
-
 {
 	id: 'volcano_1997', title: { ua: 'Вулкан', en: 'Volcano', }, year: 1997, country: { usa: 1, },
 	genre: { disaster: 1, },
@@ -1084,7 +1087,7 @@ const arrFilms = [
 {
 	id: 'duel_1971', title: { ua: 'Дуель', en: 'Duel', }, year: 1971, country: { usa: 1, },
 	genre: { action: 1, thriller: 1, }, hash: { maniac: 1, road: 1, cars: 1, },
-	internet: { imdb: '0067023', wiki_ua: '%D0%94%D1%83%D0%B5%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0067023', wiki_ua: '%D0%94%D1%83%D0%B5%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', }, director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'the_wraith_1986', title: { ua: 'Дух помсти', en: 'The Wraith', }, year: 1986, country: { usa: 1, },
@@ -1390,13 +1393,13 @@ const arrFilms = [
 },
 {
 	id: 'patriot_games_1992', title: { ua: 'Ігри патріотів', en: 'Patriot Games', }, year: 1992, country: { usa: 1, },
-	genre: { action: 1, },
+	genre: { action: 1, }, 
 	internet: { imdb: '0105112', wiki_ua: '%D0%86%D0%B3%D1%80%D0%B8_%D0%BF%D0%B0%D1%82%D1%80%D1%96%D0%BE%D1%82%D1%96%D0%B2', },
 	cast: { harrison_ford_13071942: 1, sean_bean_17041959: 1, samuel_l_jackson_21121948: 1, },
 },
 {
 	id: 'a_beautiful_mind_2001', title: { ua: 'Ігри розуму', en: 'A Beautiful Mind', }, year: 2001, country: { usa: 1, },
-	genre: { biography: 1, drama: 1, },
+	genre: { drama: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '0268978', wiki_ua: '%D0%86%D0%B3%D1%80%D0%B8_%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D1%83', },
 	cast: { russell_crowe_07041964: 1, ed_harris_28111950: 1, jennifer_connelly_12121970: 1, christopher_plummer_13121929: 1, },
 },
@@ -1457,19 +1460,19 @@ const arrFilms = [
 	id: 'Indiana_Johns_1981', title: { ua: 'Індіана Джонс', en: 'Raiders of the Lost Ark', }, year: 1981, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0082971', wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81:_%D0%A3_%D0%BF%D0%BE%D1%88%D1%83%D0%BA%D0%B0%D1%85_%D0%B2%D1%82%D1%80%D0%B0%D1%87%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%B2%D1%87%D0%B5%D0%B3%D0%B0', },
-	cast: { harrison_ford_13071942: 1, },
+	cast: { harrison_ford_13071942: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'Indiana_Johns_2_1984', title: { ua: 'Індіана Джонс - 2', en: 'Indiana Jones and the Temple of Doom', }, year: 1984, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0087469', wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D1%96_%D0%A5%D1%80%D0%B0%D0%BC_%D0%94%D0%BE%D0%BB%D1%96', },
-	cast: { harrison_ford_13071942: 1, },
+	cast: { harrison_ford_13071942: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'Indiana_Johns_3_1989', title: { ua: 'Індіана Джонс - 3', en: 'Indiana Jones and the Last Crusade', }, year: 1989, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0097576', wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D1%96_%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96%D0%B9_%D1%85%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D0%BE%D1%85%D1%96%D0%B4', },
-	cast: { harrison_ford_13071942: 1, sean_connery_25081930: 1, },
+	cast: { harrison_ford_13071942: 1, sean_connery_25081930: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'armored_2009', title: { ua: 'Інкасатор', en: 'Armored', }, year: 2009, country: { usa: 1, },
@@ -1562,7 +1565,7 @@ const arrFilms = [
 },
 {
 	id: 'king_kong_2005', title: { ua: 'Кінг-Конг', en: 'King Kong', }, year: 2005, country: { usa: 1, },
-	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, sea: 1, island: 1, jungle: 1, newyork: 1, },
+	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, sea: 1, island: 1, jungle: 1, dinosaur: 1, newyork: 1, },
 	internet: { imdb: '0360717', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
 	cast: { naomi_watts_28091968: 1, jack_black_28081969: 1, adrien_brody_14041973: 1, kyle_chandler_17091965: 1, },
 },
@@ -1733,49 +1736,61 @@ const arrFilms = [
 	cast: { julia_roberts_28101967: 1, richard_gere_31081949: 1, },
 },
 {
+	id: 'blood_diamond_2006', title: { ua: 'Кривавий діамант', en: 'Blood Diamond', }, year: 2006, country: { usa: 1, deu: 1, },
+	genre: { thriller: 1, adventure: 1, }, hash: { travel: 1, },
+	internet: { imdb: '0450259', wiki_ua: '%D0%9A%D1%80%D0%B8%D0%B2%D0%B0%D0%B2%D0%B8%D0%B9_%D0%B4%D1%96%D0%B0%D0%BC%D0%B0%D0%BD%D1%82', },
+	cast: { leonardo_dicaprio_11111974: 1, jennifer_connelly_12121970: 1, arnold_vosloo_16061962: 1, },
+},
+{
+	id: 'bloodsport_1988', title: { ua: 'Кривавий спорт', en: 'Bloodsport', }, year: 1988, country: { usa: 1, },
+	genre: { action: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0092675', wiki_ua: '%D0%9A%D1%80%D0%B8%D0%B2%D0%B0%D0%B2%D0%B8%D0%B9_%D1%81%D0%BF%D0%BE%D1%80%D1%82', },
+	cast: { jean_claude_van_damme_18101960: 1, forest_whitaker_15071961: 1, bolo_yeung_03071946: 1, },
+},
+{
 	id: 'pulp_fiction_1994', title: { ua: 'Кримінальне чтиво', en: 'Pulp Fiction', }, year: 1994, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0110912', wiki_ua: '%D0%9A%D1%80%D0%B8%D0%BC%D1%96%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D1%87%D1%82%D0%B8%D0%B2%D0%BE', },
 	cast: { john_travolta_18021954: 1, samuel_l_jackson_21121948: 1, bruce_willis_19031955: 1, uma_thurman_29041970: 1, ving_rhames_12051959: 1, quentin_tarantino_27031963: 1, peter_greene_08101965: 1, steve_buscemi_13121957: 1, },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+	id: 'christine_1983', title: { ua: 'Крістіна', en: 'Christine', }, year: 1983, country: { usa: 1, },
+	genre: { horror: 1, thriller: 1, }, hash: { cars: 1, },
+	internet: { imdb: '0085333', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D1%96%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1983)', },
+},
+{
+	id: 'crocodile_Dundee_1986', title: { ua: 'Крокодил Данді', en: 'Crocodile Dundee', }, year: 1986, country: { aus: 1, usa: 1, },
+	genre: { action: 1, adventure: 1, }, hash: { crocodile: 1, newyork: 1, },
+	internet: { imdb: '0090555', wiki_ua: '%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB_%D0%94%D0%B0%D0%BD%D0%B4%D1%96', ashdivip: '21768', },
+	cast: { paul_hogan_08101939: 1, },
+},
+{
+	id: 'crocodile_Dundee_2_1988', title: { ua: 'Крокодил Данді - 2', en: 'Crocodile Dundee 2', }, year: 1988, country: { aus: 1, usa: 1, },
+	genre: { action: 1, adventure: 1, }, hash: { crocodile: 1, newyork: 1, },
+	internet: { imdb: '0092493', wiki_ua: '%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB_%D0%94%D0%B0%D0%BD%D0%B4%D1%96_2', ashdivip: '21767', },
+	cast: { paul_hogan_08101939: 1, },
+},
 {
 	id: 'lat_sau_san_taam_1992', title: { ua: 'Круто зварені', en: 'Lat sau san taam', }, year: 1992, country: { hkg: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0104684', wiki_ua: '%D0%9A%D1%80%D1%83%D1%82%D0%BE_%D0%B7%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D1%96', },
 },
 {
+	id: 'cube_2_hypercube', title: { ua: 'Куб - 2', en: 'Cube 2: Hypercube', }, year: 2002, country: { can: 1, },
+	genre: { thriller: 1, horror: 1, sci_fi: 1, }, hash: { trap: 1, techno: 1, },
+	internet: { imdb: '0285492', wiki_ua: '%D0%9A%D1%83%D0%B1_2:_%D0%93%D1%96%D0%BF%D0%B5%D1%80%D0%BA%D1%83%D0%B1', ashdivip: '87082', },
+	cast: { kari_matchett_25031970: 1, },
+},
+{
 	id: 'strays_2023', title: { ua: 'Кудлаті перці', en: 'Strays', }, year: 2023, country: { usa: 1, },
 	genre: { fantasy: 1, adventure: 1, comedy: 1, }, hash: { animal: 1, dog: 1, team: 1, },
 	internet: { imdb: '15153532', wiki_ua: '%D0%91%D1%80%D0%BE%D0%B4%D1%8F%D0%B3%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', ashdivip: '111951', },
+},
+{
+	id: 'curly_Sue_1991', title: { ua: 'Кучерявка Сью', en: 'Curly Sue', }, year: 1991, country: { usa: 1, },
+	genre: { comedy: 1, drama: 1, },
+	internet: { imdb: '0101635', wiki_ua: '%D0%9A%D1%83%D1%87%D0%B5%D1%80%D1%8F%D0%B2%D0%BA%D0%B0_%D0%A1%D1%8C%D1%8E', },
+	cast: { james_belushi_15061954: 1, },
 },
 {
 	id: 'into_the_blue_2005', title: { ua: 'Ласкаво просимо до раю', en: 'Into the Blue', }, year: 2005, country: { usa: 1, },
@@ -1970,6 +1985,7 @@ const arrFilms = [
 	id: 'muzzle_2023', title: { ua: 'Морда', en: 'Muzzle', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, crime: 1,  }, hash: { dog: 1, police: 1, },
 	internet: { imdb: '17663876', },
+	cast: { aaron_eckhart_12031968: 1, },	
 },
 {
 	id: 'extremely_loud_incredibly_close_2011', title: { ua: 'Моторошно голосно і несамовито близько', en: 'Extremely Loud & Incredibly Close', }, year: 2011, country: { usa: 1, },
@@ -1983,16 +1999,6 @@ const arrFilms = [
 	internet: { imdb: '2016303', wiki_ru: '%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D1%89%D0%B8%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 	cast: { aaron_eckhart_12031968: 1, },
 },
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'the_mummy_1999', title: { ua: 'Мумія', en: 'The Mummy', }, year: 1999, country: { usa: 1, },
 	genre: { adventure: 1, fantasy: 1, }, hash: { desert: 1, treasure: 1, },
@@ -2179,7 +2185,7 @@ const arrFilms = [
 	id: 'minority_report_2002', title: { ua: 'Особлива думка', en: 'Minority Report', }, year: 2002, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0181689', wiki_ua: '%D0%9E%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%B0_%D0%B4%D1%83%D0%BC%D0%BA%D0%B0', },
-	cast: { tom_cruise_03071962: 1, },
+	cast: { tom_cruise_03071962: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'last_action_hero_1993', title: { ua: 'Останній кіногерой', en: 'Last Action Hero', }, year: 1993, country: { usa: 1, },
@@ -2196,6 +2202,12 @@ const arrFilms = [
 	id: 'la_casa_de_papel_2017', title: { ua: 'Паперовий будинок', en: 'La casa de papel', }, year: 2017, country: { esp: 1, },
 	genre: { serial: 1, action: 1, crime: 1, }, hash: { robbery: 1, },
 	internet: { imdb: '6468322', wiki_ua: '%D0%9F%D0%B0%D0%BF%D0%B5%D1%80%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
+},
+{
+	id: 'jurassic_park_1993', title: { ua: 'Парк Юрського періоду', en: 'Jurassic Park', }, year: 1993, country: { usa: 1, },
+	genre: { sci_fi: 1, adventure: 1, }, hash: { animal: 1, dinosaur: 1, },
+	internet: { imdb: '0107290', wiki_ua: '%D0%9F%D0%B0%D1%80%D0%BA_%D0%AE%D1%80%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BF%D0%B5%D1%80%D1%96%D0%BE%D0%B4%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { samuel_l_jackson_21121948: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'cop_out_2010', title: { ua: 'Парочка копів', en: 'Cop Out', }, year: 2010, country: { usa: 1, },
@@ -2440,6 +2452,11 @@ const arrFilms = [
 	id: 'final_destination_2_2003', title: { ua: 'Пункт призначення - 2', en: 'Final Destination 2', }, year: 2003, country: { usa: 1, },
 	genre: { horror: 1, thriller: 1, trash: 1, }, hash: { young: 1, },
 	internet: { imdb: '0309593', wiki_ua: '%D0%9F%D1%83%D0%BD%D0%BA%D1%82_%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_2', ashdivip: '98914', },
+},
+{
+	id: 'outback_2019', title: { ua: 'Пустеля', en: 'Outback', }, year: 2019, country: { aus: 1, },
+	genre: { thriller: 1, horror: 1, }, hash: { desert: 1, },
+	internet: { imdb: '7336182', },
 },
 {
 	id: 'requiem_for_a_dream_2000', title: { ua: 'Реквієм за мрією', en: 'Requiem for a Dream', }, year: 2000, country: { usa: 1, },
@@ -2737,6 +2754,12 @@ const arrFilms = [
 	internet: { imdb: '6723592', wiki_ua: '%D0%A2%D0%B5%D0%BD%D0%B5%D1%82', ashdivip: '40073', },
 },
 {
+	id: 'the_terminal_2004', title: { ua: 'Термінал', en: 'The Terminal', }, year: 2004, country: { usa: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '0362227', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { tom_hanks_09071956: 1, catherine_zeta_jones_25091969: 1, zoe_saldana_19061978: 1, }, director: { steven_spielberg_18121946: 1, },
+},
+{
 	id: 'terminator_1_1984', title: { ua: 'Термінатор', en: 'The Terminator', }, year: 1984, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, },
 	internet: { imdb: '0088247', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '3499', moviestape: 'Terminator', },
@@ -2752,7 +2775,7 @@ const arrFilms = [
 	id: 'terminator_3_2003', title: { ua: 'Термінатор - 3', en: 'Terminator 3: Rise of the Machines', }, year: 2003, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, young: 1, },
 	internet: { imdb: '0181852', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_3:_%D0%9F%D0%BE%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD', ashdivip: '3572', moviestape: 'Terminator.3', },
-	cast: { arnold_schwarzenegger_30071947: 1, kristanna_loken_08101979: 1, nick_stahl_05121979: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, kristanna_loken_08101979: 1, nick_stahl_05121979: 1, }, director: { jonathan_mostow_28111961: 1, },
 },
 {
 	id: 'terminator_4_2009', title: { ua: 'Термінатор - 4', en: 'Terminator Salvation', }, year: 2009, country: { usa: 1, },
@@ -3096,7 +3119,7 @@ const arrFilms = [
 {
 	id: 'jaws_1975', title: { ua: 'Щелепи', en: 'Jaws', }, year: 1975, country: { usa: 1, },
 	genre: { horror: 1, thriller: 1, }, hash: { shark: 1, beach: 1, },
-	internet: { imdb: '0073195', wiki_ua: '%D0%A9%D0%B5%D0%BB%D0%B5%D0%BF%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0073195', wiki_ua: '%D0%A9%D0%B5%D0%BB%D0%B5%D0%BF%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', }, director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'jaws_2_1978', title: { ua: 'Щелепи - 2', en: 'Jaws 2', }, year: 1978, country: { usa: 1, },
@@ -3118,6 +3141,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { armwrestling: 1, truckers: 1, },
 	internet: { imdb: '0093692', wiki_ua: '%D0%A9%D0%BE%D1%81%D0%B8%D0%BB%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { sylvester_stallone_06071946: 1, },
+},
+{
+	id: 'rat_race_2001', title: { ua: 'Щурячі перегони', en: 'Rat Race', }, year: 2001, country: { usa: 1, can: 1,},
+	genre: { comedy: 1, adventure: 1, }, hash: { road: 1, race: 1, },
+	internet: { imdb: '0250687', wiki_ua: '%D0%A9%D1%83%D1%80%D1%8F%D1%87%D1%96_%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%BD%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { amy_smart_26031976: 1, cuba_gooding_jr_02011968: 1, whoopi_goldberg_13111955: 1, rowan_atkinson_06011955: 1, },
 },
 {
 	id: 'i_am_legend_2007', title: { ua: 'Я - легенда', en: 'I Am Legend', }, year: 2007, country: { usa: 1, },
@@ -3189,7 +3218,7 @@ const arrFilms = [
 	id: 'u-571_2000', title: { ua: 'U-571', en: 'U-571', }, year: 2000, country: { usa: 1, fra: 1, },
 	genre: { action: 1, war: 1, }, hash: { underwater: 1, war2: 1, },
 	internet: { imdb: '0141926', wiki_ua: 'U-571_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
-	cast: { matthew_mcconaughey_04111969: 1, jon_bon_jovi_02031962: 1, bill_paxton_17051955: 1, },
+	cast: { matthew_mcconaughey_04111969: 1, jon_bon_jovi_02031962: 1, bill_paxton_17051955: 1, }, director: { jonathan_mostow_28111961: 1, },
 },
 {
 	id: 'uncharted_2022', title: { ua: 'Uncharted: Незвідане', en: 'Uncharted', }, year: 2022, country: { usa: 1, },
@@ -3344,154 +3373,6 @@ const arrFilms = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-	id: 'Kristina_1983',
-	title: { ua: 'Кристина', en: 'Christine', },
-	year: 1983,
-	country: { usa: 1, },
-	internet: { imdb: '0085333', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D1%96%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1983)', },
-},
-{
-	id: 'krovaviy_almaz_2006',
-	title: { ua: 'Кровавый алмаз', en: 'Blood Diamond', },
-	year: 2006,
-	country: { usa: 1, },
-	internet: { imdb: '0450259', wiki_ua: '%D0%9A%D1%80%D0%B8%D0%B2%D0%B0%D0%B2%D0%B8%D0%B9_%D0%B4%D1%96%D0%B0%D0%BC%D0%B0%D0%BD%D1%82', },
-	cast: { leonardo_dicaprio_11111974: 1, jennifer_connelly_12121970: 1, },
-},
-{
-	id: 'krovaviy_sport_1988',
-	title: { ua: 'Кровавый спорт', en: 'Bloodsport', },
-	year: 1988,
-	country: { usa: 1, },
-	internet: { imdb: '0092675', wiki_ua: '%D0%9A%D1%80%D0%B8%D0%B2%D0%B0%D0%B2%D0%B8%D0%B9_%D1%81%D0%BF%D0%BE%D1%80%D1%82', },
-	cast: { jean_claude_van_damme_18101960: 1, forest_whitaker_15071961: 1, },
-},
-{
-	id: 'krokodil_Dundee_1_1986',
-	title: { ua: 'Крокодил Данди - 1', en: 'Crocodile Dundee', },
-	year: 1986,
-	country: { aus: 1, usa: 1, },
-	internet: { imdb: '0090555', wiki_ua: '%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB_%D0%94%D0%B0%D0%BD%D0%B4%D1%96', },
-	cast: { paul_hogan_08101939: 1, },
-},
-{
-	id: 'krokodil_Dundee_2_1988',
-	title: { ua: 'Крокодил Данди - 2', en: 'Crocodile Dundee 2', },
-	year: 1988,
-	country: { aus: 1, usa: 1, },
-	internet: { imdb: '0092493', wiki_ua: '%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB_%D0%94%D0%B0%D0%BD%D0%B4%D1%96_2', },
-	cast: { paul_hogan_08101939: 1, },
-},
-{
-	id: 'krysinie_bega_2001',
-	title: { ua: 'Крысиные бега', en: 'Rat Race', },
-	year: 2001,
-	country: { usa: 1, },
-	internet: { imdb: '0250687', wiki_ua: '%D0%A9%D1%83%D1%80%D1%8F%D1%87%D1%96_%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%BD%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { amy_smart_26031976: 1, cuba_gooding_jr_02011968: 1, whoopi_goldberg_13111955: 1, rowan_atkinson_06011955: 1, },
-},
-{
-	id: 'kub_2',
-	title: { ua: 'Куб - 2', en: 'Cube 2: Hypercube', },
-	year: 2002,
-	country: { usa: 1, },
-	internet: { imdb: '0285492', wiki_ua: '%D0%9A%D1%83%D0%B1_2:_%D0%93%D1%96%D0%BF%D0%B5%D1%80%D0%BA%D1%83%D0%B1', },
-	cast: { kari_matchett_25031970: 1, },
-},
-{
-	id: 'kudryashka_Sue_1991',
-	title: { ua: 'Кудряшка Сью', en: 'Curly Sue', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: { imdb: '0101635', wiki_ua: '%D0%9A%D1%83%D1%87%D0%B5%D1%80%D1%8F%D0%B2%D0%BA%D0%B0_%D0%A1%D1%8C%D1%8E', },
-	cast: { james_belushi_15061954: 1, },
-},
 
 
 
@@ -4710,6 +4591,8 @@ const arrFilms = [
 		morgan_freeman_01061937: 1,
 	},
 },
+
+
 {
 	id: 'padenie_Londona_2016',
 	title: { ua: 'Падение Лондона', en: 'London Has Fallen', },
@@ -4723,8 +4606,13 @@ const arrFilms = [
 	cast: {
 		gerard_butler_13111969: 1,
 		morgan_freeman_01061937: 1,
+		aaron_eckhart_12031968: 1,
 	},
 },
+
+
+
+
 {
 	id: 'padenie_Olimpa_2013',
 	title: { ua: 'Падение Олимпа', en: 'Olympus Has Fallen', },
@@ -4739,6 +4627,7 @@ const arrFilms = [
 		gerard_butler_13111969: 1,
 		morgan_freeman_01061937: 1,
 		ashley_judd_19041968: 1,
+		aaron_eckhart_12031968: 1,
 	},
 },
 {
@@ -4756,20 +4645,9 @@ const arrFilms = [
 		michelle_trachtenberg_11101985: 1,
 	},
 },
-{
-	id: 'park_Yurskogo_perioda_1993',
-	title: { ua: 'Парк Юрского периода', en: 'Jurassic Park', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0107290',
-		wiki_ru: '%D0%9F%D0%B0%D1%80%D0%BA_%D1%8E%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		wiki_ua: '',		
-	},
-	cast: {
-		samuel_l_jackson_21121948: 1,
-	},
-},
+
+
+
 {
 	id: 'parker_2013',
 	title: { ua: 'Паркер', en: 'Parker', },
@@ -6132,24 +6010,11 @@ const arrFilms = [
 		nastassja_kinski_24011961: 1,
 	},
 },
-{
-	id: 'spasti_ryadovogo_Rayana_1998',
-	title: { ua: 'Спасти рядового Райана', en: 'Saving Private Ryan', },
-	year: 1998,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0120815',
-		wiki_ru: '%D0%A1%D0%BF%D0%B0%D1%81%D1%82%D0%B8_%D1%80%D1%8F%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%A0%D0%B0%D0%B9%D0%B0%D0%BD%D0%B0',
-		wiki_ua: '',		
-	},
-	cast: {
-		tom_hanks_09071956: 1,
-		matt_damon_08101970: 1,
-		tom_sizemore_29111961: 1,
-		barry_pepper_04041970: 1,
-		vin_diesel_18071967: 1,
-	},
-},
+
+
+
+
+
 {
 	id: 'stealth_2005',
 	title: { ua: 'Стелс', en: 'Stealth', },
@@ -6391,22 +6256,13 @@ const arrFilms = [
 		julia_roberts_28101967: 1,
 	},
 },
-{
-	id: 'terminal_2004',
-	title: { ua: 'Терминал', en: 'The Terminal', },
-	year: 2004,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0362227',
-		wiki_ru: '%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		wiki_ua: '',		
-	},
-	cast: {
-		tom_hanks_09071956: 1,
-		catherine_zeta_jones_25091969: 1,
-		zoe_saldana_19061978: 1,
-	},
-},
+
+
+
+
+
+
+
 {
 	id: 'titanic_1996',
 	title: { ua: 'Титаник', en: 'Titanic', },
@@ -7573,6 +7429,7 @@ let objFilmsYear = {};
 let objFilmsCountry = {};
 
 let arrFilmsActors = [];
+let arrFilmsDirectors = [];
 
 
 
@@ -7593,24 +7450,27 @@ arrFilms.forEach( k => {
 	if ( k.cast ) {
 		for ( let k2 in k.cast ) {
 
-			if (  arrFilmsActors.indexOf( k2 ) == -1 ) {
-
+			if (  arrFilmsActors.indexOf( k2 ) == -1 ) 
 				arrFilmsActors.push( k2 );
 
-				//see( arr.indexOf( 'matilda' )); // -1  если нет такого значения в массиве
-
-				//arr.indexOf( 'matilda' );
-			}
 		}
 	}
+
+	if ( k.director ) {
+		for ( let k3 in k.director ) {
+
+			if (  arrFilmsDirectors.indexOf( k3 ) == -1 ) 
+				arrFilmsDirectors.push( k3 );
+
+		}
+	}
+
 
 });
 
 
 
-
-
-
+//console.log( 'arrFilmsDirectors: ', arrFilmsDirectors );
 
 
 
