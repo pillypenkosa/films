@@ -18,7 +18,6 @@ const arrHashTags = [
 	{ id: 'biomedlab' 		, title: 'біомедлаб' 			, app: { films: 1, }, }, // досліди в лабораторіях
 	{ id: 'madhouse' 		, title: 'божевільня' 			, app: { films: 1, }, }, // досліди в лабораторіях
 	{ id: 'escape' 			, title: 'втеча' 				, app: { films: 1, }, }, 
-	{ id: 'bond' 			, title: 'ДжеймсБонд' 			, app: { films: 1, }, }, 
 	{ id: 'bear' 			, title: 'ведмеді' 				, app: { films: 1, }, }, 
 	{ id: 'surviving' 		, title: 'виживання' 			, app: { films: 1, }, }, // подорожі у часі
 	{ id: 'virus' 			, title: 'вірус' 				, app: { films: 1, }, },
@@ -27,8 +26,10 @@ const arrHashTags = [
 	{ id: 'truckers' 		, title: 'далекобійники' 		, app: { films: 1, }, },
 	{ id: 'dinosaur' 		, title: 'динозаври' 			, app: { films: 1, }, },
 	{ id: 'children' 		, title: 'діти' 				, app: { films: 1, }, },
+	{ id: 'bond' 			, title: 'ДжеймсБонд' 			, app: { films: 1, }, }, 
 	{ id: 'jungle' 			, title: 'джунглі' 				, app: { films: 1, }, }, 
 	{ id: 'road' 			, title: 'дорога' 				, app: { films: 1, }, }, // події в дорозі
+	{ id: 'hostage' 		, title: 'заручники' 			, app: { films: 1, }, },
 	{ id: 'winter' 			, title: 'зима' 				, app: { films: 1, }, },
 	{ id: 'snake' 			, title: 'змії' 				, app: { films: 1, }, },
 	{ id: 'zombie' 			, title: 'зомбі' 				, app: { films: 1, }, },

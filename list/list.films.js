@@ -298,7 +298,7 @@ const arrFilms = [
 },
 {
 	id: 'the_abyss_1989', title: { ua: 'Безодня', en: 'The Abyss', }, year: 1989, country: { usa: 1, },
-	genre: { sci_fi: 1, adventure: 1, }, hash: { sea: 1, underwater: 1, aliens: 1, },
+	genre: { sci_fi: 1, adventure: 1, }, hash: { underwater: 1, aliens: 1, },
 	internet: { imdb: '0096754', wiki_ua: '%D0%91%D0%B5%D0%B7%D0%BE%D0%B4%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { ed_harris_28111950: 1, michael_biehn_31071956: 1, },
 },
@@ -506,7 +506,7 @@ const arrFilms = [
 },
 {
 	id: 'cast_away_2000', title: { ua: 'Вигнанець', en: 'Cast Away', }, year: 2000, country: { usa: 1, },
-	genre: { adventure: 1, }, hash: { island: 1, surviving: 1, },
+	genre: { adventure: 1, }, hash: { oneman: 1, island: 1, surviving: 1, tropic: 1, },
 	internet: { imdb: '0162222', wiki_ua: '%D0%92%D0%B8%D0%B3%D0%BD%D0%B0%D0%BD%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { tom_hanks_09071956: 1, },
 },
@@ -523,7 +523,7 @@ const arrFilms = [
 },
 {
 	id: 'retribution_2023', title: { ua: 'Відплата: Дорога помсти', en: 'Retribution', }, year: 2023, country: { usa: 1, },
-	genre: { action: 1, }, hash: {  terrorist: 1, cars: 1, },
+	genre: { action: 1, }, hash: { terrorist: 1, hostage: 1, cars: 1, },
 	internet: { imdb: '6906292', },
 	cast: { liam_neeson_07061952: 1, },
 },
@@ -1209,7 +1209,7 @@ const arrFilms = [
 },
 {
 	id: 'the_delta_force_1986', title: { ua: 'Загін Дельта', en: 'The Delta Force', }, year: 1986, country: { usa: 1, },
-	genre: { action: 1, }, hash: { plane: 1, terrorist: 1, army: 1, fight: 1, },
+	genre: { action: 1, }, hash: { plane: 1, terrorist: 1, hostage: 1, army: 1, fight: 1, },
 	internet: { imdb: '0090927', wiki_ua: '%D0%97%D0%B0%D0%B3%D1%96%D0%BD_%C2%AB%D0%94%D0%B5%D0%BB%D1%8C%D1%82%D0%B0%C2%BB', ashdivip: '19889', },
 	cast: { chuck_norris_10031940: 1, },
 },
@@ -1382,7 +1382,7 @@ const arrFilms = [
 },
 {
 	id: 'toy_soldiers_1991', title: { ua: 'Іграшкові солдатики', en: 'Toy Soldiers', }, year: 1991, country: { usa: 1, },
-	genre: { action: 1, }, hash: { terrorist: 1, children: 1, army: 1, },
+	genre: { action: 1, }, hash: { terrorist: 1, hostage: 1, children: 1, army: 1, },
 	internet: { imdb: '0103112', wiki_ua: '%D0%86%D0%B3%D1%80%D0%B0%D1%88%D0%BA%D0%BE%D0%B2%D1%96_%D1%81%D0%BE%D0%BB%D0%B4%D0%B0%D1%82%D0%B8%D0%BA%D0%B8', },
 },
 {
@@ -1541,7 +1541,7 @@ const arrFilms = [
 },
 {
 	id: 'kickboxer_1989', title: { ua: 'Кікбоксер', en: 'Kickboxer', }, year: 1989, country: { usa: 1, },
-	genre: { action: 1, }, hash: { fight: 1, },
+	genre: { action: 1, }, hash: { fight: 1, sport: 1, },
 	internet: { imdb: '0097659', wiki_ua: '%D0%9A%D1%96%D0%BA%D0%B1%D0%BE%D0%BA%D1%81%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1989)', },
 	cast: { jean_claude_van_damme_18101960: 1, },
 },
@@ -1743,7 +1743,7 @@ const arrFilms = [
 },
 {
 	id: 'bloodsport_1988', title: { ua: 'Кривавий спорт', en: 'Bloodsport', }, year: 1988, country: { usa: 1, },
-	genre: { action: 1, }, hash: { fight: 1, },
+	genre: { action: 1, }, hash: { fight: 1, sport: 1, },
 	internet: { imdb: '0092675', wiki_ua: '%D0%9A%D1%80%D0%B8%D0%B2%D0%B0%D0%B2%D0%B8%D0%B9_%D1%81%D0%BF%D0%BE%D1%80%D1%82', },
 	cast: { jean_claude_van_damme_18101960: 1, forest_whitaker_15071961: 1, bolo_yeung_03071946: 1, },
 },
@@ -1794,7 +1794,7 @@ const arrFilms = [
 },
 {
 	id: 'into_the_blue_2005', title: { ua: 'Ласкаво просимо до раю', en: 'Into the Blue', }, year: 2005, country: { usa: 1, },
-	genre: { action: 1, adventure: 1, crime: 1, }, hash: { sea: 1, },
+	genre: { action: 1, adventure: 1, crime: 1, }, hash: { beach: 1, },
 	internet: { imdb: '0378109', wiki_ua: '%D0%9B%D0%B0%D1%81%D0%BA%D0%B0%D0%B2%D0%BE_%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%BE_%D0%B4%D0%BE_%D1%80%D0%B0%D1%8E!_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', ashdivip: '14357', },
 	cast: { paul_walker_12091973: 1, jessica_alba_28041981: 1, },
 },
@@ -1865,7 +1865,7 @@ const arrFilms = [
 {
 	id: 'mine_2016', title: { ua: 'Міна', en: 'Mine', }, year: 2016, country: { usa: 1, },
 	genre: { drama: 1, thriller: 1, }, hash: { oneman: 1, trap: 1, surviving: 1, desert: 1, army: 1, },
-	internet: { imdb: '3707104', 	wiki_ru: '%D0%9C%D0%B8%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2016)', },
+	internet: { imdb: '3707104', wiki_ru: '%D0%9C%D0%B8%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2016)', },
 },
 {
 	id: 'hidden_strike_2023', title: { ua: 'Місія на двох', en: 'Hidden Strike', }, year: 2023, country: { usa: 1, },
@@ -1947,7 +1947,7 @@ const arrFilms = [
 },
 {
 	id: 'die_hard_1988', title: { ua: 'Міцний горішок', en: 'Die Hard', }, year: 1988, country: { usa: 1, },
-	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, newyork: 1, },
+	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, hostage: 1, newyork: 1, },
 	internet: { imdb: '0095016', wiki_ua: '%D0%9C%D1%96%D1%86%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BE%D0%BA', },
 	cast: { bruce_willis_19031955: 1, },
 },
@@ -2019,7 +2019,7 @@ const arrFilms = [
 },
 {
 	id: 'live_die_repeat_edge_of_tomorrow_2014', title: { ua: 'На межі майбутнього', en: 'Live Die Repeat: Edge of Tomorrow', }, year: 2014, country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, }, hash: { groundhog: 1, techno: 1, battle: 1, future: 1,  },
+	genre: { action: 1, sci_fi: 1, }, hash: { groundhog: 1, future: 1, battle: 1, aliens: 1, army: 1, },
 	internet: { imdb: '1631867', wiki_ua: '%D0%9D%D0%B0_%D0%BC%D0%B5%D0%B6%D1%96_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%8C%D0%BE%D0%B3%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '6562', },
 	cast: { tom_cruise_03071962: 1, emily_blunt_23021983: 1, bill_paxton_17051955: 1, },
 },
@@ -2037,7 +2037,7 @@ const arrFilms = [
 },
 {
 	id: 'around_the_world_in_80_days_2004', title: { ua: 'Навколо світу за 80 днів', en: 'Around the World in 80 Days', }, year: 2004, country: { usa: 1, gbr: 1, deu: 1, irl: 1, },
-	genre: { action: 1, adventure: 1, comedy: 1, }, hash: { fight: 1, trap: 1, },
+	genre: { action: 1, adventure: 1, comedy: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0327437', wiki_ua: '%D0%9D%D0%B0%D0%B2%D0%BA%D0%BE%D0%BB%D0%BE_%D1%81%D0%B2%D1%96%D1%82%D1%83_%D0%B7%D0%B0_80_%D0%B4%D0%BD%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2004)', },
 	cast: { jackie_chan_07041954: 1, arnold_schwarzenegger_30071947: 1, maggie_q_22051979: 1, },
 },
@@ -2067,7 +2067,7 @@ const arrFilms = [
 },
 {
 	id: 'executive_decision_1996', title: { ua: 'Наказано знищити', en: 'Executive Decision', }, year: 1996, country: { usa: 1, },
-	genre: { terrorist: 1, plane: 1, }, hash: { terrorist: 1, plane: 1, },
+	genre: { terrorist: 1, plane: 1, }, hash: { terrorist: 1, hostage: 1, plane: 1, },
 	internet: { imdb: '0116253', wiki_ua: '%D0%9D%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%BE_%D0%B7%D0%BD%D0%B8%D1%89%D0%B8%D1%82%D0%B8', ashdivip: '79267', },
 	cast: { kurt_russell_17031951: 1, halle_berry_14081966: 1, steven_seagal_10041952: 1, joe_morton_18101947: 1, },
 },
@@ -2414,7 +2414,7 @@ const arrFilms = [
 },
 {
 	id: 'true_lies_1995', title: { ua: 'Правдива брехня', en: 'True Lies', }, year: 1995, country: { usa: 1, },
-	genre: { action: 1, terrorist: 1, },
+	genre: { action: 1, }, hash: { terrorist: 1, },
 	internet: { imdb: '0423412', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B4%D0%B8%D0%B2%D0%B0_%D0%B1%D1%80%D0%B5%D1%85%D0%BD%D1%8F', ashdivip: '1903', auliki7: 'True.Lies', },
 	cast: { arnold_schwarzenegger_30071947: 1, jamie_lee_curtis_22111958: 1, bill_paxton_17051955: 1, tia_carrere_02011967: 1, },
 },
@@ -2524,7 +2524,7 @@ const arrFilms = [
 },
 {
 	id: 'role_play_2024', title: { ua: 'Рольові ігри', en: 'Role Play', }, year: 2024, country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, crime: 1, }, hash: { robot: 1, police: 1, },
+	genre: { action: 1, sci_fi: 1, crime: 1, },
 	internet: { imdb: '12964320', wiki_ua: '%D0%A0%D0%BE%D0%BB%D1%8C%D0%BE%D0%B2%D1%96_%D1%96%D0%B3%D1%80%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
@@ -2623,7 +2623,7 @@ const arrFilms = [
 },
 {
 	id: 'the_rock_1996', title: { ua: 'Скеля', en: 'The Rock', }, year: 1996, country: { usa: 1, },
-	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, army: 1, prison: 1, },
+	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, hostage: 1, army: 1, prison: 1, },
 	internet: { imdb: '0117500', wiki_ua: '%D0%A1%D0%BA%D0%B5%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '13859', },
 	cast: { sean_connery_25081930: 1, nicolas_cage_07011964: 1, ed_harris_28111950: 1, david_morse_11101953: 1, michael_biehn_31071956: 1, claire_forlani_01071972: 1, },
 },
@@ -2681,7 +2681,7 @@ const arrFilms = [
 },
 {
 	id: 'collateral_2004', title: { ua: 'Співучасник', en: 'Collateral', }, year: 2004, country: { usa: 1, },
-	genre: { thriller: 1, crime: 1, }, hash: { cars: 1, },
+	genre: { thriller: 1, crime: 1, }, 
 	internet: { imdb: '0369339', wiki_ua: '%D0%A1%D0%BF%D1%96%D0%B2%D1%83%D1%87%D0%B0%D1%81%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '13805', },
 	cast: { tom_cruise_03071962: 1, },
 },
@@ -2761,19 +2761,19 @@ const arrFilms = [
 },
 {
 	id: 'terminator_1_1984', title: { ua: 'Термінатор', en: 'The Terminator', }, year: 1984, country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, robot: 1, police: 1, },
 	internet: { imdb: '0088247', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '3499', moviestape: 'Terminator', },
 	cast: { arnold_schwarzenegger_30071947: 1, linda_hamilton_26091956: 1, michael_biehn_31071956: 1, bill_paxton_17051955: 1, },
 },
 {
 	id: 'terminator_2_1991', title: { ua: 'Термінатор - 2', en: 'Terminator 2: Judgment Day', }, year: 1991, country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, children: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, robot: 1, children: 1, motorbike: 1, police: 1, madhouse: 1, },
 	internet: { imdb: '0103064', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_2:_%D0%A1%D1%83%D0%B4%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C', ashdivip: '3314', moviestape: 'Terminator.2.Judgment.Day', },
 	cast: { arnold_schwarzenegger_30071947: 1, linda_hamilton_26091956: 1, edward_furlong_02081977: 1, robert_patrick_05111958: 1, joe_morton_18101947: 1, michael_biehn_31071956: 1, },
 },
 {
 	id: 'terminator_3_2003', title: { ua: 'Термінатор - 3', en: 'Terminator 3: Rise of the Machines', }, year: 2003, country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, young: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, young: 1, police: 1, },
 	internet: { imdb: '0181852', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_3:_%D0%9F%D0%BE%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD', ashdivip: '3572', moviestape: 'Terminator.3', },
 	cast: { arnold_schwarzenegger_30071947: 1, kristanna_loken_08101979: 1, nick_stahl_05121979: 1, }, director: { jonathan_mostow_28111961: 1, },
 },
@@ -2785,13 +2785,13 @@ const arrFilms = [
 },
 {
 	id: 'terminator_5_2015', title: { ua: 'Термінатор - 5', en: 'Terminator Genisys', }, year: 2015, country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, apocalypse: 1, techno: 1, robot: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, },
 	internet: { imdb: '1340138', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80:_%D0%93%D0%B5%D0%BD%D0%B5%D0%B7%D0%B8%D1%81', moviestape: 'Terminator.Genisys', ashdivip: '3575', },
 	cast: { arnold_schwarzenegger_30071947: 1, emilia_clarke_23101986: 1, jai_courtney_15031986: 1, },
 },
 {
 	id: 'terminator_6_2019', title: { ua: 'Термінатор - 6', en: 'Terminator: Dark Fate', }, year: 2019, country: { usa: 1, },
-	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, apocalypse: 1, techno: 1, robot: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, },
 	internet: { imdb: '6450804', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80:_%D0%A4%D0%B0%D1%82%D1%83%D0%BC', ashdivip: '5907', },
 	cast: { arnold_schwarzenegger_30071947: 1, linda_hamilton_26091956: 1, },
 },
@@ -3082,7 +3082,7 @@ const arrFilms = [
 },
 {
 	id: 'speed_1_1994', title: { ua: 'Швидкість', en: 'Speed', }, year: 1994, country: { usa: 1, },
-	genre: { action: 1, thriller: 1, }, hash: { bus: 1, terrorist: 1, police: 1, subway: 1, },
+	genre: { action: 1, thriller: 1, }, hash: { bus: 1, terrorist: 1, hostage: 1, police: 1, subway: 1, },
 	internet: { imdb: '0111257', wiki_ua: '%D0%A8%D0%B2%D0%B8%D0%B4%D0%BA%D1%96%D1%81%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '13774', moviestape: 'Speed', },
 	cast: { keanu_reeves_02091964: 1, sandra_bullock_26071964: 1, dennis_hopper_17051936: 1, jeff_daniels_19021955: 1, joe_morton_18101947: 1, },
 },
