@@ -17,6 +17,7 @@ const arrHashTags = [
 	{ id: 'fight' 			, title: 'бійці' 				, app: { films: 1, }, }, // бойові мистецтва
 	{ id: 'biomedlab' 		, title: 'біомедлаб' 			, app: { films: 1, }, }, // досліди в лабораторіях
 	{ id: 'madhouse' 		, title: 'божевільня' 			, app: { films: 1, }, }, // досліди в лабораторіях
+	{ id: 'escape' 			, title: 'втеча' 				, app: { films: 1, }, }, 
 	{ id: 'bond' 			, title: 'ДжеймсБонд' 			, app: { films: 1, }, }, 
 	{ id: 'bear' 			, title: 'ведмеді' 				, app: { films: 1, }, }, 
 	{ id: 'surviving' 		, title: 'виживання' 			, app: { films: 1, }, }, // подорожі у часі
@@ -43,6 +44,7 @@ const arrHashTags = [
 	{ id: 'future' 			, title: 'майбутнє' 			, app: { films: 1, }, },
 	{ id: 'travel' 			, title: 'мандри' 				, app: { films: 1, }, }, // подорожі по світу
 	{ id: 'maniac' 			, title: 'маніяк' 				, app: { films: 1, }, },
+	{ id: 'marvel' 			, title: 'Марвел' 				, app: { films: 1, }, },
 	{ id: 'cars' 			, title: 'машини' 				, app: { films: 1, }, },
 	{ id: 'medicine' 		, title: 'медицина' 			, app: { films: 1, }, },
 	{ id: 'young' 			, title: 'молодь' 				, app: { films: 1, }, },
@@ -72,6 +74,7 @@ const arrHashTags = [
 	{ id: 'robot' 			, title: 'роботи' 				, app: { films: 1, }, },
 	{ id: 'world' 			, title: 'світ' 				, app: { films: 1, }, }, // вигаданий світ
 	{ id: 'treasure' 		, title: 'скарби' 				, app: { films: 1, }, },
+	{ id: 'middleAges' 		, title: 'середньовіччя' 		, app: { films: 1, }, },
 	{ id: 'surfing' 		, title: 'серфінг' 				, app: { films: 1, }, }, // подорожі у часі
 	{ id: 'dog' 			, title: 'собаки' 				, app: { films: 1, }, },
 	{ id: 'sport' 			, title: 'спорт' 				, app: { films: 1, }, },

@@ -168,10 +168,14 @@ class ComponentWinIndex {
 
 							let firstSym = k.title.ua.slice( 0, 1 );
 
-							if ( data.letter == '123' ) {
-								if ( /^[0-9]$/.test( firstSym ) ) 
+							if ( data.letter == 'eng' ) {
+								if ( /^[A-Z]$/.test( firstSym ) ) 
 									return true;
 							
+							} else if ( data.letter == '123' ) {
+								if ( /^[0-9]$/.test( firstSym ) ) 
+									return true;
+
 							} else {
 								if ( data.letter == firstSym ) 
 									return true;

@@ -105,7 +105,7 @@ class ComponentMenu {
 
 
  		let optionLetter = '<option value="all">Літера (всі)</option>';
- 		[ '123', 'А', 'Б', 'В', 'Г', 'Ґ', 'Д', 'Е', 'Є', 'Ж', 'З', 'И', 'І', 'Ї', 'Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ', 'Ю', 'Я', ].forEach( k => {
+ 		[ 'eng', '123', 'А', 'Б', 'В', 'Г', 'Ґ', 'Д', 'Е', 'Є', 'Ж', 'З', 'И', 'І', 'Ї', 'Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ', 'Ю', 'Я', ].forEach( k => {
 	 		optionLetter += `<option value="${ k }">${ k }</option>`;
  		});
 
@@ -136,14 +136,6 @@ class ComponentMenu {
  			<div>
  				<select data-id="letter" onchange="${ this.name }.change( this )">${ optionLetter }</select>
  			</div>
-
-
-
-
-
-
-
-
 
  		`;
 
