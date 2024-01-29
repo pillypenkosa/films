@@ -1793,6 +1793,44 @@ const arrFilms = [
 	cast: { james_belushi_15061954: 1, },
 },
 {
+	id: 'labyrinth_1986', title: { ua: 'Лабіринт', en: 'Labyrinth', }, year: 1986, country: { gbr: 1, usa: 1, },
+	genre: { fantasy: 1, adventure: 1, },
+	internet: { imdb: '0091369', wiki_ua: '%D0%9B%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)', },
+	cast: { jennifer_connelly_12121970: 1, david_bowie_08011947: 1, },
+},
+{
+	id: 'Lara_Kroft_2001', title: { ua: 'Лара Крофт', en: 'Lara Croft: Tomb Raider', }, year: 2001, country: { usa: 1, gbr: 1, deu: 1, jpn: 1, },
+	genre: { action: 1, adventure: 1, }, hash: { treasure: 1, travel: 1, },
+	internet: { imdb: '0146316', wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82:_%D0%A0%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { angelina_jolie_04061975: 1, daniel_craig_02031968: 1, jon_voight_29121938: 1, },
+},
+{
+	id: 'Lara_Kroft_2_2003', title: { ua: 'Лара Крофт - 2', en: 'Lara Croft Tomb Raider: The Cradle of Life', }, year: 2003, country: { usa: 1, gbr: 1, deu: 1, jpn: 1, },
+	genre: { action: 1, adventure: 1, }, hash: { treasure: 1, travel: 1, },
+	internet: { imdb: '0325703', wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82_%D1%80%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C:_%D0%BA%D0%BE%D0%BB%D0%B8%D1%81%D0%BA%D0%B0_%D0%B6%D0%B8%D1%82%D1%82%D1%8F', },
+	cast: { angelina_jolie_04061975: 1, gerard_butler_13111969: 1, },
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
 	id: 'into_the_blue_2005', title: { ua: 'Ласкаво просимо до раю', en: 'Into the Blue', }, year: 2005, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, crime: 1, }, hash: { beach: 1, },
 	internet: { imdb: '0378109', wiki_ua: '%D0%9B%D0%B0%D1%81%D0%BA%D0%B0%D0%B2%D0%BE_%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%BE_%D0%B4%D0%BE_%D1%80%D0%B0%D1%8E!_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', ashdivip: '14357', },
@@ -3390,98 +3428,49 @@ const arrFilms = [
 
 
 
-{
-	id: 'labirint_1986',
-	title: { ua: 'Лабиринт', en: 'Labyrinth', },
-	year: 1986,
-	country: { usa: 1, },
-	internet: { imdb: '0091369', wiki_ua: '%D0%9B%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)', },
-	cast: { jennifer_connelly_12121970: 1, david_bowie_08011947: 1, },
-},
-{
-	id: 'Lara_Kroft_1_2001',
-	title: { ua: 'Лара Крофт - 1', en: 'Lara Croft: Tomb Raider', },
-	year: 2001,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0146316',
-		wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82:_%D0%A0%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
-	},
-	cast: {
-		angelina_jolie_04061975: 1,
-		daniel_craig_02031968: 1,
-		jon_voight_29121938: 1,
-	},
-},
-{
-	id: 'Lara_Kroft_2_2003',
-	title: { ua: 'Лара Крофт - 2', en: 'Lara Croft Tomb Raider: The Cradle of Life', },
-	year: 2003,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0325703',
-		wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82_%D1%80%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C:_%D0%BA%D0%BE%D0%BB%D0%B8%D1%81%D0%BA%D0%B0_%D0%B6%D0%B8%D1%82%D1%82%D1%8F',
-	},
-	cast: {
-		angelina_jolie_04061975: 1,
-		gerard_butler_13111969: 1,
-	},
-},
+
+
+
+
+
+
+
+
 {
 	id: 'legenda_Zorro_2005',
 	title: { ua: 'Легенда Зорро', en: 'The Legend of Zorro', },
 	year: 2005,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0386140',
-		wiki_ua: '%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0_%D0%97%D0%BE%D1%80%D1%80%D0%BE',
-	},
-	cast: {
-		antonio_banderas_10081960: 1,
-		catherine_zeta_jones_25091969: 1,
-	},
+	internet: { imdb: '0386140', wiki_ua: '%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0_%D0%97%D0%BE%D1%80%D1%80%D0%BE', },
+	cast: { antonio_banderas_10081960: 1, catherine_zeta_jones_25091969: 1, },
 },
 {
 	id: 'lico_so_shramom_1983',
-	title: { ua: 'Лицо со шрамом', en: 'Scarface', },
+	title: { ua: 'Обличчя зі шрамом', en: 'Scarface', },
 	year: 1983,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0086250',
-		wiki_ua: '%D0%9E%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F_%D0%B7%D1%96_%D1%88%D1%80%D0%B0%D0%BC%D0%BE%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1983)',
-	},
-	cast: {
-		al_pacino_25041940: 1,
-		michelle_pfeiffer_29041958: 1,
-	},
+	internet: { imdb: '0086250', wiki_ua: '%D0%9E%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F_%D0%B7%D1%96_%D1%88%D1%80%D0%B0%D0%BC%D0%BE%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1983)', },
+	cast: { al_pacino_25041940: 1, michelle_pfeiffer_29041958: 1, },
 },
 {
 	id: 'lovushka_dlya_koshek_1986',
-	title: { ua: 'Ловушка для кошек', en: 'Macskafogo', },
+	title: { ua: 'Пастка для котів', en: 'Macskafogo', },
 	year: 1986,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0179955',
-		wiki_ua: '%D0%9F%D0%B0%D1%81%D1%82%D0%BA%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BA%D0%BE%D1%82%D1%96%D0%B2',
-	},
+	internet: { imdb: '0179955', wiki_ua: '%D0%9F%D0%B0%D1%81%D1%82%D0%BA%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BA%D0%BE%D1%82%D1%96%D0%B2', },
 	cartoon: 1,
 },
 {
 	id: 'LA_story_1991',
-	title: { ua: 'Лос-Анджелесская история', en: 'L.A. Story', },
+	title: { ua: 'Лос-Анджелеська історія', en: 'L.A. Story', },
 	year: 1991,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0102250',
-		wiki_ua: '%D0%9B%D0%BE%D1%81-%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%BB%D0%B5%D1%81%D1%8C%D0%BA%D0%B0_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F',
-	},
-	cast: {
-		kevin_pollak_30101957: 1,
-	},
+	internet: { imdb: '0102250', wiki_ua: '%D0%9B%D0%BE%D1%81-%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%BB%D0%B5%D1%81%D1%8C%D0%BA%D0%B0_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F', },
+	cast: { kevin_pollak_30101957: 1, },
 },
 {
 	id: 'luchshie_iz_luchshih_1989',
-	title: { ua: 'Лучшие из лучших', en: 'Best of the Best', },
+	title: { ua: 'Найкращі з найкращих', en: 'Best of the Best', },
 	year: 1989,
 	country: { usa: 1, },
 	internet: { imdb: '0096913', wiki_ru: '%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5_%D0%B8%D0%B7_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D1%85', },
@@ -3495,32 +3484,19 @@ const arrFilms = [
 },
 {
 	id: 'lyudi_x_2006',
-	title: { ua: 'Люди Икс: Последняя битва', en: 'X-Men: The Last Stand', },
+	title: { ua: 'Люди Ікс: Остання битва', en: 'X-Men: The Last Stand', },
 	year: 2006,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0376994',
-		wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8_%D0%86%D0%BA%D1%81:_%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0',
-	},
-	cast: {
-		hugh_jackman_12101968: 1,
-		halle_berry_14081966: 1,
-		james_marsden_18091973: 1,
-		bill_duke_26021943: 1,
-	},
+	internet: { imdb: '0376994', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8_%D0%86%D0%BA%D1%81:_%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0', },
+	cast: { hugh_jackman_12101968: 1, halle_berry_14081966: 1, james_marsden_18091973: 1, bill_duke_26021943: 1, },
 },
 {
 	id: 'lake_Placid_1999',
-	title: { ua: 'Лэйк Плэсид: Озеро страха', en: 'Lake Placid', },
+	title: { ua: 'Лейк Плесід: Озеро страху', en: 'Lake Placid', },
 	year: 1999,
 	country: { usa: 1, },
-	internet: {
-		imdb: '0139414',
-		wiki_ua: '%D0%9B%D0%B5%D0%B9%D0%BA_%D0%9F%D0%BB%D0%B5%D1%81%D1%96%D0%B4:_%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83',
-	},
-	cast: {
-		bridget_fonda_27011964: 1,
-	},
+	internet: { imdb: '0139414', wiki_ua: '%D0%9B%D0%B5%D0%B9%D0%BA_%D0%9F%D0%BB%D0%B5%D1%81%D1%96%D0%B4:_%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83', },
+	cast: { bridget_fonda_27011964: 1, },
 },
 
 
