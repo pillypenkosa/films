@@ -37,6 +37,7 @@ const arrHashTags = [
 	{ id: 'quest' 			, title: 'квест' 				, app: { films: 1, }, },
 	{ id: 'cyber' 			, title: 'кібер' 				, app: { films: 1, }, },
 	{ id: 'killer' 			, title: 'кілери' 				, app: { films: 1, }, },
+	{ id: 'cowboy' 			, title: 'ковбої' 				, app: { films: 1, }, },
 	{ id: 'ship' 			, title: 'кораблі' 				, app: { films: 1, }, },
 	{ id: 'space' 			, title: 'космос' 				, app: { films: 1, }, },
 	{ id: 'love' 			, title: 'кохання' 				, app: { films: 1, }, },

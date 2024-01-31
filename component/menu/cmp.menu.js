@@ -135,28 +135,45 @@ class ComponentMenu {
 
 
 
+
+
+
  		html += `
- 			<div>
- 				<select data-id="genre" onchange="${ this.name }.change( this )">${ optionGenre }</select>
+ 			<div class="divSelectCat" data-id="divSelectCat">
+	 			<div>
+	 				<select data-id="genre" onchange="${ this.name }.change( this )">${ optionGenre }</select>
+	 			</div>
+	 			<div>
+	 				<select data-id="year" onchange="${ this.name }.change( this )">${ optionYear }</select>
+	 			</div>
+	 			<div>
+	 				<select data-id="hash" onchange="${ this.name }.change( this )">${ optionHash }</select>
+	 			</div>
+	 			<div>
+	 				<select data-id="country" onchange="${ this.name }.change( this )">${ optionCountry }</select>
+	 			</div>
+	 			<div>
+	 				<select data-id="actor" onchange="${ this.name }.change( this )">${ optionActor }</select>
+	 			</div>
+	 			<div>
+	 				<select data-id="director" onchange="${ this.name }.change( this )">${ optionDirectors }</select>
+	 			</div>
+	 			<div>
+	 				<select data-id="letter" onchange="${ this.name }.change( this )">${ optionLetter }</select>
+	 			</div>
+
  			</div>
- 			<div>
- 				<select data-id="year" onchange="${ this.name }.change( this )">${ optionYear }</select>
+ 			<br/>
+ 			<div>Добірки:</div>
+ 			<div class="divSelection" data-id="divSelection">
+				<select onchange="${ this.name }.changeSelection( this )" data-id="selectSelection">
+					<option value="all">Всі</option>
+					<option value="rating5">5</option>
+					<option value="favorite">Улюблені</option>
+					<option value="bond">Джеймс Бонд</option>
+				</select>
  			</div>
- 			<div>
- 				<select data-id="hash" onchange="${ this.name }.change( this )">${ optionHash }</select>
- 			</div>
- 			<div>
- 				<select data-id="country" onchange="${ this.name }.change( this )">${ optionCountry }</select>
- 			</div>
- 			<div>
- 				<select data-id="actor" onchange="${ this.name }.change( this )">${ optionActor }</select>
- 			</div>
- 			<div>
- 				<select data-id="director" onchange="${ this.name }.change( this )">${ optionDirectors }</select>
- 			</div>
- 			<div>
- 				<select data-id="letter" onchange="${ this.name }.change( this )">${ optionLetter }</select>
- 			</div>
+
  		`;
 
 		return { tagParam, html };  
@@ -165,8 +182,20 @@ class ComponentMenu {
  
  
  
+	// підсвічування
+	static ligtSelectOption( elem ) {
 
+		if ( elem.value == 'all' ) {
 
+			elem.style.backgroundColor = '';
+			elem.style.color = '';
+
+		} else {
+
+			elem.style.backgroundColor = 'red';
+			elem.style.color = 'white';
+		}
+	}
 
 
 
@@ -179,10 +208,57 @@ class ComponentMenu {
 
 		this.filter[ elem.dataset.id ] = elem.value;
 
-		ComponentWinIndex.showSelectedFilms( this.filter );
+
+
+		// вимкнення підсвітки іншого блоку
+		let arrSelect = document.querySelectorAll( '.divSelection select' );
+		arrSelect.forEach( k => {
+			k.value = 'all';
+			k.style.backgroundColor = '';
+			k.style.color = '';
+		});
+
+
+
+
+		// підсвічування
+		this.ligtSelectOption( elem );
+
+		ComponentWinIndex.getSelectedFilms( this.filter );
 	} 
  
  
+
+	static changeSelection( elem ) {  
+		const fooName = this.name + '.changeSelection()';
+
+		//console.log( 'fooName: ', fooName );
+		//console.log( 'elem: ', elem );
+		//console.log( 'value: ', elem.value );
+		
+
+
+		// вимкнення підсвітки іншого блоку
+		let arrSelect = document.querySelectorAll( '.divSelectCat select' );
+		arrSelect.forEach( k => {
+			k.value = 'all';
+			k.style.backgroundColor = '';
+			k.style.color = '';
+		});
+
+
+
+		// підсвічування
+		this.ligtSelectOption( elem );
+
+		ComponentWinIndex.getSelection( elem.value );
+	} 
+
+
+
+
+
+
 
 
 

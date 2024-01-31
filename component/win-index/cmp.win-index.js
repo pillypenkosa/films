@@ -11,6 +11,10 @@ class ComponentWinIndex {
 	static args = {};
 
 
+	// обрані фільми ( або добірки )
+	static arrSelectedFilms = [];
+
+
 
 
 
@@ -75,11 +79,9 @@ class ComponentWinIndex {
 
 
 
-
-
-
-	static showSelectedFilms( data ) {
-		const fooName = this.name + '.showSelectedFilms()';
+	// відбір фільмів за вказаною категорією
+	static getSelectedFilms( data ) {
+		const fooName = this.name + '.getSelectedFilms()';
 
 
 		//console.log( 'fooName: ', fooName );
@@ -87,7 +89,8 @@ class ComponentWinIndex {
 
 
 
-		let arrSelectedFilms = arrFilms;
+		//let arrSelectedFilms = arrFilms;
+		this.arrSelectedFilms = arrFilms;
 
 
 
@@ -95,7 +98,7 @@ class ComponentWinIndex {
 		if ( data.actor ) {
 			if ( data.actor != 'all' ) {
 
-				arrSelectedFilms = arrSelectedFilms.filter( k => {
+				this.arrSelectedFilms = this.arrSelectedFilms.filter( k => {
 
 					if ( k.cast ) {
 						if ( k.cast[ data.actor ] ) 
@@ -105,11 +108,10 @@ class ComponentWinIndex {
 			}
 		}
 
-
 		if ( data.director ) {
 			if ( data.director != 'all' ) {
 
-				arrSelectedFilms = arrSelectedFilms.filter( k => {
+				this.arrSelectedFilms = this.arrSelectedFilms.filter( k => {
 
 					if ( k.director ) {
 						if ( k.director[ data.director ] ) 
@@ -119,24 +121,10 @@ class ComponentWinIndex {
 			}
 		}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		if ( data.country ) {
 			if ( data.country != 'all' ) {
 
-				arrSelectedFilms = arrSelectedFilms.filter( k => {
+				this.arrSelectedFilms = this.arrSelectedFilms.filter( k => {
 
 					if ( k.country ) {
 						if ( k.country[ data.country ] ) 
@@ -149,7 +137,7 @@ class ComponentWinIndex {
 		if ( data.genre ) {
 			if ( data.genre != 'all' ) {
 
-				arrSelectedFilms = arrSelectedFilms.filter( k => {
+				this.arrSelectedFilms = this.arrSelectedFilms.filter( k => {
 
 					if ( k.genre ) {
 						if ( k.genre[ data.genre ] ) 
@@ -159,11 +147,10 @@ class ComponentWinIndex {
 			}
 		}
 
-
 		if ( data.hash ) {
 			if ( data.hash != 'all' ) {
 
-				arrSelectedFilms = arrSelectedFilms.filter( k => {
+				this.arrSelectedFilms = this.arrSelectedFilms.filter( k => {
 
 					if ( k.hash ) {
 						if ( k.hash[ data.hash ] ) 
@@ -173,24 +160,21 @@ class ComponentWinIndex {
 			}
 		}
 
-
 		if ( data.year ) {
 			if ( data.year != 'all' ) {
 
-				arrSelectedFilms = arrSelectedFilms.filter( k => {
+				this.arrSelectedFilms = this.arrSelectedFilms.filter( k => {
 
 					if ( k.year == data.year ) 
 						return true;
-					
 				});
 			}
 		}
 
-
 		if ( data.letter ) {
 			if ( data.letter != 'all' ) {
 
-				arrSelectedFilms = arrSelectedFilms.filter( k => {
+				this.arrSelectedFilms = this.arrSelectedFilms.filter( k => {
 					if ( k.title ) {
 						if ( k.title.ua ) {
 
@@ -214,11 +198,103 @@ class ComponentWinIndex {
 			}
 		}
 
+		this.showSelectedFilms();
+	}
+
+
+
+
+	// добірка
+	static getSelection( data ) {
+		const fooName = this.name + '.getSelection()';
+
+		//console.log( 'fooName: ', fooName );
+		console.log( 'data: ', data );
+
+
+		//console.log( this.arrSelectedFilms );
+
+
+
+		this.arrSelectedFilms = [];
+
+		//console.log( this.arrSelectedFilms );
+
+
+
+
+		if ( data == 'rating5' ) {
+
+			//alert();
+
+			arrFilms.forEach( k => {
+
+
+				if ( k.rating ) {
+
+					//console.log( k );
+
+					if ( k.rating == 5 ) 
+						this.arrSelectedFilms.push( objFilms[ k.id ] );
+
+				}
+			});
+		}
 
 
 
 
 
+		if ( data == 'favorite' ) {
+
+			arrFilmSelectionFavorite.forEach( k => {
+				this.arrSelectedFilms.push( objFilms[ k ] );
+			});
+		}
+
+
+
+		if ( data == 'bond' ) {
+
+			arrFilmSelectionBond.forEach( k => {
+				this.arrSelectedFilms.push( objFilms[ k ] );
+			});
+		}
+
+
+		//console.log( this.arrSelectedFilms );
+
+
+
+
+
+
+
+		this.showSelectedFilms();
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	// відображення обраних фільмів
+	static showSelectedFilms() {
+		const fooName = this.name + '.showSelectedFilms()';
+
+		console.log( 'fooName: ', fooName );
 
 
 
@@ -227,7 +303,7 @@ class ComponentWinIndex {
 
 
 		let html = '';
-		arrSelectedFilms.forEach( k => {
+		this.arrSelectedFilms.forEach( k => {
 
 			let htmlTitle = '';
 			let titleUa = '';
