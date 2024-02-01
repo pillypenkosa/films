@@ -4004,9 +4004,34 @@ const arrFilms = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'na_grani_1997',
-	title: { ua: 'На грани', en: 'The Edge', },
+	title: { ua: 'На межі', en: 'The Edge', },
 	year: 1997,
 	country: { usa: 1, },
 	internet: { imdb: '0119051', wiki_ua: '%D0%9D%D0%B0_%D0%BC%D0%B5%D0%B6%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1997)', },
@@ -4014,7 +4039,7 @@ const arrFilms = [
 },
 {
 	id: 'na_grani_2012',
-	title: { ua: 'На грани', en: 'Man on a Ledge', },
+	title: { ua: 'На межі', en: 'Man on a Ledge', },
 	year: 2012,
 	country: { usa: 1, },
 	internet: { imdb: '1568338', wiki_ua: '%D0%9D%D0%B0_%D0%BC%D0%B5%D0%B6%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2012)', },
@@ -4022,7 +4047,7 @@ const arrFilms = [
 },
 {
 	id: 'na_rasstoyanii_udara_1993',
-	title: { ua: 'На расстоянии удара', en: 'Striking Distance', },
+	title: { ua: 'На відстані удару', en: 'Striking Distance', },
 	year: 1993,
 	country: { usa: 1, },
 	internet: { imdb: '0108238', wiki_ua: '%D0%9D%D0%B0_%D0%B2%D1%96%D0%B4%D1%81%D1%82%D0%B0%D0%BD%D1%96_%D1%83%D0%B4%D0%B0%D1%80%D1%83', },
@@ -4045,7 +4070,7 @@ const arrFilms = [
 },
 {
 	id: 'narkokuryer_2018',
-	title: { ua: 'Наркокурьер', en: 'The Mule', },
+	title: { ua: 'Наркокур\'єр', en: 'The Mule', },
 	year: 2018,
 	country: { usa: 1, },
 	internet: { imdb: '7959026', wiki_ua: '%D0%9D%D0%B0%D1%80%D0%BA%D0%BE%D0%BA%D1%83%D1%80%27%D1%94%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
@@ -4053,7 +4078,7 @@ const arrFilms = [
 },
 {
 	id: 'nastoyaschaya_Makkoy_1993',
-	title: { ua: 'Настоящая Маккой', en: 'The Real McCoy', },
+	title: { ua: 'Справжня Маккой', en: 'The Real McCoy', },
 	year: 1993,
 	country: { usa: 1, },
 	internet: { imdb: '0107927', wiki_ua: '%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%B6%D0%BD%D1%8F_%D0%9C%D0%B0%D0%BA%D0%BA%D0%BE%D0%B9', },
@@ -4061,7 +4086,7 @@ const arrFilms = [
 },
 {
 	id: 'nacionalnaya_bezopasnost_2003',
-	title: { ua: 'Национальная безопасность', en: 'National Security', },
+	title: { ua: 'Національна безпека', en: 'National Security', },
 	year: 2003,
 	country: { usa: 1, },
 	internet: { imdb: '0271668', wiki_ua: '%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2003)', },
@@ -4069,7 +4094,7 @@ const arrFilms = [
 },
 {
 	id: 'nachalo_2010',
-	title: { ua: 'Начало', en: 'Inception', },
+	title: { ua: 'Початок', en: 'Inception', },
 	year: 2010,
 	country: { usa: 1, },
 	internet: { imdb: '1375666', wiki_ua: '%D0%9F%D0%BE%D1%87%D0%B0%D1%82%D0%BE%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', moviestape: 'Inception', },
@@ -4077,7 +4102,7 @@ const arrFilms = [
 },
 {
 	id: 'ne_nazyvay_menya_malyshkoy_1996',
-	title: { ua: 'Не называй меня малышкой', en: 'Barb Wire', },
+	title: { ua: 'Не називай мене маленькою', en: 'Barb Wire', },
 	year: 1996,
 	country: { usa: 1, },
 	internet: { imdb: '0115624', wiki_ua: '%D0%9D%D0%B5_%D0%BD%D0%B0%D0%B7%D0%B8%D0%B2%D0%B0%D0%B9_%D0%BC%D0%B5%D0%BD%D0%B5_%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D1%8E', },
@@ -4085,7 +4110,7 @@ const arrFilms = [
 },
 {
 	id: 'ne_otstupat_i_ne_sdavatsya_1986',
-	title: { ua: 'Не отступать и не сдаваться', en: 'No Retreat No Surrender', },
+	title: { ua: 'Не відступати і не здаватися', en: 'No Retreat No Surrender', },
 	year: 1986,
 	country: { usa: 1, },
 	internet: { imdb: '0089695', wiki_ua: '%D0%9D%D0%B5_%D0%B2%D1%96%D0%B4%D1%81%D1%82%D1%83%D0%BF%D0%B0%D1%82%D0%B8_%D1%96_%D0%BD%D0%B5_%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D1%82%D0%B8%D1%81%D1%8F', moviestape: 'No.Retreat.No.Surrender', },
@@ -4093,7 +4118,7 @@ const arrFilms = [
 },
 {
 	id: 'nevidimka_2000',
-	title: { ua: 'Невидимка', en: 'Hollow Man', },
+	title: { ua: 'Людина-невидимка', en: 'Hollow Man', },
 	year: 2000,
 	country: { usa: 1, },
 	internet: { imdb: '0164052', wiki_ua: '%D0%9D%D0%B5%D0%B2%D0%B8%D0%B4%D0%B8%D0%BC%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -4101,7 +4126,7 @@ const arrFilms = [
 },
 {
 	id: 'nevidimiy_gost_2016',
-	title: { ua: 'Невидимый гость', en: 'Contratiempo', },
+	title: { ua: 'Невидимий гість', en: 'Contratiempo', },
 	year: 2016,
 	country: { usa: 1, },
 	internet: {
@@ -4112,7 +4137,7 @@ const arrFilms = [
 },
 {
 	id: 'nevynosimaya_zhestokost_2003',
-	title: { ua: 'Невыносимая жестокость', en: 'Intolerable Cruelty', },
+	title: { ua: 'Нестерпна жорстокість', en: 'Intolerable Cruelty', },
 	year: 2003,
 	country: { usa: 1, },
 	internet: {
@@ -4127,7 +4152,7 @@ const arrFilms = [
 },
 {
 	id: 'nekuda_bezhat_1993',
-	title: { ua: 'Некуда бежать', en: 'Nowhere to Run', },
+	title: { ua: 'Нема куди тікати', en: 'Nowhere to Run', },
 	year: 1993,
 	country: { usa: 1, },
 	internet: {
@@ -4146,19 +4171,17 @@ const arrFilms = [
 	country: { usa: 1, },
 	internet: {
 		imdb: '0107668',
-		wiki_ru: '%D0%9D%D0%B5%D0%BC%D0%B5%D0%B7%D0%B8%D0%B4%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1993)',
-		wiki_ua: '',
+		wiki_ua: '%D0%9D%D0%B5%D0%BC%D0%B5%D0%B7%D0%B8%D0%B4%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',
 	},
 },
 {
 	id: 'neproschennaya_2021',
-	title: { ua: 'Непрощенная', en: 'The Unforgivable', },
+	title: { ua: 'Непрощенна', en: 'The Unforgivable', },
 	year: 2021,
 	country: { usa: 1, },
 	internet: {
 		imdb: '11233960',
-		wiki_ru: '%D0%9D%D0%B5%D0%BF%D1%80%D0%BE%D1%89%D1%91%D0%BD%D0%BD%D0%B0%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2021)',
-		wiki_ua: '',
+		wiki_ua: '%D0%9D%D0%B5%D0%BF%D1%80%D0%BE%D1%89%D0%B5%D0%BD%D0%BD%D0%B0',
 	},
 	cast: {
 		sandra_bullock_26071964: 1,
@@ -4166,13 +4189,12 @@ const arrFilms = [
 },
 {
 	id: 'nechto_1982',
-	title: { ua: 'Нечто', en: 'The Thing', },
+	title: { ua: 'Щось', en: 'The Thing', },
 	year: 1982,
 	country: { usa: 1, },
 	internet: {
 		imdb: '0084787',
-		wiki_ru: '%D0%9D%D0%B5%D1%87%D1%82%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1982)',
-		wiki_ua: '',
+		wiki_ua: '%D0%A9%D0%BE%D1%81%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1982)',
 	},
 	cast: {
 		kurt_russell_17031951: 1,
@@ -4191,7 +4213,7 @@ const arrFilms = [
 },
 {
 	id: 'Bill_&_Ted_1991',
-	title: { ua: 'Новые приключения Билла и Теда', en: 'Bill & Ted\'s Bogus Journey', },
+	title: { ua: 'Неймовірна подорож Білла і Теда', en: 'Bill & Ted\'s Bogus Journey', },
 	year: 1991,
 	country: { usa: 1, },
 	internet: {
@@ -4205,15 +4227,17 @@ const arrFilms = [
 },
 {
 	id: 'new_york_taxi_2004',
-	title: { ua: 'Нью-Йоркское такси', en: 'Taxi', },
+	title: { ua: 'Нью-Йоркське таксі', en: 'Taxi', },
 	year: 2004,
 	country: { usa: 1, },
 	internet: {
 		imdb: '0316732',
-		wiki_ru: '%D0%9D%D1%8C%D1%8E-%D0%B9%D0%BE%D1%80%D0%BA%D1%81%D0%BA%D0%BE%D0%B5_%D1%82%D0%B0%D0%BA%D1%81%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		wiki_ua: '',
+		wiki_ua: '%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA%D1%81%D1%8C%D0%BA%D0%B5_%D1%82%D0%B0%D0%BA%D1%81%D1%96',
 	},
 },
+
+
+
 
 
 
