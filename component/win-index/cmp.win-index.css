@@ -45,13 +45,15 @@ cmp-win-index {
 			background: var( --bg-b );
 			color: #fff;
 		}
-
-
 			cmp-win-index .each .title .titleEn {
 				font-size: 70%;
 				color: #aaa;
 				font-weight: normal;
 			}
+			cmp-win-index .each .title .star5 {
+				color: yellow;
+			}
+
 
 		cmp-win-index .each .descr {
 			color: #fff;
@@ -91,9 +93,6 @@ cmp-win-index {
 		cmp-win-index .each .info .img img {
 			border-radius: 10px;
 		}
-
-
-
 
 
 

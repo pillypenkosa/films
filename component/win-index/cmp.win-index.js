@@ -234,7 +234,7 @@ class ComponentWinIndex {
 
 					//console.log( k );
 
-					if ( k.rating == 5 ) 
+					if ( k.rating == 5 || k.rating == '5+' ) 
 						this.arrSelectedFilms.push( objFilms[ k.id ] );
 
 				}
@@ -301,6 +301,8 @@ class ComponentWinIndex {
 		//console.log( 'arrSelectedFilms: ', arrSelectedFilms );
 
 
+		let star5 = '&#10031;'; 
+
 
 		let html = '';
 		this.arrSelectedFilms.forEach( k => {
@@ -310,6 +312,13 @@ class ComponentWinIndex {
 			let titleEn = '';
 
 			let htmlCast = '';
+			let html5p = '';
+
+			if ( k.rating ) {
+				if ( k.rating == '5+' ) {
+					html5p += `<span class="star5">${ star5 }</span> `;
+				}
+			}
 
 
 			if ( k.title ) {
@@ -321,7 +330,7 @@ class ComponentWinIndex {
 					titleEn += k.title.en;
 
 				if ( titleUa )
-					htmlTitle += `<div class="titleUa">${ titleUa }</div>`;
+					htmlTitle += `<div class="titleUa">${ html5p }${ titleUa }</div>`;
 
 				if ( titleEn )
 					htmlTitle += `<div class="titleEn">${ titleEn }</div>`;
