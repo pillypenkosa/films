@@ -3280,6 +3280,11 @@ const arrFilms = [
 	internet: { imdb: '0317219', wiki_ua: '%D0%A2%D0%B0%D1%87%D0%BA%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '526', },
 },
 {
+	id: 'the_animal_2001', title: { ua: 'Тварина', en: 'The Animal', }, year: 2001, country: { usa: 1, },
+	genre: { comedy: 1, fantasy: 1, }, hash: { animal: 1, },
+	internet: { imdb: '0255798', wiki_ua: '%D0%A2%D0%B2%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2001)', },
+},
+{
 	id: 'the_creator_2023', title: { ua: 'Творець', en: 'The Creator', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, }, hash: { future: 1, cyber: 1, techno: 1, world: 1, },
 	internet: { imdb: '11858890', wiki_ua: '%D0%A2%D0%B2%D0%BE%D1%80%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
