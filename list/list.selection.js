@@ -56,6 +56,7 @@ const arrFilmSelectionFavorite = [
 	'waterworld_1995',
 	'braveheart_1995', 
 	'true_lies_1995', 
+	'deadlocked_escape_from_zone_14_1995',
 	'daylight_1996',
 	'the_rock_1996',
 	'runaway_car_1996',
