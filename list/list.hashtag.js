@@ -54,6 +54,7 @@ const arrHashTags = [
 	{ id: 'sea' 			, title: 'море'					, app: { films: 1, }, },
 	{ id: 'motorbike' 		, title: 'мотоцикли'			, app: { films: 1, }, },
 	{ id: 'subway' 			, title: 'метро'				, app: { films: 1, }, },
+	{ id: 'mutant' 			, title: 'мутанти'				, app: { films: 1, }, },
 	{ id: 'real' 			, title: 'наРеальнихПодіях' 	, app: { films: 1, }, }, // засновано на реальних подіях
 	{ id: 'drugs' 			, title: 'наркотики' 			, app: { films: 1, }, },
 	{ id: 'newyork' 		, title: 'Нью-Йорк' 			, app: { films: 1, }, },
