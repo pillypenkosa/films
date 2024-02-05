@@ -1322,6 +1322,18 @@ const arrFilms = [
 	cast: { ashley_judd_19041968: 1, samuel_l_jackson_21121948: 1, andy_garcia_12041956: 1, },
 },
 {
+	id: 'backdraft_1991', title: { ua: 'Зворотна тяга', en: 'Backdraft', }, year: 1991, country: { usa: 1, }, rating: 5,
+	genre: { drama: 1, },
+	internet: { imdb: '0101393', wiki_ua: '%D0%97%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%BD%D0%B0_%D1%82%D1%8F%D0%B3%D0%B0', },
+	cast: { kurt_russell_17031951: 1, william_baldwin_21021963: 1, robert_de_niro_17081943: 1, donald_sutherland_17071935: 1, rebecca_de_mornay_29081959: 1, },
+},
+{
+	id: 'backdraft_2_2019', title: { ua: 'Зворотна тяга - 2', en: 'Backdraft 2', }, year: 2019, country: { usa: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '8172466', wiki_ru: '%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D1%82%D1%8F%D0%B3%D0%B0_2', },
+	cast: { william_baldwin_21021963: 1, donald_sutherland_17071935: 1, },
+},
+{
 	id: 'sound_of_noise_2010', title: { ua: 'Звуки шуму', en: 'Sound of Noise', }, year: 2010, country: { swe: 1, fra: 1, }, rating: 5,
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '1278449', wiki_ua: '%D0%97%D0%B2%D1%83%D0%BA%D0%B8_%D1%88%D1%83%D0%BC%D1%83', },
@@ -2607,11 +2619,37 @@ const arrFilms = [
 	cast: { scott_adkins_17061976: 1, },
 },
 {
+	id: 'limitless_2011', title: { ua: 'Області темряви', en: 'Limitless', }, year: 2011, country: { usa: 1, },
+	genre: { thriller: 1, sci_fi: 1, },
+	internet: { imdb: '1219289', wiki_ua: '%D0%9E%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96_%D1%82%D0%B5%D0%BC%D1%80%D1%8F%D0%B2%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { robert_de_niro_17081943: 1, },
+},
+{
 	id: 'scarface_1983', title: { ua: 'Обличчя зі шрамом', en: 'Scarface', }, year: 1983, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0086250', wiki_ua: '%D0%9E%D0%B1%D0%BB%D0%B8%D1%87%D1%87%D1%8F_%D0%B7%D1%96_%D1%88%D1%80%D0%B0%D0%BC%D0%BE%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1983)', },
 	cast: { al_pacino_25041940: 1, michelle_pfeiffer_29041958: 1, },
 },
+{
+	id: 'overdrive_2017', title: { ua: 'Овердрайв', en: 'Overdrive', }, year: 2017, country: { fra: 1, },
+	genre: { action: 1, crime: 1, adventure: 1, },
+	internet: { imdb: '1935194', wiki_ua: '%D0%9E%D0%B2%D0%B5%D1%80%D0%B4%D1%80%D0%B0%D0%B9%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: '1_chance_sur_2_1998', title: { ua: 'Один шанс на двох', en: '1 chance sur 2', }, year: 1998, country: { fra: 1, },
+	genre: { action: 1, comedy: 1, adventure: 1, },
+	internet: { imdb: '0119247', wiki_ru: '%D0%9E%D0%B4%D0%B8%D0%BD_%D1%88%D0%B0%D0%BD%D1%81_%D0%BD%D0%B0_%D0%B4%D0%B2%D0%BE%D0%B8%D1%85', },
+	cast: { jean_paul_belmondo_09041933: 1, alain_delon_08111935: 1, vanessa_paradis_22121972: 1, },
+},
+
+
+
+
+
+
+
+
+
 {
 	id: 'Ocean_s_eleven_2001', title: { ua: 'Одинадцять друзів Оушена', en: 'Ocean\'s Eleven', }, year: 2001, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
@@ -3069,6 +3107,30 @@ const arrFilms = [
 	internet: { imdb: '0100029', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D0%B2%D0%BE%D0%BB%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1990)', },
 	cast: { jean_claude_van_damme_18101960: 1, },
 },
+{
+	id: 'lone_wolf_McQuade_1983', title: { ua: 'Самотній вовк МакКвейд', en: 'Lone Wolf McQuade', }, year: 1983, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0085862', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96%D0%B9_%D0%B2%D0%BE%D0%B2%D0%BA_%D0%9C%D0%B0%D0%BA%D0%BA%D1%83%D0%B5%D0%B9%D0%B4', },
+	cast: { chuck_norris_10031940: 1, },
+},
+{
+	id: 'the_lone_ranger_2013', title: { ua: 'Самотній рейнджер', en: 'The Lone Ranger', }, year: 2013, country: { usa: 1, },
+	genre: { action: 1, western: 1, adventure: 1, }, hash: { cowboy: 1, },
+	internet: { imdb: '1210819', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96%D0%B9_%D0%A0%D0%B5%D0%B9%D0%BD%D0%B4%D0%B6%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { johnny_depp_09061963: 1, barry_pepper_04041970: 1, },
+},
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'sanctum_2011', title: { ua: 'Санктум', en: 'Sanctum', }, year: 2011, country: { usa: 1, },
 	genre: { thriller: 1, drama: 1, }, hash: { real: 1, trap: 1, surviving: 1, tropic: 1, },
@@ -3910,46 +3972,24 @@ const arrFilms = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
-	id: 'oblasti_tmy_2011', title: { ua: 'Області темряви', en: 'Limitless', }, year: 2011, country: { usa: 1, },
-	internet: { imdb: '1219289', wiki_ua: '%D0%9E%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96_%D1%82%D0%B5%D0%BC%D1%80%D1%8F%D0%B2%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { robert_de_niro_17081943: 1, },
-},
-{
-	id: 'obratnaya_tyaga_1991', title: { ua: 'Зворотна тяга', en: 'Backdraft', }, year: 1991, country: { usa: 1, },
-	internet: { imdb: '0101393', wiki_ua: '%D0%97%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%BD%D0%B0_%D1%82%D1%8F%D0%B3%D0%B0', },
-	cast: { kurt_russell_17031951: 1, william_baldwin_21021963: 1, robert_de_niro_17081943: 1, donald_sutherland_17071935: 1, rebecca_de_mornay_29081959: 1, },
-},
-{
-	id: 'obratnaya_tyaga_2019', title: { ua: 'Зворотна тяга - 2', en: 'Backdraft 2', }, year: 2019, country: { usa: 1, },
-	internet: { imdb: '8172466', wiki_ru: '%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D1%82%D1%8F%D0%B3%D0%B0_2', },
-	cast: { william_baldwin_21021963: 1, donald_sutherland_17071935: 1, },
-},
-{
-	id: 'overdrive_2017', title: { ua: 'Овердрайв', en: 'Overdrive', }, year: 2017, country: { fra: 1, },
-	internet: { imdb: '1935194', wiki_ua: '%D0%9E%D0%B2%D0%B5%D1%80%D0%B4%D1%80%D0%B0%D0%B9%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-},
-{
-	id: '1_shans_na_2h', title: { ua: 'Один шанс на двох', en: '1 chance sur 2', }, year: 1998, country: { fra: 1, },
-	internet: { imdb: '0119247', wiki_ru: '%D0%9E%D0%B4%D0%B8%D0%BD_%D1%88%D0%B0%D0%BD%D1%81_%D0%BD%D0%B0_%D0%B4%D0%B2%D0%BE%D0%B8%D1%85', },
-	cast: { jean_paul_belmondo_09041933: 1, alain_delon_08111935: 1, vanessa_paradis_22121972: 1, },
-},
-{
-	id: 'odinoliy_volk_McQuade_1983', title: { ua: 'Самотній вовк МакКвейд', en: 'Lone Wolf McQuade', }, year: 1983, country: { usa: 1, },
-	internet: { imdb: '0085862', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96%D0%B9_%D0%B2%D0%BE%D0%B2%D0%BA_%D0%9C%D0%B0%D0%BA%D0%BA%D1%83%D0%B5%D0%B9%D0%B4', },
-	cast: {
-		chuck_norris_10031940: 1,
-	},
-},
-{
-	id: 'odinokiy_ranger_2013', title: { ua: 'Самотній рейнджер', en: 'The Lone Ranger', }, year: 2013, country: { usa: 1, },
-	internet: { imdb: '1210819', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96%D0%B9_%D0%A0%D0%B5%D0%B9%D0%BD%D0%B4%D0%B6%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: {
-		johnny_depp_09061963: 1,
-		barry_pepper_04041970: 1,
-	},
-},
-{
+
 	id: 'odnazhdy_v_Vegase_2008', title: { ua: 'Пригоди у Вегасі', en: 'What Happens in Vegas', }, year: 2008, country: { usa: 1, },
 	internet: { imdb: '1033643', wiki_ua: '%D0%9F%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B8_%D1%83_%D0%92%D0%B5%D2%91%D0%B0%D1%81%D1%96', },
 	cast: {
@@ -3957,6 +3997,9 @@ const arrFilms = [
 		ashton_kutcher_07021978: 1,
 	},
 },
+
+
+
 {
 	id: 'oruzheyniy_baron_2005', title: { ua: 'Збройний барон', en: 'Lord of War', }, year: 2005, country: { usa: 1, deu: 1, fra: 1, },
 	internet: { imdb: '0399295', wiki_ua: '%D0%97%D0%B1%D1%80%D0%BE%D0%B9%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B1%D0%B0%D1%80%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -4118,6 +4161,9 @@ const arrFilms = [
 		chris_elliott_31051960: 1,
 	},
 },
+
+
+
 
 
 
