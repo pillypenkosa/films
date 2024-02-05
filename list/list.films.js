@@ -536,6 +536,12 @@ const arrFilms = [
 	cast: { bruce_lee_27111940: 1, bolo_yeung_03071946: 1, jackie_chan_07041954: 1, },
 },
 {
+	id: 'from_dusk_till_dawn_1996', title: { ua: 'Від заходу до світанку', en: 'From Dusk Till Dawn', }, year: 1996, country: { usa: 1, },
+	genre: { horror: 1, action: 1, mystic: 1, }, hash: { zombie: 1, },
+	internet: { imdb: '0116367', wiki_ua: '%D0%92%D1%96%D0%B4_%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D1%83_%D0%B4%D0%BE_%D1%81%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BA%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',		 },
+	cast: { george_clooney_06051961: 1, quentin_tarantino_27031963: 1, juliette_lewis_21061973: 1, salma_hayek_02091966: 1, danny_trejo_16051944: 1, },
+},
+{
 	id: 'retribution_2023', title: { ua: 'Відплата: Дорога помсти', en: 'Retribution', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, }, hash: { terrorist: 1, hostage: 1, cars: 1, },
 	internet: { imdb: '6906292', },
@@ -621,6 +627,11 @@ const arrFilms = [
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0086034', wiki_ua: '%D0%92%D0%BE%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D1%96%D0%B6%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2701', },
 	cast: { roger_moore_14101927: 1, },
+},
+{
+	id: 'the_octopuses_from_the_second_floor_1987', title: { ua: 'Восьминіжки з другого поверху', en: 'The Octopuses from the Second Floor', }, year: 1987, country: { cze: 1, deu: 1, },
+	genre: { serial: 1, sci_fi: 1, comedy: 1, adventure: 1, }, hash: { animal: 1, children: 1, },
+	internet: { imdb: '0090834', wiki_ru: '%D0%9E%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D0%BE%D0%B6%D0%BA%D0%B8_%D1%81%D0%BE_%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE_%D1%8D%D1%82%D0%B0%D0%B6%D0%B0', },
 },
 {
 	id: 'saving_private_Ryan_1998', title: { ua: 'Врятувати рядового Раяна', en: 'Saving Private Ryan', }, year: 1998, country: { usa: 1, }, rating: 5,
@@ -1121,6 +1132,36 @@ const arrFilms = [
 	internet: { imdb: '0067023', wiki_ua: '%D0%94%D1%83%D0%B5%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', }, director: { steven_spielberg_18121946: 1, },
 },
 {
+	id: 'scary_movie_2000', title: { ua: 'Дуже страшне кіно', en: 'Scary Movie', }, year: 2000, country: { usa: 1, },
+	genre: { horror: 1, comedy: 1, }, hash: { young: 1, },
+	internet: { imdb: '0175142', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE', },
+	cast: { carmen_electra_20041972: 1, },
+},
+{
+	id: 'scary_movie_2_2001', title: { ua: 'Дуже страшне кіно - 2', en: 'Scary Movie 2', }, year: 2001, country: { usa: 1, },
+	genre: { horror: 1, comedy: 1, }, hash: { young: 1, },
+	internet: { imdb: '0257106', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE_2',	},
+	cast: { chris_elliott_31051960: 1, tim_curry_19041946: 1, },
+},
+{
+	id: 'scary_movie_3_2003', title: { ua: 'Дуже страшне кіно - 3', en: 'Scary Movie 3', }, year: 2003, country: { usa: 1, },
+	genre: { horror: 1, comedy: 1, }, hash: { young: 1, },
+	internet: { imdb: '0306047', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE_3',	},
+	cast: { leslie_nielsen_11021926: 1, charlie_sheen_03091965: 1, pamela_anderson_01071967: 1, denise_richards_17021971: 1, },
+},
+{
+	id: 'scary_movie_4_2006', title: { ua: 'Дуже страшне кіно - 4', en: 'Scary Movie 4', }, year: 2006, country: { usa: 1, },
+	genre: { horror: 1, comedy: 1, }, hash: { young: 1, },
+	internet: { imdb: '0362120', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE_4',	},
+	cast: { charlie_sheen_03091965: 1, leslie_nielsen_11021926: 1, carmen_electra_20041972: 1, chris_elliott_31051960: 1, },
+},
+{
+	id: 'scary_movie_5_2013', title: { ua: 'Дуже страшне кіно - 5', en: 'Scary Movie 5', }, year: 2013, country: { usa: 1, },
+	genre: { horror: 1, comedy: 1, }, hash: { young: 1, },
+	internet: { imdb: '0795461', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE_5',	},
+	cast: { charlie_sheen_03091965: 1, heather_locklear_25091961: 1, snoop_dogg_20101971: 1, mike_tyson_30061966: 1, },
+},
+{
 	id: 'the_wraith_1986', title: { ua: 'Дух помсти', en: 'The Wraith', }, year: 1986, country: { usa: 1, },
 	genre: { action: 1, horror: 1, },
 	internet: { imdb: '0092240', wiki_ru: '%D0%94%D1%83%D1%85_%D0%BC%D1%89%D0%B5%D0%BD%D0%B8%D1%8F', },
@@ -1257,6 +1298,12 @@ const arrFilms = [
 	cast: { chuck_norris_10031940: 1, },
 },
 {
+	id: 'suicide_squad_2016', title: { ua: 'Загін самогубців', en: 'Suicide Squad', }, year: 2016, country: { usa: 1, },
+	genre: { action: 1, adventure: 1, fantasy: 1, },
+	internet: { imdb: '1386697', wiki_ua: '%D0%97%D0%B0%D0%B3%D1%96%D0%BD_%D1%81%D0%B0%D0%BC%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { ben_affleck_15081972: 1, will_smith_25091968: 1, margot_robbie_02071990: 1, jai_courtney_15031986: 1, },
+},
+{
 	id: 'the_lost_city_2022', title: { ua: 'Загублене місто', en: 'The Lost City', }, year: 2022, country: { usa: 1, },
 	genre: { adventure: 1, comedy: 1, }, hash: { travel: 1, treasure: 1, },
 	internet: { imdb: '13320622', wiki_ua: '%D0%97%D0%B0%D0%B3%D1%83%D0%B1%D0%BB%D0%B5%D0%BD%D0%B5_%D0%BC%D1%96%D1%81%D1%82%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', },
@@ -1320,6 +1367,12 @@ const arrFilms = [
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0315297', wiki_ru: '%D0%90%D0%BC%D0%BD%D0%B5%D0%B7%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2004)', },
 	cast: { ashley_judd_19041968: 1, samuel_l_jackson_21121948: 1, andy_garcia_12041956: 1, },
+},
+{
+	id: 'lord_of_war_2005', title: { ua: 'Збройовий барон', en: 'Lord of War', }, year: 2005, country: { usa: 1, deu: 1, fra: 1, },
+	genre: { drama: 1, crime: 1, },
+	internet: { imdb: '0399295', wiki_ua: '%D0%97%D0%B1%D1%80%D0%BE%D0%B9%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B1%D0%B0%D1%80%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { nicolas_cage_07011964: 1, bridget_moynahan_28041971: 1, },
 },
 {
 	id: 'backdraft_1991', title: { ua: 'Зворотна тяга', en: 'Backdraft', }, year: 1991, country: { usa: 1, }, rating: 5,
@@ -2103,6 +2156,12 @@ const arrFilms = [
 	cast: { mel_gibson_03011956: 1, barry_pepper_04041970: 1, },
 },
 {
+	id: 'ghostbusters_1984', title: { ua: 'Мисливці за привидами', en: 'Ghostbusters', }, year: 1984, country: { usa: 1, },
+	genre: { action: 1, fantasy: 1, comedy: 1, },
+	internet: { imdb: '0087332', wiki_ua: '%D0%9C%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D1%86%D1%96_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B8%D0%B2%D0%B8%D0%B4%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1984)', },
+	cast: { bill_murray_21091950: 1, sigourney_weaver_08101949: 1, },
+},
+{
 	id: 'the_shallows_2016', title: { ua: 'Мілина', en: 'The Shallows', }, year: 2016, country: { usa: 1, },
 	genre: { horror: 1, drama: 1, }, hash: { trap: 1, shark: 1, surfing: 1, beach: 1, surviving: 1, },
 	internet: { imdb: '4052882', wiki_ua: '%D0%9C%D1%96%D0%BB%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -2631,6 +2690,12 @@ const arrFilms = [
 	cast: { al_pacino_25041940: 1, michelle_pfeiffer_29041958: 1, },
 },
 {
+	id: 'the_siege_1998', title: { ua: 'Облога', en: 'The Siege', }, year: 1998, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '0133952', wiki_ua: '%D0%9E%D0%B1%D0%BB%D0%BE%D0%B3%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', },
+	cast: { denzel_washington_28121954: 1, bruce_willis_19031955: 1, },
+},
+{
 	id: 'overdrive_2017', title: { ua: 'Овердрайв', en: 'Overdrive', }, year: 2017, country: { fra: 1, },
 	genre: { action: 1, crime: 1, adventure: 1, },
 	internet: { imdb: '1935194', wiki_ua: '%D0%9E%D0%B2%D0%B5%D1%80%D0%B4%D1%80%D0%B0%D0%B9%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -2641,15 +2706,6 @@ const arrFilms = [
 	internet: { imdb: '0119247', wiki_ru: '%D0%9E%D0%B4%D0%B8%D0%BD_%D1%88%D0%B0%D0%BD%D1%81_%D0%BD%D0%B0_%D0%B4%D0%B2%D0%BE%D0%B8%D1%85', },
 	cast: { jean_paul_belmondo_09041933: 1, alain_delon_08111935: 1, vanessa_paradis_22121972: 1, },
 },
-
-
-
-
-
-
-
-
-
 {
 	id: 'Ocean_s_eleven_2001', title: { ua: 'Одинадцять друзів Оушена', en: 'Ocean\'s Eleven', }, year: 2001, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
@@ -2669,10 +2725,34 @@ const arrFilms = [
 	cast: { milla_jovovich_17121975: 1, michelle_rodriguez_12071978: 1, },
 },
 {
+	id: 'basic_instinct_1992', title: { ua: 'Основний інстинкт', en: 'Basic Instinct', }, year: 1992, country: { usa: 1, },
+	genre: { thriller: 1, },
+	internet: { imdb: '0103772', wiki_ua: '%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D1%96%D0%BD%D1%81%D1%82%D0%B8%D0%BD%D0%BA%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { sharon_stone_10031958: 1, michael_douglas_25091944: 1, jeanne_tripplehorn_10061963: 1, },
+},
+{
+	id: 'basic_instinct_2_2006', title: { ua: 'Основний інстинкт - 2', en: 'Basic Instinct 2', }, year: 2006, country: { deu: 1, gbr: 1, usa: 1, esp: 1, }, rating: 5,
+	genre: { thriller: 1, },
+	internet: { imdb: '0430912', wiki_ua: '%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D1%96%D0%BD%D1%81%D1%82%D0%B8%D0%BD%D0%BA%D1%82_2', },
+	cast: { sharon_stone_10031958: 1, },
+},
+{
 	id: 'minority_report_2002', title: { ua: 'Особлива думка', en: 'Minority Report', }, year: 2002, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0181689', wiki_ua: '%D0%9E%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%B0_%D0%B4%D1%83%D0%BC%D0%BA%D0%B0', },
 	cast: { tom_cruise_03071962: 1, }, director: { steven_spielberg_18121946: 1, },
+},
+{
+	id: 'wanted_2008', title: { ua: 'Особливо небезпечний', en: 'Wanted', }, year: 2008, country: { usa: 1, },	
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '0493464', wiki_ua: '%D0%9E%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%BE_%D0%BD%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%BD%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { morgan_freeman_01061937: 1, angelina_jolie_04061975: 1, konstantin_habensky_11011972: 1, },
+},
+{
+	id: 'high_crimes_2002', title: { ua: 'Особливо тяжкі злочини', en: 'High Crimes', }, year: 2002, country: { usa: 1, },
+	genre: { drama: 1, crime: 1, },
+	internet: { imdb: '0257756', wiki_ru: '%D0%9E%D1%81%D0%BE%D0%B1%D0%BE_%D1%82%D1%8F%D0%B6%D0%BA%D0%B8%D0%B5_%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	cast: { ashley_judd_19041968: 1, morgan_freeman_01061937: 1, },
 },
 {
 	id: 'the_last_outlaw_1993', title: { ua: 'Останній ізгой', en: 'The Last Outlaw', }, year: 1993, country: { usa: 1, },
@@ -2685,6 +2765,12 @@ const arrFilms = [
 	genre: { action: 1, fantasy: 1, }, hash: { world: 1, children: 1, },
 	internet: { imdb: '0107362', wiki_ua: '%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96%D0%B9_%D0%BA%D1%96%D0%BD%D0%BE%D0%B3%D0%B5%D1%80%D0%BE%D0%B9', ashdivip: '792', },
 	cast: { arnold_schwarzenegger_30071947: 1, danny_devito_17111944: 1, james_belushi_15061954: 1, mc_hammer_30031962: 1, robert_patrick_05111958: 1, sharon_stone_10031958: 1, jean_claude_van_damme_18101960: 1, tina_turner_26111939: 1, },
+},
+{
+	id: 'the_island_of_dr_Moreau_1996', title: { ua: 'Острів доктора Моро', en: 'The Island of Dr. Moreau', }, year: 1996, country: { usa: 1, }, rating: 1,
+	genre: { sci_fi: 1, horror: 1, thriller: 1, }, hash: { world: 1, animal: 1, island: 1, },
+	internet: { imdb: '0116654', wiki_ua: '%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%BE%D1%80%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
+	cast: { val_kilmer_31121959: 1, marlon_brando_03041924: 1, mark_dacascos_26021964: 1, },
 },
 {
 	id: 'la_tete_dans_les_etoiles_2023', title: { ua: 'Папа не звезди', en: 'La tête dans les étoiles', }, year: 2023, country: { fra: 1, },
@@ -2900,6 +2986,12 @@ const arrFilms = [
 	cast: { bridget_moynahan_28041971: 1, },
 },
 {
+	id: 'the_hunt_for_red_october_1990', title: { ua: 'Полювання на Червоний Жовтень', en: 'The Hunt for Red October', }, year: 1990, country: { usa: 1, },
+	genre: { action: 1, }, hash: { underwater: 1, },
+	internet: { imdb: '0099810', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B7%D0%B0_%C2%AB%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B8%D0%BC_%D0%96%D0%BE%D0%B2%D1%82%D0%BD%D0%B5%D0%BC%C2%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { sean_connery_25081930: 1, alec_baldwin_03041958: 1, tim_curry_19041946: 1, },
+},
+{
 	id: 'time_lapse_2014', title: { ua: 'Помилка часу  ', en: 'Time Lapse', }, year: 2014, country: { usa: 1, },
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '2669336', wiki_ua: '%D0%9F%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B0_%D1%87%D0%B0%D1%81%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -2962,6 +3054,12 @@ const arrFilms = [
 	genre: { sci_fi: 1, thriller: 1,horror: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0093185', wiki_ua: '%D0%9F%D1%80%D0%B8%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9_%D0%B2%D0%BE%D1%80%D0%BE%D0%B3', ashdivip: '21363', },
 	cast: { kyle_maclachlan_22021959: 1, },
+},
+{
+	id: 'what_happens_in_Vegas_2008', title: { ua: 'Пригоди у Вегасі', en: 'What Happens in Vegas', }, year: 2008, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '1033643', wiki_ua: '%D0%9F%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B8_%D1%83_%D0%92%D0%B5%D2%91%D0%B0%D1%81%D1%96', },
+	cast: { cameron_diaz_30081972: 1, ashton_kutcher_07021978: 1, },
 },
 {
 	id: 'passengers_2016', title: { ua: 'Пробудження', en: 'Passengers', }, year: 2016, country: { usa: 1, }, rating: 5,
@@ -3119,18 +3217,6 @@ const arrFilms = [
 	internet: { imdb: '1210819', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96%D0%B9_%D0%A0%D0%B5%D0%B9%D0%BD%D0%B4%D0%B6%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { johnny_depp_09061963: 1, barry_pepper_04041970: 1, },
 },
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'sanctum_2011', title: { ua: 'Санктум', en: 'Sanctum', }, year: 2011, country: { usa: 1, },
 	genre: { thriller: 1, drama: 1, }, hash: { real: 1, trap: 1, surviving: 1, tropic: 1, },
@@ -3537,6 +3623,12 @@ const arrFilms = [
 	cast: { emilio_estevez_12051962: 1, mick_jagger_26071943: 1, rene_russo_17021954: 1, anthony_hopkins_31121937: 1, },
 },
 {
+	id: 'bad_teacher_2011', title: { ua: 'Училка', en: 'Bad Teacher', }, year: 2011, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '1284575', wiki_ua: '%D0%A3%D1%87%D0%B8%D0%BB%D0%BA%D0%B0', },
+	cast: { cameron_diaz_30081972: 1, justin_timberlake_31011981: 1, },
+},
+{
 	id: 'the_faculty_1998', title: { ua: 'Факультет', en: 'The Faculty', }, year: 1998, country: { usa: 1, },
 	genre: { horror: 1, sci_fi: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0133751', wiki_ua: '%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -3716,6 +3808,12 @@ const arrFilms = [
 	genre: { action: 1, drama: 1, crime: 1, }, hash: { road: 1, cars: 1, truckers: 1, },
 	internet: { imdb: '0120610', wiki_ru: '%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D1%91%D1%81_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', ashdivip: '17506', },
 	cast: { patrick_swayze_18081952: 1, },
+},
+{
+	id: 'weird_science_1985', title: { ua: 'Чудернацька наука', en: 'Weird Science', }, year: 1985, country: { usa: 1, }, rating: 5,
+	genre: { comedy: 1, sci_fi: 1, }, hash: { young: 1, },
+	internet: { imdb: '0090305', wiki_ua: '%D0%A7%D1%83%D0%B4%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D1%8C%D0%BA%D0%B0_%D0%BD%D0%B0%D1%83%D0%BA%D0%B0', },
+	cast: { bill_paxton_17051955: 1, },
 },
 {
 	id: 'jing_wu_men_1972', title: { ua: 'Шалений кулак', en: 'Jing wu men', }, year: 1972, country: { usa: 1, },
@@ -3916,273 +4014,6 @@ const arrFilms = [
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-
-	id: 'odnazhdy_v_Vegase_2008', title: { ua: 'Пригоди у Вегасі', en: 'What Happens in Vegas', }, year: 2008, country: { usa: 1, },
-	internet: { imdb: '1033643', wiki_ua: '%D0%9F%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B8_%D1%83_%D0%92%D0%B5%D2%91%D0%B0%D1%81%D1%96', },
-	cast: {
-		cameron_diaz_30081972: 1,
-		ashton_kutcher_07021978: 1,
-	},
-},
-
-
-
-{
-	id: 'oruzheyniy_baron_2005', title: { ua: 'Збройний барон', en: 'Lord of War', }, year: 2005, country: { usa: 1, deu: 1, fra: 1, },
-	internet: { imdb: '0399295', wiki_ua: '%D0%97%D0%B1%D1%80%D0%BE%D0%B9%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B1%D0%B0%D1%80%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: {
-		nicolas_cage_07011964: 1,
-		bridget_moynahan_28041971: 1,
-	},
-},
-{
-	id: 'osada_1998', title: { ua: 'Облога', en: 'The Siege', }, year: 1998, country: { usa: 1, },
-	internet: { imdb: '0133952', wiki_ua: '%D0%9E%D0%B1%D0%BB%D0%BE%D0%B3%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', },
-	cast: {
-		denzel_washington_28121954: 1,
-		bruce_willis_19031955: 1,
-	},
-},
-{
-	id: 'osnovnoy_instinkt_1_1992', title: { ua: 'Основний інстинкт', en: 'Basic Instinct', }, year: 1992, country: { usa: 1, },
-	internet: { imdb: '0103772', wiki_ua: '%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D1%96%D0%BD%D1%81%D1%82%D0%B8%D0%BD%D0%BA%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: {
-		sharon_stone_10031958: 1,
-		michael_douglas_25091944: 1,
-		jeanne_tripplehorn_10061963: 1,
-	},
-},
-{
-	id: 'osnovnoy_instinkt_2_2006', title: { ua: 'Основний інстинкт - 2', en: 'Basic Instinct 2', }, year: 2006, country: { deu: 1, gbr: 1, usa: 1, esp: 1, },
-	internet: { imdb: '0430912', wiki_ua: '%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D1%96%D0%BD%D1%81%D1%82%D0%B8%D0%BD%D0%BA%D1%82_2', },
-	cast: {
-		sharon_stone_10031958: 1,
-	},
-},
-{
-	id: 'osobo_opasen_2008', title: { ua: 'Особливо небезпечний', en: 'Wanted', }, year: 2008, country: { usa: 1, },
-	internet: { imdb: '0493464', wiki_ua: '%D0%9E%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%BE_%D0%BD%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%BD%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: {
-		morgan_freeman_01061937: 1,
-		angelina_jolie_04061975: 1,
-		konstantin_habensky_11011972: 1,
-	},
-},
-{
-	id: 'osobo_tyazhkie_prestuplenia_2002', title: { ua: 'Особливо тяжкі злочини', en: 'High Crimes', }, year: 2002, country: { usa: 1, },
-	internet: { imdb: '0257756', wiki_ru: '%D0%9E%D1%81%D0%BE%D0%B1%D0%BE_%D1%82%D1%8F%D0%B6%D0%BA%D0%B8%D0%B5_%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
-	cast: {
-		ashley_judd_19041968: 1,
-		morgan_freeman_01061937: 1,
-	},
-},
-{
-	id: 'ostrov_dr_Moro_1996', title: { ua: 'Острів доктора Моро', en: 'The Island of Dr. Moreau', }, year: 1996, country: { gbr: 1, },
-	internet: { imdb: '0116654', wiki_ua: '%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%BE%D1%80%D0%BE', },
-	cast: {
-		val_kilmer_31121959: 1,
-		marlon_brando_03041924: 1,
-		mark_dacascos_26021964: 1,
-	},
-},
-{
-	id: 'osminozhki_so_2_etazha_1987', title: { ua: 'Восьминіжки з другого поверху', en: 'The Octopuses from the Second Floor', }, year: 1987, country: { cze: 1, deu: 1, },
-	serial: 1,
-	internet: { imdb: '0090834', wiki_ru: '%D0%9E%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D0%BE%D0%B6%D0%BA%D0%B8_%D1%81%D0%BE_%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE_%D1%8D%D1%82%D0%B0%D0%B6%D0%B0', },
-},
-{
-	id: 'ot_zakata_do_rassveta_1996', title: { ua: 'Від заходу до світанку', en: 'From Dusk Till Dawn', }, year: 1996, country: { usa: 1, },
-	internet: { imdb: '0116367', wiki_ua: '%D0%92%D1%96%D0%B4_%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D1%83_%D0%B4%D0%BE_%D1%81%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BA%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',		 },
-	cast: {
-		george_clooney_06051961: 1,
-		quentin_tarantino_27031963: 1,
-		juliette_lewis_21061973: 1,
-		salma_hayek_02091966: 1,
-		danny_trejo_16051944: 1,
-	},
-},
-{
-	id: 'otryad_samoubiyc_2016', title: { ua: 'Загін самогубців', en: 'Suicide Squad', }, year: 2016, country: { usa: 1, },
-	internet: { imdb: '1386697', wiki_ua: '%D0%97%D0%B0%D0%B3%D1%96%D0%BD_%D1%81%D0%B0%D0%BC%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: {
-		will_smith_25091968: 1,
-		ben_affleck_15081972: 1,
-	},
-},
-{
-	id: 'oh_uzh_eta_nauka_1985', title: { ua: 'Чудернацька наука', en: 'Weird Science', }, year: 1985, country: { usa: 1, }, rating: 5,
-	internet: { imdb: '0090305', wiki_ua: '%D0%A7%D1%83%D0%B4%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D1%8C%D0%BA%D0%B0_%D0%BD%D0%B0%D1%83%D0%BA%D0%B0', },
-	cast: {
-		bill_paxton_17051955: 1,
-	},
-},
-{
-	id: 'ohota_za_Krasnym_Oktyabrem_1990', title: { ua: 'Полювання на Червоний Жовтень', en: 'The Hunt for Red October', }, year: 1990, country: { usa: 1, },
-	internet: { imdb: '0099810', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B7%D0%B0_%C2%AB%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B8%D0%BC_%D0%96%D0%BE%D0%B2%D1%82%D0%BD%D0%B5%D0%BC%C2%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: {
-		sean_connery_25081930: 1,
-		alec_baldwin_03041958: 1,
-		tim_curry_19041946: 1,
-	},
-},
-{
-	id: 'ohotniki_za_privideniyami_1984', title: { ua: 'Мисливці за привидами', en: 'Ghostbusters', }, year: 1984, country: { usa: 1, },
-	internet: { imdb: '0087332', wiki_ua: '%D0%9C%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D1%86%D1%96_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B8%D0%B2%D0%B8%D0%B4%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1984)', },
-	cast: {
-		bill_murray_21091950: 1,
-		sigourney_weaver_08101949: 1,
-	},
-},
-{
-	id: 'ochen_plohaya_uchilka_2011', title: { ua: 'Училка', en: 'Bad Teacher', }, year: 2011, country: { usa: 1, },
-	internet: { imdb: '1284575', wiki_ua: 'https://uk.wikipedia.org/wiki/%D0%A3%D1%87%D0%B8%D0%BB%D0%BA%D0%B0',	},
-	cast: {
-		cameron_diaz_30081972: 1,
-		justin_timberlake_31011981: 1,
-	},
-},
-{
-	id: 'ochen_strashnoe_kino_1_2000', title: { ua: 'Дуже страшне кіно', en: 'Scary Movie', }, year: 2000, country: { usa: 1, },
-	internet: { imdb: '0175142', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE', },
-	cast: {
-		carmen_electra_20041972: 1,
-	},
-},
-{
-	id: 'ochen_strashnoe_kino_2_2001', title: { ua: 'Дуже страшне кіно - 2', en: 'Scary Movie 2', }, year: 2001, country: { usa: 1, },
-	internet: { imdb: '0257106', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE_2',	},
-	cast: {
-		chris_elliott_31051960: 1,
-		tim_curry_19041946: 1,
-	},
-},
-{
-	id: 'ochen_strashnoe_kino_3_2003', title: { ua: 'Дуже страшне кіно - 3', en: 'Scary Movie 3', }, year: 2003, country: { usa: 1, },
-	internet: { imdb: '0306047', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE_3',	},
-	cast: {
-		charlie_sheen_03091965: 1,
-		leslie_nielsen_11021926: 1,
-		pamela_anderson_01071967: 1,
-		denise_richards_17021971: 1,
-	},
-},
-{
-	id: 'ochen_strashnoe_kino_4_2006', title: { ua: 'Дуже страшне кіно - 4', en: 'Scary Movie 4', }, year: 2006, country: { usa: 1, },
-	internet: { imdb: '0362120', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE_4',	},
-	cast: {
-		charlie_sheen_03091965: 1,
-		leslie_nielsen_11021926: 1,
-		carmen_electra_20041972: 1,
-		chris_elliott_31051960: 1,
-	},
-},
-{
-	id: 'ochen_strashnoe_kino_5_2013', title: { ua: 'Дуже страшне кіно - 5', en: 'Scary Movie 5', }, year: 2013, country: { usa: 1, },
-	internet: { imdb: '0795461', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE_5',	},
-	cast: {
-		heather_locklear_25091961: 1,
-		michael_biehn_31071956: 1,
-		charlie_sheen_03091965: 1,
-		mike_tyson_30061966: 1,
-		snoop_dogg_20101971: 1,
-		chris_elliott_31051960: 1,
-	},
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
