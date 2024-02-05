@@ -2102,13 +2102,13 @@ const arrFilms = [
 	cast: { keanu_reeves_02091964: 1, laurence_fishburne_30071961: 1, carrie_anne_moss_21081967: 1, hugo_weaving_04041960: 1, monica_bellucci_30091964: 1, bruce_spence_17091945: 1, },
 },
 {
-	id: 'machete_2010', title: { ua: 'Мачете', en: 'Machete Kills', }, year: 2010, country: { usa: 1, },
+	id: 'Machete_2010', title: { ua: 'Мачете', en: 'Machete Kills', }, year: 2010, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, },
 	internet: { imdb: '0985694', wiki_ua: '%D0%9C%D0%B0%D1%87%D0%B5%D1%82%D0%B5_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { danny_trejo_16051944: 1, robert_de_niro_17081943: 1, jessica_alba_28041981: 1, michelle_rodriguez_12071978: 1, steven_seagal_10041952: 1, don_johnson_15121949: 1, },
 },
 {
-	id: 'machete_kills_2013', title: { ua: 'Мачете вбиває', en: 'Machete Kills', }, year: 2013, country: { usa: 1, },
+	id: 'Machete_kills_2013', title: { ua: 'Мачете вбиває', en: 'Machete Kills', }, year: 2013, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, },
 	internet: { imdb: '2002718', wiki_ru: '%D0%9C%D0%B0%D1%87%D0%B5%D1%82%D0%B5_%D1%83%D0%B1%D0%B8%D0%B2%D0%B0%D0%B5%D1%82', },
 	cast: { danny_trejo_16051944: 1, michelle_rodriguez_12071978: 1, mel_gibson_03011956: 1, charlie_sheen_03091965: 1, cuba_gooding_jr_02011968: 1, lady_gaga_28031986: 1, antonio_banderas_10081960: 1, jessica_alba_28041981: 1, elon_musk_28061971: 1, },
