@@ -50,10 +50,10 @@ const arrHashTags = [
 	{ id: 'marvel' 			, title: 'Марвел' 				, app: { films: 1, }, },
 	{ id: 'cars' 			, title: 'машини' 				, app: { films: 1, }, },
 	{ id: 'medicine' 		, title: 'медицина' 			, app: { films: 1, }, },
+	{ id: 'subway' 			, title: 'метро'				, app: { films: 1, }, },
 	{ id: 'young' 			, title: 'молодь' 				, app: { films: 1, }, },
 	{ id: 'sea' 			, title: 'море'					, app: { films: 1, }, },
 	{ id: 'motorbike' 		, title: 'мотоцикли'			, app: { films: 1, }, },
-	{ id: 'subway' 			, title: 'метро'				, app: { films: 1, }, },
 	{ id: 'mutant' 			, title: 'мутанти'				, app: { films: 1, }, },
 	{ id: 'real' 			, title: 'наРеальнихПодіях' 	, app: { films: 1, }, }, // засновано на реальних подіях
 	{ id: 'drugs' 			, title: 'наркотики' 			, app: { films: 1, }, },

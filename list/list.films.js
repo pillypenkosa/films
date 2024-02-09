@@ -251,6 +251,12 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, ben_affleck_15081972: 1, liv_tyler_01071977: 1, steve_buscemi_13121957: 1, michael_clarke_duncan_10121957: 1, michael_bay_17021965: 1, },
 },
 {
+	id: 'the_accountant_2016', title: { ua: 'Аудитор', en: 'The Accountant', }, year: 2016, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '2140479', wiki_ua: '%D0%90%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', },
+	cast: { ben_affleck_15081972: 1, },
+},
+{
 	id: 'the_Thomas_Crown_affair_1999', title: { ua: 'Афера Томаса Крауна', en: 'The Thomas Crown Affair', }, year: 1999, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, crime: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '0155267', wiki_ua: '%D0%90%D1%84%D0%B5%D1%80%D0%B0_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81%D0%B0_%D0%9A%D1%80%D0%B0%D1%83%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', },
@@ -652,18 +658,17 @@ const arrFilms = [
 	cast: { brad_pitt_18121963: 1, },
 },
 {
-	id: 'pobeg_1994', title: { ua: 'Втеча', en: 'The Getaway', }, year: 1994, country: { usa: 1, jpn: 1, },
+	id: 'the_getaway_1994', title: { ua: 'Втеча', en: 'The Getaway', }, year: 1994, country: { usa: 1, jpn: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0109890', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1994)', },
 	cast: { alec_baldwin_03041958: 1, kim_basinger_08121953: 1, david_morse_11101953: 1, },
 },
 {
-	id: 'pobeg_iz_Alkatrasa_1979', title: { ua: 'Втеча з Алькатрасу', en: 'Escape from Alcatraz', }, year: 1979, country: { usa: 1, },
+	id: 'escape_from_alcatraz_1979', title: { ua: 'Втеча з Алькатрасу', en: 'Escape from Alcatraz', }, year: 1979, country: { usa: 1, },
 	genre: { crime: 1, }, hash: { prison: 1, escape: 1, },
 	internet: { imdb: '0079116', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_%D0%B7_%D0%90%D0%BB%D1%8C%D0%BA%D0%B0%D1%82%D1%80%D0%B0%D1%81%D0%B0',	},
 	cast: { clint_eastwood_31051930: 1, },
 },
-
 {
 	id: 'deadlocked_escape_from_zone_14_1995', title: { ua: 'Втеча з зони 14', en: 'Deadlocked: Escape from Zone 14', }, year: 1995, country: { usa: 1, }, rating: '5+',
 	genre: { action: 1, adventure: 1, }, hash: { future: 1, prison: 1, escape: 1, techno: 1, },
@@ -681,7 +686,7 @@ const arrFilms = [
 	internet: { imdb: '8337264', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_%D0%B7_%D0%BA%D1%83%D1%80%D0%BD%D0%B8%D0%BA%D0%B0_2', ashdivip: '111862', },
 },
 {
-	id: 'pobeg_iz_New_York_1981', title: { ua: 'Втеча з Нью-Йорка', en: 'Escape from New York', }, year: 1981, country: { usa: 1, },
+	id: 'escape_from_New_York_1981', title: { ua: 'Втеча з Нью-Йорка', en: 'Escape from New York', }, year: 1981, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, },
 	internet: { imdb: '0082340', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_%D0%B7_%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA%D0%B0', },
 	cast: { kurt_russell_17031951: 1, },
@@ -2519,7 +2524,7 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, antonio_banderas_10081960: 1, julianne_moore_03121960: 1, },
 },
 {
-	id: 'prikaz_027_1986', title: { ua: 'Наказ 027', en: 'Myung ryoung-027 ho', }, year: 1986, country: { prk: 1, },
+	id: 'myung_ryoung_027_ho_1986', title: { ua: 'Наказ 027', en: 'Myung ryoung-027 ho', }, year: 1986, country: { prk: 1, },
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0254594', wiki_ru: '%D0%9F%D1%80%D0%B8%D0%BA%D0%B0%D0%B7_%E2%84%96_027', },
 },
@@ -2778,7 +2783,7 @@ const arrFilms = [
 	cast: { sandra_bullock_26071964: 1, },
 },
 {
-	id: 'polnochnaya_zhara_1992', title: { ua: 'Опівнічна спека', en: 'Sunset Heat', }, year: 1992, country: { usa: 1, },
+	id: 'sunset_heat_1992', title: { ua: 'Опівнічна спека', en: 'Sunset Heat', }, year: 1992, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0103006', wiki_ua: '%D0%9E%D0%BF%D1%96%D0%B2%D0%BD%D1%96%D1%87%D0%BD%D0%B0_%D1%81%D0%BF%D0%B5%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { michael_pare_09101958: 1, dennis_hopper_17051936: 1, },
@@ -4436,173 +4441,67 @@ const arrFilms = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
-	id: 'razborka_v_Bronxe_1995',
-	title: { ua: 'Разборка в Бронксе', en: 'Hung fan kui', },
-	year: 1995,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0113326',
-		wiki_ru: '%D0%A0%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_%D0%B2_%D0%91%D1%80%D0%BE%D0%BD%D0%BA%D1%81%D0%B5',
-		wiki_ua: '',		
-	},
-	cast: {
-		jackie_chan_07041954: 1,
-	},
+	id: 'hung_fan_kui_1995', title: { ua: 'Розбірки в Бронксі', en: 'Hung fan kui', }, year: 1995, country: { hkg: 1, usa: 1, },
+	genre: { action: 1, crime: 1, comedy: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0113326', wiki_ua: '%D0%A0%D0%BE%D0%B7%D0%B1%D1%96%D1%80%D0%BA%D0%B8_%D0%B2_%D0%91%D1%80%D0%BE%D0%BD%D0%BA%D1%81%D1%96',	},
+	cast: { jackie_chan_07041954: 1, },
 },
 {
-	id: 'razborki_v_malenkom_Tokio_1991',
-	title: { ua: 'Разборки в маленьком Токио', en: 'Showdown in Little Tokyo', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0102915',
-		wiki_ru: '%D0%A0%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_%D0%B2_%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%BC_%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE',
-		wiki_ua: '',		
-	},
-	cast: {
-		dolph_lundgren_03111957: 1,
-		brandon_lee_01021965: 1,
-		tia_carrere_02011967: 1,
-	},
+	id: 'showdown_in_little_Tokyo_1991', title: { ua: 'Розбірки у маленькому Токіо', en: 'Showdown in Little Tokyo', }, year: 1991, country: { usa: 1, },
+	genre: { action: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0102915', wiki_ua: '%D0%A0%D0%BE%D0%B7%D0%B1%D1%96%D1%80%D0%BA%D0%B8_%D1%83_%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%BC%D1%83_%D0%A2%D0%BE%D0%BA%D1%96%D0%BE', },
+	cast: { dolph_lundgren_03111957: 1, brandon_lee_01021965: 1, tia_carrere_02011967: 1, },
 },
 {
-	id: 'razlom_San-Andreas_2015',
-	title: { ua: 'Разлом Сан-Андреас', en: 'San Andreas', },
-	year: 2015,
-	country: { usa: 1, },
-	internet: {
-		imdb: '2126355',
-		wiki_ru: '%D0%A0%D0%B0%D0%B7%D0%BB%D0%BE%D0%BC_%D0%A1%D0%B0%D0%BD-%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B0%D1%81_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		wiki_ua: '',		
-	},
-	cast: {
-		dwayne_johnson_02051972: 1,
-	},
+	id: 'San_Andreas_2015', title: { ua: 'Розлом Сан-Андреас', en: 'San Andreas', }, year: 2015, country: { usa: 1, },
+	genre: { action: 1, adventure: 1, disaster: 1, }, hash: { sea: 1, },
+	internet: { imdb: '2126355', wiki_ua: '%D0%A0%D0%BE%D0%B7%D0%BB%D0%BE%D0%BC_%D0%A1%D0%B0%D0%BD-%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B0%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { dwayne_johnson_02051972: 1, },
 },
 {
-	id: 'rasplata_1999',
-	title: { ua: 'Расплата', en: 'Payback', },
-	year: 1999,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0120784',
-		wiki_ru: '%D0%A0%D0%B0%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1999)',
-		wiki_ua: '',		
-	},
-	cast: {
-		mel_gibson_03011956: 1,
-		kris_kristofferson_22061936: 1,
-		bill_duke_26021943: 1,
-	},
+	id: 'payback_1999', title: { ua: 'Розплата', en: 'Payback', }, year: 1999, country: { usa: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '0120784', wiki_ua: '%D0%A0%D0%BE%D0%B7%D0%BF%D0%BB%D0%B0%D1%82%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', },
+	cast: { mel_gibson_03011956: 1, kris_kristofferson_22061936: 1, bill_duke_26021943: 1, },
 },
 {
-	id: 'rasplata_2016',
-	title: { ua: 'Расплата', en: 'The Accountant', },
-	year: 2016,
-	country: { usa: 1, },
-	internet: {
-		imdb: '2140479',
-		wiki_ru: '%D0%A0%D0%B0%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2016)',
-		wiki_ua: '',		
-	},
-	cast: {
-		ben_affleck_15081972: 1,
-	},
+	id: 'body_parts_1991', title: { ua: 'Частини тіла', en: 'Body Parts', }, year: 1991, country: { usa: 1, },
+	genre: { horror: 1, thriller: 1, sci_fi: 1, },
+	internet: { imdb: '0101492', wiki_ua: 'https://uk.wikipedia.org/wiki/%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B8_%D1%82%D1%96%D0%BB%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 },
 {
-	id: 'raschlenennoe_telo_1991',
-	title: { ua: 'Расчлененное тело', en: 'Body Parts', },
-	year: 1991,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0101492',
-		wiki_ua: '',		
-	},
+	id: 'the_recruit_2003', title: { ua: 'Рекрут', en: 'The Recruit', }, year: 2003, country: { usa: 1, },
+	genre: { thriller: 1, },
+	internet: { imdb: '0292506', wiki_ua: '%D0%A0%D0%B5%D0%BA%D1%80%D1%83%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { al_pacino_25041940: 1, bridget_moynahan_28041971: 1, },
 },
 {
-	id: 'rekrut_2003',
-	title: { ua: 'Рекрут', en: 'The Recruit', },
-	year: 2003,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0292506',
-		wiki_ru: '%D0%A0%D0%B5%D0%BA%D1%80%D1%83%D1%82_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		wiki_ua: '',		
-	},
-	cast: {
-		al_pacino_25041940: 1,
-		bridget_moynahan_28041971: 1,
-	},
+	id: 'romancing_the_stone_1984', title: { ua: 'Роман з каменем', en: 'Romancing the Stone', }, year: 1984, country: { usa: 1, mex: 1, }, rating: 5,
+	genre: { action: 1, adventure: 1, comedy: 1, }, hash: { travel: 1, },
+	internet: { imdb: '0088011', wiki_ua: '%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%B7_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D0%B5%D0%BC', },
+	cast: { michael_douglas_25091944: 1, danny_devito_17111944: 1, },
 },
 {
-	id: 'roman_s_kamnem_1984',
-	title: { ua: 'Роман с камнем', en: 'Romancing the Stone', },
-	year: 1984,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0088011',
-		wiki_ru: '%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D1%81_%D0%BA%D0%B0%D0%BC%D0%BD%D0%B5%D0%BC',
-		wiki_ua: '',		
-	},
-	cast: {
-		michael_douglas_25091944: 1,
-		danny_devito_17111944: 1,
-	},
+	id: 'ronin_1998', title: { ua: 'Ронін', en: 'Ronin', }, year: 1998, country: { gbr: 1, usa: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '0122690', wiki_ua: '%D0%A0%D0%BE%D0%BD%D1%96%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { robert_de_niro_17081943: 1, jean_reno_30071948: 1, sean_bean_17041959: 1, },
 },
 {
-	id: 'ronin_1998',
-	title: { ua: 'Ронин', en: 'Ronin', },
-	year: 1998,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0122690',
-		wiki_ru: '%D0%A0%D0%BE%D0%BD%D0%B8%D0%BD_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		wiki_ua: '',		
-	},
-	cast: {
-		robert_de_niro_17081943: 1,
-		jean_reno_30071948: 1,
-		sean_bean_17041959: 1,
-	},
+	id: 'the_hand_that_rocks_the_cradle_1992', title: { ua: 'Рука що гойдає колиску', en: 'The Hand That Rocks the Cradle', }, year: 1992, country: { usa: 1, },
+	genre: { thriller: 1, },
+	internet: { imdb: '0104389', wiki_ru: '%D0%A0%D1%83%D0%BA%D0%B0,_%D0%BA%D0%B0%D1%87%D0%B0%D1%8E%D1%89%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BB%D1%8B%D0%B1%D0%B5%D0%BB%D1%8C', },
+	cast: { julianne_moore_03121960: 1, rebecca_de_mornay_29081959: 1, },
 },
-{
-	id: 'ruka_kachayuschaya_kolybel_1992',
-	title: { ua: 'Рука качающая колыбель', en: 'The Hand That Rocks the Cradle', },
-	year: 1992,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0104389',
-		wiki_ru: '%D0%A0%D1%83%D0%BA%D0%B0,_%D0%BA%D0%B0%D1%87%D0%B0%D1%8E%D1%89%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BB%D1%8B%D0%B1%D0%B5%D0%BB%D1%8C',
-		wiki_ua: '',		
-	},
-	cast: {
-		julianne_moore_03121960: 1,
-		rebecca_de_mornay_29081959: 1,
-	},
-},
+
+
+
+
+
+
+
+
 {
 	id: 'rycar_dnya_2010',
 	title: { ua: 'Рыцарь дня', en: 'Knight and Day', },
@@ -4733,20 +4632,6 @@ const arrFilms = [
 	cast: {
 		bruce_willis_19031955: 1,
 		kim_basinger_08121953: 1,
-	},
-},
-{
-	id: 'sdelano_v_Amerike_1993',
-	title: { ua: 'Сделано в Америке', en: 'Made in America', },
-	year: 1993,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0107478',
-		wiki_ru: '%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE_%D0%B2_%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B5_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1993)',
-		wiki_ua: '',		
-	},
-	cast: {
-		whoopi_goldberg_13111955: 1,
 	},
 },
 {
@@ -5868,24 +5753,6 @@ const arrFilms = [
 		youtube: 'RlvJQ1MCiNY',
 	},
 },
-{
-	id: 'Hancock_2008',
-	title: { ua: 'Хэнкок', en: 'Hancock', },
-	year: 2008,
-	country: { usa: 1, },
-	internet: {
-		imdb: '0448157',
-		wiki_ru: '%D0%A5%D1%8D%D0%BD%D0%BA%D0%BE%D0%BA_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)',
-		wiki_ua: '',		
-	},
-	cast: {
-		will_smith_25091968: 1,
-		charlize_theron_07081975: 1,
-	},
-},
-
-
-
 
 
 
