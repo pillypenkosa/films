@@ -519,7 +519,8 @@ const arrFilms = [
 	cast: { bill_paxton_17051955: 1, },
 },
 {
-	id: 'svadba_luchshego_druga_1997', title: { ua: 'Весілля найкращого друга', en: 'My Best Friend\'s Wedding', }, year: 1997, country: { usa: 1, },
+	id: 'my_best_friend_s_wedding_1997', title: { ua: 'Весілля найкращого друга', en: 'My Best Friend\'s Wedding', }, year: 1997, country: { usa: 1, },
+	genre: { comedy: 1, drama: 1, },
 	internet: { imdb: '0119738', wiki_ua: '%D0%92%D0%B5%D1%81%D1%96%D0%BB%D0%BB%D1%8F_%D0%BC%D0%BE%D0%B3%D0%BE_%D0%BD%D0%B0%D0%B9%D0%BA%D1%80%D0%B0%D1%89%D0%BE%D0%B3%D0%BE_%D0%B4%D1%80%D1%83%D0%B3%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1997)',	},
 	cast: { julia_roberts_28101967: 1, cameron_diaz_30081972: 1, },
 },
@@ -548,12 +549,14 @@ const arrFilms = [
 	cast: { roger_moore_14101927: 1, },
 },
 {
-	id: 'trevozhniy_vyzov_2013', title: { ua: 'Виклик', en: 'The Call', }, year: 2013, country: { usa: 1, },
+	id: 'the_call_2013', title: { ua: 'Виклик', en: 'The Call', }, year: 2013, country: { usa: 1, },
+	genre: { thriller: 1, }, hash: { police: 1, phone: 1, },
 	internet: { imdb: '1911644', wiki_ua: '%D0%92%D0%B8%D0%BA%D0%BB%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013)', },
 	cast: { halle_berry_14081966: 1, },
 },
 {
-	id: 'ugnat_za_60_secund_2000', title: { ua: 'Викрасти за 60 секунд', en: 'Gone in Sixty Seconds', }, year: 2000, country: { usa: 1, },
+	id: 'gone_in_sixty_seconds_2000', title: { ua: 'Викрасти за 60 секунд', en: 'Gone in Sixty Seconds', }, year: 2000, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { cars: 1, },
 	internet: { imdb: '0187078', wiki_ua: '%D0%92%D0%B8%D0%BA%D1%80%D0%B0%D1%81%D1%82%D0%B8_%D0%B7%D0%B0_60_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4', },
 	cast: { nicolas_cage_07011964: 1, angelina_jolie_04061975: 1, timothy_olyphant_20051968: 1, },
 },
@@ -581,7 +584,8 @@ const arrFilms = [
 	cast: { liam_neeson_07061952: 1, },
 },
 {
-	id: 'chuvstvuya_Minnesotu_1996', title: { ua: 'Відчуваючи Мінесоту', en: 'Feeling Minnesota', }, year: 1996, country: { usa: 1, },
+	id: 'feeling_Minnesota_1996', title: { ua: 'Відчуваючи Мінесоту', en: 'Feeling Minnesota', }, year: 1996, country: { usa: 1, },
+	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '0116289', wiki_ru: '%D0%A7%D1%83%D0%B2%D1%81%D1%82%D0%B2%D1%83%D1%8F_%D0%9C%D0%B8%D0%BD%D0%BD%D0%B5%D1%81%D0%BE%D1%82%D1%83', },
 	cast: { keanu_reeves_02091964: 1, cameron_diaz_30081972: 1, courtney_love_09071964: 1, },
 },
@@ -644,11 +648,13 @@ const arrFilms = [
 },
 {
 	id: 'Wall_street_1987', title: { ua: 'Волл-стріт', en: 'Wall Street', }, year: 1987, country: { usa: 1, },
+	genre: { drama: 1, crime: 1, }, 
 	internet: { imdb: '0094291', wiki_ua: '%D0%92%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D1%96%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { charlie_sheen_03091965: 1, martin_sheen_03081940: 1, michael_douglas_25091944: 1, sean_young_20111959: 1, },
 },
 {
 	id: 'Wall_street_2010', title: { ua: 'Волл-стріт: Гроші не сплять', en: 'Wall Street: Money Never Sleeps', }, year: 2010, country: { usa: 1, },
+	genre: { drama: 1, crime: 1, }, 
 	internet: { imdb: '1027718', wiki_ua: '%D0%92%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D1%96%D1%82:_%D0%B3%D1%80%D0%BE%D1%88%D1%96_%D0%BD%D0%B5_%D1%81%D0%BF%D0%BB%D1%8F%D1%82%D1%8C', },
 	cast: { shia_labeouf_11061986: 1, michael_douglas_25091944: 1, charlie_sheen_03091965: 1, oliver_stone_15091946: 1, },
 },
@@ -800,7 +806,8 @@ const arrFilms = [
 	cast: { sam_worthington_02081976: 1, liam_neeson_07061952: 1, rosamund_pike_27011979: 1, },
 },
 {
-	id: 'chasovoy_mehanizm_2001', title: { ua: 'Годинниковий механізм', en: 'Ticker', }, year: 2001, country: { usa: 1, },
+	id: 'ticker_2001', title: { ua: 'Годинниковий механізм', en: 'Ticker', }, year: 2001, country: { usa: 1, },
+	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0196158', wiki_ua: '%D0%93%D0%BE%D0%B4%D0%B8%D0%BD%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%B7%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { tom_sizemore_29111961: 1, steven_seagal_10041952: 1, dennis_hopper_17051936: 1, peter_greene_08101965: 1, ice_t_16021958: 1, },
 },
@@ -923,7 +930,8 @@ const arrFilms = [
 	cast: { chris_tucker_31081971: 1, charlie_sheen_03091965: 1, heather_locklear_25091961: 1, },
 },
 {
-	id: 'finansoviy_monstr_2016', title: { ua: 'Грошовий монстр', en: 'Money Monster', }, year: 2016, country: { usa: 1, },
+	id: 'money_monster_2016', title: { ua: 'Грошовий монстр', en: 'Money Monster', }, year: 2016, country: { usa: 1, },
+	genre: { action: 1, crime: 1, },
 	internet: { imdb: '2241351', wiki_ua: '%D0%93%D1%80%D0%BE%D1%88%D0%BE%D0%B2%D0%B0_%D0%BF%D0%B0%D1%81%D1%82%D0%BA%D0%B0', },
 	cast: { george_clooney_06051961: 1, julia_roberts_28101967: 1, },
 },
@@ -1146,7 +1154,8 @@ const arrFilms = [
 	cast: { kate_winslet_05101975: 1, jai_courtney_15031986: 1, zoe_kravitz_01121988: 1, ashley_judd_19041968: 1, naomi_watts_28091968: 1, maggie_q_22051979: 1, },
 },
 {
-	id: 'chudo_zhenschina_2020', title: { ua: 'Диво-жінка 1984', en: 'Wonder Woman 1984', }, year: 2020, country: { usa: 1, },
+	id: 'wonder_woman_1984_2020', title: { ua: 'Диво-жінка 1984', en: 'Wonder Woman 1984', }, year: 2020, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, },
 	internet: { imdb: '7126948', wiki_ua: '%D0%94%D0%B8%D0%B2%D0%BE-%D0%B6%D1%96%D0%BD%D0%BA%D0%B0_1984', },
 	cast: { gal_gadot_30041985: 1, chris_pine_26081980: 1, connie_nielsen_03071965: 1, },
 },
@@ -1278,22 +1287,26 @@ const arrFilms = [
 	cast: { charlie_sheen_03091965: 1, },
 },
 {
-	id: 'edward_ruki-nozhnicy_1990', title: { ua: 'Едвард Руки-ножиці', en: 'Edward Scissorhands', }, year: 1990, country: { usa: 1, },
+	id: 'Edward_scissorhands_1990', title: { ua: 'Едвард Руки-ножиці', en: 'Edward Scissorhands', }, year: 1990, country: { usa: 1, },
+	genre: { fantasy: 1, drama: 1, },
 	internet: { imdb: '0099487', wiki_ua: '%D0%95%D0%B4%D0%B2%D0%B0%D1%80%D0%B4_%D0%A0%D1%83%D0%BA%D0%B8-%D0%BD%D0%BE%D0%B6%D0%B8%D1%86%D1%96',	moviestape: 'Edward.Scissorhands', },
 	cast: { johnny_depp_09061963: 1, winona_ryder_29101971: 1, },
 },
 {
 	id: 'air_amerika_1990', title: { ua: 'Ейр Америка', en: 'Air America', }, year: 1990, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, },
 	internet: { imdb: '0099005', wiki_ua: '%D0%95%D0%B9%D1%80_%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0', },
 	cast: { mel_gibson_03011956: 1, michael_dudikoff_08101954: 1, },
 },
 {
-	id: 'ace_ventura_1_1994', title: { ua: 'Ейс Вентура', en: 'Ace Ventura: Pet Detective', }, year: 1994, country: { usa: 1, },
+	id: 'ace_ventura_1994', title: { ua: 'Ейс Вентура', en: 'Ace Ventura: Pet Detective', }, year: 1994, country: { usa: 1, },
+	genre: { comedy: 1, },
 	internet: { imdb: '0109040', wiki_ua: '%D0%95%D0%B9%D1%81_%D0%92%D0%B5%D0%BD%D1%82%D1%83%D1%80%D0%B0:_%D0%A0%D0%BE%D0%B7%D1%88%D1%83%D0%BA_%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%96%D1%85_%D1%82%D0%B2%D0%B0%D1%80%D0%B8%D0%BD', moviestape: 'Ace.Ventura.Pet.Detective', },
 	cast: { jim_carrey_17011962: 1, sean_young_20111959: 1, },
 },
 {
 	id: 'ace_ventura_2_1995', title: { ua: 'Ейс Вентура - 2', en: 'Ace Ventura: When Nature Calls', }, year: 1995, country: { usa: 1, },
+	genre: { comedy: 1, },
 	internet: { imdb: '0112281', wiki_ua: '%D0%95%D0%B9%D1%81_%D0%92%D0%B5%D0%BD%D1%82%D1%83%D1%80%D0%B0_2:_%D0%9F%D0%BE%D0%BA%D0%BB%D0%B8%D0%BA_%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B8', moviestape: 'Ace.Ventura.When.Nature.Calls', },
 	cast: { jim_carrey_17011962: 1, },
 },
@@ -1304,7 +1317,8 @@ const arrFilms = [
 	cast: { christian_bale_30011974: 1, sean_bean_17041959: 1, },
 },
 {
-	id: 'ekzamen_2009', title: { ua: 'Екзамен', en: 'Exam', }, year: 2009, country: { usa: 1, },
+	id: 'exam_2009', title: { ua: 'Екзамен', en: 'Exam', }, year: 2009, country: { usa: 1, },
+	genre: { thriller: 1, },
 	internet: { imdb: '1258197', wiki_ru: '%D0%AD%D0%BA%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2009)',	},
 },
 {
@@ -1315,16 +1329,18 @@ const arrFilms = [
 },
 {
 	id: 'elysium_2013', title: { ua: 'Елізіум', en: 'Elysium', }, year: 2013, country: { usa: 1, }, rating: 5,
-	genre: { action: 1, thriller: 1, sci_fi: 1, }, hash: { future: 1, space: 1, techno: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, space: 1, techno: 1, },
 	internet: { imdb: '1535108', wiki_ua: '%D0%95%D0%BB%D1%96%D0%B7%D1%96%D1%83%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '12799', },
 	cast: { matt_damon_08101970: 1, jodie_foster_19111962: 1, },
 },
 {
-	id: 'Elvira_povelitelnica_tmy_1988', title: { ua: 'Ельвіра володарка темряви', en: 'Elvira: Mistress of the Dark', }, year: 1988, country: { usa: 1, },
-	internet: { imdb: '0095088', wiki_ua: '%D0%AD%D0%BF%D0%B8%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1995)', },
+	id: 'Elvira_mistress_of_the_dark_1988', title: { ua: 'Ельвіра володарка темряви', en: 'Elvira: Mistress of the Dark', }, year: 1988, country: { usa: 1, }, rating: 5,
+	genre: { comedy: 1, mystic: 1, }, 
+	internet: { imdb: '0095088', wiki_ua: '%D0%95%D0%BB%D1%8C%D0%B2%D1%96%D1%80%D0%B0_%E2%80%94_%D0%B2%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0%D1%80%D0%BA%D0%B0_%D1%82%D0%B5%D0%BC%D1%80%D1%8F%D0%B2%D0%B8', },
 },
 {
-	id: 'epidemia_1995', title: { ua: 'Епідемія', en: 'Outbreak', }, year: 1995, country: { usa: 1, },
+	id: 'outbreak_1995', title: { ua: 'Епідемія', en: 'Outbreak', }, year: 1995, country: { usa: 1, }, rating: 5,
+	genre: { thriller: 1, }, hash: { animal: 1, },
 	internet: { imdb: '0114069', wiki_ua: '%D0%95%D0%BF%D1%96%D0%B4%D0%B5%D0%BC%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)', },
 	cast: { dustin_hoffman_08081937: 1, morgan_freeman_01061937: 1, rene_russo_17021954: 1, kevin_spacey_26071959: 1, cuba_gooding_jr_02011968: 1, donald_sutherland_17071935: 1, },
 },
@@ -1582,7 +1598,8 @@ const arrFilms = [
 	cast: { george_clooney_06051961: 1, },
 },
 {
-	id: 'slomannye_prutya_1995', title: { ua: 'Зламані прути', en: 'Broken Bars', }, year: 1995, country: { usa: 1, },
+	id: 'broken_bars_1995', title: { ua: 'Зламані прути', en: 'Broken Bars', }, year: 1995, country: { usa: 1, },
+	genre: { action: 1, }, hash: { fight: 1, prison: 1, drugs: 1, police: 1, },
 	internet: { imdb: '0112581', },
 },
 {
@@ -1854,7 +1871,8 @@ const arrFilms = [
 	cast: { daniel_craig_02031968: 1, olga_kurylenko_14111979: 1, judi_dench_09121934: 1, },
 },
 {
-	id: 'upravlyaya_poletami_1999', title: { ua: 'Керуючи польотами', en: 'Pushing Tin', }, year: 1999, country: { usa: 1, deu: 1, },
+	id: 'pushing_tin_1999', title: { ua: 'Керуючи польотами', en: 'Pushing Tin', }, year: 1999, country: { usa: 1, deu: 1, },
+	genre: { drama: 1, comedy: 1, },
 	internet: { imdb: '0120797', wiki_ru: '%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8F_%D0%BF%D0%BE%D0%BB%D1%91%D1%82%D0%B0%D0%BC%D0%B8', },
 	cast: { angelina_jolie_04061975: 1, cate_blanchett_14051969: 1, john_cusack_28061966: 1, },
 },
@@ -1958,7 +1976,8 @@ const arrFilms = [
 	cast: { billy_crystal_14031948: 1, meg_ryan_19111961: 1, },
 },
 {
-	id: 'cvet_nochi_1994', title: { ua: 'Колір ночі', en: 'Color of Night', }, year: 1994, country: { usa: 1, },
+	id: 'color_of_night_1994', title: { ua: 'Колір ночі', en: 'Color of Night', }, year: 1994, country: { usa: 1, },
+	genre: { drama: 1, erotica: 1, },
 	internet: { imdb: '0109456', wiki_ua: '%D0%9A%D0%BE%D0%BB%D1%96%D1%80_%D0%BD%D0%BE%D1%87%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { bruce_willis_19031955: 1, jane_march_20031973: 1, },
 },
@@ -2152,7 +2171,8 @@ const arrFilms = [
 	cast: { jennifer_connelly_12121970: 1, david_bowie_08011947: 1, },
 },
 {
-	id: 'cepnaya_reakcia_1996', title: { ua: 'Ланцюгова реакція', en: 'Chain Reaction', }, year: 1996, country: { usa: 1, },
+	id: 'chain_reaction_1996', title: { ua: 'Ланцюгова реакція', en: 'Chain Reaction', }, year: 1996, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, },
 	internet: { imdb: '0115857', wiki_ru: '%D0%A6%D0%B5%D0%BF%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D0%B0%D0%BA%D1%86%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1996)', },
 	cast: { keanu_reeves_02091964: 1, morgan_freeman_01061937: 1, },
 },
@@ -2234,12 +2254,14 @@ const arrFilms = [
 	cast: { hugh_jackman_12101968: 1, halle_berry_14081966: 1, james_marsden_18091973: 1, bill_duke_26021943: 1, },
 },
 {
-	id: 'chelovek_dozhdya_1988', title: { ua: 'Людина дощу', en: 'Rain Man', }, year: 1988, country: { usa: 1, },
+	id: 'rain_man_1988', title: { ua: 'Людина дощу', en: 'Rain Man', }, year: 1988, country: { usa: 1, },
+	genre: { drama: 1, },
 	internet: { imdb: '0095953', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0_%D0%B4%D0%BE%D1%89%D1%83', },
 	cast: { tom_cruise_03071962: 1, dustin_hoffman_08081937: 1, valeria_golino_22101965: 1, bonnie_hunt_22091961: 1, },
 },
 {
-	id: 'chelovek_epohi_Vozrozhdenia_1994', title: { ua: 'Людина епохи Відродження', en: 'Renaissance Man', }, year: 1994, country: { usa: 1, },
+	id: 'renaissance_man_1994', title: { ua: 'Людина епохи Відродження', en: 'Renaissance Man', }, year: 1994, country: { usa: 1, },
+	genre: { comedy: 1, }, hash: { army: 1, },
 	internet: { imdb: '0110971', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0_%D0%B5%D0%BF%D0%BE%D1%85%D0%B8_%D0%92%D1%96%D0%B4%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F',	},
 	cast: { danny_devito_17111944: 1, },
 },
@@ -2250,11 +2272,13 @@ const arrFilms = [
 	cast: { arnold_schwarzenegger_30071947: 1, },
 },
 {
-	id: 'chelovek_krab_s_Marsa_1989', title: { ua: 'Людина-омар з Марса', en: 'Lobster Man from Mars', }, year: 1989, country: { usa: 1, },
+	id: 'lobster_man_from_Mars_1989', title: { ua: 'Людина-омар з Марса', en: 'Lobster Man from Mars', }, year: 1989, country: { usa: 1, },
+	genre: { comedy: 1, sci_fi: 1, horror: 1, }, 
 	internet: { imdb: '0097768', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D0%BE%D0%BC%D0%B0%D1%80_%D0%B7_%D0%9C%D0%B0%D1%80%D1%81%D0%B0', },
 },
 {
-	id: 'chelovek-slon_1980', title: { ua: 'Людина-слон', en: 'The Elephant Man', }, year: 1980, country: { usa: 1, },
+	id: 'the_elephant_man_1980', title: { ua: 'Людина-слон', en: 'The Elephant Man', }, year: 1980, country: { usa: 1, },
+	genre: { drama: 1,  }, hash: { mutant: 1, },
 	internet: { imdb: '0080678', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D1%81%D0%BB%D0%BE%D0%BD', },
 	cast: { anthony_hopkins_31121937: 1, },
 },
@@ -2688,6 +2712,7 @@ const arrFilms = [
 },
 {
 	id: 'top_gun_1986', title: { ua: 'Найкращий стрілець', en: 'Top Gun', }, year: 1986, country: { usa: 1, },
+	genre: { action: 1, drama: 1, }, hash: { army: 1, plane: 1, },
 	internet: { imdb: '0092099', wiki_ua: '%D0%9D%D0%B0%D0%B9%D0%BA%D1%80%D0%B0%D1%89%D0%B8%D0%B9_%D1%81%D1%82%D1%80%D1%96%D0%BB%D0%B5%D1%86%D1%8C', },
 	cast: { tom_cruise_03071962: 1, val_kilmer_31121959: 1, meg_ryan_19111961: 1, jennifer_connelly_12121970: 1, },
 },
@@ -2719,7 +2744,8 @@ const arrFilms = [
 	internet: { imdb: '1592525', wiki_ua: '%D0%9D%D0%B0%D0%BF%D1%80%D0%BE%D0%BB%D0%BE%D0%BC', },
 },
 {
-	id: 'sbezhavshaya_nevesta_1999', title: { ua: 'Наречена-втікачка', en: 'Runaway Bride', }, year: 1999, country: { usa: 1, },
+	id: 'runaway_bride_1999', title: { ua: 'Наречена-втікачка', en: 'Runaway Bride', }, year: 1999, country: { usa: 1, },
+	genre: { comedy: 1, }, 
 	internet: { imdb: '0163187', wiki_ua: '%D0%9D%D0%B0%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D0%B0-%D0%B2%D1%82%D1%96%D0%BA%D0%B0%D1%87%D0%BA%D0%B0', },
 	cast: { richard_gere_31081949: 1, julia_roberts_28101967: 1, },
 },
@@ -2730,7 +2756,8 @@ const arrFilms = [
 	cast: { clint_eastwood_31051930: 1, laurence_fishburne_30071961: 1, andy_garcia_12041956: 1, },
 },
 {
-	id: 'skvoznye_raneniya_2001', title: { ua: 'Наскрізні поранення', en: 'Exit Wounds', }, year: 2001, country: { usa: 1, },
+	id: 'exit_wounds_2001', title: { ua: 'Наскрізні поранення', en: 'Exit Wounds', }, year: 2001, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0242445', wiki_ua: '%D0%9D%D0%B0%D1%81%D0%BA%D1%80%D1%96%D0%B7%D0%BD%D1%96_%D0%BF%D0%BE%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F', },
 	cast: { steven_seagal_10041952: 1, michael_jai_white_10111967: 1, bill_duke_26021943: 1, },
 },
@@ -2764,7 +2791,8 @@ const arrFilms = [
 	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, },
 },
 {
-	id: 'chistoe_vezenie_1991', title: { ua: 'Невдахи', en: 'Pure Luck', }, year: 1991, country: { usa: 1, },
+	id: 'pure_luck_1991', title: { ua: 'Невдахи', en: 'Pure Luck', }, year: 1991, country: { usa: 1, },
+	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '0102729', wiki_ua: '%D0%9D%D0%B5%D0%B2%D0%B4%D0%B0%D1%85%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1991)', },
 	cast: { danny_glover_22071946: 1, },
 },
@@ -2911,6 +2939,128 @@ const arrFilms = [
 	genre: { comedy: 1, crime: 1, }, 
 	internet: { imdb: '0316732', wiki_ua: '%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA%D1%81%D1%8C%D0%BA%D0%B5_%D1%82%D0%B0%D0%BA%D1%81%D1%96', },
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'undisputed_2002', title: { ua: 'Обговоренню не підлягає', en: 'Undisputed', }, year: 2002, country: { usa: 1, deu: 1, },
 	genre: { action: 1, crime: 1, }, hash: { fight: 1, prison: 1, },
@@ -4866,7 +5016,7 @@ const arrFilms = [
 	cast: { sigourney_weaver_08101949: 1, michael_biehn_31071956: 1, bill_paxton_17051955: 1, },
 },
 {
-	id: 'shakal_1997', title: { ua: 'Шакал', en: 'The Jackal', }, year: 1997, country: { usa: 1, },
+	id: 'the_jackal_1997', title: { ua: 'Шакал', en: 'The Jackal', }, year: 1997, country: { usa: 1, },
 	internet: { imdb: '0119395', wiki_ua: '%D0%A8%D0%B0%D0%BA%D0%B0%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { bruce_willis_19031955: 1, richard_gere_31081949: 1, jack_black_28081969: 1, },
 },
