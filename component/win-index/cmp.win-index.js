@@ -19,8 +19,10 @@ class ComponentWinIndex {
 
 
 	static html( objData = {} ) {
-
 		const fooName = this.name + '.html()';
+		//console.log( 'fooName: ', fooName );
+
+
 		
 		this.args = objData.args ? objData.args : {}; 
 
@@ -40,17 +42,34 @@ class ComponentWinIndex {
 		//let html = '<div class="info">Бажаю здоров\'я! ))</div>';
 		//let html = `<div>${ fooName }</div>`;
 		let html = fooName;
-		html = `<div id="showSelectedFilms">Оберіть категорію...</div>`;
+	
+
+			//<div id="showSelectedFilms">Оберіть категорію...</div>
+		html = `
+
+			<div id="showSelectedFilms">
+
+
+
+			</div>
+
+				<div id="logo">
+					<img src="img/pic/logoDJS.png" alt="logo" />
+				</div>
+
+
+
+		`;
 
 
 
 
 
 		setMeta({
-			title 			: 'Films',
-			description 	: '',
+			title 			: 'Films DJS',
+			description 	: 'Films DJS, movie collection...',
 			//keywords 		: 'Ключові слова...' + name,
-			image 			: '',
+			image 			: 'img/pic/logoDJS.png',
 			//url 			: 'url/any/there/' + name,
 			//type 			: 'Тіпі-тіп ' + name,
 			//site_name 	: 'Назва сайту, мабуть стале значення... ' + name,

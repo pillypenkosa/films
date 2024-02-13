@@ -113,7 +113,7 @@ const arrFilms = [
 {
 	id: '2012_2009', title: { ua: '2012', en: '2012', }, year: 2009, country: { usa: 1, },
 	genre: { fantasy: 1, disaster: 1, }, hash: { apocalypse: 1, },
-	internet: { imdb: '1190080', wiki_ua: '2012_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '1190080', wiki_ua: '2012_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '6673', },
 	cast: { john_cusack_28061966: 1, thandie_newton_06111972: 1, woody_harrelson_23071961: 1, danny_glover_22071946: 1, },
 },
 {
@@ -125,7 +125,7 @@ const arrFilms = [
 {
 	id: 'breakdown_1997', title: { ua: 'Аварія', en: 'Breakdown', }, year: 1997, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, crime: 1, }, hash: { road: 1, },
-	internet: { imdb: '0118771', wiki_ua: '%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D1%8E', },
+	internet: { imdb: '0118771', wiki_ua: '%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D1%8E', ashdivip: '20188', },
 	cast: { kurt_russell_17031951: 1, }, director: { jonathan_mostow_28111961: 1, },
 },
 {
@@ -173,7 +173,7 @@ const arrFilms = [
 {
 	id: 'the_devil_s_advocate_1997', title: { ua: 'Адвокат диявола', en: 'The Devil\'s Advocate', }, rating: 5,
 	year: 1997, country: { usa: 1, }, genre: { mystic: 1, drama: 1, }, hash: { justice: 1, },
-	internet: { imdb: '0118971', wiki_ua: '%D0%90%D0%B4%D0%B2%D0%BE%D0%BA%D0%B0%D1%82_%D0%94%D0%B8%D1%8F%D0%B2%D0%BE%D0%BB%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0118971', wiki_ua: '%D0%90%D0%B4%D0%B2%D0%BE%D0%BA%D0%B0%D1%82_%D0%94%D0%B8%D1%8F%D0%B2%D0%BE%D0%BB%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2219', },
 	cast: { keanu_reeves_02091964: 1, al_pacino_25041940: 1, charlize_theron_07081975: 1, connie_nielsen_03071965: 1, },
 },
 {
@@ -277,7 +277,7 @@ const arrFilms = [
 {
 	id: 'the_Thomas_Crown_affair_1999', title: { ua: 'Афера Томаса Крауна', en: 'The Thomas Crown Affair', }, year: 1999, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, crime: 1, }, hash: { psycho: 1, },
-	internet: { imdb: '0155267', wiki_ua: '%D0%90%D1%84%D0%B5%D1%80%D0%B0_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81%D0%B0_%D0%9A%D1%80%D0%B0%D1%83%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', },
+	internet: { imdb: '0155267', wiki_ua: '%D0%90%D1%84%D0%B5%D1%80%D0%B0_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81%D0%B0_%D0%9A%D1%80%D0%B0%D1%83%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', ashdivip: '16225', },
 	cast: { pierce_brosnan_16051953: 1, },
 },
 {
@@ -331,7 +331,7 @@ const arrFilms = [
 {
 	id: 'the_abyss_1989', title: { ua: 'Безодня', en: 'The Abyss', }, year: 1989, country: { usa: 1, }, rating: 5,
 	genre: { sci_fi: 1, adventure: 1, }, hash: { underwater: 1, aliens: 1, },
-	internet: { imdb: '0096754', wiki_ua: '%D0%91%D0%B5%D0%B7%D0%BE%D0%B4%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0096754', wiki_ua: '%D0%91%D0%B5%D0%B7%D0%BE%D0%B4%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '14910', },
 	cast: { ed_harris_28111950: 1, michael_biehn_31071956: 1, },
 },
 {
@@ -1844,7 +1844,7 @@ const arrFilms = [
 {
 	id: 'k9_1989', title: { ua: 'К-9: Собача робота', en: 'K-9', }, year: 1989, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, comedy: 1, crime: 1, }, hash: { dog: 1, police: 1, },
-	internet: { imdb: '0097637', wiki_ru: '%D0%9A-9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0097637', wiki_ru: '%D0%9A-9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', ashdivip: '12992', },
 	cast: { james_belushi_15061954: 1, },
 },
 {
@@ -1873,7 +1873,7 @@ const arrFilms = [
 {
 	id: 'the_punisher_1989', title: { ua: 'Каратель', en: 'The Punisher', }, year: 1989, country: { aus: 1, usa: 1, }, rating: '5+',
 	genre: { action: 1, thriller: 1, crime: 1, }, hash: { fight: 1, police: 1, },
-	internet: { imdb: '0098141', wiki_ua: '%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1989)', },
+	internet: { imdb: '0098141', wiki_ua: '%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1989)', ashdivip: '11860', },
 	cast: { dolph_lundgren_03111957: 1, },
 },
 {
@@ -1920,19 +1920,19 @@ const arrFilms = [
 {
 	id: 'king_kong_1976', title: { ua: 'Кінг-Конг', en: 'King Kong', }, year: 1976, country: { usa: 1, }, rating: '5+',
 	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, sea: 1, island: 1, jungle: 1, newyork: 1, },
-	internet: { imdb: '0074751', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1976)', },
+	internet: { imdb: '0074751', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1976)', ashdivip: '84119', },
 	cast: { jessica_lange_20041949: 1, },
 },
 {
 	id: 'king_kong_lives_1986', title: { ua: 'Кінг-Конг живий', en: 'King Kong Lives', }, year: 1986, country: { usa: 1, },
 	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, },
-	internet: { imdb: '0091344', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_%D0%B6%D0%B8%D0%B2%D0%B8%D0%B9', },
+	internet: { imdb: '0091344', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_%D0%B6%D0%B8%D0%B2%D0%B8%D0%B9', ashdivip: '104798', },
 	cast: { linda_hamilton_26091956: 1, },
 },
 {
 	id: 'king_kong_2005', title: { ua: 'Кінг-Конг', en: 'King Kong', }, year: 2005, country: { usa: 1, }, rating: '5+',
 	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, sea: 1, island: 1, jungle: 1, dinosaur: 1, newyork: 1, },
-	internet: { imdb: '0360717', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
+	internet: { imdb: '0360717', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', ashdivip: '5707', },
 	cast: { naomi_watts_28091968: 1, jack_black_28081969: 1, adrien_brody_14041973: 1, kyle_chandler_17091965: 1, },
 },
 {
