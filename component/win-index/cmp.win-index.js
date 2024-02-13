@@ -301,7 +301,8 @@ class ComponentWinIndex {
 		//console.log( 'arrSelectedFilms: ', arrSelectedFilms );
 
 
-		let star5 = '&#10031;'; 
+		let ok5 = '&#10003;'; 
+		let star5p = '&#10031;'; 
 
 
 		let html = '';
@@ -312,12 +313,24 @@ class ComponentWinIndex {
 			let titleEn = '';
 
 			let htmlCast = '';
-			let html5p = '';
+			let html5 = ''; 	// на 5
+			let html5p = ''; 	// улюблені
 
 			if ( k.rating ) {
-				if ( k.rating == '5+' ) {
-					html5p += `<span class="star5">${ star5 }</span> `;
+
+				if ( k.rating == 5 || k.rating == '5+' ) {
+
+					html5 += `<span class="ok5"> ${ ok5 }</span>`;
+
+					if ( k.rating == '5+' ) 
+						html5p += `<span class="star5">${ star5p }</span> `;
+					
 				}
+
+
+
+
+
 			}
 
 
@@ -330,7 +343,7 @@ class ComponentWinIndex {
 					titleEn += k.title.en;
 
 				if ( titleUa )
-					htmlTitle += `<div class="titleUa">${ html5p }${ titleUa }</div>`;
+					htmlTitle += `<div class="titleUa">${ html5p }${ titleUa }${ html5 }</div>`;
 
 				if ( titleEn )
 					htmlTitle += `<div class="titleEn">${ titleEn }</div>`;

@@ -53,6 +53,14 @@ cmp-win-index {
 			cmp-win-index .each .title .star5 {
 				color: yellow;
 			}
+			cmp-win-index .each .title .ok5 {
+				font-weight: normal;
+				color: lime;
+			}
+
+
+
+
 
 
 		cmp-win-index .each .descr {

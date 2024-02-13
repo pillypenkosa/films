@@ -47,7 +47,6 @@ const arrHashTags = [
 	{ id: 'future' 			, title: 'майбутнє' 			, app: { films: 1, }, },
 	{ id: 'travel' 			, title: 'мандри' 				, app: { films: 1, }, }, // подорожі по світу
 	{ id: 'maniac' 			, title: 'маніяк' 				, app: { films: 1, }, },
-	{ id: 'marvel' 			, title: 'Марвел' 				, app: { films: 1, }, },
 	{ id: 'cars' 			, title: 'машини' 				, app: { films: 1, }, },
 	{ id: 'medicine' 		, title: 'медицина' 			, app: { films: 1, }, },
 	{ id: 'subway' 			, title: 'метро'				, app: { films: 1, }, },
@@ -82,6 +81,7 @@ const arrHashTags = [
 	{ id: 'surfing' 		, title: 'серфінг' 				, app: { films: 1, }, }, // подорожі у часі
 	{ id: 'dog' 			, title: 'собаки' 				, app: { films: 1, }, },
 	{ id: 'sport' 			, title: 'спорт' 				, app: { films: 1, }, },
+	{ id: 'superhero' 		, title: 'супергерої' 			, app: { films: 1, }, },
 	{ id: 'animal' 			, title: 'тварини' 				, app: { films: 1, }, },
 	{ id: 'phone' 			, title: 'телефон' 				, app: { films: 1, }, }, // телефонні дзвінки/переговори
 	{ id: 'terrorist' 		, title: 'терористи' 			, app: { films: 1, }, },
