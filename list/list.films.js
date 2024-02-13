@@ -95,6 +95,12 @@ const arrFilms = [
 	cast: { sandra_bullock_26071964: 1, steve_buscemi_13121957: 1, },
 },
 {
+	id: 'the_33_2015', title: { ua: '33', en: 'The 33', }, year: 2015, country: { usa: 1, chi: 1, col: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '2006295', wiki_ua: '33_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { antonio_banderas_10081960: 1, juliette_binoche_09031964: 1, },
+},
+{
 	id: '57_seconds_2023', title: { ua: '57 секунд', en: '57 Seconds', }, year: 2023, country: { usa: 1, },
 	genre: { sci_fi: 1, thriller: 1, }, hash: { groundhog: 1, },
 	internet: { imdb: '18083578', wiki_ua: '57_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4', },
@@ -4086,6 +4092,12 @@ const arrFilms = [
 	genre: { drama: 1, crime: 1, }, 
 	internet: { imdb: '6494418', wiki_ua: '%D0%A1%D0%B8%D0%B1%D1%96%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
 	cast: { keanu_reeves_02091964: 1, },
+},
+{
+	id: 'a_force_of_one_1979', title: { ua: 'Сила одного', en: 'A Force of One', }, year: 1979, country: { usa: 1, },
+	genre: { action: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0079168', wiki_ua: '%D0%A1%D0%B8%D0%BB%D0%B0_%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE', },
+	cast: { chuck_norris_10031940: 1, },
 },
 {
 	id: 'salt_on_our_skin_1992', title: { ua: 'Сіль на нашій шкірі', en: 'Salt on Our Skin', }, year: 2010, country: { deu: 1, fra: 1, can: 1, },
