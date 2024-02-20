@@ -1,5 +1,5 @@
 
-
+ // Аа Бб Вв Гг Ґґ Дд Ее Єє Жж Зз Ии Іі Її Йй Кк Лл Мм Нн Оо Пп Рр Сс Тт Уу Фф Хх Цц Чч Шш Щщ Ьь Юю Яя
 
 
 
@@ -247,6 +247,12 @@ const arrFilms = [
 	internet: { imdb: '5397194', wiki_ua: '%D0%90%D0%BD%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
+	id: 'apex_2021', title: { ua: 'Апекс: Смертельний квест', en: 'Apex', }, year: 2021, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1,  }, hash: { hunting: 1, },
+	internet: { imdb: '13265876', wiki_ua: '%D0%90%D0%BF%D0%B5%D0%BA%D1%81:_%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B5%D1%81%D1%82', },
+	cast: { bruce_willis_19031955: 1, },
+},
+{
 	id: 'apollo_13_1995', title: { ua: 'Аполлон 13', en: 'Apollo 13', }, year: 1995, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, history: 1, }, hash: { real: 1, space: 1, },
 	internet: { imdb: '0112384', wiki_ua: '%D0%90%D0%BF%D0%BE%D0%BB%D0%BB%D0%BE%D0%BD-13_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '14886', },
@@ -273,6 +279,11 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, }, 
 	internet: { imdb: '2140479', wiki_ua: '%D0%90%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', },
 	cast: { ben_affleck_15081972: 1, },
+},
+{
+	id: 'outback_2019', title: { ua: 'Аутбек', en: 'Outback', }, year: 2019, country: { aus: 1, },
+	genre: { thriller: 1, horror: 1, }, hash: { desert: 1, },
+	internet: { imdb: '7336182', },
 },
 {
 	id: 'the_Thomas_Crown_affair_1999', title: { ua: 'Афера Томаса Крауна', en: 'The Thomas Crown Affair', }, year: 1999, country: { usa: 1, }, rating: 5,
@@ -555,6 +566,12 @@ const arrFilms = [
 	cast: { rutger_hauer_23011944: 1, },
 },
 {
+	id: 'blast_from_the_past_1999', title: { ua: 'Вибух з минулого', en: 'Blast from the Past', }, year: 1999, country: { usa: 1, },
+	genre: { comedy: 1, }, 
+	internet: { imdb: '0124298', wiki_ua: '%D0%92%D0%B8%D0%B1%D1%83%D1%85_%D0%B7_%D0%BC%D0%B8%D0%BD%D1%83%D0%BB%D0%BE%D0%B3%D0%BE', },
+	cast: { alicia_silverstone_04101976: 1, },
+},
+{
 	id: 'cast_away_2000', title: { ua: 'Вигнанець', en: 'Cast Away', }, year: 2000, country: { usa: 1, }, rating: 5,
 	genre: { adventure: 1, }, hash: { oneman: 1, island: 1, surviving: 1, tropic: 1, },
 	internet: { imdb: '0162222', wiki_ua: '%D0%92%D0%B8%D0%B3%D0%BD%D0%B0%D0%BD%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -764,6 +781,12 @@ const arrFilms = [
 	cast: { tommy_lee_jones_15091946: 1, don_cheadle_29111964: 1, },
 },
 {
+	id: 'corrective_measures_2022', title: { ua: 'В\'язниця суперлиходіїв', en: 'Corrective Measures', }, year: 2022, country: { usa: 1, },
+	genre: { sci_fi: 1, }, hash: { prison: 1, },
+	internet: { imdb: '15391770', wiki_ua: '%D0%92%27%D1%8F%D0%B7%D0%BD%D0%B8%D1%86%D1%8F_%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BB%D0%B8%D1%85%D0%BE%D0%B4%D1%96%D1%97%D0%B2', },
+	cast: { bruce_willis_19031955: 1, },
+},
+{
 	id: 'the_lawnmower_man_1992', title: { ua: 'Газонокосар', en: 'The Lawnmower Man', }, year: 1992, country: { usa: 1, },
 	genre: { sci_fi: 1, horror: 1, }, hash: { cyber: 1, },
 	internet: { imdb: '0104692', wiki_ua: '%D0%93%D0%B0%D0%B7%D0%BE%D0%BD%D0%BE%D0%BA%D0%BE%D1%81%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -816,6 +839,11 @@ const arrFilms = [
 	genre: { drama: 1, erotica: 1, },
 	internet: { imdb: '0104779', wiki_ua: '%D0%93%D1%96%D1%80%D0%BA%D0%B8%D0%B9_%D0%BC%D1%96%D1%81%D1%8F%D1%86%D1%8C', },
 	cast: { hugh_grant_09091960: 1, },
+},
+{
+	id: 'gueules_noires_2023', title: { ua: 'Глибока темрява', en: 'Gueules noires', }, year: 2023, country: { fra: 1, },
+	genre: { horror: 1, sci_fi: 1, },
+	internet: { imdb: '20452218', },
 },
 {
 	id: 'wrath_of_the_titans_2012', title: { ua: 'Гнів титанів', en: 'Wrath of the Titans', }, year: 2012, country: { usa: 1, esp: 1, },
@@ -1228,6 +1256,11 @@ const arrFilms = [
 	genre: { comedy: 1, adventure: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '0120655', wiki_ua: '%D0%94%D0%BE%D0%B3%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { ben_affleck_15081972: 1, matt_damon_08101970: 1, salma_hayek_02091966: 1, jason_lee_25041970: 1, },
+},
+{
+	id: 'dogman_2018', title: { ua: 'Догмен', en: 'Dogman', }, year: 2018, country: { ita: 1, fra: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { dog: 1, },
+	internet: { imdb: '6768578', wiki_ua: '%D0%94%D0%BE%D0%B3%D0%BC%D0%B5%D0%BD', },
 },
 {
 	id: 'the_road_2009', title: { ua: 'Дорога', en: 'The Road', }, year: 2009, country: { usa: 1, },
@@ -1842,6 +1875,12 @@ const arrFilms = [
 	cast: { tom_selleck_29011945: 1, },
 },
 {
+	id: 'once_upon_a_time_in_Venice', title: { ua: 'Його собаче діло', en: 'Once Upon a Time in Venice', }, year: 1989, country: { usa: 1, }, 
+	genre: { comedy: 1, crime: 1, },
+	internet: { imdb: '4694544', wiki_ua: '%D0%99%D0%BE%D0%B3%D0%BE_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%B5_%D0%B4%D1%96%D0%BB%D0%BE', },
+	cast: { bruce_willis_19031955: 1, jason_momoa_01081979: 1, },
+},
+{
 	id: 'k9_1989', title: { ua: 'К-9: Собача робота', en: 'K-9', }, year: 1989, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, comedy: 1, crime: 1, }, hash: { dog: 1, police: 1, },
 	internet: { imdb: '0097637', wiki_ru: '%D0%9A-9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', ashdivip: '12992', },
@@ -2066,6 +2105,12 @@ const arrFilms = [
 	cast: { keanu_reeves_02091964: 1, shia_labeouf_11061986: 1, tilda_swinton_05111960: 1, },
 },
 {
+	id: 'control_2023', title: { ua: 'Контроль', en: 'Control', }, year: 2023, country: { gbr: 1, },
+	genre: { thriller: 1, }, hash: { cars: 1, phone: 1, },
+	internet: { imdb: '23952252', wiki_ru: '%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2023)', },
+	cast: { kevin_spacey_26071959 : 1, },
+},
+{
 	id: 'skyfall_2012', title: { ua: 'Координати Скайфолл', en: 'Skyfall', }, year: 2012, country: { gbr: 1, }, rating: 5,
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '1074638', wiki_ua: '007:_%D0%9A%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D0%B8_%C2%AB%D0%A1%D0%BA%D0%B0%D0%B9%D1%84%D0%BE%D0%BB%D0%BB%C2%BB', ashdivip: '2534', },
@@ -2076,6 +2121,11 @@ const arrFilms = [
 	genre: { adventure: 1, }, hash: { travel: 1, treasure: 1, },
 	internet: { imdb: '0089421', wiki_ru: '%D0%9A%D0%BE%D0%BF%D0%B8_%D1%86%D0%B0%D1%80%D1%8F_%D0%A1%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1985)', },
 	cast: { sharon_stone_10031958: 1, },
+},
+{
+	id: 'le_regne_animal_2023', title: { ua: 'Королівство тварин', en: 'Le regne animal', }, year: 2023, country: { fra: 1, bel: 1, },
+	genre: { drama: 1, fantasy: 1, }, hash: { animal: 1, mutant: 1, },
+	internet: { imdb: '16606592', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%96%D0%B2%D1%81%D1%82%D0%B2%D0%BE_%D1%82%D0%B2%D0%B0%D1%80%D0%B8%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'the_lion_king_1994', title: { ua: 'Король-лев', en: 'The Lion King', }, year: 1994, country: { usa: 1, }, rating: '5+',
@@ -2393,6 +2443,12 @@ const arrFilms = [
 	genre: { action: 1, comedy: 1, adventure: 1, },
 	internet: { imdb: '0110478', wiki_ua: '%D0%9C%D0%B5%D0%B2%D0%B5%D1%80%D1%96%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { mel_gibson_03011956: 1, jodie_foster_19111962: 1, danny_glover_22071946: 1, },
+},
+{
+	id: 'the_meg_2018', title: { ua: 'Мег', en: 'The Meg', }, year: 2018, country: { usa: 1, chn: 1, },
+	genre: { sci_fi: 1, }, hash: { shark: 1, underwater: 1, },
+	internet: { imdb: '4779682', wiki_ua: '%D0%9C%D0%B5%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { jason_statham_26071967: 1, },
 },
 {
 	id: 'the_net_1995', title: { ua: 'Мережа', en: 'The Net', }, year: 1995, country: { usa: 1, }, rating: 5,
@@ -2957,128 +3013,6 @@ const arrFilms = [
 	genre: { comedy: 1, crime: 1, }, 
 	internet: { imdb: '0316732', wiki_ua: '%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA%D1%81%D1%8C%D0%BA%D0%B5_%D1%82%D0%B0%D0%BA%D1%81%D1%96', },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'undisputed_2002', title: { ua: 'Обговоренню не підлягає', en: 'Undisputed', }, year: 2002, country: { usa: 1, deu: 1, },
 	genre: { action: 1, crime: 1, }, hash: { fight: 1, prison: 1, },
@@ -3149,6 +3083,12 @@ const arrFilms = [
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0103006', wiki_ua: '%D0%9E%D0%BF%D1%96%D0%B2%D0%BD%D1%96%D1%87%D0%BD%D0%B0_%D1%81%D0%BF%D0%B5%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { michael_pare_09101958: 1, dennis_hopper_17051936: 1, },
+},
+{
+	id: 'midnight_in_the_switchgrass_2021', title: { ua: 'Опівночі у високій траві', en: 'Midnight in the Switchgrass', }, year: 2021, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, }, hash: { maniac: 1, },
+	internet: { imdb: '11656220', wiki_ua: '%D0%9E%D0%BF%D1%96%D0%B2%D0%BD%D0%BE%D1%87%D1%96_%D1%83_%D0%B2%D0%B8%D1%81%D0%BE%D0%BA%D1%96%D0%B9_%D1%82%D1%80%D0%B0%D0%B2%D1%96', },
+	cast: { megan_fox_16051986: 1, bruce_willis_19031955: 1, },
 },
 {
 	id: 'the_proposal_2009', title: { ua: 'Освідчення', en: 'The Proposal', }, year: 2009, country: { usa: 1, },
@@ -3444,7 +3384,7 @@ const arrFilms = [
 },
 {
 	id: 'el_hoyo_2019', title: { ua: 'Платформа', en: 'El hoyo', }, year: 2019, country: { esp: 1, },
-	genre: { thriller: 1, },
+	genre: { thriller: 1, sci_fi: 1, trash: 1, }, hash: { prison: 1, },
 	internet: { imdb: '8228288', wiki_ua: '%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
@@ -3833,11 +3773,6 @@ const arrFilms = [
 	internet: { imdb: '0309593', wiki_ua: '%D0%9F%D1%83%D0%BD%D0%BA%D1%82_%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_2', ashdivip: '98914', },
 },
 {
-	id: 'outback_2019', title: { ua: 'Пустеля', en: 'Outback', }, year: 2019, country: { aus: 1, },
-	genre: { thriller: 1, horror: 1, }, hash: { desert: 1, },
-	internet: { imdb: '7336182', },
-},
-{
 	id: 'friday_the_13th_1980', title: { ua: 'П\'ятниця 13', en: 'Friday the 13th', }, year: 1980, country: { usa: 1, },
 	genre: { horror: 1, },
 	internet: { imdb: '0080761', wiki_ua: '%D0%9F%27%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D1%8F,_13-%D1%82%D0%B5',	},
@@ -3871,6 +3806,12 @@ const arrFilms = [
 	genre: { thriller: 1, disaster: 1, }, hash: { plane: 1, justice: 1, },
 	internet: { imdb: '1907668', wiki_ua: '%D0%A0%D0%B5%D0%B9%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2012)', },
 	cast: { denzel_washington_28121954: 1, don_cheadle_29111964: 1, },
+},
+{
+	id: 'plane_2023', title: { ua: 'Рейс', en: 'Plane', }, year: 2023, country: { usa: 1, },
+	genre: { action: 1, adventure: 1, disaster: 1, }, hash: { plane: 1, island: 1, },
+	internet: { imdb: '5884796', wiki_ua: '%D0%A0%D0%B5%D0%B9%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { gerard_butler_13111969: 1, },
 },
 {
 	id: 'requiem_for_a_dream_2000', title: { ua: 'Реквієм за мрією', en: 'Requiem for a Dream', }, year: 2000, country: { usa: 1, },
@@ -4743,6 +4684,11 @@ const arrFilms = [
 	cast: { jean_claude_van_damme_18101960: 1, dolph_lundgren_03111957: 1, michael_jai_white_10111967: 1, },
 },
 {
+	id: 'todos_los_nombres_de_dios_2023', title: { ua: 'Усі імена Бога', en: 'Todos los nombres de Dios', }, year: 2023, country: { esp: 1, },
+	genre: { thriller: 1, }, hash: { terrorist: 1, hostage: 1, },
+	internet: { imdb: '20420538', },
+},
+{
 	id: 'the_fugitive_1993', title: { ua: 'Утікач', en: 'The Fugitive', }, year: 1993, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0106977', wiki_ua: '%D0%A3%D1%82%D1%96%D0%BA%D0%B0%D1%87_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -4884,6 +4830,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, sci_fi: 1, }, hash: { future: 1, prison: 1, techno: 1, space: 1, },
 	internet: { imdb: '0179183', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%82%D0%B5%D1%86%D1%8F_2:_%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F', },
 	cast: { christopher_lambert_29031957: 1, },
+},
+{
+	id: 'fortress_2021', title: { ua: 'Фортеця', en: 'Fortress', }, year: 2021, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '14577300', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%82%D0%B5%D1%86%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2021)', },
+	cast: { bruce_willis_19031955: 1, },
 },
 {
 	id: 'freelance_2023', title: { ua: 'Фрілансер', en: 'Freelance', }, year: 2023, country: { usa: 1, },
