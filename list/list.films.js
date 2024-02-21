@@ -1291,6 +1291,11 @@ const arrFilms = [
 	internet: { imdb: '8002382', wiki_ua: '%D0%94%D0%BE%D1%87%D0%BA%D0%B0_%D0%B1%D0%BE%D0%BB%D0%BE%D1%82%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%8F', },
 },
 {
+	id: 'drive_2011', title: { ua: 'Драйв', en: 'Drive', }, year: 2011, country: { usa: 1, },
+	genre: { drama: 1, crime: 1, },
+	internet: { imdb: '0780504', wiki_ua: '%D0%94%D1%80%D0%B0%D0%B9%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: 'the_astronaut_s_wife_1999', title: { ua: 'Дружина астронавта', en: 'The Astronaut\'s Wife', }, year: 1999, country: { usa: 1, },
 	genre: { drama: 1, thriller: 1, sci_fi: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0138304', wiki_ua: '%D0%94%D1%80%D1%83%D0%B6%D0%B8%D0%BD%D0%B0_%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%B0', },
