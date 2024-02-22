@@ -44,6 +44,7 @@ const arrHashTags = [
 	{ id: 'team' 			, title: 'команда' 				, app: { films: 1, }, }, // група осіб
 	{ id: 'crocodile' 		, title: 'крокодили' 			, app: { films: 1, }, },
 	{ id: 'plane' 			, title: 'літаки' 				, app: { films: 1, }, },
+	{ id: 'monkey' 			, title: 'мавпи' 				, app: { films: 1, }, },
 	{ id: 'future' 			, title: 'майбутнє' 			, app: { films: 1, }, },
 	{ id: 'travel' 			, title: 'мандри' 				, app: { films: 1, }, }, // подорожі по світу
 	{ id: 'maniac' 			, title: 'маніяк' 				, app: { films: 1, }, },

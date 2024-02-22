@@ -95,10 +95,14 @@ cmp-win-index {
 			text-align: center;
 			font-size: 150%;
 			font-weight: bold;
-
 			background: var( --bg-b );
 			color: #fff;
 		}
+			cmp-win-index .each .title .titleUa .n-each {
+				font-weight: normal;
+				color: #777;
+			}
+
 			cmp-win-index .each .title .titleEn {
 				font-size: 70%;
 				color: #aaa;

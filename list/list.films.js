@@ -631,6 +631,12 @@ const arrFilms = [
 	cast: { arnold_schwarzenegger_30071947: 1, },
 },
 {
+	id: 'war_for_the_planet_of_the_apes_2017', title: { ua: 'Війна за планету мавп', en: 'War for the Planet of the Apes', }, year: 2017, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { monkey: 1, },
+	internet: { imdb: '3450958', wiki_ua: '%D0%92%D1%96%D0%B9%D0%BD%D0%B0_%D0%B7%D0%B0_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%83_%D0%BC%D0%B0%D0%B2%D0%BF', },
+	cast: { woody_harrelson_23071961: 1, },
+},
+{
 	id: 'war_of_the_worlds_2005', title: { ua: 'Війна світів', en: 'War of the Worlds', }, year: 2005, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0407304', wiki_ua: '%D0%92%D1%96%D0%B9%D0%BD%D0%B0_%D1%81%D0%B2%D1%96%D1%82%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
@@ -1396,7 +1402,7 @@ const arrFilms = [
 },
 {
 	id: 'outbreak_1995', title: { ua: 'Епідемія', en: 'Outbreak', }, year: 1995, country: { usa: 1, }, rating: 5,
-	genre: { thriller: 1, }, hash: { animal: 1, },
+	genre: { thriller: 1, }, hash: { virus: 1, monkey: 1, animal: 1, },
 	internet: { imdb: '0114069', wiki_ua: '%D0%95%D0%BF%D1%96%D0%B4%D0%B5%D0%BC%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)', },
 	cast: { dustin_hoffman_08081937: 1, morgan_freeman_01061937: 1, rene_russo_17021954: 1, kevin_spacey_26071959: 1, cuba_gooding_jr_02011968: 1, donald_sutherland_17071935: 1, },
 },
@@ -1963,19 +1969,19 @@ const arrFilms = [
 },
 {
 	id: 'king_kong_1976', title: { ua: 'Кінг-Конг', en: 'King Kong', }, year: 1976, country: { usa: 1, }, rating: '5+',
-	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, sea: 1, island: 1, jungle: 1, newyork: 1, },
+	genre: { horror: 1, adventure: 1, }, hash: { monkey: 1, animal: 1, sea: 1, island: 1, jungle: 1, newyork: 1, },
 	internet: { imdb: '0074751', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1976)', ashdivip: '84119', },
 	cast: { jessica_lange_20041949: 1, },
 },
 {
 	id: 'king_kong_lives_1986', title: { ua: 'Кінг-Конг живий', en: 'King Kong Lives', }, year: 1986, country: { usa: 1, },
-	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, },
+	genre: { horror: 1, adventure: 1, }, hash: { monkey: 1, animal: 1, },
 	internet: { imdb: '0091344', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_%D0%B6%D0%B8%D0%B2%D0%B8%D0%B9', ashdivip: '104798', },
 	cast: { linda_hamilton_26091956: 1, },
 },
 {
 	id: 'king_kong_2005', title: { ua: 'Кінг-Конг', en: 'King Kong', }, year: 2005, country: { usa: 1, }, rating: '5+',
-	genre: { horror: 1, adventure: 1, }, hash: { animal: 1, sea: 1, island: 1, jungle: 1, dinosaur: 1, newyork: 1, },
+	genre: { horror: 1, adventure: 1, }, hash: { monkey: 1, animal: 1, sea: 1, island: 1, jungle: 1, dinosaur: 1, newyork: 1, },
 	internet: { imdb: '0360717', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', ashdivip: '5707', },
 	cast: { naomi_watts_28091968: 1, jack_black_28081969: 1, adrien_brody_14041973: 1, kyle_chandler_17091965: 1, },
 },
@@ -2666,7 +2672,7 @@ const arrFilms = [
 },
 {
 	id: 'mighty_Joe_Young_1998', title: { ua: 'Могутній Джо Янґ', en: 'Mighty Joe Young', }, year: 1998, country: { usa: 1, },
-	genre: { action: 1, adventure: 1,  }, hash: { zombie: 1, phone: 1, },
+	genre: { action: 1, adventure: 1,  }, hash: { monkey: 1, },
 	internet: { imdb: '0120751', wiki_ua: '%D0%9C%D0%BE%D0%B3%D1%83%D1%82%D0%BD%D1%96%D0%B9_%D0%94%D0%B6%D0%BE_%D0%AF%D0%BD%D0%B3_%E2%80%8B%E2%80%8B(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', },
 	cast: { charlize_theron_07081975: 1, bill_paxton_17051955: 1, },
 },
@@ -3372,12 +3378,12 @@ const arrFilms = [
 },
 {
 	id: 'planet_of_the_apes_1968', title: { ua: 'Планета Мавп', en: 'Planet of the Apes', }, year: 1968, country: { usa: 1, },
-	genre: { sci_fi: 1, adventure: 1, }, hash: { world: 1, planet: 1, animal: 1, },
+	genre: { sci_fi: 1, adventure: 1, }, hash: { monkey: 1, world: 1, planet: 1, animal: 1, },
 	internet: { imdb: '0063442', wiki_ua: '%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0_%D0%BC%D0%B0%D0%B2%D0%BF_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1968)', },
 },
 {
 	id: 'planet_of_the_apes_2001', title: { ua: 'Планета Мавп', en: 'Planet of the Apes', }, year: 2001, country: { usa: 1, },
-	genre: { sci_fi: 1, adventure: 1, }, hash: { world: 1, planet: 1, animal: 1, },
+	genre: { sci_fi: 1, adventure: 1, }, hash: { monkey: 1, world: 1, planet: 1, animal: 1, },
 	internet: { imdb: '0133152', wiki_ua: '%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0_%D0%BC%D0%B0%D0%B2%D0%BF_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2001)',	},
 	cast: { mark_wahlberg_05061971: 1, kris_kristofferson_22061936: 1, michael_clarke_duncan_10121957: 1, },
 },
@@ -3434,7 +3440,7 @@ const arrFilms = [
 	cast: { liam_neeson_07061952: 1, julianne_moore_03121960: 1, },
 },
 {
-	id: 'le_boulet_2002', title: { ua: 'Повний привід', en: 'Le boulet', }, year: 2002, country: { fra: 1, gbr: 1,},
+	id: 'le_boulet_2002', title: { ua: 'Повний привід', en: 'Le boulet', }, year: 2002, country: { fra: 1, gbr: 1, },
 	genre: { action: 1, adventure: 1, comedy: 1, },
 	internet: { imdb: '0283957', wiki_ua: '%D0%9F%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%BF%D1%80%D0%B8%D0%B2%D0%BE%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { jamel_debbouze_18061975: 1, },
@@ -3443,6 +3449,11 @@ const arrFilms = [
 	id: 'wrong_turn_2021', title: { ua: 'Поворот не туди - 7: Основа', en: 'Wrong Turn', }, year: 2021, country: { usa: 1, can: 1, deu: 1, },
 	genre: { horror: 1, },
 	internet: { imdb: '9110170', wiki_ua: '%D0%9F%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82_%D0%BD%D0%B5_%D1%82%D1%83%D0%B4%D0%B8_7:_%D0%A1%D0%BF%D0%B0%D0%B4%D1%89%D0%B8%D0%BD%D0%B0', },
+},
+{
+	id: 'rise_of_the_planet_of_the_apes_2011', title: { ua: 'Повстання планети мавп', en: 'Rise of the Planet of the Apes', }, year: 2011, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { monkey: 1, },
+	internet: { imdb: '1318514', wiki_ua: '%D0%9F%D0%BE%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B8_%D0%BC%D0%B0%D0%B2%D0%BF', },
 },
 {
 	id: 'the_chase_1994', title: { ua: 'Погоня', en: 'The Chase', }, year: 1994, country: { usa: 1, },
@@ -4016,6 +4027,12 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, adventure: 1, }, hash: { future: 1, utopia: 1, apocalypse: 1, },
 	internet: { imdb: '5737536', wiki_ua: '%D0%A1%D0%B2%D1%96%D1%82_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%8C%D0%BE%D0%B3%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
 	cast: { milla_jovovich_17121975: 1, snoop_dogg_20101971: 1, },
+},
+{
+	id: 'dawn_of_the_planet_of_the_apes_2014', title: { ua: 'Світанок планети мавп', en: 'Dawn of the Planet of the Apes', }, year: 2014, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { monkey: 1, },
+	internet: { imdb: '2103281', wiki_ua: '%D0%A1%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BE%D0%BA_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B8_%D0%BC%D0%B0%D0%B2%D0%BF', },
+	cast: { gary_oldman_21031958: 1, },
 },
 {
 	id: 'killing_seasonc_2013', title: { ua: 'Сезон убивць', en: 'Killing Season', }, year: 2013, country: { usa: 1, bel: 1, },
@@ -4918,7 +4935,7 @@ const arrFilms = [
 },
 {
 	id: 'da_nao_tian_gong_1963', title: { ua: 'Цар мавп. Переполох у небесних чертогах', en: 'Da nao tian gong', }, year: 1963, country: { usa: 1, },
-	genre: { cartoon: 1, }, hash: { fight: 1, },
+	genre: { cartoon: 1, }, hash: { monkey: 1, fight: 1, },
 	internet: { imdb: '0059855', wiki_ru: '%D0%A1%D1%83%D0%BD%D1%8C_%D0%A3%D0%BA%D1%83%D0%BD:_%D0%9F%D0%B5%D1%80%D0%B5%D0%BF%D0%BE%D0%BB%D0%BE%D1%85_%D0%B2_%D0%9D%D0%B5%D0%B1%D0%B5%D1%81%D0%BD%D1%8B%D1%85_%D1%87%D0%B5%D1%80%D1%82%D0%BE%D0%B3%D0%B0%D1%85',	},
 },
 {

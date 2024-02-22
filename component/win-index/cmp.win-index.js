@@ -325,7 +325,7 @@ class ComponentWinIndex {
 
 
 		let html = '';
-		this.arrSelectedFilms.forEach( k => {
+		this.arrSelectedFilms.forEach( ( k, i ) => {
 
 			let htmlTitle = '';
 			let titleUa = '';
@@ -362,7 +362,7 @@ class ComponentWinIndex {
 					titleEn += k.title.en;
 
 				if ( titleUa )
-					htmlTitle += `<div class="titleUa">${ html5p }${ titleUa }${ html5 }</div>`;
+					htmlTitle += `<div class="titleUa"><span class="n-each">${ i + 1 }.</span> ${ html5p }${ titleUa }${ html5 }</div>`;
 
 				if ( titleEn )
 					htmlTitle += `<div class="titleEn">${ titleEn }</div>`;
