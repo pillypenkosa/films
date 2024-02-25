@@ -940,6 +940,11 @@ const arrFilms = [
 	internet: { imdb: '10919420', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%B2_%D0%BA%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D1%80%D0%B0', },
 },
 {
+	id: 'ready_or_not_2019', title: { ua: 'Гра в хованки', en: 'Ready or Not', }, year: 2019, country: { usa: 1, },
+	genre: { horror: 1, },
+	internet: { imdb: '7798634', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%B2_%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%BA%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: 'surviving_the_game_1994', title: { ua: 'Гра на виживання', en: 'Surviving the Game', }, year: 1994, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, crime: 1, adventure: 1, }, hash: { hunting: 1, surviving: 1, },
 	internet: { imdb: '0111323', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1994)', },
@@ -1862,6 +1867,11 @@ const arrFilms = [
 	cast: { harrison_ford_13071942: 1, shia_labeouf_11061986: 1, cate_blanchett_14051969: 1,  }, director: { steven_spielberg_18121946: 1, },
 },
 {
+	id: 'the_engineer_2023', title: { ua: 'Інженер', en: 'The Engineer ', }, year: 2023, country: { usa: 1, isr: 1, },
+	genre: { action: 1, }, hash: { terrorist: 1, },
+	internet: { imdb: '26450742', },
+},
+{
 	id: 'armored_2009', title: { ua: 'Інкасатор', en: 'Armored', }, year: 2009, country: { usa: 1, },
 	genre: { action: 1, crime: 1, }, hash: { robbery: 1, bank: 1, },
 	internet: { imdb: '0913354', wiki_ua: '%D0%86%D0%BD%D0%BA%D0%B0%D1%81%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2009)', },
@@ -1995,6 +2005,12 @@ const arrFilms = [
 	genre: { action: 1, mystic: 1, },
 	internet: { imdb: '0146675', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B5%D1%86%D1%8C_%D1%81%D0%B2%D1%96%D1%82%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', ashdivip: '4460', },
 	cast: { arnold_schwarzenegger_30071947: 1, kevin_pollak_30101957: 1, },
+},
+{
+	id: 'the_world_s_end_2013', title: { ua: 'Кінець світу', en: 'The World\'s End', }, year: 2013, country: { gbr: 1, usa: 1, jpn: 1, },
+	genre: { comedy: 1, fantasy: 1, },
+	internet: { imdb: '1213663', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B5%D1%86%D1%8C_%D1%81%D0%B2%D1%96%D1%82%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013,_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0_%D0%91%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%96%D1%8F)', },
+	cast: { rosamund_pike_27011979: 1, pierce_brosnan_16051953: 1, },
 },
 {
 	id: 'escape_room_2017', title: { ua: 'Клаустрофобія', en: 'Escape Room', }, year: 2017, country: { usa: 1, }, rating: 5,
@@ -4524,6 +4540,11 @@ const arrFilms = [
 	id: 'silent_night_2023', title: { ua: 'Тиха ніч', en: 'Silent Night', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '15799866', wiki_ru: '%D0%9D%D0%B5%D0%BC%D0%B0%D1%8F_%D1%8F%D1%80%D0%BE%D1%81%D1%82%D1%8C', },
+},
+{
+	id: 't_i_m_2023', title: { ua: 'Т.І.М.', en: 'T.I.M.', }, year: 2023, country: { gbr: 1, },
+	genre: { thriller: 1, sci_fi: 1, }, hash: { robot: 1, },
+	internet: { imdb: '21988182', },
 },
 {
 	id: 'the_shadow_1994', title: { ua: 'Тінь', en: 'The Shadow', }, year: 1994, country: { usa: 1, },
