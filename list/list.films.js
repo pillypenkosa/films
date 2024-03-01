@@ -304,6 +304,12 @@ const arrFilms = [
 	cast: { jean_reno_30071948: 1, },
 },
 {
+	id: 'bangkok_hilton_1989', title: { ua: 'Бангкок Гілтон', en: 'Bangkok Hilton', }, year: 1989, country: { aus: 1, },
+	genre: { serial: 1, thriller: 1, crime: 1, }, hash: { prison: 1, escape: 1, },
+	internet: { imdb: '0096540', wiki_ru: '%D0%91%D0%B0%D0%BD%D0%B3%D0%BA%D0%BE%D0%BA_%D0%A5%D0%B8%D0%BB%D1%82%D0%BE%D0%BD', },
+	cast: { nicole_kidman_20061967: 1, hugo_weaving_04041960: 1, },
+},
+{
 	id: 'gangs_of_New_York_2002', title: { ua: 'Банди Нью-Йорка', en: 'Gangs of New York', }, year: 2002, country: { usa: 1, },
 	genre: { crime: 1, drama: 1, }, hash: { newyork: 1, },
 	internet: { imdb: '0217505', wiki_ua: '%D0%91%D0%B0%D0%BD%D0%B4%D0%B8_%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA%D0%B0', },
@@ -1274,6 +1280,11 @@ const arrFilms = [
 	internet: { imdb: '6768578', wiki_ua: '%D0%94%D0%BE%D0%B3%D0%BC%D0%B5%D0%BD', },
 },
 {
+	id: 'dogman_2023', title: { ua: 'Догмен', en: 'Dogman', }, year: 2023, country: { fra: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { dog: 1, },
+	internet: { imdb: '17009348', wiki_ua: '%D0%94%D0%BE%D0%B3%D0%BC%D0%B5%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
+},
+{
 	id: 'the_road_2009', title: { ua: 'Дорога', en: 'The Road', }, year: 2009, country: { usa: 1, },
 	genre: { thriller: 1, }, hash: { apocalypse: 1, surviving: 1, },
 	internet: { imdb: '0898367', wiki_ua: '%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2009)', },
@@ -1412,7 +1423,7 @@ const arrFilms = [
 	cast: { dustin_hoffman_08081937: 1, morgan_freeman_01061937: 1, rene_russo_17021954: 1, kevin_spacey_26071959: 1, cuba_gooding_jr_02011968: 1, donald_sutherland_17071935: 1, },
 },
 {
-	id: 'the_butterfly_effect_2004', title: { ua: 'Ефект метелика', en: 'The Butterfly Effect', }, year: 2004, country: { usa: 1, },
+	id: 'the_butterfly_effect_2004', title: { ua: 'Ефект метелика', en: 'The Butterfly Effect', }, year: 2004, country: { usa: 1, }, rating: 5,
 	genre: { sci_fi: 1, thriller: 1, },
 	internet: { imdb: '0289879', wiki_ua: '%D0%95%D1%84%D0%B5%D0%BA%D1%82_%D0%BC%D0%B5%D1%82%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { ashton_kutcher_07021978: 1, amy_smart_26031976: 1, },
@@ -1755,7 +1766,7 @@ const arrFilms = [
 	cast: { pierce_brosnan_16051953: 1, sophie_marceau_17111966: 1, judi_dench_09121934: 1, },
 },
 {
-	id: 'le_jouet_1976', title: { ua: 'Іграшка', en: 'Le jouet', }, year: 1976, country: { usa: 1, }, rating: 5,
+	id: 'le_jouet_1976', title: { ua: 'Іграшка', en: 'Le jouet', }, year: 1976, country: { fra: 1, }, rating: 5,
 	genre: { comedy: 1, }, hash: { children: 1, },
 	internet: { imdb: '0074720', wiki_ua: '%D0%86%D0%B3%D1%80%D0%B0%D1%88%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { pierre_richard_16081934: 1, },
@@ -2514,7 +2525,7 @@ const arrFilms = [
 	cast: { bill_murray_21091950: 1, sigourney_weaver_08101949: 1, },
 },
 {
-	id: 'the_shallows_2016', title: { ua: 'Мілина', en: 'The Shallows', }, year: 2016, country: { usa: 1, },
+	id: 'the_shallows_2016', title: { ua: 'Мілина', en: 'The Shallows', }, year: 2016, country: { usa: 1, }, rating: 5,
 	genre: { horror: 1, drama: 1, }, hash: { trap: 1, shark: 1, surfing: 1, beach: 1, surviving: 1, },
 	internet: { imdb: '4052882', wiki_ua: '%D0%9C%D1%96%D0%BB%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { lively_blake_25081987: 1, },
@@ -4719,6 +4730,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, }, hash: { cowboy: 1, },
 	internet: { imdb: '0109493', wiki_ru: '%D0%A3_%D0%BA%D0%BE%D0%B2%D0%B1%D0%BE%D0%B5%D0%B2_%D1%82%D0%B0%D0%BA_%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%BE', },
 	cast: { woody_harrelson_23071961: 1, kiefer_sutherland_21121966: 1, },
+},
+{
+	id: 'le_coup_du_parapluie_1980', title: { ua: 'Укол парасолькою', en: 'Le coup du parapluie', }, year: 1980, country: { fra: 1, },
+	genre: { comedy: 1, crime: 1, },
+	internet: { imdb: '0080565', wiki_ua: '%D0%A3%D0%BA%D0%BE%D0%BB_%D0%BF%D0%B0%D1%80%D0%B0%D1%81%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%D1%8E', },
+	cast: { pierre_richard_16081934: 1, },
 },
 {
 	id: 'universal_soldier_1992', title: { ua: 'Універсальний солдат', en: 'Universal Soldier', }, year: 1992, country: { usa: 1, }, rating: 5,
