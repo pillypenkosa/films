@@ -71,6 +71,11 @@ const arrFilms = [
 	cast: { charlie_sheen_03091965: 1, whoopi_goldberg_13111955: 1, gina_gershon_10061962: 1, },
 },
 {
+	id: '13_sins_2014', title: { ua: '13 гріхів', en: '13 Sins', }, year: 2014, country: { usa: 1, },
+	genre: { horror: 1, thriller: 1, },
+	internet: { imdb: '2059171', wiki_ua: '13_%D0%B3%D1%80%D1%96%D1%85%D1%96%D0%B2', },
+},
+{
 	id: '16_blocks_2006', title: { ua: '16 кварталів', en: '16 Blocks', }, year: 2006, country: { usa: 1, },
 	genre: { action: 1, thriller: 1, drama: 1, },
 	internet: { imdb: '0450232', wiki_ua: '16_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B0%D0%BB%D1%96%D0%B2', },
