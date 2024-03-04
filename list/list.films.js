@@ -1428,6 +1428,11 @@ const arrFilms = [
 	internet: { imdb: '0095088', wiki_ua: '%D0%95%D0%BB%D1%8C%D0%B2%D1%96%D1%80%D0%B0_%E2%80%94_%D0%B2%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0%D1%80%D0%BA%D0%B0_%D1%82%D0%B5%D0%BC%D1%80%D1%8F%D0%B2%D0%B8', },
 },
 {
+	id: 'the_emoji_movie_2017', title: { ua: 'Емоджі Муві', en: 'The Emoji Movie', }, year: 2017, country: { usa: 1, },
+	genre: { cartoon: 1, },
+	internet: { imdb: '4877122', wiki_ua: '%D0%95%D0%BC%D0%BE%D0%B4%D0%B6%D1%96_%D0%9C%D1%83%D0%B2%D1%96', },
+},
+{
 	id: 'outbreak_1995', title: { ua: 'Епідемія', en: 'Outbreak', }, year: 1995, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, }, hash: { virus: 1, monkey: 1, animal: 1, },
 	internet: { imdb: '0114069', wiki_ua: '%D0%95%D0%BF%D1%96%D0%B4%D0%B5%D0%BC%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)', },
@@ -1814,7 +1819,7 @@ const arrFilms = [
 {
 	id: 'identity_2003', title: { ua: 'Ідентифікація', en: 'Identity', }, year: 2003, country: { usa: 1, },
 	genre: { mystic: 1, thriller: 1, },
-	internet: { imdb: '0309698', wiki_ua: '%D0%86%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F_%D0%91%D0%BE%D1%80%D0%BD%D0%B0', },
+	internet: { imdb: '0309698', wiki_ua: '%D0%86%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2003)', },
 	cast: { john_cusack_28061966: 1, rebecca_de_mornay_29081959: 1, },
 },
 {
@@ -4112,10 +4117,22 @@ const arrFilms = [
 	internet: { imdb: '0105306', wiki_ru: '%D0%A1%D0%BE%D0%BB%D1%8C_%D0%BD%D0%B0_%D0%BD%D0%B0%D1%88%D0%B5%D0%B9_%D0%BA%D0%BE%D0%B6%D0%B5', },
 },
 {
+	id: 'se7en_1995', title: { ua: 'Сім', en: 'Se7en', }, year: 1995, country: { usa: 1, },
+	genre: { detective: 1, crime: 1, },
+	internet: { imdb: '0114369', wiki_ua: '%D0%A1%D1%96%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { brad_pitt_18121963: 1, morgan_freeman_01061937: 1, kevin_spacey_26071959: 1, gwyneth_paltrow_27091972: 1, },
+},
+{
 	id: 'the_family_plan_2023', title: { ua: 'Сімейний план', en: 'The Family Plan', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, },
 	internet: { imdb: '16431870', wiki_ua: '%D0%A1%D1%96%D0%BC%D0%B5%D0%B9%D0%BD%D0%B8%D0%B9_%D0%BF%D0%BB%D0%B0%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
 	cast: { mark_wahlberg_05061971: 1, michelle_monaghan_23031976: 1, maggie_q_22051979: 1, },
+},
+{
+	id: 'raging_bull_1980', title: { ua: 'Скажений бик', en: 'Raging Bull', }, year: 1980, country: { usa: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '0081398', wiki_ua: '%D0%A1%D0%BA%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9_%D0%B1%D0%B8%D0%BA', },
+	cast: { robert_de_niro_17081943: 1, joe_pesci_09021943: 1, },
 },
 {
 	id: 'mad_Max_1979', title: { ua: 'Скажений Макс', en: 'Mad Max', }, year: 1979, country: { aus: 1, },
