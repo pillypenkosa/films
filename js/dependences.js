@@ -9,10 +9,10 @@ const dependences = [
 
 	// масиви-списки з інших сайтів ( сторонні ) ----------------------------------------------------------------------------------
 	
-		// https://pillypenkosa.github.io/database/list/list.country.js
+		// https://pillypenkosa.github.io/   ${ k.site }   /list/list.   ${ k.db }   .js
 	
-	{ db: 'country' 	, },
-	{ db: 'people' 		, },  
+	{ db: 'country' 	, site: 'db' 		, },
+	{ db: 'people' 		, site: 'media' 	, },  
 
 
 
