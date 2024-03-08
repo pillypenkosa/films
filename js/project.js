@@ -210,8 +210,6 @@ function cns( type, txt, obj ) { 	// t - type: текст `ok`, `err`, `warning`
 // встановлення МЕТА-тегів
 function setMeta( obj = {} ) {
 
-	//console.log( 'obj: ', obj );
-
 
 	const empty = '';
 
