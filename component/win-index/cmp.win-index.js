@@ -266,8 +266,14 @@ class ComponentWinIndex {
 
 		if ( data == 'favorite' ) {
 
-			arrFilmSelectionFavorite.forEach( k => {
-				this.arrSelectedFilms.push( objFilms[ k ] );
+			arrFilms.forEach( k => {
+				if ( k.rating ) {
+
+					//console.log( k );
+
+					if ( k.rating == '5+' ) 
+						this.arrSelectedFilms.push( objFilms[ k.id ] );
+				}
 			});
 		}
 

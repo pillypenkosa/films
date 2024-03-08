@@ -236,6 +236,11 @@ const arrFilms = [
 	cast: { richard_gere_31081949: 1, bill_duke_26021943: 1, },
 },
 {
+	id: 'american_fiction_2023', title: { ua: 'Американське чтиво', en: 'American Fiction', }, year: 2023, country: { usa: 1, },
+	genre: { drama: 1, comedy: 1, },
+	internet: { imdb: '23561236', wiki_ua: '%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B5_%D1%87%D1%82%D0%B8%D0%B2%D0%BE', },
+},
+{
 	id: 'anaconda_1997', title: { ua: 'Анаконда', en: 'Anaconda', }, year: 1997, country: { usa: 1, }, rating: 5,
 	genre: { adventure: 1, horror: 1, }, hash: { snake: 1, jungle: 1, },
 	internet: { imdb: '0118615', wiki_ua: '%D0%90%D0%BD%D0%B0%D0%BA%D0%BE%D0%BD%D0%B4%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '14649', },
@@ -374,7 +379,6 @@ const arrFilms = [
 	internet: { imdb: '0118688', wiki_ua: '%D0%91%D0%B5%D1%82%D0%BC%D0%B5%D0%BD_%D1%96_%D0%A0%D0%BE%D0%B1%D1%96%D0%BD', },
 	cast: { george_clooney_06051961: 1, alicia_silverstone_04101976: 1, arnold_schwarzenegger_30071947: 1, uma_thurman_29041970: 1, },
 },
-
 {
 	id: 'Beethoven_1992', title: { ua: 'Бетховен', en: 'Beethoven', }, year: 1992, country: { usa: 1, },
 	genre: { comedy: 1, animal: 1, }, hash: { dog: 1, children: 1, },
@@ -404,6 +408,12 @@ const arrFilms = [
 	genre: { adventure: 1, drama: 1, }, hash: { dog: 1, winter: 1, animal: 1, },
 	internet: { imdb: '0397313', wiki_ua: '%D0%91%D1%96%D0%BB%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BB%D0%BE%D0%BD', },
 	cast: { paul_walker_12091973: 1, },
+},
+{
+	id: 'simulant_2023', title: { ua: 'Більше, ніж люди', en: 'Simulant', }, year: 2023, country: { can: 1, },
+	genre: { sci_fi: 1, thriller: 1, }, hash: { robot: 1, },
+	internet: { imdb: '13130024', wiki_ru: '%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B5,_%D1%87%D0%B5%D0%BC_%D0%BB%D1%8E%D0%B4%D0%B8_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2023)', },
+	cast: { sam_worthington_02081976: 1, },
 },
 {
 	id: 'Bingo_Bongo_1982', title: { ua: 'Бінго-Бонго', en: 'Bingo Bongo', }, year: 1982, country: { ita: 1, },
@@ -3523,7 +3533,7 @@ const arrFilms = [
 	cast: { daniel_c_ryan_09061993: 1, },
 },
 {
-	id: 'double_jeopardy_1999', title: { ua: 'Подвійний прорахунок', en: 'Double Jeopardy', }, year: 1999, country: { usa: 1, },
+	id: 'double_jeopardy_1999', title: { ua: 'Подвійний прорахунок', en: 'Double Jeopardy', }, year: 1999, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0150377', wiki_ua: '%D0%9F%D0%BE%D0%B4%D0%B2%D1%96%D0%B9%D0%BD%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D1%80%D0%B0%D1%85%D1%83%D0%BD%D0%BE%D0%BA', },
 	cast: { tommy_lee_jones_15091946: 1, ashley_judd_19041968: 1, },
@@ -5175,6 +5185,12 @@ const arrFilms = [
 	cast: { bruce_lee_27111940: 1, },
 },
 {
+	id: 'fast_charlie_2023', title: { ua: 'Швидкий Чарлі', en: 'Fast Charlie', }, year: 2023, country: { usa: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '6722400', },
+	cast: { pierce_brosnan_16051953: 1, },
+},
+{
 	id: 'bullet_train_2022', title: { ua: 'Швидкісний поїзд', en: 'Bullet Train', }, year: 2022, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, hash: { train: 1, },
 	internet: { imdb: '12593682', wiki_ua: '%D0%A8%D0%B2%D0%B8%D0%B4%D0%BA%D1%96%D1%81%D0%BD%D0%B8%D0%B9_%D0%BF%D0%BE%D1%97%D0%B7%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '76064', },
@@ -5338,12 +5354,6 @@ const arrFilms = [
 	genre: { action: 1, fantasy: 1, }, hash: { groundhog: 1, },
 	internet: { imdb: '7638348', wiki_ua: 'Boss_Level:_%D0%92%D1%80%D1%8F%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8_%D0%BA%D0%BE%D0%BB%D0%B8%D1%88%D0%BD%D1%8E', },
 	cast: { mel_gibson_03011956: 1, naomi_watts_28091968: 1, },
-},
-{
-	id: 'fast_charlie_2023', title: { ua: 'Fast Charlie', en: 'Fast Charlie', }, year: 2023, country: { usa: 1, },
-	genre: { action: 1, crime: 1, },
-	internet: { imdb: '6722400', },
-	cast: { pierce_brosnan_16051953: 1, },
 },
 {
 	id: 'g_i_joe_2009', title: { ua: 'G.I. Joe: Атака кобри', en: 'G.I. Joe: The Rise of Cobra', }, year: 2009, country: { usa: 1, },
