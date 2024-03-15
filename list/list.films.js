@@ -392,6 +392,12 @@ const arrFilms = [
 	cast: { bonnie_hunt_22091961: 1, },
 },
 {
+	id: 'poor_things_2023', title: { ua: 'Бідолашні створіння', en: 'Poor Things', }, year: 2023, country: { usa: 1, gbr: 1, irl: 1, },
+	genre: { drama: 1, sci_fi: 1, }, hash: { biomedlab: 1, },
+	internet: { imdb: '14230458', wiki_ua: '%D0%91%D1%96%D0%B4%D0%BE%D0%BB%D0%B0%D1%88%D0%BD%D1%96_%D1%81%D1%82%D0%B2%D0%BE%D1%80%D1%96%D0%BD%D0%BD%D1%8F', },
+	cast: { emma_stone_06111988: 1, willem_dafoe_22071955: 1, },
+},
+{
 	id: 'fight_club_1999', title: { ua: 'Бійцівський клуб', en: 'Fight Club', }, year: 1999, country: { usa: 1, },
 	genre: { drama: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '0137523', wiki_ua: '%D0%91%D1%96%D0%B9%D1%86%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1690,6 +1696,12 @@ const arrFilms = [
 	cast: { kate_beckinsale_26071973: 1, },
 },
 {
+	id: 'rememory_2017', title: { ua: 'Згадати знов', en: 'Rememory', }, year: 2017, country: { usa: 1, },
+	genre: { sci_fi: 1, detective: 1, }, hash: { future: 1, },
+	internet: { imdb: '2331047', wiki_ru: '%D0%92%D1%81%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82%D1%8C_%D0%B7%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE', },
+	cast: { peter_dinklage_11061969: 1, },
+},
+{
 	id: 'the_green_mile_1999', title: { ua: 'Зелена миля', en: 'The Green Mile', }, year: 1999, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, crime: 1, fantasy: 1, }, hash: { justice: 1, prison: 1, },
 	internet: { imdb: '0120689', wiki_ua: '%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0_%D0%BC%D0%B8%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1744,6 +1756,11 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { skydive: 1, },
 	internet: { imdb: '0109676', wiki_ua: '%D0%97%D0%BE%D0%BD%D0%B0_%D0%B2%D0%B8%D1%81%D0%B0%D0%B4%D0%BA%D0%B8', },
 	cast: { wesley_snipes_31071962: 1, gary_busey_29061944: 1, yancy_butler_02071970: 1, },
+},
+{
+	id: 'the_zone_of_interest_2023', title: { ua: 'Зона інтересу', en: 'The Zone of Interest', }, year: 2023, country: { usa: 1, gbr: 1, pol: 1, }, 
+	genre: { drama: 1, war: 1, }, hash: { war2: 1, },
+	internet: { imdb: '7160372', wiki_ua: '%D0%97%D0%BE%D0%BD%D0%B0_%D1%96%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83', },
 },
 {
 	id: 'speed_zone_1989', title: { ua: 'Зона швидкості', en: 'Speed Zone', }, year: 1989, country: { can: 1, }, rating: 5,
@@ -2551,6 +2568,11 @@ const arrFilms = [
 	cast: { bill_murray_21091950: 1, sigourney_weaver_08101949: 1, },
 },
 {
+	id: 'mindhunters_2004', title: { ua: 'Мисливці за розумом', en: 'Mindhunters', }, year: 2004, country: { usa: 1, fin: 1, gbr: 1, ndl: 1, },
+	genre: { thriller: 1, horror: 1, }, hash: { quest: 1, },
+	internet: { imdb: '0297284', wiki_ua: '%D0%9C%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D1%86%D1%96_%D0%B7%D0%B0_%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D0%BE%D0%BC', },
+},
+{
 	id: 'the_shallows_2016', title: { ua: 'Мілина', en: 'The Shallows', }, year: 2016, country: { usa: 1, }, rating: 5,
 	genre: { horror: 1, drama: 1, }, hash: { trap: 1, shark: 1, surfing: 1, beach: 1, surviving: 1, },
 	internet: { imdb: '4052882', wiki_ua: '%D0%9C%D1%96%D0%BB%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -3299,6 +3321,11 @@ const arrFilms = [
 	id: 'macskafogo_1986', title: { ua: 'Пастка для котів', en: 'Macskafogo', }, year: 1986, country: { usa: 1, }, rating: 5,
 	genre: { cartoon: 1, },
 	internet: { imdb: '0179955', wiki_ua: '%D0%9F%D0%B0%D1%81%D1%82%D0%BA%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BA%D0%BE%D1%82%D1%96%D0%B2', },
+},
+{
+	id: 'la_habitacion_de_Fermat_2007', title: { ua: 'Пастка Ферма', en: 'La habitación de Fermat', }, year: 2007, country: { esp: 1, },
+	genre: { thriller: 1, }, hash: { quest: 1, },
+	internet: { imdb: '1016301', wiki_ru: '%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8F_%D0%A4%D0%B5%D1%80%D0%BC%D0%B0', },
 },
 {
 	id: 'the_baker_2022', title: { ua: 'Пекар', en: 'The Baker', }, year: 2022, country: { usa: 1, deu: 1, gbr: 1, },
