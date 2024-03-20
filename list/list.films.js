@@ -224,6 +224,12 @@ const arrFilms = [
 	cast: { sharon_stone_10031958: 1, },
 },
 {
+	id: 'alpha_dog_2006', title: { ua: 'Альфа Дог', en: 'Alpha Dog', }, year: 2006, country: { usa: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { young: 1, },
+	internet: { imdb: '0426883', wiki_ua: '%D0%90%D0%BB%D1%8C%D1%84%D0%B0_%D0%94%D0%BE%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { justin_timberlake_31011981: 1, sharon_stone_10031958: 1, bruce_willis_19031955: 1, },
+},
+{
 	id: 'Amelie_2001', title: { ua: 'Амелі', en: 'Le fabuleux destin d`Amélie Poulain', }, year: 2001, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, comedy: 1, }, hash: { psycho: 1, young: 1, },
 	internet: { imdb: '0211915', wiki_ua: '%D0%90%D0%BC%D0%B5%D0%BB%D1%96', },
@@ -1296,6 +1302,12 @@ const arrFilms = [
 	cast: { tom_cruise_03071962: 1, nicole_kidman_20061967: 1, },
 },
 {
+	id: 'a_long_way_down_2014', title: { ua: 'Довге падіння', en: 'A Long Way Down', }, year: 2014, country: { deu: 1, gbr: 1, },
+	genre: { drama: 1, comedy: 1,  },
+	internet: { imdb: '0458413', wiki_ru: '%D0%94%D0%BE%D0%BB%D0%B3%D0%BE%D0%B5_%D0%BF%D0%B0%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	cast: { pierce_brosnan_16051953: 1, rosamund_pike_27011979 : 1, },
+},
+{
 	id: 'dogma_1999', title: { ua: 'Догма', en: 'Dogma', }, year: 1999, country: { usa: 1, },
 	genre: { comedy: 1, adventure: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '0120655', wiki_ua: '%D0%94%D0%BE%D0%B3%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -2249,6 +2261,12 @@ const arrFilms = [
 	genre: { drama: 1, }, hash: { love: 1, },
 	internet: { imdb: '0100405', wiki_ua: '%D0%9A%D1%80%D0%B0%D1%81%D1%83%D0%BD%D1%8F', },
 	cast: { julia_roberts_28101967: 1, richard_gere_31081949: 1, },
+},
+{
+	id: 'red_right_hand_2024', title: { ua: 'Кривава права рука', en: 'Red Right Hand', }, year: 2024, country: { usa: 1, }, 
+	genre: { thriller: 1, crime: 1, },
+	internet: { imdb: '19244260', wiki_ua: '%D0%9A%D1%80%D0%B8%D0%B2%D0%B0%D0%B2%D0%B0_%D0%BF%D1%80%D0%B0%D0%B2%D0%B0_%D1%80%D1%83%D0%BA%D0%B0', },
+	cast: { orlando_bloom_13011977: 1,  },
 },
 {
 	id: 'blood_diamond_2006', title: { ua: 'Кривавий діамант', en: 'Blood Diamond', }, year: 2006, country: { usa: 1, deu: 1, }, rating: 5,
@@ -3254,6 +3272,11 @@ const arrFilms = [
 	cast: { vin_diesel_18071967: 1, rose_leslie_09021987: 1, elijah_wood_28011981: 1, },
 },
 {
+	id: 'cutthroat_island_1995', title: { ua: 'Острів Головорізів', en: 'Cutthroat Island', }, year: 1995, country: { fra: 1, deu: 1, ita: 1, usa: 1, },
+	genre: { adventure: 1, }, hash: { sea: 1, ship: 1, island: 1, treasure: 1, pirates: 1, travel: 1, },
+	internet: { imdb: '0112760', wiki_ua: '%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%B3%D0%BE%D1%80%D0%BB%D0%BE%D1%80%D1%96%D0%B7%D1%96%D0%B2', },
+},
+{
 	id: 'the_island_of_dr_Moreau_1996', title: { ua: 'Острів доктора Моро', en: 'The Island of Dr. Moreau', }, year: 1996, country: { usa: 1, }, rating: 1,
 	genre: { sci_fi: 1, horror: 1, thriller: 1, }, hash: { world: 1, animal: 1, island: 1, },
 	internet: { imdb: '0116654', wiki_ua: '%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%BE%D1%80%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
@@ -3446,7 +3469,7 @@ const arrFilms = [
 },
 {
 	id: 'pirates_of_the_Caribbean_2_2006', title: { ua: 'Пірати Карибського моря - 2', en: 'Pirates of the Caribbean: Dead Man\'s Chest', }, year: 2006, country: { usa: 1, }, rating: '5+',
-	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, },
+	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
 	internet: { imdb: '0383574', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8F_%D0%BC%D0%B5%D1%80%D1%86%D1%8F', ashdivip: '308', auliki7: 'Pirates.of.the.Caribbean.Dead.Mans.Chest', },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
 },
@@ -4113,6 +4136,12 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, adventure: 1, }, hash: { future: 1, utopia: 1, apocalypse: 1, },
 	internet: { imdb: '5737536', wiki_ua: '%D0%A1%D0%B2%D1%96%D1%82_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%8C%D0%BE%D0%B3%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
 	cast: { milla_jovovich_17121975: 1, snoop_dogg_20101971: 1, },
+},
+{
+	id: 'dong_wu_shi_jie_2018', title: { ua: 'Світ тварин', en: 'Dong wu shi jie', }, year: 2018, country: { chn: 1, },
+	genre: { action: 1, sci_fi: 1, },
+	internet: { imdb: '7946836', wiki_ua: '%D0%A1%D0%B2%D1%96%D1%82_%D1%82%D0%B2%D0%B0%D1%80%D0%B8%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { michael_douglas_25091944: 1, },
 },
 {
 	id: 'dawn_of_the_planet_of_the_apes_2014', title: { ua: 'Світанок планети мавп', en: 'Dawn of the Planet of the Apes', }, year: 2014, country: { usa: 1, },

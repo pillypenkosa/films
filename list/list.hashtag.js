@@ -65,6 +65,7 @@ const arrHashTags = [
 	{ id: 'trap' 			, title: 'пастка' 				, app: { films: 1, }, }, // випадкові смертельні пастки
 	{ id: 'race' 			, title: 'перегони' 			, app: { films: 1, }, },
 	{ id: 'underwater' 		, title: 'підВодою' 			, app: { films: 1, }, },
+	{ id: 'pirates' 		, title: 'пірати' 				, app: { films: 1, }, },
 	{ id: 'planet' 			, title: 'планети' 				, app: { films: 1, }, }, // події на інших планетах
 	{ id: 'beach' 			, title: 'пляж' 				, app: { films: 1, }, },
 	{ id: 'robbery' 		, title: 'пограбування' 		, app: { films: 1, }, },
