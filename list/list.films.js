@@ -285,6 +285,12 @@ const arrFilms = [
 	internet: { imdb: '0175381', wiki_ua: '%D0%90%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D0%BB%D0%B0_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 },
 {
+	id: 'argylle_2024', title: { ua: 'Арґайл', en: 'Argylle', }, year: 2024, country: { gbr: 1, usa: 1, },
+	genre: { action: 1, comedy: 1, },
+	internet: { imdb: '15009428', wiki_ua: '%D0%90%D1%80%D2%91%D0%B0%D0%B9%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { catherine_ohara_04031954: 1, },
+},
+{
 	id: 'armageddon_1998', title: { ua: 'Армагеддон', en: 'Armageddon', }, year: 1998, country: { usa: 1, },
 	genre: { action: 1, disaster: 1, sci_fi: 1, }, hash: { apocalypse: 1, space: 1, },
 	internet: { imdb: '0120591', wiki_ua: '%D0%90%D1%80%D0%BC%D0%B0%D0%B3%D0%B5%D0%B4%D0%B4%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', ashdivip: '14016', },
@@ -1285,6 +1291,12 @@ const arrFilms = [
 	cast: { martin_lawrence_16041965: 1, peter_greene_08101965: 1, },
 },
 {
+	id: 'damsel_2024', title: { ua: 'Діва проти біди', en: 'Damsel', }, year: 2024, country: { usa: 1, },
+	genre: { fantasy: 1, },
+	internet: { imdb: '13452446', wiki_ua: '%D0%94%D1%96%D0%B2%D0%B0_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_%D0%B1%D1%96%D0%B4%D0%B8', },
+	cast: { ray_winstone_19021957: 1, },
+},
+{
 	id: 'trainwreck_2015', title: { ua: 'Дівчина без комплексів', en: 'Trainwreck', }, year: 2015, country: { usa: 1, },
 	genre: { comedy: 1, drama: 1, },
 	internet: { imdb: '3152624', wiki_ua: '%D0%94%D1%96%D0%B2%D1%87%D0%B8%D0%BD%D0%B0_%D0%B1%D0%B5%D0%B7_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B2', },
@@ -2094,6 +2106,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0090859', wiki_ua: '%D0%9A%D0%BE%D0%B1%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { sylvester_stallone_06071946: 1, },
+},
+{
+	id: 'code_8_2019', title: { ua: 'Код 8', en: 'Code 8', }, year: 2019, country: { usa: 1, },
+	genre: { action: 1,sci_fi: 1,  crime: 1, }, hash: { utopia: 1, },
+	internet: { imdb: '6259380', wiki_ua: '%D0%9A%D0%BE%D0%B4_8', },
+	cast: { kari_matchett_25031970: 1, },
 },
 {
 	id: 'the_da_Vinci_code_2006', title: { ua: 'Код да Винчи', en: 'The Da Vinci Code', }, year: 2006, country: { usa: 1, },
@@ -2969,6 +2987,11 @@ const arrFilms = [
 	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, },
 },
 {
+	id: 'dangerous_waters_2023', title: { ua: 'Небезпечні води', en: 'Dangerous Waters', }, year: 2023, country: { usa: 1, },
+	genre: { thriller: 1, }, hash: { sea: 1, ship: 1, },
+	internet: { imdb: '20024428',  },
+},
+{
 	id: 'la_chevre_1981', title: { ua: 'Невдахи', en: 'La chèvre', }, year: 1981, country: { fra: 1, mex: 1, fmlt: 1, },
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '0082183', wiki_ua: '%D0%9D%D0%B5%D0%B2%D0%B4%D0%B0%D1%85%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1981)', },
@@ -3468,10 +3491,34 @@ const arrFilms = [
 	cast: { megan_fox_16051986: 1, whoopi_goldberg_13111955: 1, },
 },
 {
+	id: 'pirates_of_the_Caribbean_2003', title: { ua: 'Пірати Карибського моря', en: 'Pirates of the Caribbean: The Curse of the Black Pearl', }, year: 2003, country: { usa: 1, }, rating: 5,
+	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
+	internet: { imdb: '0325980', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D1%8F%D1%82%D1%82%D1%8F_%C2%AB%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D1%97_%D0%BF%D0%B5%D1%80%D0%BB%D0%B8%D0%BD%D0%B8%C2%BB', },
+	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
+},
+{
 	id: 'pirates_of_the_Caribbean_2_2006', title: { ua: 'Пірати Карибського моря - 2', en: 'Pirates of the Caribbean: Dead Man\'s Chest', }, year: 2006, country: { usa: 1, }, rating: '5+',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
 	internet: { imdb: '0383574', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8F_%D0%BC%D0%B5%D1%80%D1%86%D1%8F', ashdivip: '308', auliki7: 'Pirates.of.the.Caribbean.Dead.Mans.Chest', },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
+},
+{
+	id: 'pirates_of_the_Caribbean_3_2007', title: { ua: 'Пірати Карибського моря - 3', en: 'Pirates of the Caribbean: At World\'s End', }, year: 2007, country: { usa: 1, }, rating: 5,
+	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
+	internet: { imdb: '0449088', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%BA%D1%80%D0%B0%D1%8E_%D1%81%D0%B2%D1%96%D1%82%D1%83',  },
+	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
+},
+{
+	id: 'pirates_of_the_Caribbean_4_2011', title: { ua: 'Пірати Карибського моря - 4', en: 'Pirates of the Caribbean: On Stranger Tides', }, year: 2011, country: { usa: 1, },
+	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
+	internet: { imdb: '1298650', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%B4%D0%B8%D0%B2%D0%BD%D0%B8%D1%85_%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%B0%D1%85',  },
+	cast: { johnny_depp_09061963: 1, penelope_cruz_28041974: 1, },
+},
+{
+	id: 'pirates_of_the_Caribbean_5_2017', title: { ua: 'Пірати Карибського моря - 5', en: 'Pirates of the Caribbean: Dead Men Tell No Tales', }, year: 2017, country: { usa: 1, },
+	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
+	internet: { imdb: '1790809', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9F%D0%BE%D0%BC%D1%81%D1%82%D0%B0_%D0%A1%D0%B0%D0%BB%D0%B0%D0%B7%D0%B0%D1%80%D0%B0',  },
+	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, },
 },
 {
 	id: 'the_day_after_tomorrow_2004', title: { ua: 'Післязавтра', en: 'The Day After Tomorrow', }, year: 2004, country: { usa: 1, },
@@ -4558,6 +4605,12 @@ const arrFilms = [
 	genre: { thriller: 1, crime: 1, }, hash: { phone: 1, },
 	internet: { imdb: '0183649', wiki_ua: '%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%BD%D0%B0_%D0%B1%D1%83%D0%B4%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { forest_whitaker_15071961: 1, kiefer_sutherland_21121966: 1, },
+},
+{
+	id: 'dark_asset_2023', title: { ua: 'Темний актив', en: 'Dark Asset ', }, year: 2023, country: { usa: 1, },
+	genre: { sci_fi: 1, thriller: 1, }, hash: { techno: 1, },
+	internet: { imdb: '15552570', },
+	cast: { robert_patrick_05111958: 1, },
 },
 {
 	id: 'dark_tide_2012', title: { ua: 'Темний приплив', en: 'Dark Tide', }, year: 2012, country: { usa: 1, },
