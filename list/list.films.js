@@ -1026,6 +1026,12 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, robert_de_niro_17081943: 1, kim_basinger_08121953: 1, mike_tyson_30061966: 1, },
 },
 {
+	id: 'pik_lik_foh_1995', title: { ua: 'Громобій', en: 'Pik lik foh', }, year: 1995, country: { hkg: 1, },
+	genre: { action: 1, crime: 1, }, hash: { sport: 1, fight: 1, cars: 1, },
+	internet: { imdb: '0114126', wiki_ua: '%D0%93%D1%80%D0%BE%D0%BC%D0%BE%D0%B1%D1%96%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)', },
+	cast: { jackie_chan_07041954: 1, },
+},
+{
 	id: 'money_talks_1997', title: { ua: 'Гроші вирішують все', en: 'Money Talks', }, year: 1997, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, },
 	internet: { imdb: '0119695', wiki_ua: '%D0%93%D1%80%D0%BE%D1%88%D1%96_%D0%B2%D0%B8%D1%80%D1%96%D1%88%D1%83%D1%8E%D1%82%D1%8C_%D0%B2%D1%81%D0%B5', },
@@ -2015,6 +2021,12 @@ const arrFilms = [
 	cast: { dolph_lundgren_03111957: 1, },
 },
 {
+	id: 'casper_1995', title: { ua: 'Каспер', en: 'Casper', }, year: 1995, country: { usa: 1, }, rating: 5,
+	genre: { fantasy: 1, comedy: 1, }, hash: { ghost: 1, },
+	internet: { imdb: '0112642', wiki_ua: '%D0%9A%D0%B0%D1%81%D0%BF%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { bill_pullman_17121953: 1, },
+},
+{
 	id: 'Kuffs_1992', title: { ua: 'Каффс', en: 'Kuffs', }, year: 1992, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, }, hash: { police: 1, animal: 1, dog: 1, },
 	internet: { imdb: '0104647', wiki_ua: '%D0%9A%D0%B0%D1%84%D1%84%D1%81', ashdivip: '72496', },
@@ -2096,6 +2108,12 @@ const arrFilms = [
 	internet: { imdb: '5159414', wiki_ua: '%D0%9A%D0%BB%D0%B0%D1%83%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%BE%D0%B1%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
+	id: 'the_cell_2000', title: { ua: 'Клітка', en: 'The Cell', }, year: 2000, country: { usa: 1, deu: 1, },
+	genre: { sci_fi: 1, crime: 1, },
+	internet: { imdb: '0209958', wiki_ua: '%D0%9A%D0%BB%D1%96%D1%82%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2000)', },
+	cast: { jennifer_lopez_24071969: 1, dean_norris_08041963: 1, },
+},
+{
 	id: 'the_book_of_Eli_2010', title: { ua: 'Книга Ілая', en: 'The Book of Eli', }, year: 2010, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { utopia: 1, },
 	internet: { imdb: '1037705', wiki_ua: '%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_%D0%86%D0%BB%D0%B0%D1%8F', },
@@ -2106,6 +2124,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0090859', wiki_ua: '%D0%9A%D0%BE%D0%B1%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { sylvester_stallone_06071946: 1, },
+},
+{
+	id: 'cowboys_aliens_2011', title: { ua: 'Ковбої проти прибульців', en: 'Cowboys & Aliens', }, year: 2011, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { cowboy: 1,  aliens: 1, },
+	internet: { imdb: '0409847', wiki_ua: '%D0%9A%D0%BE%D0%B2%D0%B1%D0%BE%D1%97_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_%D0%BF%D1%80%D0%B8%D0%B1%D1%83%D0%BB%D1%8C%D1%86%D1%96%D0%B2', },
+	cast: { daniel_craig_02031968: 1, harrison_ford_13071942: 1, },
 },
 {
 	id: 'code_8_2019', title: { ua: 'Код 8', en: 'Code 8', }, year: 2019, country: { usa: 1, },
@@ -3212,6 +3236,12 @@ const arrFilms = [
 	cast: { sandra_bullock_26071964: 1, },
 },
 {
+	id: 'Oppenheimer_2023', title: { ua: 'Оппенгеймер', en: 'Oppenheimer', }, year: 2023, country: { usa: 1, gbr: 1, },
+	genre: { drama: 1, }, hash: { real: 1, politic: 1, },
+	internet: { imdb: '15398776', wiki_ua: '%D0%9E%D0%BF%D0%BF%D0%B5%D0%BD%D0%B3%D0%B5%D0%B9%D0%BC%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
+	cast: { emily_blunt_23021983: 1, matt_damon_08101970: 1, robert_downey_jr_01041965: 1, josh_hartnett_21071978: 1, rami_malek_12051981: 1, jason_clarke_17071969: 1, gary_oldman_21031958: 1, casey_affleck_12081975: 1, },
+},
+{
 	id: 'sunset_heat_1992', title: { ua: 'Опівнічна спека', en: 'Sunset Heat', }, year: 1992, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0103006', wiki_ua: '%D0%9E%D0%BF%D1%96%D0%B2%D0%BD%D1%96%D1%87%D0%BD%D0%B0_%D1%81%D0%BF%D0%B5%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
@@ -3764,8 +3794,8 @@ const arrFilms = [
 	cast: { sean_connery_25081930: 1, alec_baldwin_03041958: 1, tim_curry_19041946: 1, },
 },
 {
-	id: 'time_lapse_2014', title: { ua: 'Помилка часу  ', en: 'Time Lapse', }, year: 2014, country: { usa: 1, },
-	genre: { comedy: 1, crime: 1, },
+	id: 'time_lapse_2014', title: { ua: 'Помилка часу', en: 'Time Lapse', }, year: 2014, country: { usa: 1, },
+	genre: { mystic: 1, thriller: 1, }, hash: { time: 1, photo: 1, },
 	internet: { imdb: '2669336', wiki_ua: '%D0%9F%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B0_%D1%87%D0%B0%D1%81%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
@@ -4960,6 +4990,12 @@ const arrFilms = [
 	genre: { parody: 1, comedy: 1, },
 	internet: { imdb: '1333125', wiki_ua: '%D0%A4%D1%96%D0%BB%D1%8C%D0%BC_43', },
 	cast: { richard_gere_31081949: 1, hugh_jackman_12101968: 1, gerard_butler_13111969: 1, seann_william_scott_03101976: 1, halle_berry_14081966: 1, kate_winslet_05101975: 1, naomi_watts_28091968: 1, uma_thurman_29041970: 1, },
+},
+{
+	id: 'the_firm_1993', title: { ua: 'Фірма', en: 'The FirmThe Firm', }, year: 1993, country: { usa: 1, },
+	genre: { thriller: 1, },
+	internet: { imdb: '0106918', wiki_ua: '%D0%A4%D1%96%D1%80%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1993)', },
+	cast: { tom_cruise_03071962: 1, jeanne_tripplehorn_10061963: 1, ed_harris_28111950: 1, gary_busey_29061944: 1, dean_norris_08041963: 1, },
 },
 {
 	id: 'memory_2022', title: { ua: 'Флешбек', en: 'Memory', }, year: 2022, country: { usa: 1, },
