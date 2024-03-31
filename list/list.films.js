@@ -452,6 +452,12 @@ const arrFilms = [
 	cast: { arnold_schwarzenegger_30071947: 1, danny_devito_17111944: 1, },
 },
 {
+	id: 'bohemian_rhapsody_2018', title: { ua: 'Богемна рапсодія', en: 'Bohemian Rhapsody', }, year: 2018, country: { usa: 1, gbr: 1, },
+	genre: { drama: 1, }, hash: { real: 1, },
+	internet: { imdb: '1727824', wiki_ua: '%D0%91%D0%BE%D0%B3%D0%B5%D0%BC%D0%BD%D0%B0_%D1%80%D0%B0%D0%BF%D1%81%D0%BE%D0%B4%D1%96%D1%8F', },
+	cast: { rami_malek_12051981: 1, },
+},
+{
 	id: 'stark_raving_mad_2002', title: { ua: 'Божевільне пограбування', en: 'Stark Raving Mad', }, year: 2002, country: { usa: 1, },
 	genre: { action: 1, crime: 1, comedy: 1, },
 	internet: { imdb: '0286152', wiki_ua: '%D0%91%D0%BE%D0%B6%D0%B5%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%B5_%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F', },
@@ -1639,6 +1645,12 @@ const arrFilms = [
 	cast: { gerard_butler_13111969: 1, },
 },
 {
+	id: 'iron_man_2008', title: { ua: 'Залізна людина', en: 'Iron Man', }, year: 2008, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { superhero: 1, },
+	internet: { imdb: '0371746', wiki_ua: '%D0%97%D0%B0%D0%BB%D1%96%D0%B7%D0%BD%D0%B0_%D0%BB%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { robert_downey_jr_01041965: 1, gwyneth_paltrow_27091972: 1, samuel_l_jackson_21121948: 1, },
+},
+{
 	id: 'chill_factor_1999', title: { ua: 'Заморожений жах', en: 'Chill Factor', }, year: 1999, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, hash: { cars: 1, },
 	internet: { imdb: '0163579', wiki_ru: '%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80_%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0', },
@@ -2457,7 +2469,13 @@ const arrFilms = [
 	cast: { liam_neeson_07061952: 1, },
 },
 {
-	id: 'x_men_2006', title: { ua: 'Люди Ікс: Остання битва', en: 'X-Men: The Last Stand', }, year: 2006, country: { gbr: 1, usa: 1, can: 1,},
+	id: 'men_in_black_1997', title: { ua: 'Люди в чорному', en: 'Men in Black', }, year: 1997, country: { gbr: 1, },
+	genre: { action: 1, comedy: 1, },
+	internet: { imdb: '0119654', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8_%D0%B2_%D1%87%D0%BE%D1%80%D0%BD%D0%BE%D0%BC%D1%83', },
+	cast: { tommy_lee_jones_15091946: 1, will_smith_25091968: 1, },
+},
+{
+	id: 'x_men_2006', title: { ua: 'Люди Ікс: Остання битва', en: 'X-Men: The Last Stand', }, year: 2006, country: { gbr: 1, usa: 1, can: 1, },
 	genre: { action: 1, sci_fi: 1, },
 	internet: { imdb: '0376994', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8_%D0%86%D0%BA%D1%81:_%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0', },
 	cast: { hugh_jackman_12101968: 1, halle_berry_14081966: 1, james_marsden_18091973: 1, bill_duke_26021943: 1, },
@@ -2590,6 +2608,11 @@ const arrFilms = [
 	genre: { sci_fi: 1, }, hash: { shark: 1, underwater: 1, },
 	internet: { imdb: '4779682', wiki_ua: '%D0%9C%D0%B5%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { jason_statham_26071967: 1, },
+},
+{
+	id: 'memoirs_of_a_geisha_2005', title: { ua: 'Мемуари гейші', en: 'Memoirs of a Geisha', }, year: 2005, country: { usa: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '0397535', wiki_ua: '%D0%9C%D0%B5%D0%BC%D1%83%D0%B0%D1%80%D0%B8_%D0%B3%D0%B5%D0%B9%D1%88%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'the_net_1995', title: { ua: 'Мережа', en: 'The Net', }, year: 1995, country: { usa: 1, }, rating: 5,
@@ -3051,6 +3074,12 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, samuel_l_jackson_21121948: 1, },
 },
 {
+	id: 'the_incredible_Hulk_2008', title: { ua: 'Неймовірний Халк', en: ' The Incredible Hulk', }, year: 2008, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { superhero: 1, },
+	internet: { imdb: '0800080', wiki_ua: '%D0%9D%D0%B5%D0%B9%D0%BC%D0%BE%D0%B2%D1%96%D1%80%D0%BD%D0%B8%D0%B9_%D0%A5%D0%B0%D0%BB%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { bruce_willis_19031955: 1, samuel_l_jackson_21121948: 1, },
+},
+{
 	id: 'Bill_&_Ted_1989', title: { ua: 'Неймовірні пригоди Білла і Теда', en: ' Bill & Ted\'s Excellent Adventure', }, year: 1989, country: { usa: 1, },
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '0096928', },
@@ -3141,6 +3170,12 @@ const arrFilms = [
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0086006', wiki_ua: '%D0%9D%D1%96%D0%BA%D0%BE%D0%BB%D0%B8_%D0%BD%D0%B5_%D0%BA%D0%B0%D0%B6%D0%B8_%D0%BD%D1%96%D0%BA%D0%BE%D0%BB%D0%B8', ashdivip: '3307', },
 	cast: { sean_connery_25081930: 1, kim_basinger_08121953: 1, },
+},
+{
+	id: 'night_at_the_museum_2006', title: { ua: 'Ніч у музеї', en: 'Night at the Museum', }, year: 2006, country: { usa: 1, },
+	genre: { comedy: 1, fantasy: 1, }, 
+	internet: { imdb: '0477347', wiki_ua: '%D0%9D%D1%96%D1%87_%D1%83_%D0%BC%D1%83%D0%B7%D0%B5%D1%97', },
+	cast: { ben_stiller_30111965: 1, },
 },
 {
 	id: 'night_train_2023', title: { ua: 'Нічний поїзд', en: 'Night Train', }, year: 2023, country: { usa: 1, },
@@ -3786,6 +3821,11 @@ const arrFilms = [
 	genre: { drama: 1, crime: 1, }, hash: { police: 1, cars: 1, },
 	internet: { imdb: '4558200', wiki_ru: '%D0%9F%D0%BE%D0%BB%D0%B8%D1%86%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B5%D0%B4%D0%B0%D0%BD', ashdivip: '49131', },
 	cast: { bridget_moynahan_28041971: 1, },
+},
+{
+	id: 'poltergeist_1982', title: { ua: 'Полтергейст', en: 'Poltergeist', }, year: 1982, country: { usa: 1, },
+	genre: { horror: 1, thriller: 1, },
+	internet: { imdb: '0084516', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%82%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%D1%81%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1982)', },
 },
 {
 	id: 'the_hunt_for_red_october_1990', title: { ua: 'Полювання на Червоний Жовтень', en: 'The Hunt for Red October', }, year: 1990, country: { usa: 1, },
@@ -4713,6 +4753,11 @@ const arrFilms = [
 	internet: { imdb: '12758060', wiki_ua: '%D0%A2%D0%B5%D1%82%D1%80%D1%96%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
+	id: 'the_texas_chain_saw_massacre_1974', title: { ua: 'Техаська різанина бензопилою', en: 'The Texas Chain Saw Massacre', }, year: 1974, country: { usa: 1, },
+	genre: { horror: 1, },
+	internet: { imdb: '0072271', wiki_ua: '%D0%A2%D0%B5%D1%85%D0%B0%D1%81%D1%8C%D0%BA%D0%B0_%D1%80%D1%96%D0%B7%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0_%D0%B1%D0%B5%D0%BD%D0%B7%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%8E_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1974)', },
+},
+{
 	id: 'a_thousand_words_2012', title: { ua: 'Тисяча слів', en: 'A Thousand Words', }, year: 2012, country: { usa: 1, },
 	genre: { comedy: 1, fantasy: 1, },
 	internet: { imdb: '0763831', wiki_ua: '%D0%A2%D0%B8%D1%81%D1%8F%D1%87%D0%B0_%D1%81%D0%BB%D1%96%D0%B2', },
@@ -5159,6 +5204,12 @@ const arrFilms = [
 	genre: { thriller: 1, drama: 1, crime: 1, },
 	internet: { imdb: '0780571', wiki_ua: '%D0%A5%D1%82%D0%BE_%D0%B2%D0%B8,_%D0%BC%D1%96%D1%81%D1%82%D0%B5%D1%80%D0%B5_%D0%91%D1%80%D1%83%D0%BA%D1%81%3F', },
 	cast: { kevin_costner_18011955: 1, demi_moore_11111962: 1, },
+},
+{
+	id: 'who_framed_Roger_rabbit_1988', title: { ua: 'Хто підставив кролика Роджера', en: 'Who Framed Roger Rabbit', }, year: 1988, country: { usa: 1, },
+	genre: { comedy: 1, fantasy: 1, },
+	internet: { imdb: '0096438', wiki_ua: '%D0%A5%D1%82%D0%BE_%D0%BF%D1%96%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%B2_%D0%BA%D1%80%D0%BE%D0%BB%D0%B8%D0%BA%D0%B0_%D0%A0%D0%BE%D0%B4%D0%B6%D0%B5%D1%80%D0%B0%3F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { christopher_lloyd_22101938: 1, },
 },
 {
 	id: 'the_godfather_1972', title: { ua: 'Хрещений батько', en: 'The Godfather', }, year: 1972, country: { usa: 1, },
