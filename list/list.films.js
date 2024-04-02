@@ -2841,6 +2841,12 @@ const arrFilms = [
 	cast: { aaron_eckhart_12031968: 1, },	
 },
 {
+	id: 'battleship_2012', title: { ua: 'Морський бій', en: 'Battleship', }, year: 2012, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1,  }, hash: { sea: 1, battle: 1, },
+	internet: { imdb: '1440129', wiki_ua: '%D0%9C%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%B1%D1%96%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { liam_neeson_07061952: 1, rihanna_20021988: 1, },	
+},
+{
 	id: 'extremely_loud_incredibly_close_2011', title: { ua: 'Моторошно голосно і несамовито близько', en: 'Extremely Loud & Incredibly Close', }, year: 2011, country: { usa: 1, },
 	genre: { drama: 1, disaster: 1, }, hash: { newyork: 1, },
 	internet: { imdb: '0477302', wiki_ua: '%D0%A1%D1%82%D1%80%D0%B0%D1%88%D0%B5%D0%BD%D0%BD%D0%BE_%D0%B3%D0%BE%D0%BB%D0%BE%D1%81%D0%BD%D0%BE_%D1%96_%D0%BD%D0%B5%D0%B9%D0%BC%D0%BE%D0%B2%D1%96%D1%80%D0%BD%D0%BE_%D0%B1%D0%BB%D0%B8%D0%B7%D1%8C%D0%BA%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -4948,6 +4954,11 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, donald_sutherland_17071935: 1, tom_sizemore_29111961: 1, danny_trejo_16051944: 1, },
 },
 {
+	id: 'into_the_white_2012', title: { ua: 'У білому полоні', en: 'Into the White', }, year: 2012, country: { nor: 1, swe: 1, }, 
+	genre: { war: 1, drama: 1, }, hash: { war2: 1, winter: 1, },
+	internet: { imdb: '1876277', wiki_ua: '%D0%A3_%D1%81%D0%BD%D1%96%D0%B6%D0%BD%D0%BE%D0%BC%D1%83_%D0%BF%D0%BE%D0%BB%D0%BE%D0%BD%D1%96', },
+},
+{
 	id: 'some_like_it_hot_1959', title: { ua: 'У джазі тільки дівчата', en: 'Some Like It Hot', }, year: 1959, country: { usa: 1, }, rating: 5,
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '0053291', wiki_ua: '%D0%A3_%D0%B4%D0%B6%D0%B0%D0%B7%D1%96_%D1%82%D1%96%D0%BB%D1%8C%D0%BA%D0%B8_%D0%B4%D1%96%D0%B2%D1%87%D0%B0%D1%82%D0%B0', },
@@ -5409,6 +5420,12 @@ const arrFilms = [
 	genre: { action: 1, },
 	internet: { imdb: '0111400', wiki_ru: '%D0%A1%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%8C_%D0%BF%D0%B0%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 	cast: { charlie_sheen_03091965: 1, nastassja_kinski_24011961: 1, },
+},
+{
+	id: 'Sherlock_Holmes_2009', title: { ua: 'Шерлок Холмс', en: 'Sherlock Holmes', }, year: 2009, country: { usa: 1, gbr: 1, },
+	genre: { detective: 1, },
+	internet: { imdb: '0988045', wiki_ua: '%D0%A8%D0%B5%D1%80%D0%BB%D0%BE%D0%BA_%D0%A5%D0%BE%D0%BB%D0%BC%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { robert_downey_jr_01041965: 1, },
 },
 {
 	id: 'six_days_seven_nights_1998', title: { ua: 'Шість днів сім ночей', en: 'Six Days Seven Nights', }, year: 1998, country: { usa: 1, }, rating: 5,
