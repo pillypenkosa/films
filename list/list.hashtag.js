@@ -63,6 +63,7 @@ const arrHashTags = [
 	{ id: 'island' 			, title: 'острів' 				, app: { films: 1, }, }, 
 	{ id: 'skydive' 		, title: 'парашюти' 			, app: { films: 1, }, },
 	{ id: 'trap' 			, title: 'пастка' 				, app: { films: 1, }, }, // випадкові смертельні пастки
+	{ id: 'spider' 			, title: 'паук' 				, app: { films: 1, }, }, // випадкові смертельні пастки
 	{ id: 'race' 			, title: 'перегони' 			, app: { films: 1, }, },
 	{ id: 'underwater' 		, title: 'підВодою' 			, app: { films: 1, }, },
 	{ id: 'pirates' 		, title: 'пірати' 				, app: { films: 1, }, },
@@ -74,7 +75,7 @@ const arrHashTags = [
 	{ id: 'police' 			, title: 'поліція' 				, app: { films: 1, }, },
 	{ id: 'hunting' 		, title: 'полюванняНаЛюдину' 	, app: { films: 1, }, },
 	{ id: 'justice' 		, title: 'правосуддя' 			, app: { films: 1, }, }, 
-	{ id: 'ghost' 			, title: 'привид' 			, app: { films: 1, }, }, 
+	{ id: 'ghost' 			, title: 'привид' 				, app: { films: 1, }, }, 
 	{ id: 'psycho' 			, title: 'психо' 				, app: { films: 1, }, }, // зламай мозок
 	{ id: 'desert' 			, title: 'пустеля' 				, app: { films: 1, }, },
 	{ id: 'robot' 			, title: 'роботи' 				, app: { films: 1, }, },

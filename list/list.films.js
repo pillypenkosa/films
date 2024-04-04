@@ -2306,6 +2306,12 @@ const arrFilms = [
 	cast: { bill_pullman_17121953: 1, },
 },
 {
+	id: 'spaceman_2024', title: { ua: 'Космонавт', en: 'Spaceman', }, year: 2024, country: { usa: 1, },
+	genre: { sci_fi: 1, drama: 1, }, hash: { space: 1, aliens: 1, spider: 1, },
+	internet: { imdb: '11097384', wiki_ua: '%D0%90%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%B0%D0%B2%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
+	cast: { adam_sandler_09091966: 1, },
+},
+{
 	id: 'honey_i_shrunk_the_kids_1989', title: { ua: 'Кохана, я зменшив дітей', en: 'Honey I Shrunk the Kids', }, year: 1989, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, sci_fi: 1, adventure: 1, },
 	internet: { imdb: '0097523', wiki_ua: '%D0%9B%D1%8E%D0%B1%D0%B0,_%D1%8F_%D0%B7%D0%BC%D0%B5%D0%BD%D1%88%D0%B8%D0%B2_%D0%B4%D1%96%D1%82%D0%B5%D0%B9', },
