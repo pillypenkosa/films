@@ -164,6 +164,12 @@ const arrFilms = [
 	cast: { marilyn_monroe_01061926: 1, },
 },
 {
+	id: 'crash_1996', title: { ua: 'Автокатастрофа', en: 'Crash', }, year: 1996, country: { can: 1, gbr: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '0115964', wiki_ua: '%D0%90%D0%B2%D1%82%D0%BE%D0%BA%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { james_spader_07021960: 1, },
+},
+{
 	id: 'runaway_car_1996', title: { ua: 'Автомобіль-утікач', en: 'Runaway Car', }, year: 1996, country: { usa: 1, }, rating: '5+',
 	genre: { thriller: 1, }, hash: { trap: 1, cars: 1, road: 1, },
 	internet: { imdb: '0120041', },
@@ -587,6 +593,12 @@ const arrFilms = [
 	cast: { julianne_moore_03121960: 1, steve_buscemi_13121957: 1, },
 },
 {
+	id: 'big_daddy_1999', title: { ua: 'Великий тато', en: 'Big Daddy', }, year: 1999, country: { usa: 1, },
+	genre: { comedy: 1, drama: 1, },
+	internet: { imdb: '0142342', wiki_ua: '%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D1%82%D0%B0%D1%82%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', },
+	cast: { adam_sandler_09091966: 1, steve_buscemi_13121957: 1, },
+},
+{
 	id: 'vertical_limit_2000', title: { ua: 'Вертикальна межа', en: 'Vertical Limit', }, year: 2000, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, adventure: 1, }, hash: { mountains: 1, winter: 1, },
 	internet: { imdb: '0190865', wiki_ua: '%D0%92%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%BC%D0%B5%D0%B6%D0%B0', },
@@ -778,6 +790,12 @@ const arrFilms = [
 	id: 'the_octopuses_from_the_second_floor_1987', title: { ua: 'Восьминіжки з другого поверху', en: 'The Octopuses from the Second Floor', }, year: 1987, country: { cze: 1, deu: 1, },
 	genre: { serial: 1, sci_fi: 1, comedy: 1, adventure: 1, }, hash: { animal: 1, children: 1, },
 	internet: { imdb: '0090834', wiki_ru: '%D0%9E%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D0%BE%D0%B6%D0%BA%D0%B8_%D1%81%D0%BE_%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE_%D1%8D%D1%82%D0%B0%D0%B6%D0%B0', },
+},
+{
+	id: 'catch_me_if_you_can_2002', title: { ua: 'Впіймай мене, якщо зможеш', en: 'Catch Me If You Can', }, year: 2002, country: { usa: 1, },
+	genre: { detective: 1, crime: 1, drama: 1,  },
+	internet: { imdb: '0264464', wiki_ua: '%D0%92%D0%BF%D1%96%D0%B9%D0%BC%D0%B0%D0%B9_%D0%BC%D0%B5%D0%BD%D0%B5,_%D1%8F%D0%BA%D1%89%D0%BE_%D0%B7%D0%BC%D0%BE%D0%B6%D0%B5%D1%88', },
+	cast: { leonardo_dicaprio_11111974: 1, tom_hanks_09071956: 1, martin_sheen_03081940: 1, },
 },
 {
 	id: 'saving_private_Ryan_1998', title: { ua: 'Врятувати рядового Раяна', en: 'Saving Private Ryan', }, year: 1998, country: { usa: 1, }, rating: 5,
@@ -1062,6 +1080,12 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, },
 },
 {
+	id: 'gattaca_1997', title: { ua: 'Ґаттака', en: 'Gattaca', }, year: 1997, country: { usa: 1, },
+	genre: { sci_fi: 1, thriller: 1, },
+	internet: { imdb: '0119177', wiki_ua: '%D0%93%D0%B0%D1%82%D1%82%D0%B0%D0%BA%D0%B0', },
+	cast: { uma_thurman_29041970: 1, dean_norris_08041963: 1, },
+},
+{
 	id: 'gran_turismo_2023', title: { ua: 'Ґран Туризмо', en: 'Gran Turismo', }, year: 2023, country: { usa: 1, },
 	genre: { drama: 1, }, hash: { race: 1, cars: 1, cyber: 1, },
 	internet: { imdb: '4495098', wiki_ua: '%D2%90%D1%80%D0%B0%D0%BD_%D0%A2%D1%83%D1%80%D0%B8%D0%B7%D0%BC%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1200,6 +1224,12 @@ const arrFilms = [
 	genre: { action: 1, },
 	internet: { imdb: '3393786', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BA_%D0%A0%D1%96%D1%87%D0%B5%D1%80:_%D0%9D%D0%B5_%D0%B2%D1%96%D0%B4%D1%81%D1%82%D1%83%D0%BF%D0%B0%D0%B9', },
 	cast: { tom_cruise_03071962: 1, },
+},
+{
+	id: 'Joe_Versus_the_volcano_1990', title: { ua: 'Джо проти вулкану', en: 'Joe Versus the Volcano', }, year: 1990, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '0099892', wiki_ua: '%D0%94%D0%B6%D0%BE_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_%D0%B2%D1%83%D0%BB%D0%BA%D0%B0%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { tom_hanks_09071956: 1, meg_ryan_19111961: 1, },
 },
 {
 	id: 'Jobs_2013', title: { ua: 'Джобс: Імперія спокуси', en: 'Jobs', }, year: 2013, country: { usa: 1, },
@@ -1420,6 +1450,12 @@ const arrFilms = [
 	genre: { horror: 1, comedy: 1, }, hash: { young: 1, },
 	internet: { imdb: '0795461', wiki_ua: '%D0%94%D1%83%D0%B6%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%B5_%D0%BA%D1%96%D0%BD%D0%BE_5',	},
 	cast: { charlie_sheen_03091965: 1, heather_locklear_25091961: 1, snoop_dogg_20101971: 1, mike_tyson_30061966: 1, },
+},
+{
+	id: 'Dolittle_2020', title: { ua: 'Дулітл', en: 'Dolittle', }, year: 2020, country: { usa: 1, },
+	genre: { comedy: 1, adventure: 1, },
+	internet: { imdb: '6673612', wiki_ua: '%D0%94%D1%83%D0%BB%D1%96%D1%82%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2020)', },
+	cast: { robert_downey_jr_01041965: 1, antonio_banderas_10081960: 1, },
 },
 {
 	id: 'the_wraith_1986', title: { ua: 'Дух помсти', en: 'The Wraith', }, year: 1986, country: { usa: 1, },
@@ -1754,6 +1790,12 @@ const arrFilms = [
 	genre: { fantasy: 1, adventure: 1, }, hash: { world: 1, },
 	internet: { imdb: '1964418', wiki_ua: '%D0%97%D0%B5%D0%BC%D0%BB%D1%8F_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%8C%D0%BE%D0%B3%D0%BE:_%D0%A1%D0%B2%D1%96%D1%82_%D0%B7%D0%B0_%D0%BC%D0%B5%D0%B6%D0%B0%D0%BC%D0%B8', },
 	cast: { george_clooney_06051961: 1, },
+},
+{
+	id: 'deep_impact_1998', title: { ua: 'Зіткнення з безоднею', en: 'Deep Impact', }, year: 1998, country: { usa: 1, }, 
+	genre: { action: 1, sci_fi: 1, },
+	internet: { imdb: '0120647', wiki_ua: '%D0%97%D1%96%D1%82%D0%BA%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B7_%D0%B1%D0%B5%D0%B7%D0%BE%D0%B4%D0%BD%D0%B5%D1%8E_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { elijah_wood_28011981: 1, morgan_freeman_01061937: 1, },
 },
 {
 	id: 'broken_bars_1995', title: { ua: 'Зламані прути', en: 'Broken Bars', }, year: 1995, country: { usa: 1, },
@@ -2118,6 +2160,12 @@ const arrFilms = [
 	id: 'escape_room_2017', title: { ua: 'Клаустрофобія', en: 'Escape Room', }, year: 2017, country: { usa: 1, }, rating: 5,
 	genre: { horror: 1, thriller: 1, }, hash: { quest: 1, surviving: 1, },
 	internet: { imdb: '5159414', wiki_ua: '%D0%9A%D0%BB%D0%B0%D1%83%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%BE%D0%B1%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: 'click_2006', title: { ua: 'Клік: З пультом по життю', en: 'Click', }, year: 2006, country: { usa: 1, },
+	genre: { fantasy: 1, comedy: 1, },
+	internet: { imdb: '0389860', wiki_ua: '%D0%9A%D0%BB%D1%96%D0%BA:_%D0%97_%D0%BF%D1%83%D0%BB%D1%8C%D1%82%D0%BE%D0%BC_%D0%BF%D0%BE_%D0%B6%D0%B8%D1%82%D1%82%D1%8E', },
+	cast: { adam_sandler_09091966: 1, kate_beckinsale_26071973: 1, },
 },
 {
 	id: 'the_cell_2000', title: { ua: 'Клітка', en: 'The Cell', }, year: 2000, country: { usa: 1, deu: 1, },
@@ -2510,6 +2558,12 @@ const arrFilms = [
 	internet: { imdb: '0097768', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D0%BE%D0%BC%D0%B0%D1%80_%D0%B7_%D0%9C%D0%B0%D1%80%D1%81%D0%B0', },
 },
 {
+	id: 'spider_man_2002', title: { ua: 'Людина-павук', en: 'Spider-Man', }, year: 2002, country: { usa: 1, },
+	genre: { sci_fi: 1, action: 1, }, hash: { superhero: 1, spider: 1, },
+	internet: { imdb: '0145487', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D0%BF%D0%B0%D0%B2%D1%83%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2002)', ashdivip: '50998', },
+	cast: { tobey_maguire_27061975: 1, willem_dafoe_22071955: 1, },
+},
+{
 	id: 'the_elephant_man_1980', title: { ua: 'Людина-слон', en: 'The Elephant Man', }, year: 1980, country: { usa: 1, },
 	genre: { drama: 1,  }, hash: { mutant: 1, },
 	internet: { imdb: '0080678', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D1%81%D0%BB%D0%BE%D0%BD', },
@@ -2530,6 +2584,11 @@ const arrFilms = [
 	id: 'the_gods_must_be_crazy_2_1989', title: { ua: 'Мабуть боги з\'їхали з глузду - 2', en: 'The Gods Must Be Crazy II', }, year: 1989, country: { zaf: 1, bwa: 1, usa: 1, }, rating: 5,
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '0097443', wiki_ua: '%D0%9C%D0%B0%D0%B1%D1%83%D1%82%D1%8C,_%D0%B1%D0%BE%D0%B3%D0%B8_%D0%B7%27%D1%97%D1%85%D0%B0%D0%BB%D0%B8_%D0%B7_%D0%B3%D0%BB%D1%83%D0%B7%D0%B4%D1%83_II', },
+},
+{
+	id: 'madame_web_2024', title: { ua: 'Мадам Павутина', en: 'Madame Web', }, year: 2024, country: { usa: 1, },
+	genre: { sci_fi: 1, action: 1, }, hash: { spider: 1, },
+	internet: { imdb: '11057302', wiki_ua: '%D0%9C%D0%B0%D0%B4%D0%B0%D0%BC_%D0%9F%D0%B0%D0%B2%D1%83%D1%82%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'maximum_overdrive_1986', title: { ua: 'Максимальне прискорення', en: 'Maximum Overdrive', }, year: 1986, country: { usa: 1, },
@@ -3372,6 +3431,11 @@ const arrFilms = [
 	cast: { vin_diesel_18071967: 1, rose_leslie_09021987: 1, elijah_wood_28011981: 1, },
 },
 {
+	id: 'Austin_Powers_1997', title: { ua: 'Остін Паверс: Міжнародний таємний агент', en: 'Austin Powers', }, year: 1997, country: { usa: 1, },
+	genre: { comedy: 1, adventure: 1, },
+	internet: { imdb: '0118655', wiki_ua: '%D0%9E%D1%81%D1%82%D1%96%D0%BD_%D0%9F%D0%B0%D0%B2%D0%B5%D1%80%D1%81:_%D0%9C%D1%96%D0%B6%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0_%D0%BB%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BA%D0%B0', },
+},
+{
 	id: 'cutthroat_island_1995', title: { ua: 'Острів Головорізів', en: 'Cutthroat Island', }, year: 1995, country: { fra: 1, deu: 1, ita: 1, usa: 1, },
 	genre: { adventure: 1, }, hash: { sea: 1, ship: 1, island: 1, treasure: 1, pirates: 1, travel: 1, },
 	internet: { imdb: '0112760', wiki_ua: '%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%B3%D0%BE%D1%80%D0%BB%D0%BE%D1%80%D1%96%D0%B7%D1%96%D0%B2', },
@@ -3489,6 +3553,12 @@ const arrFilms = [
 	genre: { drama: 1, mystic: 1, }, 
 	internet: { imdb: '0477071', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D1%87%D1%83%D1%82%D1%82%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2007)', },
 	cast: { sandra_bullock_26071964: 1, },
+},
+{
+	id: 'the_negotiator_1998', title: { ua: 'Перемовник', en: 'The Negotiator', }, year: 1998, country: { usa: 1, deu: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '0120768', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { samuel_l_jackson_21121948: 1,kevin_spacey_26071959: 1, david_morse_11101953: 1, dean_norris_08041963: 1, },
 },
 {
 	id: 'bad_country_2014', title: { ua: 'Перехресний вогонь', en: 'Bad Country', }, year: 2014, country: { usa: 1, },
@@ -4285,6 +4355,12 @@ const arrFilms = [
 	cast: { john_travolta_18021954: 1, robert_de_niro_17081943: 1, },
 },
 {
+	id: 'sex_lies_and_videotape_1989', title: { ua: 'Секс, брехня та відео', en: 'Sex, Lies, and Videotape', }, year: 1989, country: { usa: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '0098724', wiki_ua: '%D0%A1%D0%B5%D0%BA%D1%81,_%D0%B1%D1%80%D0%B5%D1%85%D0%BD%D1%8F_%D1%96_%D0%B2%D1%96%D0%B4%D0%B5%D0%BE', },
+	cast: { james_spader_07021960: 1, },
+},
+{
 	id: 'sgt_Bilko_1996', title: { ua: 'Сержант Білко', en: 'Sgt. Bilko', }, year: 1996, country: { usa: 1, },
 	genre: { comedy: 1, }, hash: { army: 1, },
 	internet: { imdb: '0117608', wiki_ua: '%D0%A1%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D1%82_%D0%91%D1%96%D0%BB%D0%BA%D0%BE', },
@@ -4377,6 +4453,46 @@ const arrFilms = [
 	internet: { imdb: '0117500', wiki_ua: '%D0%A1%D0%BA%D0%B5%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '13859', },
 	cast: { sean_connery_25081930: 1, nicolas_cage_07011964: 1, ed_harris_28111950: 1, david_morse_11101953: 1, michael_biehn_31071956: 1, claire_forlani_01071972: 1, },
 },
+
+
+
+
+
+
+
+
+{
+	id: 'fraggle_rock_1983', title: { ua: 'Скеля Фрегглів', en: 'Fraggle Rock', }, year: 1983, country: { usa: 1, can: 1, gbr: 1, }, 
+
+
+
+
+
+	genre: { serial: 1, }, 
+	
+
+
+
+	internet: { imdb: '', wiki_ua: '', },
+
+
+
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'throw_momma_from_the_train_1987', title: { ua: 'Скинь маму з поїзда', en: 'Throw Momma from the Train', }, year: 1987, country: { usa: 1, },
 	genre: { comedy: 1, crime: 1, }, hash: { train: 1, },
@@ -4594,6 +4710,18 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, utopia: 1, },
 	internet: { imdb: '0483607', wiki_ua: '%D0%A1%D1%83%D0%B4%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { rhona_mitra_09081976: 1, },
+},
+{
+	id: 'super_8_2011', title: { ua: 'Супер 8', en: 'Super 8', }, year: 2011, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, },
+	internet: { imdb: '1650062', wiki_ua: '%D0%A1%D1%83%D0%BF%D0%B5%D1%80_8', },
+	cast: { kyle_chandler_17091965: 1, },
+},
+{
+	id: 'supernova_2000', title: { ua: 'Супернова', en: 'Supernova', }, year: 2000, country: { usa: 1, che: 1, },
+	genre: { horror: 1, sci_fi: 1, },
+	internet: { imdb: '0134983', wiki_ua: '%D0%9D%D0%B0%D0%B4%D0%BD%D0%BE%D0%B2%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { james_spader_07021960: 1, },
 },
 {
 	id: 'surrogates_2009', title: { ua: 'Сурогати', en: 'Surrogates', }, year: 2009, country: { usa: 1, },
