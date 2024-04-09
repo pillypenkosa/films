@@ -4453,46 +4453,11 @@ const arrFilms = [
 	internet: { imdb: '0117500', wiki_ua: '%D0%A1%D0%BA%D0%B5%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '13859', },
 	cast: { sean_connery_25081930: 1, nicolas_cage_07011964: 1, ed_harris_28111950: 1, david_morse_11101953: 1, michael_biehn_31071956: 1, claire_forlani_01071972: 1, },
 },
-
-
-
-
-
-
-
-
 {
 	id: 'fraggle_rock_1983', title: { ua: 'Скеля Фрегглів', en: 'Fraggle Rock', }, year: 1983, country: { usa: 1, can: 1, gbr: 1, }, 
-
-
-
-
-
 	genre: { serial: 1, }, 
-	
-
-
-
-	internet: { imdb: '', wiki_ua: '', },
-
-
-
-
+	internet: { imdb: '0085017', },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'throw_momma_from_the_train_1987', title: { ua: 'Скинь маму з поїзда', en: 'Throw Momma from the Train', }, year: 1987, country: { usa: 1, },
 	genre: { comedy: 1, crime: 1, }, hash: { train: 1, },
