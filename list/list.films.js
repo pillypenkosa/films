@@ -3053,6 +3053,11 @@ const arrFilms = [
 	cast: { kurt_russell_17031951: 1, halle_berry_14081966: 1, steven_seagal_10041952: 1, joe_morton_18101947: 1, },
 },
 {
+	id: 'due_justice_2023', title: { ua: 'Належне правосуддя', en: 'Due Justice ', }, year: 2023, country: { usa: 1, }, 
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '14791590', },
+},
+{
 	id: 'lockout_2012', title: { ua: 'Напролом', en: 'Lockout', }, year: 2012, country: { fra: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, },
 	internet: { imdb: '1592525', wiki_ua: '%D0%9D%D0%B0%D0%BF%D1%80%D0%BE%D0%BB%D0%BE%D0%BC', },
@@ -5442,6 +5447,11 @@ const arrFilms = [
 	genre: { action: 1, },
 	internet: { imdb: '0120851', wiki_ua: '%D0%A7%D0%B8%D1%81%D1%82%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', },
 	cast: { dolph_lundgren_03111957: 1, claire_stansfield_27081964: 1, },
+},
+{
+	id: 'nuts_1987', title: { ua: 'Чокнуті', en: 'Nuts', }, year: 1987, country: { usa: 1, },
+	genre: { thriller: 1, },
+	internet: { imdb: '0093660', wiki_ua: '%D0%A7%D0%BE%D0%BA%D0%BD%D1%83%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'black_dog_1998', title: { ua: 'Чорний пес', en: 'Black Dog', }, year: 1998, country: { usa: 1, }, rating: 5,

@@ -63,7 +63,7 @@ const arrHashTags = [
 	{ id: 'island' 			, title: 'острів' 				, app: { films: 1, }, }, 
 	{ id: 'skydive' 		, title: 'парашюти' 			, app: { films: 1, }, },
 	{ id: 'trap' 			, title: 'пастка' 				, app: { films: 1, }, }, // випадкові смертельні пастки
-	{ id: 'spider' 			, title: 'паук' 				, app: { films: 1, }, }, // випадкові смертельні пастки
+	{ id: 'spider' 			, title: 'павук' 				, app: { films: 1, }, }, 
 	{ id: 'race' 			, title: 'перегони' 			, app: { films: 1, }, },
 	{ id: 'underwater' 		, title: 'підВодою' 			, app: { films: 1, }, },
 	{ id: 'pirates' 		, title: 'пірати' 				, app: { films: 1, }, },
