@@ -2428,6 +2428,11 @@ const arrFilms = [
 	internet: { imdb: '15153532', wiki_ua: '%D0%91%D1%80%D0%BE%D0%B4%D1%8F%D0%B3%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', ashdivip: '111951', },
 },
 {
+	id: 'bullet_proof_2022', title: { ua: 'Куленепробивний', en: 'Bullet Proof', }, year: 2022, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '10198564', },
+},
+{
 	id: 'bullet_1996', title: { ua: 'Куля', en: 'Bullet', }, year: 1996, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0115781', wiki_ru: '%D0%9F%D1%83%D0%BB%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1996)', },
@@ -3339,6 +3344,11 @@ const arrFilms = [
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0240772', wiki_ua: '%D0%9E%D0%B4%D0%B8%D0%BD%D0%B0%D0%B4%D1%86%D1%8F%D1%82%D1%8C_%D0%B4%D1%80%D1%83%D0%B7%D1%96%D0%B2_%D0%9E%D1%83%D1%88%D0%B5%D0%BD%D0%B0', },
 	cast: { george_clooney_06051961: 1, brad_pitt_18121963: 1, matt_damon_08101970: 1, julia_roberts_28101967: 1, andy_garcia_12041956: 1, casey_affleck_12081975: 1, don_cheadle_29111964: 1, },
+},
+{
+	id: 'army_of_one_2020', title: { ua: 'Одна в полі воїн', en: 'Army of One', }, year: 2020, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '7153488', },
 },
 {
 	id: 'the_heat_2013', title: { ua: 'Озброєні і небезпечні', en: 'The Heat', }, year: 2013, country: { usa: 1, },
@@ -5108,6 +5118,12 @@ const arrFilms = [
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '0091093', wiki_ua: '%D0%92%D1%82%D1%96%D0%BA%D0%B0%D1%87%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { pierre_richard_16081934: 1, gerard_depardieu_27121948: 1, },
+},
+{
+	id: 'lone_survivor_2013', title: { ua: 'Уцілілий', en: 'Lone Survivor', }, year: 2013, country: { usa: 1, },
+	genre: { action: 1, }, hash: { army: 1, },
+	internet: { imdb: '1091191', wiki_ua: '%D0%A3%D1%86%D1%96%D0%BB%D1%96%D0%BB%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { mark_wahlberg_05061971: 1, },
 },
 {
 	id: 'bad_teacher_2011', title: { ua: 'Училка', en: 'Bad Teacher', }, year: 2011, country: { usa: 1, },
