@@ -1214,6 +1214,11 @@ const arrFilms = [
 	internet: { imdb: '21249808', wiki_ua: '', },
 },
 {
+	id: 'Jack_the_ripper_1988', title: { ua: 'Джек-різник', en: 'Jack the Ripper', }, year: 1988, country: { usa: 1, gbr: 1, },
+	genre: { crime: 1, detective: 1, },
+	internet: { imdb: '0095388', wiki_ru: '%D0%94%D0%B6%D0%B5%D0%BA-%D0%BF%D0%BE%D1%82%D1%80%D0%BE%D1%88%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1988)', },
+},
+{
 	id: 'Jack_Reacher_2012', title: { ua: 'Джек Річер', en: 'Jack Reacher', }, year: 2012, country: { usa: 1, },
 	genre: { action: 1, },
 	internet: { imdb: '0790724', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BA_%D0%A0%D1%96%D1%87%D0%B5%D1%80', },
@@ -2716,9 +2721,15 @@ const arrFilms = [
 },
 {
 	id: 'ghostbusters_1984', title: { ua: 'Мисливці за привидами', en: 'Ghostbusters', }, year: 1984, country: { usa: 1, },
-	genre: { action: 1, fantasy: 1, comedy: 1, },
+	genre: { action: 1, fantasy: 1, comedy: 1, }, hash: { ghost: 1, },
 	internet: { imdb: '0087332', wiki_ua: '%D0%9C%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D1%86%D1%96_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B8%D0%B2%D0%B8%D0%B4%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1984)', },
 	cast: { bill_murray_21091950: 1, sigourney_weaver_08101949: 1, },
+},
+{
+	id: 'ghostbusters_2024', title: { ua: 'Мисливці за привидами: Крижана імперія', en: 'Ghostbusters: Frozen Empire', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, fantasy: 1, comedy: 1, }, hash: { ghost: 1, },
+	internet: { imdb: '21235248', wiki_ua: '%D0%9C%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D1%86%D1%96_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B8%D0%B2%D0%B8%D0%B4%D1%96%D0%B2:_%D0%9A%D1%80%D0%B8%D0%B6%D0%B0%D0%BD%D0%B0_%D1%96%D0%BC%D0%BF%D0%B5%D1%80%D1%96%D1%8F', },
+	cast: { bill_murray_21091950: 1,  },
 },
 {
 	id: 'mindhunters_2004', title: { ua: 'Мисливці за розумом', en: 'Mindhunters', }, year: 2004, country: { usa: 1, fin: 1, gbr: 1, ndl: 1, },
@@ -3972,6 +3983,12 @@ const arrFilms = [
 	cast: { leonardo_dicaprio_11111974: 1, tom_hardy_15091977: 1, tom_berenger_31051949: 1, },
 },
 {
+	id: 'damaged_2024', title: { ua: 'Почерк кілера', en: 'Damaged', }, year: 2024, country: { usa: 1, gbr: 1, },
+	genre: { crime: 1, detective: 1, },
+	internet: { imdb: '27304026', wiki_ru: '%D0%9F%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D1%91%D0%BD%D0%BD%D1%8B%D0%B9', },
+	cast: { samuel_l_jackson_21121948: 1, },
+},
+{
 	id: 'truth_or_dare_2018', title: { ua: 'Правда або дія', en: 'Truth or Dare', }, year: 2018, country: { usa: 1, },
 	genre: { horror: 1, thriller: 1, mystic: 1, }, hash: { young: 1, },
 	internet: { imdb: '6772950', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B4%D0%B0_%D0%B0%D0%B1%D0%BE_%D0%B4%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
@@ -4002,7 +4019,7 @@ const arrFilms = [
 },
 {
 	id: 'ghost_1990', title: { ua: 'Привид', en: 'Ghost', }, year: 1990, country: { usa: 1, }, rating: 5,
-	genre: { fantasy: 1, crime: 1, }, hash: { love: 1, },
+	genre: { fantasy: 1, crime: 1, }, hash: { ghost: 1, love: 1, },
 	internet: { imdb: '0099653', wiki_ua: '%D0%9F%D1%80%D0%B8%D0%B2%D0%B8%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1990)', ashdivip: '98287', },
 	cast: { patrick_swayze_18081952: 1, demi_moore_11111962: 1, whoopi_goldberg_13111955: 1, },
 },
