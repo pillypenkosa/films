@@ -2127,6 +2127,12 @@ const arrFilms = [
 	cast: { jean_claude_van_damme_18101960: 1, christopher_lambert_29031957: 1, mike_tyson_30061966: 1, },
 },
 {
+	id: 'knox_goes_away_2023', title: { ua: 'Кілер іде геть', en: 'Knox Goes Away', }, year: 2023, country: { usa: 1, },
+	genre: { thriller: 1, }, 
+	internet: { imdb: '20115766', wiki_ru: '%D0%A5%D0%B8%D1%82%D0%BC%D0%B5%D0%BD._%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B5%D0%B5_%D0%B4%D0%B5%D0%BB%D0%BE', },
+	cast: { james_marsden_18091973: 1, al_pacino_25041940: 1, },
+},
+{
 	id: 'king_kong_1976', title: { ua: 'Кінг-Конг', en: 'King Kong', }, year: 1976, country: { usa: 1, }, rating: '5+',
 	genre: { horror: 1, adventure: 1, }, hash: { monkey: 1, animal: 1, sea: 1, island: 1, jungle: 1, newyork: 1, },
 	internet: { imdb: '0074751', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1976)', ashdivip: '84119', },
@@ -2160,6 +2166,11 @@ const arrFilms = [
 	genre: { comedy: 1, fantasy: 1, },
 	internet: { imdb: '1213663', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B5%D1%86%D1%8C_%D1%81%D0%B2%D1%96%D1%82%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013,_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0_%D0%91%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%96%D1%8F)', },
 	cast: { rosamund_pike_27011979: 1, pierce_brosnan_16051953: 1, },
+},
+{
+	id: 'double_blind_2023', title: { ua: 'Клаустрофоби: Без сну', en: 'Double Blind', }, year: 2023, country: { irl: 1, }, 
+	genre: { horror: 1, thriller: 1, }, hash: { biomedlab: 1, },
+	internet: { imdb: '14729020', },
 },
 {
 	id: 'escape_room_2017', title: { ua: 'Клаустрофобія', en: 'Escape Room', }, year: 2017, country: { usa: 1, }, rating: 5,
@@ -2472,6 +2483,11 @@ const arrFilms = [
 	genre: { action: 1, adventure: 1, }, hash: { treasure: 1, travel: 1, },
 	internet: { imdb: '0325703', wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82_%D1%80%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C:_%D0%BA%D0%BE%D0%BB%D0%B8%D1%81%D0%BA%D0%B0_%D0%B6%D0%B8%D1%82%D1%82%D1%8F', },
 	cast: { angelina_jolie_04061975: 1, gerard_butler_13111969: 1, },
+},
+{
+	id: 'LaRoy_Texas_2023', title: { ua: 'ЛаРой Техас', en: 'LaRoy, Texas', }, year: 2023, country: { usa: 1, fra: 1, },
+	genre: { crime: 1, comedy: 1, }, 
+	internet: { imdb: '20102596', },
 },
 {
 	id: 'into_the_blue_2005', title: { ua: 'Ласкаво просимо до раю', en: 'Into the Blue', }, year: 2005, country: { usa: 1, }, rating: 5,

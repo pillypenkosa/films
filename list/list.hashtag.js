@@ -75,7 +75,7 @@ const arrHashTags = [
 	{ id: 'police' 			, title: 'поліція' 				, app: { films: 1, }, },
 	{ id: 'hunting' 		, title: 'полюванняНаЛюдину' 	, app: { films: 1, }, },
 	{ id: 'justice' 		, title: 'правосуддя' 			, app: { films: 1, }, }, 
-	{ id: 'ghost' 			, title: 'привид' 				, app: { films: 1, }, }, 
+	{ id: 'ghost' 			, title: 'привиди' 				, app: { films: 1, }, }, 
 	{ id: 'psycho' 			, title: 'психо' 				, app: { films: 1, }, }, // зламай мозок
 	{ id: 'desert' 			, title: 'пустеля' 				, app: { films: 1, }, },
 	{ id: 'robot' 			, title: 'роботи' 				, app: { films: 1, }, },
