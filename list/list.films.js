@@ -1222,7 +1222,7 @@ const arrFilms = [
 	id: 'Jack_Reacher_2012', title: { ua: 'Джек Річер', en: 'Jack Reacher', }, year: 2012, country: { usa: 1, },
 	genre: { action: 1, },
 	internet: { imdb: '0790724', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%BA_%D0%A0%D1%96%D1%87%D0%B5%D1%80', },
-	cast: { tom_cruise_03071962: 1, },
+	cast: { tom_cruise_03071962: 1, rosamund_pike_27011979: 1, jai_courtney_15031986: 1, },
 },
 {
 	id: 'Jack_Reacher_2_2016', title: { ua: 'Джек Річер - 2', en: 'Jack Reacher: Never Go Back', }, year: 2016, country: { usa: 1, },
@@ -3771,6 +3771,7 @@ const arrFilms = [
 	id: 'return_to_sender_2015', title: { ua: 'Повернути відправнику', en: 'Return to Sender', }, year: 2015, country: { usa: 1, },
 	genre: { thriller: 1, }, 
 	internet: { imdb: '2948790', wiki_ua: '%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D1%82%D0%B8_%D0%B2%D1%96%D0%B4%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%BA%D1%83', },
+	cast: { rosamund_pike_27011979: 1, },
 },
 {
 	id: 'con_air_1997', title: { ua: 'Повітряна в\'язниця', en: 'Con Air', }, year: 1997, country: { usa: 1, }, rating: 5,
@@ -3966,7 +3967,7 @@ const arrFilms = [
 	id: 'die_another_day_2002', title: { ua: 'Помри але не зараз', en: 'Die Another Day', }, year: 2002, country: { usa: 1, },
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0246460', wiki_ua: '%D0%9F%D0%BE%D0%BC%D1%80%D0%B8,_%D0%B0%D0%BB%D0%B5_%D0%BD%D0%B5_%D0%B7%D0%B0%D1%80%D0%B0%D0%B7_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { pierce_brosnan_16051953: 1, halle_berry_14081966: 1, judi_dench_09121934: 1, madonna_16081958: 1, },
+	cast: { pierce_brosnan_16051953: 1, halle_berry_14081966: 1, judi_dench_09121934: 1, madonna_16081958: 1,  rosamund_pike_27011979: 1, },
 },
 {
 	id: 'the_hitcher_1986', title: { ua: 'Попутник', en: 'The Hitcher', }, year: 1986, country: { usa: 1, }, rating: '5+',
@@ -4740,7 +4741,7 @@ const arrFilms = [
 	id: 'surrogates_2009', title: { ua: 'Сурогати', en: 'Surrogates', }, year: 2009, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, robot: 1, },
 	internet: { imdb: '0986263', wiki_ua: '%D0%A1%D1%83%D1%80%D0%BE%D0%B3%D0%B0%D1%82%D0%B8', },
-	cast: { bruce_willis_19031955: 1, ving_rhames_12051959: 1, },
+	cast: { bruce_willis_19031955: 1, ving_rhames_12051959: 1, rosamund_pike_27011979: 1, },
 },
 {
 	id: 'heat_1995', title: { ua: 'Сутичка', en: 'Heat', }, year: 1995, country: { usa: 1, }, rating: 5,
