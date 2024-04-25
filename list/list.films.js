@@ -5429,6 +5429,12 @@ const arrFilms = [
 	cast: { sandra_bullock_26071964: 1, samuel_l_jackson_21121948: 1, ashley_judd_19041968: 1, kevin_spacey_26071959: 1, donald_sutherland_17071935: 1, chris_cooper_09071951: 1, matthew_mcconaughey_04111969: 1, },
 },
 {
+	id: 'paycheck_2003', title: { ua: 'Час розплати', en: 'Paycheck', }, year: 2003, country: { can: 1, usa: 1, },
+	genre: { action: 1, sci_fi: 1, },
+	internet: { imdb: '0338337', wiki_ua: '%D0%A7%D0%B0%D1%81_%D1%80%D0%BE%D0%B7%D0%BF%D0%BB%D0%B0%D1%82%D0%B8', },
+	cast: { ben_affleck_15081972: 1, aaron_eckhart_12031968: 1, uma_thurman_29041970: 1, joe_morton_18101947: 1, },
+},
+{
 	id: 'body_parts_1991', title: { ua: 'Частини тіла', en: 'Body Parts', }, year: 1991, country: { usa: 1, },
 	genre: { horror: 1, thriller: 1, sci_fi: 1, },
 	internet: { imdb: '0101492', wiki_ua: '%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B8_%D1%82%D1%96%D0%BB%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
