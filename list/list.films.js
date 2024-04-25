@@ -4019,7 +4019,7 @@ const arrFilms = [
 	id: 'righteous_kill_2008', title: { ua: 'Право на вбивство', en: 'Righteous Kill', }, year: 2008, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '1034331', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%BE_%D0%BD%D0%B0_%D0%B2%D0%B1%D0%B8%D0%B2%D1%81%D1%82%D0%B2%D0%BE', },
-	cast: { robert_de_niro_17081943: 1, al_pacino_25041940: 1, oleg_taktarov_26081967: 1, },
+	cast: { al_pacino_25041940: 1, robert_de_niro_17081943: 1, oleg_taktarov_26081967: 1, },
 },
 {
 	id: 'il_bisbetico_domato_1980', title: { ua: 'Приборкання норовливого', en: 'Il bisbetico domato', }, year: 1980, country: { ita: 1, },
@@ -4400,7 +4400,7 @@ const arrFilms = [
 	id: 'killing_seasonc_2013', title: { ua: 'Сезон убивць', en: 'Killing Season', }, year: 2013, country: { usa: 1, bel: 1, },
 	genre: { action: 1, },
 	internet: { imdb: '1480295', wiki_ua: '%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD_%D1%83%D0%B1%D0%B8%D0%B2%D1%86%D1%8C', },
-	cast: { john_travolta_18021954: 1, robert_de_niro_17081943: 1, },
+	cast: { robert_de_niro_17081943: 1, john_travolta_18021954: 1, },
 },
 {
 	id: 'sex_lies_and_videotape_1989', title: { ua: 'Секс, брехня та відео', en: 'Sex, Lies, and Videotape', }, year: 1989, country: { usa: 1, },
@@ -5127,7 +5127,7 @@ const arrFilms = [
 	id: 'universal_soldier_1992', title: { ua: 'Універсальний солдат', en: 'Universal Soldier', }, year: 1992, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, sci_fi: 1, }, hash: { army: 1, techno: 1, },
 	internet: { imdb: '0105698', wiki_ua: '%D0%A3%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%81%D0%BE%D0%BB%D0%B4%D0%B0%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '4209', },
-	cast: { jean_claude_van_damme_18101960: 1, dolph_lundgren_03111957: 1, michael_jai_white_10111967: 1, },
+	cast: { jean_claude_van_damme_18101960: 1, dolph_lundgren_03111957: 1, },
 },
 {
 	id: 'todos_los_nombres_de_dios_2023', title: { ua: 'Усі імена Бога', en: 'Todos los nombres de Dios', }, year: 2023, country: { esp: 1, },

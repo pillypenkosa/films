@@ -319,7 +319,10 @@ class ComponentWinIndex {
 	static showSelectedFilms() {
 		const fooName = this.name + '.showSelectedFilms()';
 
-		console.log( 'fooName: ', fooName );
+		//console.log( 'fooName: ', fooName );
+
+
+
 
 
 
@@ -337,7 +340,7 @@ class ComponentWinIndex {
 			let titleUa = '';
 			let titleEn = '';
 
-			let htmlCast = '';
+			//let htmlCast = '';
 			let html5 = ''; 	// на 5
 			let html5p = ''; 	// улюблені
 
@@ -351,11 +354,6 @@ class ComponentWinIndex {
 						html5p += `<span class="star5">${ star5p }</span> `;
 					
 				}
-
-
-
-
-
 			}
 
 
@@ -468,11 +466,22 @@ class ComponentWinIndex {
 				}
 			}
 
-/*
-			if ( true ) {
-				htmlCast = `<div class="cast">C A S T</div>`;
-			}
-*/
+
+
+
+			//console.log( 'k.cast: ', k.cast );
+
+			let htmlCast = '';
+			if ( k.cast ) 
+				//htmlCast = `<div>Є актори</div>`;
+				htmlCast = Component( 'Cast', k.cast );
+			
+
+
+
+
+
+
 
 
 
@@ -502,7 +511,8 @@ class ComponentWinIndex {
 						</div>
 					</div>
 				</div>
-				${ htmlCast }
+
+			${ htmlCast }
 
 			</div>`;
 		});

@@ -86,7 +86,7 @@ class Router {
 		//cns( 'var', 'cmpName', cmpName );
 
 		document.getElementById( 'content' ).innerHTML = Component( cmpName );
-		isErr();
+		//isErr();
 	}
 
 
