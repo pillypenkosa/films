@@ -165,7 +165,7 @@ const arrFilms = [
 },
 {
 	id: 'crash_1996', title: { ua: 'Автокатастрофа', en: 'Crash', }, year: 1996, country: { can: 1, gbr: 1, },
-	genre: { drama: 1, },
+	genre: { drama: 1, erotica: 1, },
 	internet: { imdb: '0115964', wiki_ua: '%D0%90%D0%B2%D1%82%D0%BE%D0%BA%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { james_spader_07021960: 1, },
 },
@@ -603,6 +603,12 @@ const arrFilms = [
 	genre: { action: 1, adventure: 1, }, hash: { mountains: 1, winter: 1, },
 	internet: { imdb: '0190865', wiki_ua: '%D0%92%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%BC%D0%B5%D0%B6%D0%B0', },
 	cast: { bill_paxton_17051955: 1, },
+},
+{
+	id: 'headless_horseman_1973', title: { ua: 'Вершник без голови', en: 'Headless horseman', }, year: 1973, country: { sun: 1, cub: 1, }, 
+	genre: { western: 1, }, hash: { cowboy: 1, },
+	internet: { imdb: '0202080', wiki_ua: '%D0%92%D0%B5%D1%80%D1%88%D0%BD%D0%B8%D0%BA_%D0%B1%D0%B5%D0%B7_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1973)', },
+	cast: { oleg_vidov_11061943: 1, },
 },
 {
 	id: 'my_best_friend_s_wedding_1997', title: { ua: 'Весілля найкращого друга', en: 'My Best Friend\'s Wedding', }, year: 1997, country: { usa: 1, },
@@ -2774,6 +2780,11 @@ const arrFilms = [
 	genre: { action: 1, comedy: 1, crime: 1, },
 	internet: { imdb: '0385307', wiki_ua: '%D0%9C%D1%96%D1%81_%D0%9A%D0%BE%D0%BD%D0%B3%D0%B5%D0%BD%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D1%81%D1%82%D1%8C_2:_%D0%9E%D0%B7%D0%B1%D1%80%D0%BE%D1%94%D0%BD%D0%B0_%D1%96_%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%BD%D0%B0', },
 	cast: { sandra_bullock_26071964: 1, },
+},
+{
+	id: '4_50_from_Paddington_1987', title: { ua: 'Міс Марпл: Точно за розкладом', en: 'Miss Marple: 4.50 from Paddington', }, year: 1987, country: { gbr: 1, },
+	genre: { detective: 1, },
+	internet: { imdb: '0092497', wiki_ua: '', },
 },
 {
 	id: 'mrs_Doubtfire_1993', title: { ua: 'Місіс Даутфайр', en: 'Mrs. Doubtfire', }, year: 1993, country: { usa: 1, },
@@ -5194,6 +5205,11 @@ const arrFilms = [
 	genre: { comedy: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0060400', wiki_ua: '%D0%A4%D0%B0%D0%BD%D1%82%D0%BE%D0%BC%D0%B0%D1%81_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_%D0%A1%D0%BA%D0%BE%D1%82%D0%BB%D0%B5%D0%BD%D0%B4-%D0%AF%D1%80%D0%B4%D1%83', },
 	cast: { jean_marais_11121913: 1, louis_de_funes_31071914: 1, },
+},
+{
+	id: 'the_queens_gambit_2020', title: { ua: 'Ферзевий гамбіт', en: 'The Queen\'s Gambit', }, year: 2020, country: { usa: 1, },
+	genre: { serial: 1, drama: 1, }, 
+	internet: { imdb: '10048342', wiki_ua: '%D0%A4%D0%B5%D1%80%D0%B7%D0%B5%D0%B2%D0%B8%D0%B9_%D0%B3%D0%B0%D0%BC%D0%B1%D1%96%D1%82_(%D0%BC%D1%96%D0%BD%D1%96%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 },
 {
 	id: 'movie_43_2013', title: { ua: 'Фільм 43', en: 'Movie 43', }, year: 2013, country: { usa: 1, },
