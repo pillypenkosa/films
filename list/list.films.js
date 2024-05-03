@@ -1130,7 +1130,7 @@ const arrFilms = [
 	id: 'deadpool_2016', title: { ua: 'Дедпул', en: 'deadpool', }, year: 2016, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, },
 	internet: { imdb: '1431045', wiki_ua: '%D0%94%D0%B5%D0%B4%D0%BF%D1%83%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-
+	cast: { ryan_reynolds_23101976: 1, },
 },
 {
 	id: 'deja_vu_2006', title: { ua: 'Дежа вю', en: 'Deja Vu', }, year: 2006, country: { usa: 1, }, rating: 5,
@@ -1548,6 +1548,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1137450', wiki_ua: '%D0%96%D0%B0%D0%B3%D0%B0_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
 	cast: { bruce_willis_19031955: 1, dean_norris_08041963: 1, elisabeth_shue_06101963: 1, },
+},
+{
+	id: 'the_Amityville_horror_2005', title: { ua: 'Жах Амітивілля', en: 'The Amityville Horror', }, year: 2005, country: { usa: 1, },
+	genre: { horror: 1, }, 
+	internet: { imdb: '0384806', wiki_ua: '%D0%96%D0%B0%D1%85_%D0%90%D0%BC%D1%96%D1%82%D0%B8%D0%B2%D1%96%D0%BB%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
+	cast: { ryan_reynolds_23101976: 1, },
 },
 {
 	id: 'a_nightmare_on_Elm_street_1984', title: { ua: 'Жах на вулиці В\'язів', en: 'A Nightmare on Elm Street', }, year: 1984, country: { usa: 1, },
@@ -2585,6 +2591,12 @@ const arrFilms = [
 	cast: { arnold_schwarzenegger_30071947: 1, },
 },
 {
+	id: 'ant_man_2015', title: { ua: 'Людина-мураха', en: 'Ant-Man', }, year: 2015, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { superhero: 1, },
+	internet: { imdb: '0478970', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D0%BC%D1%83%D1%80%D0%B0%D1%85%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { michael_douglas_25091944: 1, chris_evans_13061981: 1, hayley_atwell_05041982: 1, },
+},
+{
 	id: 'lobster_man_from_Mars_1989', title: { ua: 'Людина-омар з Марса', en: 'Lobster Man from Mars', }, year: 1989, country: { usa: 1, },
 	genre: { comedy: 1, sci_fi: 1, horror: 1, }, 
 	internet: { imdb: '0097768', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D0%BE%D0%BC%D0%B0%D1%80_%D0%B7_%D0%9C%D0%B0%D1%80%D1%81%D0%B0', },
@@ -2838,7 +2850,7 @@ const arrFilms = [
 	id: 'mission_impossible_7_2023', title: { ua: 'Місія неможлива - 7', en: 'Mission: Impossible - Dead Reckoning Part One', }, year: 2023, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '9603212', wiki_ua: '%D0%9C%D1%96%D1%81%D1%96%D1%8F_%D0%BD%D0%B5%D0%BC%D0%BE%D0%B6%D0%BB%D0%B8%D0%B2%D0%B0:_%D0%A0%D0%BE%D0%B7%D0%BF%D0%BB%D0%B0%D1%82%D0%B0._%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_%D0%BF%D0%B5%D1%80%D1%88%D0%B0', ashdivip: '105107', },
-	cast: { tom_cruise_03071962: 1, ving_rhames_12051959: 1, },
+	cast: { tom_cruise_03071962: 1, ving_rhames_12051959: 1, hayley_atwell_05041982: 1, },
 },
 {
 	id: 'mission_of_justice_1992', title: { ua: 'Місія правосуддя', en: 'Mission of Justice', }, year: 1992, country: { usa: 1, },
@@ -3416,7 +3428,7 @@ const arrFilms = [
 	id: 'the_proposal_2009', title: { ua: 'Освідчення', en: 'The Proposal', }, year: 2009, country: { usa: 1, },
 	genre: { comedy: 1, drama: 1, }, 
 	internet: { imdb: '1041829', wiki_ua: '%D0%9E%D1%81%D0%B2%D1%96%D0%B4%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2009)', },
-	cast: { sandra_bullock_26071964: 1, },
+	cast: { sandra_bullock_26071964: 1, ryan_reynolds_23101976: 1, },
 },
 {
 	id: 'resident_evil_2002', title: { ua: 'Оселя зла', en: 'Resident Evil', }, year: 2002, country: { usa: 1, }, rating: 5,
@@ -4090,7 +4102,7 @@ const arrFilms = [
 	id: 'the_Adam_project_2022', title: { ua: 'Проєкт Адам', en: 'The Adam Project', }, year: 2022, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, 
 	internet: { imdb: '2463208', wiki_ua: '%D0%9F%D1%80%D0%BE%D1%94%D0%BA%D1%82_%D0%90%D0%B4%D0%B0%D0%BC', },
-	cast: { zoe_saldana_19061978: 1, },
+	cast: { ryan_reynolds_23101976: 1, zoe_saldana_19061978: 1, },
 },
 {
 	id: 'the_grudge_2004', title: { ua: 'Прокляття', en: 'The Grudge', }, year: 2004, country: { usa: 1, jpn: 1, },
@@ -4871,6 +4883,12 @@ const arrFilms = [
 	cast: { mel_gibson_03011956: 1, julia_roberts_28101967: 1, },
 },
 {
+	id: 'chaos_theory_2007', title: { ua: 'Теорія хаосу', en: 'Chaos Theory', }, year: 2007, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '0460745', wiki_ua: '%D0%A2%D0%B5%D0%BE%D1%80%D1%96%D1%8F_%D1%85%D0%B0%D0%BE%D1%81%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { ryan_reynolds_23101976: 1, },
+},
+{
 	id: 'the_terminal_2004', title: { ua: 'Термінал', en: 'The Terminal', }, year: 2004, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, },
 	internet: { imdb: '0362227', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -4944,6 +4962,12 @@ const arrFilms = [
 	id: 'silent_night_2023', title: { ua: 'Тиха ніч', en: 'Silent Night', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '15799866', wiki_ru: '%D0%9D%D0%B5%D0%BC%D0%B0%D1%8F_%D1%8F%D1%80%D0%BE%D1%81%D1%82%D1%8C', },
+},
+{
+	id: 'the_hitman_s_bodyguard_2017', title: { ua: 'Тілоохоронець кілера', en: 'The Hitman\'s Bodyguard', }, year: 2017, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, },
+	internet: { imdb: '1959563', wiki_ua: '%D0%A2%D1%96%D0%BB%D0%BE%D0%BE%D1%85%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D1%86%D1%8C_%D0%BA%D1%96%D0%BB%D0%B5%D1%80%D0%B0', },
+	cast: { samuel_l_jackson_21121948: 1, ryan_reynolds_23101976: 1, gary_oldman_21031958: 1, salma_hayek_02091966: 1, },
 },
 {
 	id: 't_i_m_2023', title: { ua: 'Т.І.М.', en: 'T.I.M.', }, year: 2023, country: { gbr: 1, },
@@ -5299,6 +5323,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
 	internet: { imdb: '5433140', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_10', },
 	cast: { vin_diesel_18071967: 1, jason_statham_26071967: 1, michelle_rodriguez_12071978: 1, jason_momoa_01081979: 1, charlize_theron_07081975: 1, brie_larson_01101989: 1, },
+},
+{
+	id: 'fast_&_furious_presents_Hobbs_&_Shaw_2019', title: { ua: 'Форсаж: Гоббс та Шоу', en: 'Fast & Furious Presents: Hobbs & Shaw', }, year: 2019, country: { usa: 1, },
+	genre: { action: 1, adventure: 1, },
+	internet: { imdb: '6806448', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6:_%D0%93%D0%BE%D0%B1%D0%B1%D1%81_%D1%82%D0%B0_%D0%A8%D0%BE%D1%83', },
+	cast: { dwayne_johnson_02051972: 1, jason_statham_26071967: 1, ryan_reynolds_23101976: 1, },
 },
 {
 	id: 'fortress_1992', title: { ua: 'Фортеця', en: 'Fortress', }, year: 1992, country: { aus: 1, usa: 1, },
