@@ -530,6 +530,11 @@ const arrFilms = [
 	cast: { jean_claude_van_damme_18101960: 1, yancy_butler_02071970: 1, arnold_vosloo_16061962: 1, },
 },
 {
+	id: 'ggeutggaji_ganda_2014', title: { ua: 'Важкий день', en: 'Ggeutggaji ganda', }, year: 2014, country: { kor: 1, }, 
+	genre: { thriller: 1, crime: 1, }, hash: { police: 1, },
+	internet: { imdb: '3697626', },
+},
+{
 	id: 'Van_Helsing_2004', title: { ua: 'Ван Хелсінг', en: 'Van Helsing', }, year: 2004, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, },
 	internet: { imdb: '0338526', wiki_ua: '%D0%92%D0%B0%D0%BD_%D0%A5%D0%B5%D0%BB%D1%81%D1%96%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1113,6 +1118,11 @@ const arrFilms = [
 	genre: { sci_fi: 1, mystic: 1, thriller: 1, }, hash: { time: 1, },
 	internet: { imdb: '0114746', wiki_ua: '12_%D0%BC%D0%B0%D0%B2%D0%BF', },
 	cast: { bruce_willis_19031955: 1, brad_pitt_18121963: 1, david_morse_11101953: 1, },
+},
+{
+	id: 'the_devil_s_double_20011', title: { ua: 'Двійник диявола', en: 'The Devil\'s Double', }, year: 2011, country: { bel: 1, },
+	genre: { drama: 1, }, hash: { politic: 1, },
+	internet: { imdb: '1270262', wiki_ua: '%D0%94%D0%B2%D1%96%D0%B9%D0%BD%D0%B8%D0%BA_%D0%B4%D0%B8%D1%8F%D0%B2%D0%BE%D0%BB%D0%B0', },
 },
 {
 	id: 'nine_1_2_weeks_1986', title: { ua: 'Дев\'ять з половиною тижнів', en: 'Nine 1/2 Weeks', }, year: 1986, country: { usa: 1, },
@@ -3413,6 +3423,12 @@ const arrFilms = [
 	cast: { emily_blunt_23021983: 1, matt_damon_08101970: 1, robert_downey_jr_01041965: 1, josh_hartnett_21071978: 1, rami_malek_12051981: 1, jason_clarke_17071969: 1, gary_oldman_21031958: 1, casey_affleck_12081975: 1, },
 },
 {
+	id: 'the_midnight_man_2017', title: { ua: 'Опівнічна людина', en: 'The Midnight Man', }, year: 2017, country: { usa: 1, can: 1, },
+	genre: { horror: 1, },
+	internet: { imdb: '5361064', wiki_ru: '%D0%9F%D0%BE%D0%BB%D1%83%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA', },
+	cast: { robert_englund_06061947: 1, },
+},
+{
 	id: 'sunset_heat_1992', title: { ua: 'Опівнічна спека', en: 'Sunset Heat', }, year: 1992, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0103006', wiki_ua: '%D0%9E%D0%BF%D1%96%D0%B2%D0%BD%D1%96%D1%87%D0%BD%D0%B0_%D1%81%D0%BF%D0%B5%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
@@ -4354,6 +4370,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1742334', wiki_ua: '%D0%A1%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B6_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2014)', },
 	cast: { arnold_schwarzenegger_30071947: 1, sam_worthington_02081976: 1, },
+},
+{
+	id: 'Sabrina_1995', title: { ua: 'Сабріна', en: 'Sabrina', }, year: 1995, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '0114319', wiki_ua: '%D0%A1%D0%B0%D0%B1%D1%80%D1%96%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)', },
+	cast: { harrison_ford_13071942: 1, richard_crenna_30111926: 1, },
 },
 {
 	id: 'home_alone_1990', title: { ua: 'Сам удома', en: 'Home Alone', }, year: 1990, country: { usa: 1, }, rating: 5,
@@ -5603,6 +5625,12 @@ const arrFilms = [
 	cast: { bruce_lee_27111940: 1, },
 },
 {
+	id: 'the_best_man_2023', title: { ua: 'Шафер', en: 'The Best Man', }, year: 2023, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '13400336', },
+	cast: { dolph_lundgren_03111957: 1, },
+},
+{
 	id: 'fast_charlie_2023', title: { ua: 'Швидкий Чарлі', en: 'Fast Charlie', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '6722400', },
@@ -5717,6 +5745,12 @@ const arrFilms = [
 	id: 'jaws_4_1987', title: { ua: 'Щелепи - 4', en: 'Jaws: The Revenge', }, year: 1987, country: { usa: 1, },
 	genre: { horror: 1, thriller: 1, }, hash: { shark: 1, beach: 1, },
 	internet: { imdb: '0093300', wiki_ua: '%D0%A9%D0%B5%D0%BB%D0%B5%D0%BF%D0%B8_4:_%D0%9F%D0%BE%D0%BC%D1%81%D1%82%D0%B0', },
+},
+{
+	id: 'would_you_rather_2012', title: { ua: 'Що б ви зробили', en: 'Would You Rather', }, year: 2012, country: { usa: 1, },
+	genre: { horror: 1, trash: 1, }, 
+	internet: { imdb: '1999995', wiki_ua: '%D0%A9%D0%BE%D0%B1_%D0%B2%D0%B8_%D0%B7%D1%80%D0%BE%D0%B1%D0%B8%D0%BB%D0%B8%E2%80%A6', },
+	cast: { sasha_grey_14031988: 1, },
 },
 {
 	id: 'over_the_top_1987', title: { ua: 'Щосили', en: 'Over the Top', }, year: 1987, country: { usa: 1, }, rating: 5,
