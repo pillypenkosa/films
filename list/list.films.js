@@ -1819,6 +1819,12 @@ const arrFilms = [
 	cast: { george_clooney_06051961: 1, },
 },
 {
+	id: 'cash_out_2024', title: { ua: 'Зірвати банк', en: 'Cash Out', }, year: 2024, country: { usa: 1, }, 
+	genre: { action: 1, }, hash: { bank: 1, robbery: 1, },
+	internet: { imdb: '24131288', },
+	cast: { john_travolta_18021954: 1, },
+},
+{
 	id: 'deep_impact_1998', title: { ua: 'Зіткнення з безоднею', en: 'Deep Impact', }, year: 1998, country: { usa: 1, }, 
 	genre: { action: 1, sci_fi: 1, },
 	internet: { imdb: '0120647', wiki_ua: '%D0%97%D1%96%D1%82%D0%BA%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B7_%D0%B1%D0%B5%D0%B7%D0%BE%D0%B4%D0%BD%D0%B5%D1%8E_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -3423,9 +3429,9 @@ const arrFilms = [
 	cast: { emily_blunt_23021983: 1, matt_damon_08101970: 1, robert_downey_jr_01041965: 1, josh_hartnett_21071978: 1, rami_malek_12051981: 1, jason_clarke_17071969: 1, gary_oldman_21031958: 1, casey_affleck_12081975: 1, },
 },
 {
-	id: 'the_midnight_man_2017', title: { ua: 'Опівнічна людина', en: 'The Midnight Man', }, year: 2017, country: { usa: 1, can: 1, },
+	id: 'the_midnight_man_2016', title: { ua: 'Опівнічна людина', en: 'The Midnight Man', }, year: 2016, country: { usa: 1, can: 1, },
 	genre: { horror: 1, },
-	internet: { imdb: '5361064', wiki_ru: '%D0%9F%D0%BE%D0%BB%D1%83%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA', },
+	internet: { imdb: '5629964', wiki_ru: '%D0%9F%D0%BE%D0%BB%D1%83%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA', },
 	cast: { robert_englund_06061947: 1, },
 },
 {
