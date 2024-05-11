@@ -1828,7 +1828,7 @@ const arrFilms = [
 	id: 'deep_impact_1998', title: { ua: 'Зіткнення з безоднею', en: 'Deep Impact', }, year: 1998, country: { usa: 1, }, 
 	genre: { action: 1, sci_fi: 1, },
 	internet: { imdb: '0120647', wiki_ua: '%D0%97%D1%96%D1%82%D0%BA%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B7_%D0%B1%D0%B5%D0%B7%D0%BE%D0%B4%D0%BD%D0%B5%D1%8E_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { elijah_wood_28011981: 1, morgan_freeman_01061937: 1, },
+	cast: { elijah_wood_28011981: 1, morgan_freeman_01061937: 1, olexandr_mykola_baluev_06121958: 1, },
 },
 {
 	id: 'broken_bars_1995', title: { ua: 'Зламані прути', en: 'Broken Bars', }, year: 1995, country: { usa: 1, },
