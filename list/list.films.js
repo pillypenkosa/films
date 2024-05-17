@@ -24,6 +24,7 @@ const arrGenres = [
 	{ id: 'parody' 		, title: 'Пародія' 		, },
 	{ id: 'adventure' 	, title: 'Пригоди' 		, },
 	{ id: 'serial' 		, title: 'Серіал' 		, },
+	{ id: 'tv' 			, title: 'ТВ' 			, },
 	{ id: 'trash' 		, title: 'Треш' 		, },
 	{ id: 'thriller' 	, title: 'Трилер' 		, },
 	{ id: 'fantasy' 	, title: 'Фентезі' 		, },
@@ -171,7 +172,7 @@ const arrFilms = [
 },
 {
 	id: 'runaway_car_1996', title: { ua: 'Автомобіль-утікач', en: 'Runaway Car', }, year: 1996, country: { usa: 1, }, rating: '5+',
-	genre: { thriller: 1, }, hash: { trap: 1, cars: 1, road: 1, },
+	genre: { tv: 1, thriller: 1, }, hash: { trap: 1, cars: 1, road: 1, },
 	internet: { imdb: '0120041', },
 	cast: { nina_siemaszko_14071970: 1, },
 },
@@ -818,7 +819,7 @@ const arrFilms = [
 	id: 'world_war_z_2013', title: { ua: 'Всесвітня війна Z', en: 'World War Z', }, year: 2013, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, horror: 1, }, hash: { apocalypse: 1, zombie: 1, },
 	internet: { imdb: '0816711', wiki_ua: '%D0%92%D1%81%D0%B5%D1%81%D0%B2%D1%96%D1%82%D0%BD%D1%8F_%D0%B2%D1%96%D0%B9%D0%BD%D0%B0_Z', },
-	cast: { brad_pitt_18121963: 1, },
+	cast: { brad_pitt_18121963: 1, david_morse_11101953: 1, },
 },
 {
 	id: 'the_getaway_1994', title: { ua: 'Втеча', en: 'The Getaway', }, year: 1994, country: { usa: 1, jpn: 1, },
@@ -1095,6 +1096,11 @@ const arrFilms = [
 	genre: { sci_fi: 1, thriller: 1, },
 	internet: { imdb: '0119177', wiki_ua: '%D0%93%D0%B0%D1%82%D1%82%D0%B0%D0%BA%D0%B0', },
 	cast: { uma_thurman_29041970: 1, dean_norris_08041963: 1, },
+},
+{
+	id: 'godzilla_x_kong_the_new_empire_2024', title: { ua: 'Ґодзілла та Конґ: Нова імперія', en: ' Godzilla x Kong: The New Empire', }, year: 2024, country: { usa: 1, },
+	genre: { sci_fi: 1, }, hash: { monkey: 1, },
+	internet: { imdb: '14539740', wiki_ru: '%D0%93%D0%BE%D0%B4%D0%B7%D0%B8%D0%BB%D0%BB%D0%B0_%D0%B8_%D0%9A%D0%BE%D0%BD%D0%B3:_%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D1%8F',	},
 },
 {
 	id: 'gran_turismo_2023', title: { ua: 'Ґран Туризмо', en: 'Gran Turismo', }, year: 2023, country: { usa: 1, },
@@ -1485,6 +1491,12 @@ const arrFilms = [
 	cast: { charlie_sheen_03091965: 1, },
 },
 {
+	id: 'dune_2021', title: { ua: 'Дюна', en: 'Dune', }, year: 2021, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { battle: 1, },
+	internet: { imdb: '1160419', wiki_ua: '%D0%94%D1%8E%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2021)', },
+	cast: { jason_momoa_01081979: 1, },
+},
+{
 	id: 'Edward_scissorhands_1990', title: { ua: 'Едвард Руки-ножиці', en: 'Edward Scissorhands', }, year: 1990, country: { usa: 1, },
 	genre: { fantasy: 1, drama: 1, },
 	internet: { imdb: '0099487', wiki_ua: '%D0%95%D0%B4%D0%B2%D0%B0%D1%80%D0%B4_%D0%A0%D1%83%D0%BA%D0%B8-%D0%BD%D0%BE%D0%B6%D0%B8%D1%86%D1%96',	moviestape: 'Edward.Scissorhands', },
@@ -1826,7 +1838,7 @@ const arrFilms = [
 },
 {
 	id: 'deep_impact_1998', title: { ua: 'Зіткнення з безоднею', en: 'Deep Impact', }, year: 1998, country: { usa: 1, }, 
-	genre: { action: 1, sci_fi: 1, },
+	genre: { disaster: 1, sci_fi: 1, }, hash: { space: 1, },
 	internet: { imdb: '0120647', wiki_ua: '%D0%97%D1%96%D1%82%D0%BA%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B7_%D0%B1%D0%B5%D0%B7%D0%BE%D0%B4%D0%BD%D0%B5%D1%8E_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { elijah_wood_28011981: 1, morgan_freeman_01061937: 1, olexandr_mykola_baluev_06121958: 1, },
 },
@@ -1901,6 +1913,47 @@ const arrFilms = [
 	internet: { imdb: '0120201', wiki_ua: '%D0%97%D0%BE%D1%80%D1%8F%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D1%81%D0%B0%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { casper_van_dien_18121968: 1, amy_smart_26031976: 1, dean_norris_08041963: 1, denise_richards_17021971: 1, },
 },
+
+
+
+
+
+
+{
+	id: '', title: { ua: 'Зоряні війни', en: '', }, year: 1900, country: { usa: 1, },
+
+
+
+
+	genre: { action: 1, sci_fi: 1, }, hash: { battle: 1, aliens: 1, future: 1, },
+
+
+	internet: { imdb: '', wiki_ua: '%D0%97%D0%BE%D1%80%D1%8F%D0%BD%D1%96_%D0%B2%D1%96%D0%B9%D0%BD%D0%B8:_%D0%9D%D0%BE%D0%B2%D0%B0_%D0%BD%D0%B0%D0%B4%D1%96%D1%8F', },
+	
+
+
+
+	cast: { harrison_ford_13071942: 1, },
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'made_in_America_1993', title: { ua: 'Зроблено в Америці', en: 'Made in America', }, year: 1993, country: { usa: 1, can: 1, }, rating: 5,
 	genre: { comedy: 1, },
@@ -1976,7 +2029,7 @@ const arrFilms = [
 	id: 'the_outsiders_1983', title: { ua: 'Ізгої', en: 'The Outsiders', }, year: 1983, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0086066', wiki_ua: '%D0%86%D0%B7%D0%B3%D0%BE%D1%97_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { patrick_swayze_18081952: 1, tom_cruise_03071962: 1, matt_dillon_18021964: 1, emilio_estevez_12051962: 1, },
+	cast: { patrick_swayze_18081952: 1, tom_cruise_03071962: 1, matt_dillon_18021964: 1, emilio_estevez_12051962: 1, }, director: { francis_ford_coppola_07041939: 1, },
 },
 {
 	id: 'abgeschnitten_2018', title: { ua: 'Ізоляція', en: 'Abgeschnitten', }, year: 2018, country: { deu: 1, }, rating: 5,
@@ -2883,7 +2936,7 @@ const arrFilms = [
 {
 	id: 'mr_&_mrs_Smith_2005', title: { ua: 'Містер і місіс Сміт', en: 'Mr. & Mrs. Smith', }, year: 2005, country: { usa: 1, fra: 1, },
 	genre: { action: 1, comedy: 1, },
-	internet: { imdb: '0356910', wiki_ua: '%D0%9C%D1%96%D1%81%D1%82%D0%B5%D1%80_%D1%96_%D0%BC%D1%96%D1%81%D1%96%D1%81_%D0%A1%D0%BC%D1%96%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
+	internet: { imdb: '0356910', wiki_ua: '%D0%9C%D1%96%D1%81%D1%82%D0%B5%D1%80_%D1%96_%D0%BC%D1%96%D1%81%D1%96%D1%81_%D0%A1%D0%BC%D1%96%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', ashdivip: '3588', },
 	cast: { brad_pitt_18121963: 1, angelina_jolie_04061975: 1, michelle_monaghan_23031976: 1, },
 },
 {
@@ -4168,6 +4221,12 @@ const arrFilms = [
 	cast: { jean_paul_belmondo_09041933: 1, },
 },
 {
+	id: 'psycho_1960', title: { ua: 'Психо', en: 'Psycho', }, year: 1960, country: { usa: 1, },
+	genre: { horror: 1, }, 
+	internet: { imdb: '0054215', wiki_ua: '%D0%9F%D1%81%D0%B8%D1%85%D0%BE', },
+	director: { alfred_hitchcock_13081899: 1, },
+},
+{
 	id: 'psycho_1998', title: { ua: 'Психо', en: 'Psycho', }, year: 1998, country: { usa: 1, },
 	genre: { horror: 1, mystic: 1, }, 
 	internet: { imdb: '0155975', wiki_ua: '%D0%9F%D1%81%D0%B8%D1%85%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', },
@@ -4214,10 +4273,16 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, morgan_freeman_01061937: 1, john_malkovich_09121953: 1, karl_urban_07061972: 1, },
 },
 {
-	id: 'red_2_2013', title: { ua: 'РЕД - 2', en: 'RED 2', }, year: 2013, country: { usa: 1, fra: 1, can: 1,},
+	id: 'red_2_2013', title: { ua: 'РЕД - 2', en: 'RED 2', }, year: 2013, country: { usa: 1, fra: 1, can: 1, },
 	genre: { action: 1, crime: 1, comedy: 1, },
 	internet: { imdb: '1821694', wiki_ua: '%D0%A0%D0%95%D0%94_2', },
 	cast: { bruce_willis_19031955: 1, john_malkovich_09121953: 1, catherine_zeta_jones_25091969: 1, anthony_hopkins_31121937: 1, },
+},
+{
+	id: 'chief_of_station_2024', title: { ua: 'Резидент', en: 'Chief of Station', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '21301418', },
+	cast: { aaron_eckhart_12031968: 1, olga_kurylenko_14111979: 1, },
 },
 {
 	id: 'flight_2012', title: { ua: 'Рейс', en: 'Flight', }, year: 2012, country: { usa: 1, }, rating: 5,
@@ -4771,6 +4836,12 @@ const arrFilms = [
 	cast: { karl_urban_07061972: 1, lena_headey_03101973: 1, },
 },
 {
+	id: 'arcadian_2024', title: { ua: 'Судна ніч в Аркадії', en: 'Arcadian', }, year: 2024, country: { usa: 1, can: 1, irl: 1, },
+	genre: { horror: 1, }, 
+	internet: { imdb: '22939186', wiki_ru: '%D0%A1%D1%83%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BD%D0%BE%D1%87%D1%8C_%D0%B2_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B8%D0%B8',	},
+	cast: { nicolas_cage_07011964: 1, },
+},
+{
 	id: 'doomsday_2008', title: { ua: 'Судний день', en: 'Doomsday', }, year: 2008, country: { gbr: 1, usa: 1, zaf: 1, deu: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, utopia: 1, },
 	internet: { imdb: '0483607', wiki_ua: '%D0%A1%D1%83%D0%B4%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
@@ -4786,7 +4857,7 @@ const arrFilms = [
 	id: 'supernova_2000', title: { ua: 'Супернова', en: 'Supernova', }, year: 2000, country: { usa: 1, che: 1, },
 	genre: { horror: 1, sci_fi: 1, },
 	internet: { imdb: '0134983', wiki_ua: '%D0%9D%D0%B0%D0%B4%D0%BD%D0%BE%D0%B2%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { james_spader_07021960: 1, },
+	cast: { james_spader_07021960: 1, }, director: { francis_ford_coppola_07041939: 1, },
 },
 {
 	id: 'surrogates_2009', title: { ua: 'Сурогати', en: 'Surrogates', }, year: 2009, country: { usa: 1, },
@@ -5454,7 +5525,7 @@ const arrFilms = [
 	id: 'the_godfather_1972', title: { ua: 'Хрещений батько', en: 'The Godfather', }, year: 1972, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0068646', wiki_ua: '%D0%A5%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9_%D0%B1%D0%B0%D1%82%D1%8C%D0%BA%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { marlon_brando_03041924: 1, al_pacino_25041940: 1, },
+	cast: { marlon_brando_03041924: 1, al_pacino_25041940: 1, }, director: { francis_ford_coppola_07041939: 1, },
 },
 {
 	id: 'da_nao_tian_gong_1963', title: { ua: 'Цар мавп. Переполох у небесних чертогах', en: 'Da nao tian gong', }, year: 1963, country: { usa: 1, },
