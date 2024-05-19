@@ -3211,6 +3211,11 @@ const arrFilms = [
 	cast: { martin_lawrence_16041965: 1, bill_duke_26021943: 1, },
 },
 {
+	id: 'don_t_hang_up_2016', title: { ua: 'Не вішайте слухавку', en: 'Don\'t Hang Up', }, year: 2016, country: { gbr: 1, },
+	genre: { horror: 1, }, hash: { phone: 1, },
+	internet: { imdb: '3610746', wiki_ua: '%D0%9D%D0%B5_%D0%B2%D1%96%D1%88%D0%B0%D0%B9%D1%82%D0%B5_%D1%81%D0%BB%D1%83%D1%85%D0%B0%D0%B2%D0%BA%D1%83', },
+},
+{
 	id: 'a_fond_2016', title: { ua: 'Не гальмуй', en: 'À fond', }, year: 2016, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, hash: { road: 1, },
 	internet: { imdb: '4993964', wiki_ua: '%D0%9D%D0%B5_%D0%B3%D0%B0%D0%BB%D1%8C%D0%BC%D1%83%D0%B9', },
