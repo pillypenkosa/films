@@ -1266,7 +1266,7 @@ const arrFilms = [
 },
 {
 	id: 'joker_2019', title: { ua: 'Джокер', en: 'Joker', }, year: 2019, country: { usa: 1, },
-	genre: { thriller: 1, crime: 1, },
+	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '7286456', wiki_ua: '%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', },
 	cast: { robert_de_niro_17081943: 1, },
 },
