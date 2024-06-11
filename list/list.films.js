@@ -304,6 +304,12 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, ben_affleck_15081972: 1, liv_tyler_01071977: 1, steve_buscemi_13121957: 1, michael_clarke_duncan_10121957: 1, michael_bay_17021965: 1, },
 },
 {
+	id: 'Atlas_2024', title: { ua: 'Атлас', en: 'Atlas', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { space: 1, robot: 1, battle: 1, },
+	internet: { imdb: '14856980', wiki_ua: '%D0%90%D1%82%D0%BB%D0%B0%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { jennifer_lopez_24071969: 1, },
+},
+{
 	id: 'the_accountant_2016', title: { ua: 'Аудитор', en: 'The Accountant', }, year: 2016, country: { usa: 1, },
 	genre: { action: 1, crime: 1, }, 
 	internet: { imdb: '2140479', wiki_ua: '%D0%90%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', },
@@ -2179,6 +2185,12 @@ const arrFilms = [
 	cast: { daniel_craig_02031968: 1, olga_kurylenko_14111979: 1, judi_dench_09121934: 1, },
 },
 {
+	id: 'chief_of_station_2024', title: { ua: 'Керівник резидентури', en: 'Chief of Station', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '21301418', },
+	cast: { aaron_eckhart_12031968: 1, olga_kurylenko_14111979: 1, },
+},
+{
 	id: 'pushing_tin_1999', title: { ua: 'Керуючи польотами', en: 'Pushing Tin', }, year: 1999, country: { usa: 1, deu: 1, },
 	genre: { drama: 1, comedy: 1, },
 	internet: { imdb: '0120797', wiki_ru: '%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8F_%D0%BF%D0%BE%D0%BB%D1%91%D1%82%D0%B0%D0%BC%D0%B8', },
@@ -3905,6 +3917,11 @@ const arrFilms = [
 	internet: { imdb: '1318514', wiki_ua: '%D0%9F%D0%BE%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B8_%D0%BC%D0%B0%D0%B2%D0%BF', },
 },
 {
+	id: 'civil_war_2024', title: { ua: 'Повстання Штатів', en: 'Civil War', }, year: 2024, country: { usa: 1, gbr: 1, },
+	genre: { action: 1, war: 1, },
+	internet: { imdb: '17279496', wiki_ua: '%D0%9F%D0%BE%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%A8%D1%82%D0%B0%D1%82%D1%96%D0%B2', },
+},
+{
 	id: 'the_chase_1994', title: { ua: 'Погоня', en: 'The Chase', }, year: 1994, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, hash: { road: 1, },
 	internet: { imdb: '0109402', wiki_ru: '%D0%9F%D0%BE%D0%B3%D0%BE%D0%BD%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1994)', },
@@ -4282,12 +4299,6 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, comedy: 1, },
 	internet: { imdb: '1821694', wiki_ua: '%D0%A0%D0%95%D0%94_2', },
 	cast: { bruce_willis_19031955: 1, john_malkovich_09121953: 1, catherine_zeta_jones_25091969: 1, anthony_hopkins_31121937: 1, },
-},
-{
-	id: 'chief_of_station_2024', title: { ua: 'Резидент', en: 'Chief of Station', }, year: 2024, country: { usa: 1, },
-	genre: { action: 1, },
-	internet: { imdb: '21301418', },
-	cast: { aaron_eckhart_12031968: 1, olga_kurylenko_14111979: 1, },
 },
 {
 	id: 'flight_2012', title: { ua: 'Рейс', en: 'Flight', }, year: 2012, country: { usa: 1, }, rating: 5,
