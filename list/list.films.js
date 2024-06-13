@@ -4418,6 +4418,12 @@ const arrFilms = [
 	internet: { imdb: '13786042', },
 },
 {
+	id: 'Rocky_1976', title: { ua: 'Роккі', en: 'Rocky', }, year: 1976, country: { usa: 1, }, 
+	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
+	internet: { imdb: '0075148', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96', },
+	cast: { sylvester_stallone_06071946: 1, },
+},
+{
 	id: 'role_play_2024', title: { ua: 'Рольові ігри', en: 'Role Play', }, year: 2024, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, crime: 1, },
 	internet: { imdb: '12964320', wiki_ua: '%D0%A0%D0%BE%D0%BB%D1%8C%D0%BE%D0%B2%D1%96_%D1%96%D0%B3%D1%80%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },

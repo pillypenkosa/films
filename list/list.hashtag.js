@@ -17,6 +17,7 @@ const arrHashTags = [
 	{ id: 'fight' 			, title: 'бійці' 				, app: { films: 1, }, }, // бойові мистецтва
 	{ id: 'biomedlab' 		, title: 'біомедлаб' 			, app: { films: 1, }, }, // досліди в лабораторіях
 	{ id: 'madhouse' 		, title: 'божевільня' 			, app: { films: 1, }, }, // досліди в лабораторіях
+	{ id: 'box' 			, title: 'бокс' 				, app: { films: 1, }, }, // досліди в лабораторіях
 	{ id: 'escape' 			, title: 'втеча' 				, app: { films: 1, }, }, 
 	{ id: 'bear' 			, title: 'ведмеді' 				, app: { films: 1, }, }, 
 	{ id: 'surviving' 		, title: 'виживання' 			, app: { films: 1, }, }, // подорожі у часі
