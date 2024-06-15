@@ -262,7 +262,7 @@ const arrFilms = [
 {
 	id: 'app_2013', title: { ua: 'Андроід', en: 'App', }, year: 2013, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, sci_fi: 1, }, hash: { cyber: 1, young: 1, phone: 1, },
-	internet: { imdb: '2536436', wiki_ua: '%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D1%97%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013)', },
+	internet: { imdb: '2536436', wiki_ua: '%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D1%97%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013)', ashdivip: '113205', },
 },
 {
 	id: 'anon_2018', title: { ua: 'Анон', en: 'Anon', }, year: 2018, country: { usa: 1, },
@@ -661,7 +661,7 @@ const arrFilms = [
 {
 	id: 'the_call_2013', title: { ua: 'Виклик', en: 'The Call', }, year: 2013, country: { usa: 1, },
 	genre: { thriller: 1, }, hash: { police: 1, phone: 1, },
-	internet: { imdb: '1911644', wiki_ua: '%D0%92%D0%B8%D0%BA%D0%BB%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013)', },
+	internet: { imdb: '1911644', wiki_ua: '%D0%92%D0%B8%D0%BA%D0%BB%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013)', ashdivip: '13407', },
 	cast: { halle_berry_14081966: 1, },
 },
 {
@@ -673,7 +673,7 @@ const arrFilms = [
 {
 	id: 'den_skyldige_2018', title: { ua: 'Винний', en: 'Den skyldige', }, year: 2018, country: { dnk: 1, }, rating: 5,
 	genre: { thriller: 1, crime: 1, }, hash: { police: 1, phone: 1, },
-	internet: { imdb: '6742252', wiki_ru: '%D0%92%D0%B8%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2018)', },
+	internet: { imdb: '6742252', wiki_ru: '%D0%92%D0%B8%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2018)', ashdivip: '42113', },
 },
 {
 	id: 'le_grand_blond_avec_une_chaussure_noire_1972', title: { ua: 'Високий блондин у чорному черевику', en: 'Le grand blond avec une chaussure noire', }, year: 1972, country: { fra: 1, },
@@ -981,7 +981,7 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, burt_reynolds_11021936: 1, gina_gershon_10061962: 1, },
 },
 {
-	id: 'pride_&_prejudice_2005', title: { ua: 'Гордість та упередження', en: 'pride_&_prejudice', }, year: 2005, country: { gbr: 1, usa: 1, fra: 1, },
+	id: 'pride_&_prejudice_2005', title: { ua: 'Гордість та упередження', en: 'Pride & Prejudice', }, year: 2005, country: { gbr: 1, usa: 1, fra: 1, },
 	genre: { drama: 1, },
 	internet: { imdb: '0414387', wiki_ua: '%D0%93%D0%BE%D1%80%D0%B4%D1%96%D1%81%D1%82%D1%8C_%D1%96_%D1%83%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
 	cast: { keira_knightley_26031985: 1, donald_sutherland_17071935: 1, rosamund_pike_27011979: 1, judi_dench_09121934: 1, },
@@ -3757,7 +3757,6 @@ const arrFilms = [
 	id: 'ready_player_one_2018', title: { ua: 'Першому гравцю приготуватися', en: 'Ready Player One', }, year: 2018, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, sci_fi: 1, }, hash: { future: 1, utopia: 1, world: 1, young: 1, },
 	internet: { imdb: '1677720', wiki_ua: '%D0%9F%D0%B5%D1%80%D1%88%D0%BE%D0%BC%D1%83_%D0%B3%D1%80%D0%B0%D0%B2%D1%86%D1%8E_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8%D1%81%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-
 },
 {
 	id: 'looper_2012', title: { ua: 'Петля часу', en: 'Looper', }, year: 2012, country: { usa: 1, },
@@ -4128,7 +4127,7 @@ const arrFilms = [
 {
 	id: 'truth_or_dare_2018', title: { ua: 'Правда або дія', en: 'Truth or Dare', }, year: 2018, country: { usa: 1, },
 	genre: { horror: 1, thriller: 1, mystic: 1, }, hash: { young: 1, },
-	internet: { imdb: '6772950', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B4%D0%B0_%D0%B0%D0%B1%D0%BE_%D0%B4%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
+	internet: { imdb: '6772950', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B4%D0%B0_%D0%B0%D0%B1%D0%BE_%D0%B4%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', ashdivip: '1451', },
 },
 {
 	id: 'true_lies_1995', title: { ua: 'Правдива брехня', en: 'True Lies', }, year: 1995, country: { usa: 1, }, rating: 5,
@@ -4139,7 +4138,7 @@ const arrFilms = [
 {
 	id: 'righteous_kill_2008', title: { ua: 'Право на вбивство', en: 'Righteous Kill', }, year: 2008, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
-	internet: { imdb: '1034331', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%BE_%D0%BD%D0%B0_%D0%B2%D0%B1%D0%B8%D0%B2%D1%81%D1%82%D0%B2%D0%BE', },
+	internet: { imdb: '1034331', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%BE_%D0%BD%D0%B0_%D0%B2%D0%B1%D0%B8%D0%B2%D1%81%D1%82%D0%B2%D0%BE', ashdivip: '16744', },
 	cast: { al_pacino_25041940: 1, robert_de_niro_17081943: 1, oleg_taktarov_26081967: 1, },
 },
 {
@@ -4188,6 +4187,12 @@ const arrFilms = [
 	genre: { sci_fi: 1, thriller: 1,horror: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0093185', wiki_ua: '%D0%9F%D1%80%D0%B8%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9_%D0%B2%D0%BE%D1%80%D0%BE%D0%B3', ashdivip: '21363', },
 	cast: { kyle_maclachlan_22021959: 1, },
+},
+{
+	id: 'boy_kills_world_2023', title: { ua: 'Пробивний чувак', en: 'Boy Kills World', }, year: 2023, country: { usa: 1, deu: 1, zaf: 1, },
+	genre: { action: 1, comedy: 1, }, 
+	internet: { imdb: '13923084', wiki_ru: '%D0%9F%D0%B0%D1%86%D0%B0%D0%BD_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_%D0%B2%D1%81%D0%B5%D1%85', },
+	cast: { jessica_rothe_28051987: 1, },
 },
 {
 	id: 'passengers_2016', title: { ua: 'Пробудження', en: 'Passengers', }, year: 2016, country: { usa: 1, }, rating: 5,
@@ -4303,7 +4308,7 @@ const arrFilms = [
 {
 	id: 'flight_2012', title: { ua: 'Рейс', en: 'Flight', }, year: 2012, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, disaster: 1, }, hash: { plane: 1, justice: 1, },
-	internet: { imdb: '1907668', wiki_ua: '%D0%A0%D0%B5%D0%B9%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2012)', },
+	internet: { imdb: '1907668', wiki_ua: '%D0%A0%D0%B5%D0%B9%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2012)', ashdivip: '10060', },
 	cast: { denzel_washington_28121954: 1, don_cheadle_29111964: 1, },
 },
 {
@@ -4321,7 +4326,7 @@ const arrFilms = [
 {
 	id: 'the_recruit_2003', title: { ua: 'Рекрут', en: 'The Recruit', }, year: 2003, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, },
-	internet: { imdb: '0292506', wiki_ua: '%D0%A0%D0%B5%D0%BA%D1%80%D1%83%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0292506', wiki_ua: '%D0%A0%D0%B5%D0%BA%D1%80%D1%83%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '16388', },
 	cast: { al_pacino_25041940: 1, bridget_moynahan_28041971: 1, },
 },
 {
@@ -4689,12 +4694,12 @@ const arrFilms = [
 {
 	id: 'escape_room_2019', title: { ua: 'Смертельний лабіринт', en: 'Escape Room', }, year: 2019, country: { usa: 1, }, rating: 5,
 	genre: { horror: 1, thriller: 1, }, hash: { quest: 1, surviving: 1, },
-	internet: { imdb: '5886046', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82', },
+	internet: { imdb: '5886046', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82', ashdivip: '4659', },
 },
 {
 	id: 'escape_room_2_2021', title: { ua: 'Смертельний лабіринт - 2', en: 'Escape Room: Tournament of Champions', }, year: 2021, country: { usa: 1, }, rating: 5,
 	genre: { horror: 1, thriller: 1, }, hash: { quest: 1, surviving: 1, },
-	internet: { imdb: '9844522', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82_2:_%D0%9D%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B0_%D0%B2%D1%81%D1%8E%D0%B4%D0%B8', },
+	internet: { imdb: '9844522', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82_2:_%D0%9D%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%B0_%D0%B2%D1%81%D1%8E%D0%B4%D0%B8', ashdivip: '48990', },
 },
 {
 	id: 'wedlock_1991', title: { ua: 'Смертельні узи', en: 'Wedlock', }, year: 1991, country: { usa: 1, },
@@ -4800,7 +4805,7 @@ const arrFilms = [
 {
 	id: 'the_real_McCoy_1993', title: { ua: 'Справжня Маккой', en: 'The Real McCoy', }, year: 1993, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, crime: 1, }, hash: { robbery: 1, },
-	internet: { imdb: '0107927', wiki_ua: '%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%B6%D0%BD%D1%8F_%D0%9C%D0%B0%D0%BA%D0%BA%D0%BE%D0%B9', },
+	internet: { imdb: '0107927', wiki_ua: '%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%B6%D0%BD%D1%8F_%D0%9C%D0%B0%D0%BA%D0%BA%D0%BE%D0%B9', ashdivip: '17052', },
 	cast: { kim_basinger_08121953: 1, val_kilmer_31121959: 1, },
 },
 {
@@ -4971,7 +4976,7 @@ const arrFilms = [
 {
 	id: 'phone_booth_2002', title: { ua: 'Телефонна будка', en: 'Phone Booth', }, year: 2002, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, crime: 1, }, hash: { phone: 1, },
-	internet: { imdb: '0183649', wiki_ua: '%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%BD%D0%B0_%D0%B1%D1%83%D0%B4%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
+	internet: { imdb: '0183649', wiki_ua: '%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%BD%D0%B0_%D0%B1%D1%83%D0%B4%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	ashdivip: '4957', },
 	cast: { forest_whitaker_15071961: 1, kiefer_sutherland_21121966: 1, },
 },
 {
@@ -5221,6 +5226,12 @@ const arrFilms = [
 	id: 'tri_orísky_pro_Popelku_1973', title: { ua: 'Три горішки для Попелюшки', en: 'Tri orísky pro Popelku', }, year: 1973, country: { cze: 1, deu: 1, }, rating: 5,
 	genre: { fantasy: 1, },
 	internet: { imdb: '0070832', wiki_ua: '%D0%A2%D1%80%D0%B8_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BA%D0%B8_%D0%B4%D0%BB%D1%8F_%D0%9F%D0%BE%D0%BF%D0%B5%D0%BB%D1%8E%D1%88%D0%BA%D0%B8',	},
+},
+{
+	id: 'the_informer_2019', title: { ua: 'Три секунди', en: 'The Informer', }, year: 2019, country: { gbr: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '1833116', wiki_ua: '%D0%A2%D1%80%D0%B8_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B8', },
+	cast: { rosamund_pike_27011979: 1, },
 },
 {
 	id: 'Ocean_s_thirteen_2007', title: { ua: 'Тринадцять друзів Оушена', en: 'Ocean\'s Thirteen', }, year: 2007, country: { usa: 1, },
@@ -5586,7 +5597,7 @@ const arrFilms = [
 {
 	id: 'in_time_2011', title: { ua: 'Чaс', en: 'In Time', }, year: 2011, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, sci_fi: 1, crime: 1, }, hash: { utopia: 1, },
-	internet: { imdb: '1637688', wiki_ua: '%D0%A7%D0%B0%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', },
+	internet: { imdb: '1637688', wiki_ua: '%D0%A7%D0%B0%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', ashdivip: '6544', },
 	cast: { justin_timberlake_31011981: 1, },
 },
 {
