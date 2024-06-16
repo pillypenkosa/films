@@ -1063,7 +1063,7 @@ const arrFilms = [
 },
 {
 	id: 'grudge_match_2013', title: { ua: 'Гранд реванш', en: 'Grudge Match', }, year: 2013, country: { usa: 1, },
-	genre: { drama: 1, }, hash: { fight: 1, sport: 1, },
+	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '1661382', wiki_ua: '%D0%93%D1%80%D0%B0%D0%BD%D0%B4_%D1%80%D0%B5%D0%B2%D0%B0%D0%BD%D1%88', },
 	cast: { sylvester_stallone_06071946: 1, robert_de_niro_17081943: 1, kim_basinger_08121953: 1, mike_tyson_30061966: 1, },
 },
@@ -1640,6 +1640,11 @@ const arrFilms = [
 	id: 'life_of_Pi_2012', title: { ua: 'Життя Пі', en: 'Life of Pi', }, year: 2012, country: { usa: 1, },
 	genre: { adventure: 1, }, hash: { sea: 1, animal: 1, surviving: 1, travel: 1, },
 	internet: { imdb: '0454876', wiki_ua: '%D0%96%D0%B8%D1%82%D1%82%D1%8F_%D0%9F%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: 'ringul_1984', title: { ua: 'Жорстокий ринг', en: 'Ringul', }, year: 1984, country: { rou: 1, },
+	genre: { drama: 1, }, hash: { box: 1, truckers: 1, },
+	internet: { imdb: '0133180', },
 },
 {
 	id: 'falling_down_1993', title: { ua: 'З мене досить', en: 'Falling Down', }, year: 1993, country: { usa: 1, }, rating: 5,
@@ -3941,7 +3946,7 @@ const arrFilms = [
 {
 	id: 'double_jeopardy_1999', title: { ua: 'Подвійний прорахунок', en: 'Double Jeopardy', }, year: 1999, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, crime: 1, },
-	internet: { imdb: '0150377', wiki_ua: '%D0%9F%D0%BE%D0%B4%D0%B2%D1%96%D0%B9%D0%BD%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D1%80%D0%B0%D1%85%D1%83%D0%BD%D0%BE%D0%BA', },
+	internet: { imdb: '0150377', wiki_ua: '%D0%9F%D0%BE%D0%B4%D0%B2%D1%96%D0%B9%D0%BD%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D1%80%D0%B0%D1%85%D1%83%D0%BD%D0%BE%D0%BA', ashdivip: '19611', },
 	cast: { tommy_lee_jones_15091946: 1, ashley_judd_19041968: 1, },
 },
 {
@@ -4429,6 +4434,36 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, },
 },
 {
+	id: 'Rocky_2_1979', title: { ua: 'Роккі - 2', en: 'Rocky II', }, year: 1979, country: { usa: 1, }, 
+	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
+	internet: { imdb: '0079817', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_2', },
+	cast: { sylvester_stallone_06071946: 1, },
+},
+{
+	id: 'Rocky_3_1982', title: { ua: 'Роккі - 3', en: 'Rocky III', }, year: 1982, country: { usa: 1, }, 
+	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
+	internet: { imdb: '0084602', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_3', },
+	cast: { sylvester_stallone_06071946: 1, },
+},
+{
+	id: 'Rocky_4_1985', title: { ua: 'Роккі - 4', en: 'Роккі IV', }, year: 1985, country: { usa: 1, }, 
+	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
+	internet: { imdb: '0089927', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_4', },
+	cast: { sylvester_stallone_06071946: 1, dolph_lundgren_03111957: 1, },
+},
+{
+	id: 'Rocky_5_1990', title: { ua: 'Роккі - 5', en: 'Роккі V', }, year: 1990, country: { usa: 1, }, 
+	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
+	internet: { imdb: '0100507', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_5', },
+	cast: { sylvester_stallone_06071946: 1, },
+},
+{
+	id: 'Rocky_6_2006', title: { ua: 'Роккі Бальбоа', en: 'Rocky Balboa', }, year: 2006, country: { usa: 1, }, 
+	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
+	internet: { imdb: '0479143', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_%D0%91%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { sylvester_stallone_06071946: 1, mike_tyson_30061966: 1, },
+},
+{
 	id: 'role_play_2024', title: { ua: 'Рольові ігри', en: 'Role Play', }, year: 2024, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, crime: 1, },
 	internet: { imdb: '12964320', wiki_ua: '%D0%A0%D0%BE%D0%BB%D1%8C%D0%BE%D0%B2%D1%96_%D1%96%D0%B3%D1%80%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -4593,7 +4628,7 @@ const arrFilms = [
 },
 {
 	id: 'raging_bull_1980', title: { ua: 'Скажений бик', en: 'Raging Bull', }, year: 1980, country: { usa: 1, },
-	genre: { drama: 1, },
+	genre: { drama: 1, }, hash: { sport: 1, box: 1, },
 	internet: { imdb: '0081398', wiki_ua: '%D0%A1%D0%BA%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9_%D0%B1%D0%B8%D0%BA', },
 	cast: { robert_de_niro_17081943: 1, joe_pesci_09021943: 1, },
 },
