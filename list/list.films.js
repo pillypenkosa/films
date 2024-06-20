@@ -502,7 +502,7 @@ const arrFilms = [
 },
 {
 	id: 'the_bunker_1981', title: { ua: 'Бункер', en: 'The Bunker', }, year: 1981, country: { fra: 1, usa: 1, },
-	genre: { war: 1, history: 1, }, hash: { real: 1, war2: 1, },
+	genre: { war: 1, history: 1, }, hash: { real: 1, war2w: 1, },
 	internet: { imdb: '0082114', wiki_ru: '%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1981,_%D0%A1%D0%A8%D0%90)', },
 	cast: { anthony_hopkins_31121937: 1, },
 },
@@ -583,12 +583,12 @@ const arrFilms = [
 },
 {
 	id: 'the_great_escape_1963', title: { ua: 'Велика втеча', en: 'The Great Escape', }, year: 1963, country: { usa: 1, },
-	genre: { history: 1, war: 1, }, hash: { war2: 1, prison: 1, escape: 1, },
+	genre: { history: 1, war: 1, }, hash: { war2w: 1, prison: 1, escape: 1, },
 	internet: { imdb: '0057115', wiki_ua: '%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0_%D0%B2%D1%82%D0%B5%D1%87%D0%B0', },
 },
 {
 	id: 'la_grande_vadrouille_1966', title: { ua: 'Велика прогулянка', en: 'La grande vadrouille', }, year: 1966, country: { fra: 1, gbr: 1, },
-	genre: { comedy: 1, adventure: 1, }, hash: { war: 1, war2: 1, },
+	genre: { comedy: 1, adventure: 1, }, hash: { war: 1, war2w: 1, },
 	internet: { imdb: '0060474', wiki_ua: '%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%83%D0%BB%D1%8F%D0%BD%D0%BA%D0%B0', },
 	cast: { louis_de_funes_31071914: 1, },
 },
@@ -788,7 +788,7 @@ const arrFilms = [
 },
 {
 	id: 'enemy_at_the_gates_2001', title: { ua: 'Ворог біля воріт', en: 'Enemy at the Gates', }, year: 2001, country: { usa: 1, },
-	genre: { war: 1, action: 1, }, hash: { war2: 1, },
+	genre: { war: 1, action: 1, }, hash: { war2w: 1, },
 	internet: { imdb: '0215750', wiki_ua: '%D0%92%D0%BE%D1%80%D0%BE%D0%B3_%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { ed_harris_28111950: 1, },
 },
@@ -817,7 +817,7 @@ const arrFilms = [
 },
 {
 	id: 'saving_private_Ryan_1998', title: { ua: 'Врятувати рядового Раяна', en: 'Saving Private Ryan', }, year: 1998, country: { usa: 1, }, rating: 5,
-	genre: { war: 1, history: 1, }, hash: { war2: 1, },
+	genre: { war: 1, history: 1, }, hash: { war2w: 1, },
 	internet: { imdb: '0120815', wiki_ua: '%D0%92%D1%80%D1%8F%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8_%D1%80%D1%8F%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%A0%D0%B0%D1%8F%D0%BD%D0%B0',		 },
 	cast: { tom_hanks_09071956: 1, matt_damon_08101970: 1, tom_sizemore_29111961: 1, barry_pepper_04041970: 1, vin_diesel_18071967: 1, }, director: { steven_spielberg_18121946: 1, },
 },
@@ -1132,6 +1132,12 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, brad_pitt_18121963: 1, david_morse_11101953: 1, },
 },
 {
+	id: 'gemini_man_2019', title: { ua: 'Двійник', en: 'Gemini Man', }, year: 2019, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, 
+	internet: { imdb: '1025100', wiki_ua: '%D0%94%D0%B2%D1%96%D0%B9%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', },
+	cast: { will_smith_25091968: 1, },
+},
+{
 	id: 'the_devil_s_double_20011', title: { ua: 'Двійник диявола', en: 'The Devil\'s Double', }, year: 2011, country: { bel: 1, },
 	genre: { drama: 1, }, hash: { politic: 1, },
 	internet: { imdb: '1270262', wiki_ua: '%D0%94%D0%B2%D1%96%D0%B9%D0%BD%D0%B8%D0%BA_%D0%B4%D0%B8%D1%8F%D0%B2%D0%BE%D0%BB%D0%B0', },
@@ -1243,7 +1249,7 @@ const arrFilms = [
 },
 {
 	id: 'Jack_the_ripper_1988', title: { ua: 'Джек-різник', en: 'Jack the Ripper', }, year: 1988, country: { usa: 1, gbr: 1, },
-	genre: { crime: 1, detective: 1, },
+	genre: { crime: 1, detective: 1, }, hash: { medicine: 1, maniac: 1, },
 	internet: { imdb: '0095388', wiki_ru: '%D0%94%D0%B6%D0%B5%D0%BA-%D0%BF%D0%BE%D1%82%D1%80%D0%BE%D1%88%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1988)', },
 },
 {
@@ -1376,6 +1382,12 @@ const arrFilms = [
 	genre: { comedy: 1, drama: 1, },
 	internet: { imdb: '3152624', wiki_ua: '%D0%94%D1%96%D0%B2%D1%87%D0%B8%D0%BD%D0%B0_%D0%B1%D0%B5%D0%B7_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B2', },
 	cast: { tilda_swinton_05111960: 1, brie_larson_01101989: 1, },
+},
+{
+	id: 'house_of_Gucci_2021', title: { ua: 'Дім Ґуччі', en: 'House of Gucci', }, year: 2021, country: { usa: 1, },
+	genre: { drama: 1, }, hash: { fashion: 1, },
+	internet: { imdb: '11214590', wiki_ua: '%D0%94%D1%96%D0%BC_%D2%90%D1%83%D1%87%D1%87%D1%96', },
+	cast: { lady_gaga_28031986: 1, al_pacino_25041940: 1, salma_hayek_02091966: 1, },
 },
 {
 	id: 'the_children_of_Times_Square_1986', title: { ua: 'Діти Таймс-Скверу', en: 'The Children of Times Square', }, year: 1986, country: { usa: 1, }, rating: 5,
@@ -1871,7 +1883,7 @@ const arrFilms = [
 },
 {
 	id: 'znachor_1982', title: { ua: 'Знахар', en: 'Znachor', }, year: 1982, country: { pol: 1, },
-	genre: { drama: 1, }, hash: { medicine: 1, },
+	genre: { drama: 1, }, hash: { medicine: 1, doctor: 1, },
 	internet: { imdb: '0084953', wiki_ua: '%D0%97%D0%BD%D0%B0%D1%85%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1982)', },
 },
 {
@@ -1899,7 +1911,7 @@ const arrFilms = [
 },
 {
 	id: 'the_zone_of_interest_2023', title: { ua: 'Зона інтересу', en: 'The Zone of Interest', }, year: 2023, country: { usa: 1, gbr: 1, pol: 1, }, 
-	genre: { drama: 1, war: 1, }, hash: { war2: 1, },
+	genre: { drama: 1, war: 1, }, hash: { war2w: 1, },
 	internet: { imdb: '7160372', wiki_ua: '%D0%97%D0%BE%D0%BD%D0%B0_%D1%96%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83', },
 },
 {
@@ -1924,47 +1936,24 @@ const arrFilms = [
 	internet: { imdb: '0120201', wiki_ua: '%D0%97%D0%BE%D1%80%D1%8F%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D1%81%D0%B0%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { casper_van_dien_18121968: 1, amy_smart_26031976: 1, dean_norris_08041963: 1, denise_richards_17021971: 1, },
 },
-
-
-
-
-
-
 {
-	id: '', title: { ua: 'Зоряні війни', en: '', }, year: 1900, country: { usa: 1, },
-
-
-
-
-	genre: { action: 1, sci_fi: 1, }, hash: { battle: 1, aliens: 1, future: 1, },
-
-
-	internet: { imdb: '', wiki_ua: '%D0%97%D0%BE%D1%80%D1%8F%D0%BD%D1%96_%D0%B2%D1%96%D0%B9%D0%BD%D0%B8:_%D0%9D%D0%BE%D0%B2%D0%B0_%D0%BD%D0%B0%D0%B4%D1%96%D1%8F', },
-	
-
-
-
+	id: 'star_wars_1977', title: { ua: 'Зоряні війни: Нова надія', en: 'Star Wars', }, year: 1977, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { sci_fi: 1, space: 1, planet: 1, battle: 1, aliens: 1, },
+	internet: { imdb: '0076759', wiki_ua: '%D0%97%D0%BE%D1%80%D1%8F%D0%BD%D1%96_%D0%B2%D1%96%D0%B9%D0%BD%D0%B8:_%D0%9D%D0%BE%D0%B2%D0%B0_%D0%BD%D0%B0%D0%B4%D1%96%D1%8F', },
 	cast: { harrison_ford_13071942: 1, },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+	id: 'star_wars_1980', title: { ua: 'Зоряні війни: Імперія завдає удару у відповідь', en: 'Star Wars: Episode V - The Empire Strikes Back', }, year: 1980, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { sci_fi: 1, space: 1, planet: 1, battle: 1, aliens: 1, },
+	internet: { imdb: '0080684', wiki_ua: '%D0%97%D0%BE%D1%80%D1%8F%D0%BD%D1%96_%D0%B2%D1%96%D0%B9%D0%BD%D0%B8:_%D0%86%D0%BC%D0%BF%D0%B5%D1%80%D1%96%D1%8F_%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D1%94_%D1%83%D0%B4%D0%B0%D1%80%D1%83_%D1%83_%D0%B2%D1%96%D0%B4%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D1%8C', },
+	cast: { harrison_ford_13071942: 1, },
+},
+{
+	id: 'star_wars_1983', title: { ua: 'Зоряні війни: Повернення Джедая', en: 'Star Wars: Episode VI - Return of the Jedi', }, year: 1983, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { sci_fi: 1, space: 1, planet: 1, battle: 1, aliens: 1, },
+	internet: { imdb: '0086190', wiki_ua: '%D0%97%D0%BE%D1%80%D1%8F%D0%BD%D1%96_%D0%B2%D1%96%D0%B9%D0%BD%D0%B8:_%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B4%D0%B6%D0%B5%D0%B4%D0%B0%D1%8F', },
+	cast: { harrison_ford_13071942: 1, },
+},
 {
 	id: 'made_in_America_1993', title: { ua: 'Зроблено в Америці', en: 'Made in America', }, year: 1993, country: { usa: 1, can: 1, }, rating: 5,
 	genre: { comedy: 1, },
@@ -2044,7 +2033,7 @@ const arrFilms = [
 },
 {
 	id: 'abgeschnitten_2018', title: { ua: 'Ізоляція', en: 'Abgeschnitten', }, year: 2018, country: { deu: 1, }, rating: 5,
-	genre: { action: 1, crime: 1, }, hash: { biomedlab: 1, },
+	genre: { action: 1, crime: 1, }, hash: { medicine: 1, biomedlab: 1, },
 	internet: { imdb: '3645988', },
 },
 {
@@ -2701,7 +2690,7 @@ const arrFilms = [
 },
 {
 	id: 'fury_2014', title: { ua: 'Лють', en: 'Fury', }, year: 2014, country: { usa: 1, },
-	genre: { war: 1, drama: 1, }, hash: { war2: 1, battle: 1, },
+	genre: { war: 1, drama: 1, }, hash: { war2w: 1, battle: 1, tank: 1, },
 	internet: { imdb: '2713180', wiki_ua: '%D0%9B%D1%8E%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2014)', },
 	cast: { brad_pitt_18121963: 1, shia_labeouf_11061986: 1, },
 },
@@ -3604,7 +3593,7 @@ const arrFilms = [
 },
 {
 	id: 'the_island_of_dr_Moreau_1996', title: { ua: 'Острів доктора Моро', en: 'The Island of Dr. Moreau', }, year: 1996, country: { usa: 1, }, rating: 1,
-	genre: { sci_fi: 1, horror: 1, thriller: 1, }, hash: { world: 1, animal: 1, island: 1, },
+	genre: { sci_fi: 1, horror: 1, thriller: 1, }, hash: { world: 1, animal: 1, island: 1, mutant: 1, },
 	internet: { imdb: '0116654', wiki_ua: '%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%BE%D1%80%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
 	cast: { val_kilmer_31121959: 1, marlon_brando_03041924: 1, mark_dacascos_26021964: 1, },
 },
@@ -3659,6 +3648,12 @@ const arrFilms = [
 	genre: { action: 1, comedy: 1, crime: 1,  },
 	internet: { imdb: '1385867', wiki_ua: '%D0%9F%D0%B0%D1%80%D0%BE%D1%87%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BF%D1%96%D0%B2', },
 	cast: { bruce_willis_19031955: 1, seann_william_scott_03101976: 1, michelle_trachtenberg_11101985: 1, jason_lee_25041970: 1, kevin_pollak_30101957: 1, },
+},
+{
+	id: 'perfume_2006', title: { ua: 'Парфумер: Історія одного вбивці', en: 'Perfume: The Story of a Murderer', }, year: 2006, country: { usa: 1, fta: 1, deu: 1, esp: 1,},
+	genre: { drama: 1, crime: 1, }, hash: { maniac: 1, biomedlab: 1, },
+	internet: { imdb: '0396171', wiki_ua: '%D0%9F%D0%B0%D1%80%D1%84%D1%83%D0%BC%D0%B5%D1%80:_%D0%86%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F_%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B2%D0%B1%D0%B8%D0%B2%D1%86%D1%96', },
+	cast: { dustin_hoffman_08081937: 1, },
 },
 {
 	id: 'entrapment_1999', title: { ua: 'Пастка', en: 'Entrapment', }, year: 1999, country: { usa: 1, deu: 1, gbr: 1, }, rating: '5+',
@@ -3742,7 +3737,7 @@ const arrFilms = [
 },
 {
 	id: 'Pearl_Harbor_2001', title: { ua: 'Перл Гарбор', en: 'Pearl Harbor', }, year: 2001, country: { usa: 1, },
-	genre: { war: 1, history: 1, }, hash: { real: 1, war2: 1, plane: 1, battle: 1, love: 1, },
+	genre: { war: 1, history: 1, }, hash: { real: 1, war2w: 1, plane: 1, battle: 1, love: 1, },
 	internet: { imdb: '0213149', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%BB-%D0%93%D0%B0%D1%80%D0%B1%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { ben_affleck_15081972: 1, josh_hartnett_21071978: 1, kate_beckinsale_26071973: 1, tom_sizemore_29111961: 1, jon_voight_29121938: 1, alec_baldwin_03041958: 1, cuba_gooding_jr_02011968: 1, },
 },
@@ -3981,7 +3976,7 @@ const arrFilms = [
 },
 {
 	id: 'kraljevski_voz_1981', title: { ua: 'Поїзд на Кралєво', en: 'Kraljevski voz', }, year: 1981, country: { yug: 1, },
-	genre: { war: 1, }, hash: { train: 1, war2: 1, },
+	genre: { war: 1, }, hash: { train: 1, war2w: 1, },
 	internet: { imdb: '0180788', wiki_ru: '%D0%9F%D0%BE%D0%B5%D0%B7%D0%B4_%D0%BD%D0%B0_%D0%9A%D1%80%D0%B0%D0%BB%D0%B5%D0%B2%D0%BE', },
 },
 {
@@ -5305,7 +5300,7 @@ const arrFilms = [
 },
 {
 	id: 'into_the_white_2012', title: { ua: 'У білому полоні', en: 'Into the White', }, year: 2012, country: { nor: 1, swe: 1, }, 
-	genre: { war: 1, drama: 1, }, hash: { war2: 1, winter: 1, },
+	genre: { war: 1, drama: 1, }, hash: { war2w: 1, winter: 1, },
 	internet: { imdb: '1876277', wiki_ua: '%D0%A3_%D1%81%D0%BD%D1%96%D0%B6%D0%BD%D0%BE%D0%BC%D1%83_%D0%BF%D0%BE%D0%BB%D0%BE%D0%BD%D1%96', },
 },
 {
@@ -5825,7 +5820,7 @@ const arrFilms = [
 },
 {
 	id: 'la_piel_que_habito_2011', title: { ua: 'Шкіра в якій я живу', en: '6 ', }, year: 2011, country: { usa: 1, },
-	genre: { mystic: 1, }, hash: { biomedlab: 1, },
+	genre: { mystic: 1, }, hash: { medicine: 1, doctor: 1, biomedlab: 1, },
 	internet: { imdb: '1189073', wiki_ua: '%D0%A8%D0%BA%D1%96%D1%80%D0%B0,_%D0%B2_%D1%8F%D0%BA%D1%96%D0%B9_%D1%8F_%D0%B6%D0%B8%D0%B2%D1%83', },
 	cast: { antonio_banderas_10081960: 1, },
 },
@@ -5977,7 +5972,7 @@ const arrFilms = [
 },
 {
 	id: 'u-571_2000', title: { ua: 'U-571', en: 'U-571', }, year: 2000, country: { usa: 1, fra: 1, },
-	genre: { action: 1, war: 1, }, hash: { underwater: 1, war2: 1, },
+	genre: { action: 1, war: 1, }, hash: { underwater: 1, war2w: 1, },
 	internet: { imdb: '0141926', wiki_ua: 'U-571_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { matthew_mcconaughey_04111969: 1, jon_bon_jovi_02031962: 1, bill_paxton_17051955: 1, }, director: { jonathan_mostow_28111961: 1, },
 },
