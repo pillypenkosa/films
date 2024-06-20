@@ -3146,7 +3146,7 @@ const arrFilms = [
 	id: 'back_to_the_future_2_1989', title: { ua: 'Назад у майбутнє - 2', en: 'Back to the Future Part II', }, year: 1989, country: { usa: 1, }, rating: '5+',
 	genre: { adventure: 1, sci_fi: 1, }, hash: { time: 1, young: 1, },
 	internet: { imdb: '0096874', wiki_ua: '%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D1%83_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%94_2', ashdivip: '290', moviestape: 'Nazad.u.majbutnje.2', },
-	cast: { michael_j_fox_09061961: 1, christopher_lloyd_22101938: 1, crispin_glover_20041964: 1, elisabeth_shue_06101963: 1, billy_zane_24021966: 1, },
+	cast: { michael_j_fox_09061961: 1, christopher_lloyd_22101938: 1, crispin_glover_20041964: 1, elisabeth_shue_06101963: 1, billy_zane_24021966: 1, jason_scott_lee_19111966: 1, },
 },
 {
 	id: 'back_to_the_future_3_1990', title: { ua: 'Назад у майбутнє - 3', en: 'Back to the Future Part III', }, year: 1990, country: { usa: 1, }, rating: '5+',
@@ -4765,7 +4765,7 @@ const arrFilms = [
 	id: 'soldier_1998', title: { ua: 'Солдат', en: 'Soldier', }, year: 1998, country: { gbr: 1, usa: 1, },
 	genre: { action: 1, }, hash: { future: 1, planet: 1, },
 	internet: { imdb: '0120157', wiki_ua: '%D0%A1%D0%BE%D0%BB%D0%B4%D0%B0%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', },
-	cast: { kurt_russell_17031951: 1, gary_busey_29061944: 1, connie_nielsen_03071965: 1, },
+	cast: { kurt_russell_17031951: 1, gary_busey_29061944: 1, connie_nielsen_03071965: 1, jason_scott_lee_19111966: 1, },
 },
 {
 	id: 'g_i_Jane_1997', title: { ua: 'Солдат Джейн', en: 'G.I. Jane', }, year: 1997, country: { usa: 1, },
