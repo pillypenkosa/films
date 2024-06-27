@@ -183,6 +183,12 @@ const arrFilms = [
 	cast: { john_malkovich_09121953: 1, },
 },
 {
+	id: 'agent_recon_2024', title: { ua: 'Агент розвідки', en: 'Agent Recon', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, 
+	internet: { imdb: '26743864', },
+	cast: { chuck_norris_10031940: 1, },
+},
+{
 	id: 'the_devil_s_advocate_1997', title: { ua: 'Адвокат диявола', en: 'The Devil\'s Advocate', }, rating: 5,
 	year: 1997, country: { usa: 1, }, genre: { mystic: 1, drama: 1, }, hash: { justice: 1, },
 	internet: { imdb: '0118971', wiki_ua: '%D0%90%D0%B4%D0%B2%D0%BE%D0%BA%D0%B0%D1%82_%D0%94%D0%B8%D1%8F%D0%B2%D0%BE%D0%BB%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2219', },
@@ -1842,6 +1848,11 @@ const arrFilms = [
 	cast: { peter_dinklage_11061969: 1, },
 },
 {
+	id: 'prey_2022', title: { ua: 'Здобич', en: 'Prey', }, year: 2022, country: { usa: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { aliens: 1, },
+	internet: { imdb: '11866324', wiki_ua: '%D0%97%D0%B4%D0%BE%D0%B1%D0%B8%D1%87_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', },
+},
+{
 	id: 'the_green_mile_1999', title: { ua: 'Зелена миля', en: 'The Green Mile', }, year: 1999, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, crime: 1, fantasy: 1, }, hash: { justice: 1, prison: 1, },
 	internet: { imdb: '0120689', wiki_ua: '%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0_%D0%BC%D0%B8%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -3180,6 +3191,11 @@ const arrFilms = [
 	id: 'best_of_the_best_1989', title: { ua: 'Найкращі з найкращих', en: 'Best of the Best', }, year: 1989, country: { usa: 1, },
 	genre: { action: 1, },
 	internet: { imdb: '0096913', wiki_ru: '%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5_%D0%B8%D0%B7_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D1%85', },
+},
+{
+	id: 'hit_man_2023', title: { ua: 'Найманий убивця', en: 'Hit Man', }, year: 2023, country: { usa: 1, }, 
+	genre: { comedy: 1, crime: 1, },
+	internet: { imdb: '20215968', wiki_ua: '%D0%9D%D0%B0%D0%B9%D0%BC%D0%B0%D0%BD%D0%B8%D0%B9_%D1%83%D0%B1%D0%B8%D0%B2%D1%86%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
 },
 {
 	id: 'assassins_1995', title: { ua: 'Наймані вбивці', en: 'Assassins', }, year: 1995, country: { usa: 1, }, rating: '5+',
@@ -5875,6 +5891,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0068935', wiki_ua: '%D0%A8%D0%BB%D1%8F%D1%85_%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D0%B0', },
 	cast: { bruce_lee_27111940: 1, chuck_norris_10031940: 1, },
+},
+{
+	id: 'trigger_warning_2024', title: { ua: 'Шлях відплати', en: 'Trigger Warning', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '5834874', wiki_ua: '%D0%A8%D0%BB%D1%8F%D1%85_%D0%B2%D1%96%D0%B4%D0%BF%D0%BB%D0%B0%D1%82%D0%B8', },
+	cast: { jessica_alba_28041981: 1, },
 },
 {
 	id: 'highwaymen_2004', title: { ua: 'Шосе смерті', en: 'Highwaymen', }, year: 2004, country: { usa: 1, },
