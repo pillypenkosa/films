@@ -2421,6 +2421,11 @@ const arrFilms = [
 	cast: { sharon_stone_10031958: 1, },
 },
 {
+	id: 'kingdom_of_the_planet_of_the_apes_2024', title: { ua: 'Королівство планети мавп', en: 'Kingdom of the Planet of the Apes', }, year: 2024, country: { fra: 1, bel: 1, },
+	genre: { sci_fi: 1, adventure: 1, }, hash: { monkey: 1, world: 1, planet: 1, animal: 1, },
+	internet: { imdb: '11389872', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%96%D0%B2%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B8_%D0%BC%D0%B0%D0%B2%D0%BF', },
+},
+{
 	id: 'le_regne_animal_2023', title: { ua: 'Королівство тварин', en: 'Le regne animal', }, year: 2023, country: { fra: 1, bel: 1, },
 	genre: { drama: 1, fantasy: 1, }, hash: { animal: 1, mutant: 1, },
 	internet: { imdb: '16606592', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%96%D0%B2%D1%81%D1%82%D0%B2%D0%BE_%D1%82%D0%B2%D0%B0%D1%80%D0%B8%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -2857,6 +2862,11 @@ const arrFilms = [
 	internet: { imdb: '3707104', wiki_ru: '%D0%9C%D0%B8%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2016)', },
 },
 {
+	id: 'the_ministry_of_ungentlemanly_warfare_2024', title: { ua: 'Міністерство неджентльменської війни', en: 'The Ministry of Ungentlemanly Warfare', }, year: 2024, country: { usa: 1, gbr: 1, },
+	genre: { action: 1, war: 1, adventure: 1, },
+	internet: { imdb: '5177120', wiki_ua: '%D0%9C%D1%96%D0%BD%D1%96%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D0%BD%D1%82%D0%BB%D1%8C%D0%BC%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%97_%D0%B2%D1%96%D0%B9%D0%BD%D0%B8', },
+},
+{
 	id: 'miss_congeniality_2000', title: { ua: 'Міс Конгеніальність', en: 'Miss Congeniality', }, year: 2000, country: { usa: 1, aus: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, },
 	internet: { imdb: '0212346', wiki_ua: '%D0%9C%D1%96%D1%81_%D0%9A%D0%BE%D0%BD%D0%B3%D0%B5%D0%BD%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D1%81%D1%82%D1%8C', },
@@ -2974,6 +2984,12 @@ const arrFilms = [
 	genre: { fantasy: 1, },
 	internet: { imdb: '0093543', wiki_ua: '%D0%9C%D1%96%D0%BE,_%D0%BC%D1%96%D0%B9_%D0%9C%D1%96%D0%BE', },
 	cast: { christian_bale_30011974: 1, igor_yasulovich_24091941: 1, },
+},
+{
+	id: 'die_Hart_2023', title: { ua: 'Міцний Гарт: Фільм', en: 'Die Hart', }, year: 2023, country: { usa: 1, }, 
+	genre: { comedy: 1, }, 
+	internet: { imdb: '27116016', },
+	cast: { john_travolta_18021954: 1, nathalie_emmanuel_02031989: 1, jean_reno_30071948: 1, josh_hartnett_21071978: 1, },
 },
 {
 	id: 'die_hard_1988', title: { ua: 'Міцний горішок', en: 'Die Hard', }, year: 1988, country: { usa: 1, }, rating: 5,
@@ -3919,6 +3935,30 @@ const arrFilms = [
 	id: 'civil_war_2024', title: { ua: 'Повстання Штатів', en: 'Civil War', }, year: 2024, country: { usa: 1, gbr: 1, },
 	genre: { action: 1, war: 1, },
 	internet: { imdb: '17279496', wiki_ua: '%D0%9F%D0%BE%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%A8%D1%82%D0%B0%D1%82%D1%96%D0%B2', },
+},
+{
+	id: 'bad_boys_1995', title: { ua: 'Погані хлопці', en: 'Bad Boys', }, year: 1995, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, }, 
+	internet: { imdb: '0112442', wiki_ua: '%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96_%D1%85%D0%BB%D0%BE%D0%BF%D1%86%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { will_smith_25091968: 1, martin_lawrence_16041965: 1, },
+},
+{
+	id: 'bad_boys_2_2003', title: { ua: 'Погані хлопці - 2', en: 'Bad Boys II', }, year: 2003, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, }, 
+	internet: { imdb: '0172156', wiki_ua: '%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96_%D1%85%D0%BB%D0%BE%D0%BF%D1%86%D1%96_2', },
+	cast: { will_smith_25091968: 1, martin_lawrence_16041965: 1, },
+},
+{
+	id: 'bad_boys_3_2020', title: { ua: 'Погані хлопці назавжди', en: 'Bad Boys for Life', }, year: 2020, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, }, 
+	internet: { imdb: '1502397', wiki_ua: '%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96_%D1%85%D0%BB%D0%BE%D0%BF%D1%86%D1%96_%D0%BD%D0%B0%D0%B7%D0%B0%D0%B2%D0%B6%D0%B4%D0%B8', },
+	cast: { will_smith_25091968: 1, martin_lawrence_16041965: 1, },
+},
+{
+	id: 'bad_boys_4_2024', title: { ua: 'Погані хлопці: Все або нічого', en: 'Bad Boys: Ride or Die', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, }, 
+	internet: { imdb: '4919268', wiki_ua: '%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96_%D1%85%D0%BB%D0%BE%D0%BF%D1%86%D1%96:_%D0%92%D1%81%D0%B5_%D0%B0%D0%B1%D0%BE_%D0%BD%D1%96%D1%87%D0%BE%D0%B3%D0%BE', },
+	cast: { will_smith_25091968: 1, martin_lawrence_16041965: 1, },
 },
 {
 	id: 'the_chase_1994', title: { ua: 'Погоня', en: 'The Chase', }, year: 1994, country: { usa: 1, },
@@ -5611,6 +5651,12 @@ const arrFilms = [
 	id: 'cicada_3301_2021', title: { ua: 'Цикада 3301: Квест для хакера', en: 'Dark Web: Cicada 3301', }, year: 2021, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, },
 	internet: { imdb: '8110246', },
+},
+{
+	id: 'repeater_2022', title: { ua: 'Цикл', en: 'Repeater', }, year: 2022, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '7979692', },
+	cast: { gary_daniels_09051963: 1, kristanna_loken_08101979: 1, },
 },
 {
 	id: 'derailed_2005', title: { ua: 'Ціна зради', en: 'Derailed', }, year: 2005, country: { usa: 1, },
