@@ -345,6 +345,12 @@ const arrFilms = [
 	cast: { jean_reno_30071948: 1, },
 },
 {
+	id: 'tales_from_the_crypt_demon_knight_1995', title: { ua: 'Байки зі склепу: Лицар демонів', en: 'Tales from the Crypt: Demon Knight', }, year: 1995, country: { usa: 1, },
+	genre: { horror: 1, comedy: 1, },
+	internet: { imdb: '0114608', wiki_ru: '%D0%91%D0%B0%D0%B9%D0%BA%D0%B8_%D0%B8%D0%B7_%D1%81%D0%BA%D0%BB%D0%B5%D0%BF%D0%B0:_%D0%94%D0%B5%D0%BC%D0%BE%D0%BD_%D0%BD%D0%BE%D1%87%D0%B8', },
+	cast: { billy_zane_24021966: 1, brenda_bakke_15051963: 1, },
+},
+{
 	id: 'bangkok_hilton_1989', title: { ua: 'Бангкок Гілтон', en: 'Bangkok Hilton', }, year: 1989, country: { aus: 1, },
 	genre: { serial: 1, thriller: 1, crime: 1, }, hash: { prison: 1, escape: 1, },
 	internet: { imdb: '0096540', wiki_ru: '%D0%91%D0%B0%D0%BD%D0%B3%D0%BA%D0%BE%D0%BA_%D0%A5%D0%B8%D0%BB%D1%82%D0%BE%D0%BD', },
@@ -4706,6 +4712,12 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, road: 1, },
 	internet: { imdb: '1392190', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81:_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B0_%D0%B3%D0%BD%D1%96%D0%B2%D1%83', },
 	cast: { tom_hardy_15091977: 1, charlize_theron_07081975: 1, },
+},
+{
+	id: 'mad_Max_5_2024', title: { ua: 'Скажений Макс - 5', en: 'Furiosa: A Mad Max Saga', }, year: 2024, country: { usa: 1, aus: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, road: 1, },
+	internet: { imdb: '12037194', wiki_ua: '%D0%A4%D1%83%D1%80%D1%96%D0%BE%D0%B7%D0%B0:_%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81._%D0%A1%D0%B0%D0%B3%D0%B0', },
+	cast: { chris_hemsworth_11081983: 1, },
 },
 {
 	id: 'the_rundown_2003', title: { ua: 'Скарб Амазонки', en: 'The Rundown', }, year: 2003, country: { usa: 1, },
