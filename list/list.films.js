@@ -565,6 +565,32 @@ const arrFilms = [
 	internet: { imdb: '0259711', wiki_ua: '%D0%92%D0%B0%D0%BD%D1%96%D0%BB%D1%8C%D0%BD%D0%B5_%D0%BD%D0%B5%D0%B1%D0%BE', },
 	cast: { tom_cruise_03071962: 1, penelope_cruz_28041974: 1, cameron_diaz_30081972: 1, kurt_russell_17031951: 1, jason_lee_25041970: 1, tilda_swinton_05111960: 1, steven_spielberg_18121946: 1, },
 },
+
+
+
+
+
+{
+	id: 'road_train_2010', title: { ua: 'Вантажівка', en: 'Road Train', }, year: 2010, country: { usa: 1, },
+	genre: { horror: 1, }, hash: { cars: 1, road: 1, },
+	internet: { imdb: '1241330', wiki_ua: '', },
+
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'wasabi_2001', title: { ua: 'Васабі', en: 'Wasabi', }, year: 2001, country: { fra: 1, jpn: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, },
