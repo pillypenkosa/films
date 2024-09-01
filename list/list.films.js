@@ -4916,6 +4916,12 @@ const arrFilms = [
 	cast: { tom_cruise_03071962: 1, },
 },
 {
+	id: 'the_union_2024', title: { ua: 'Спілка', en: 'The Union', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, adventure: 1, }, 
+	internet: { imdb: '12610390', },
+	cast: { mark_wahlberg_05061971: 1, halle_berry_14081966: 1,},
+},
+{
 	id: 'original_sin_2001', title: { ua: 'Спокуса', en: 'Original Sin', }, year: 2001, country: { usa: 1, fra: 1, },
 	genre: { drama: 1, mystic: 1, }, 
 	internet: { imdb: '0218922', wiki_ua: '%D0%A1%D0%BF%D0%BE%D0%BA%D1%83%D1%81%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2001)', },
