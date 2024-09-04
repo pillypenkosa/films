@@ -5099,6 +5099,12 @@ const arrFilms = [
 	internet: { imdb: '0255798', wiki_ua: '%D0%A2%D0%B2%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2001)', },
 },
 {
+	id: 'Twin_Peaks_1990', title: { ua: 'Твін Пікс', en: 'Twin Peaks', }, year: 1990, country: { usa: 1, },
+	genre: { serial: 1, mystic: 1, psycho: 1, },
+	internet: { imdb: '0098936', wiki_ua: '%D0%A2%D0%B2%D1%96%D0%BD_%D0%9F%D1%96%D0%BA%D1%81', },
+	cast: { kyle_maclachlan_22021959: 1, },
+},
+{
 	id: 'the_creator_2023', title: { ua: 'Творець', en: 'The Creator', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, }, hash: { future: 1, cyber: 1, techno: 1, world: 1, },
 	internet: { imdb: '11858890', wiki_ua: '%D0%A2%D0%B2%D0%BE%D1%80%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
