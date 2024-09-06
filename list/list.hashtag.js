@@ -105,7 +105,8 @@ const arrHashTags = [
 	{ id: 'skydive' 		, title: 'парашюти' 					, app: { films: 1, }, },
 	{ id: 'race' 			, title: 'перегони' 					, app: { films: 1, }, },
 	{ id: 'surfing' 		, title: 'серфінг' 						, app: { films: 1, }, }, // подорожі у часі
-	
+	{ id: 'chess' 			, title: 'шахи' 						, app: { films: 1, }, }, // подорожі у часі
+
 
 
 	{ id: '-' 				, title: '--- --- СПОРУДИ --- ---' 		, app: { films: 1, }, },

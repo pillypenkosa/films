@@ -514,7 +514,7 @@ const arrFilms = [
 },
 {
 	id: 'the_bunker_1981', title: { ua: 'Бункер', en: 'The Bunker', }, year: 1981, country: { fra: 1, usa: 1, },
-	genre: { war: 1, history: 1, }, hash: { real: 1, war2w: 1, },
+	genre: { war: 1, history: 1, }, hash: { real: 1, war: 1, war2w: 1, },
 	internet: { imdb: '0082114', wiki_ru: '%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1981,_%D0%A1%D0%A8%D0%90)', },
 	cast: { anthony_hopkins_31121937: 1, },
 },
@@ -621,7 +621,7 @@ const arrFilms = [
 },
 {
 	id: 'the_great_escape_1963', title: { ua: 'Велика втеча', en: 'The Great Escape', }, year: 1963, country: { usa: 1, },
-	genre: { history: 1, war: 1, }, hash: { war2w: 1, prison: 1, escape: 1, },
+	genre: { history: 1, war: 1, }, hash: { war: 1, war2w: 1, prison: 1, escape: 1, },
 	internet: { imdb: '0057115', wiki_ua: '%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0_%D0%B2%D1%82%D0%B5%D1%87%D0%B0', },
 },
 {
@@ -826,7 +826,7 @@ const arrFilms = [
 },
 {
 	id: 'enemy_at_the_gates_2001', title: { ua: 'Ворог біля воріт', en: 'Enemy at the Gates', }, year: 2001, country: { usa: 1, },
-	genre: { war: 1, action: 1, }, hash: { war2w: 1, },
+	genre: { war: 1, action: 1, }, hash: { war: 1, war2w: 1, },
 	internet: { imdb: '0215750', wiki_ua: '%D0%92%D0%BE%D1%80%D0%BE%D0%B3_%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { ed_harris_28111950: 1, },
 },
@@ -855,7 +855,7 @@ const arrFilms = [
 },
 {
 	id: 'saving_private_Ryan_1998', title: { ua: 'Врятувати рядового Раяна', en: 'Saving Private Ryan', }, year: 1998, country: { usa: 1, }, rating: 5,
-	genre: { war: 1, history: 1, }, hash: { war2w: 1, },
+	genre: { war: 1, history: 1, }, hash: { war: 1, war2w: 1, },
 	internet: { imdb: '0120815', wiki_ua: '%D0%92%D1%80%D1%8F%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8_%D1%80%D1%8F%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%A0%D0%B0%D1%8F%D0%BD%D0%B0',		 },
 	cast: { tom_hanks_09071956: 1, matt_damon_08101970: 1, tom_sizemore_29111961: 1, barry_pepper_04041970: 1, vin_diesel_18071967: 1, }, director: { steven_spielberg_18121946: 1, },
 },
@@ -1954,7 +1954,7 @@ const arrFilms = [
 },
 {
 	id: 'the_zone_of_interest_2023', title: { ua: 'Зона інтересу', en: 'The Zone of Interest', }, year: 2023, country: { usa: 1, gbr: 1, pol: 1, }, 
-	genre: { drama: 1, war: 1, }, hash: { war2w: 1, },
+	genre: { drama: 1, war: 1, }, hash: { war: 1, war2w: 1, },
 	internet: { imdb: '7160372', wiki_ua: '%D0%97%D0%BE%D0%BD%D0%B0_%D1%96%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83', },
 },
 {
@@ -2738,7 +2738,7 @@ const arrFilms = [
 },
 {
 	id: 'fury_2014', title: { ua: 'Лють', en: 'Fury', }, year: 2014, country: { usa: 1, },
-	genre: { war: 1, drama: 1, }, hash: { war2w: 1, battle: 1, tank: 1, },
+	genre: { war: 1, drama: 1, }, hash: { war: 1, war2w: 1, battle: 1, tank: 1, },
 	internet: { imdb: '2713180', wiki_ua: '%D0%9B%D1%8E%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2014)', },
 	cast: { brad_pitt_18121963: 1, shia_labeouf_11061986: 1, },
 },
@@ -3801,7 +3801,7 @@ const arrFilms = [
 },
 {
 	id: 'Pearl_Harbor_2001', title: { ua: 'Перл Гарбор', en: 'Pearl Harbor', }, year: 2001, country: { usa: 1, },
-	genre: { war: 1, history: 1, }, hash: { real: 1, war2w: 1, plane: 1, battle: 1, love: 1, },
+	genre: { war: 1, history: 1, }, hash: { real: 1, war: 1, war2w: 1, plane: 1, battle: 1, love: 1, },
 	internet: { imdb: '0213149', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%BB-%D0%93%D0%B0%D1%80%D0%B1%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { ben_affleck_15081972: 1, josh_hartnett_21071978: 1, kate_beckinsale_26071973: 1, tom_sizemore_29111961: 1, jon_voight_29121938: 1, alec_baldwin_03041958: 1, cuba_gooding_jr_02011968: 1, },
 },
@@ -4064,7 +4064,7 @@ const arrFilms = [
 },
 {
 	id: 'kraljevski_voz_1981', title: { ua: 'Поїзд на Кралєво', en: 'Kraljevski voz', }, year: 1981, country: { yug: 1, },
-	genre: { war: 1, }, hash: { train: 1, war2w: 1, },
+	genre: { war: 1, }, hash: { train: 1, war: 1, war2w: 1, },
 	internet: { imdb: '0180788', wiki_ru: '%D0%9F%D0%BE%D0%B5%D0%B7%D0%B4_%D0%BD%D0%B0_%D0%9A%D1%80%D0%B0%D0%BB%D0%B5%D0%B2%D0%BE', },
 },
 {
@@ -5406,7 +5406,7 @@ const arrFilms = [
 },
 {
 	id: 'into_the_white_2012', title: { ua: 'У білому полоні', en: 'Into the White', }, year: 2012, country: { nor: 1, swe: 1, }, 
-	genre: { war: 1, drama: 1, }, hash: { war2w: 1, winter: 1, },
+	genre: { war: 1, drama: 1, }, hash: { war: 1, war2w: 1, winter: 1, },
 	internet: { imdb: '1876277', wiki_ua: '%D0%A3_%D1%81%D0%BD%D1%96%D0%B6%D0%BD%D0%BE%D0%BC%D1%83_%D0%BF%D0%BE%D0%BB%D0%BE%D0%BD%D1%96', },
 },
 {
@@ -5500,7 +5500,7 @@ const arrFilms = [
 },
 {
 	id: 'the_queens_gambit_2020', title: { ua: 'Ферзевий гамбіт', en: 'The Queen\'s Gambit', }, year: 2020, country: { usa: 1, },
-	genre: { serial: 1, drama: 1, }, 
+	genre: { serial: 1, drama: 1, }, hash: { chess: 1, },
 	internet: { imdb: '10048342', wiki_ua: '%D0%A4%D0%B5%D1%80%D0%B7%D0%B5%D0%B2%D0%B8%D0%B9_%D0%B3%D0%B0%D0%BC%D0%B1%D1%96%D1%82_(%D0%BC%D1%96%D0%BD%D1%96%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 },
 {
@@ -5520,6 +5520,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '11827628', wiki_ua: '%D0%9F%D0%B0%D0%BC%27%D1%8F%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', },
 	cast: { liam_neeson_07061952: 1, monica_bellucci_30091964: 1, },
+},
+{
+	id: 'fallout_2024', title: { ua: 'Фолаут', en: 'Fallout', }, year: 2024, country: { usa: 1, },
+	genre: { serial: 1, sci_fi: 1, }, hash: { utopia: 1, apocalypse: 1, },
+	internet: { imdb: '12637874',},
+	cast: { kyle_maclachlan_22021959: 1, },
 },
 {
 	id: 'Ford_v_Ferrari_2019', title: { ua: 'Форд проти Феррарі', en: 'Ford v Ferrari', }, year: 2019, country: { usa: 1, },
@@ -6090,7 +6096,7 @@ const arrFilms = [
 },
 {
 	id: 'u-571_2000', title: { ua: 'U-571', en: 'U-571', }, year: 2000, country: { usa: 1, fra: 1, },
-	genre: { action: 1, war: 1, }, hash: { underwater: 1, war2w: 1, },
+	genre: { action: 1, war: 1, }, hash: { underwater: 1, war: 1, war2w: 1, },
 	internet: { imdb: '0141926', wiki_ua: 'U-571_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { matthew_mcconaughey_04111969: 1, jon_bon_jovi_02031962: 1, bill_paxton_17051955: 1, }, director: { jonathan_mostow_28111961: 1, },
 },
