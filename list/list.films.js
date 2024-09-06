@@ -565,32 +565,11 @@ const arrFilms = [
 	internet: { imdb: '0259711', wiki_ua: '%D0%92%D0%B0%D0%BD%D1%96%D0%BB%D1%8C%D0%BD%D0%B5_%D0%BD%D0%B5%D0%B1%D0%BE', },
 	cast: { tom_cruise_03071962: 1, penelope_cruz_28041974: 1, cameron_diaz_30081972: 1, kurt_russell_17031951: 1, jason_lee_25041970: 1, tilda_swinton_05111960: 1, steven_spielberg_18121946: 1, },
 },
-
-
-
-
-
 {
 	id: 'road_train_2010', title: { ua: 'Вантажівка', en: 'Road Train', }, year: 2010, country: { usa: 1, },
 	genre: { horror: 1, }, hash: { cars: 1, road: 1, },
-	internet: { imdb: '1241330', wiki_ua: '', },
-
+	internet: { imdb: '1241330', },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'wasabi_2001', title: { ua: 'Васабі', en: 'Wasabi', }, year: 2001, country: { fra: 1, jpn: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, },
@@ -1725,6 +1704,11 @@ const arrFilms = [
 	genre: { drama: 1, crime: 1, }, hash: { politic: 1, },
 	internet: { imdb: '0099430', wiki_ru: '%D0%97%D0%B0%D0%B1%D1%8B%D1%82%D1%8C_%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 	cast: { james_belushi_15061954: 1, philippe_noiret_01101930: 1, },
+},
+{
+	id: 'Palm_Springs_2020', title: { ua: 'Зависнути у Палм-Спрінгз', en: 'Palm Springs', }, year: 2020, country: { usa: 1, },
+	genre: { fantasy: 1, comedy: 1, }, hash: { groundhog: 1, },
+	internet: { imdb: '9484998', },
 },
 {
 	id: 'tomorrow_never_dies_1997', title: { ua: 'Завтра не помре ніколи', en: 'Tomorrow Never Dies', }, year: 1997, country: { gbr: 1, usa: 1, },
