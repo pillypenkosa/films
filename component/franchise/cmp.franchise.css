@@ -1,0 +1,35 @@
+cmp-franchise {
+
+	display: block;
+
+	margin: 10px;
+	padding: 5px 10px;
+	border: 1px solid #777;
+	border-radius: 10px;
+} 
+	cmp-franchise .txtTitle {
+		color: #fff;
+	}
+
+	cmp-franchise .each-franchise {
+		height: 100px;
+		width: 70px;
+		margin: 1px;
+		display: inline-block;
+	}
+		cmp-franchise .each-franchise img {
+			height: 100%;
+			width: 100%;
+		}
+
+
+
+
+
+
+
+
+
+
+
+

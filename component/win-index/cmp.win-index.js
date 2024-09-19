@@ -467,21 +467,26 @@ class ComponentWinIndex {
 			}
 
 
+			//console.log( 'objFilmFranchise: ', objFilmFranchise);
 
 
-			//console.log( 'k.cast: ', k.cast );
+			let htmlFranchise = '';
+			if ( k.franchise ) {
+				if ( objFilmFranchise ) {
+
+					if ( objFilmFranchise[ k.franchise ] ) 
+						htmlFranchise = Component( 'Franchise', objFilmFranchise[ k.franchise ] );
+
+				}
+			}
+
+
 
 			let htmlCast = '';
 			if ( k.cast ) 
 				//htmlCast = `<div>Є актори</div>`;
 				htmlCast = Component( 'Cast', k.cast );
 			
-
-
-
-
-
-
 
 
 
@@ -513,6 +518,8 @@ class ComponentWinIndex {
 				</div>
 
 			${ htmlCast }
+
+			${ htmlFranchise }
 
 			</div>`;
 		});
