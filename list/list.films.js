@@ -810,10 +810,15 @@ const arrFilms = [
 	cast: { ed_harris_28111950: 1, },
 },
 {
-	id: 'the_crow_1994', title: { ua: 'Ворон', en: 'The Crow', }, year: 1994, country: { usa: 1, },
+	id: 'the_crow_1994', title: { ua: 'Ворон', en: 'The Crow', }, year: 1994, country: { usa: 1, }, franchise: 'the_crow',
 	genre: { action: 1, crime: 1, mystic: 1, },
-	internet: { imdb: '0109506',wiki_ua: '%D0%92%D0%BE%D1%80%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1994)', },
+	internet: { imdb: '0109506', wiki_ua: '%D0%92%D0%BE%D1%80%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1994)', },
 	cast: { brandon_lee_01021965: 1, },
+},
+{
+	id: 'the_crow_2024', title: { ua: 'Ворон', en: 'The Crow', }, year: 2024, country: { usa: 1, }, franchise: 'the_crow',
+	genre: { fantasy: 1, mystic: 1, },
+	internet: { imdb: '1340094', wiki_ua: '%D0%92%D0%BE%D1%80%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
 },
 {
 	id: 'octopussy_1983', title: { ua: 'Восьминiжка', en: 'Octopussy', }, year: 1983, country: { gbr: 1, },
@@ -1481,7 +1486,8 @@ const arrFilms = [
 {
 	id: 'duel_1971', title: { ua: 'Дуель', en: 'Duel', }, year: 1971, country: { usa: 1, }, rating: '5+',
 	genre: { action: 1, thriller: 1, }, hash: { maniac: 1, road: 1, cars: 1, },
-	internet: { imdb: '0067023', wiki_ua: '%D0%94%D1%83%D0%B5%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', }, director: { steven_spielberg_18121946: 1, },
+	internet: { imdb: '0067023', wiki_ua: '%D0%94%D1%83%D0%B5%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', }, 
+	director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'scary_movie_2000', title: { ua: 'Дуже страшне кіно', en: 'Scary Movie', }, year: 2000, country: { usa: 1, },
@@ -1750,7 +1756,7 @@ const arrFilms = [
 	id: 'klatwa_doliny_wezy_1987', title: { ua: 'Закляття долини змій', en: 'Klatwa doliny wezy', }, year: 1987, country: { usa: 1, }, rating: '5+',
 	genre: { adventure: 1, horror: 1, },
 	hash: { animal: 1, snake: 1, aliens: 1, travel: 1, },
-	internet: { imdb: '0095456', wiki_ua: '%D0%97%D0%B0%D0%BA%D0%BB%D1%8F%D1%82%D1%82%D1%8F_%D0%B4%D0%BE%D0%BB%D0%B8%D0%BD%D0%B8_%D0%B7%D0%BC%D1%96%D0%B9', },
+	internet: { imdb: '0095456', wiki_ua: '%D0%97%D0%B0%D0%BA%D0%BB%D1%8F%D1%82%D1%82%D1%8F_%D0%B4%D0%BE%D0%BB%D0%B8%D0%BD%D0%B8_%D0%B7%D0%BC%D1%96%D0%B9', ashdivip: '113416', },
 },
 {
 	id: 'the_Bounty_1984', title: { ua: 'Заколот на Баунті', en: 'The Bounty', }, year: 1984, country: { usa: 1, gbr: 1, },
@@ -1775,6 +1781,12 @@ const arrFilms = [
 	genre: { action: 1, comedy: 1, }, hash: { cars: 1, },
 	internet: { imdb: '0163579', wiki_ru: '%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80_%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0', },
 	cast: { cuba_gooding_jr_02011968: 1, },
+},
+{
+	id: 'trap_2024', title: { ua: 'Западня', en: 'Trap', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, },
+	internet: { imdb: '26753003', wiki_ua: '%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
+	cast: { josh_hartnett_21071978: 1, },
 },
 {
 	id: 'scent_of_a_woman_1992', title: { ua: 'Запах жінки', en: 'Scent of a Woman', }, year: 1992, country: { usa: 1, },
@@ -2267,7 +2279,7 @@ const arrFilms = [
 {
 	id: 'kingsajz_1988', title: { ua: 'Кінґсайз', en: 'Kingsajz', }, year: 1988, country: { usa: 1, }, rating: 5,
 	genre: { fantasy: 1, adventure: 1, comedy: 1, }, hash: { world: 1, },
-	internet: { imdb: '0095452', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3%D1%81%D0%B0%D0%B9%D0%B7_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0095452', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3%D1%81%D0%B0%D0%B9%D0%B7_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '137117', },
 },
 {
 	id: 'end_of_days_1999', title: { ua: 'Кінець світу', en: 'End of Days', }, year: 1999, country: { usa: 1, },
@@ -2601,7 +2613,7 @@ const arrFilms = [
 	id: 'Lara_Kroft_2_2003', title: { ua: 'Лара Крофт - 2', en: 'Lara Croft Tomb Raider: The Cradle of Life', }, year: 2003, country: { usa: 1, gbr: 1, deu: 1, jpn: 1, }, rating: 5,
 	genre: { action: 1, adventure: 1, }, hash: { treasure: 1, travel: 1, },
 	internet: { imdb: '0325703', wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82_%D1%80%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C:_%D0%BA%D0%BE%D0%BB%D0%B8%D1%81%D0%BA%D0%B0_%D0%B6%D0%B8%D1%82%D1%82%D1%8F', },
-	cast: { angelina_jolie_04061975: 1, gerard_butler_13111969: 1, },
+	cast: { angelina_jolie_04061975: 1, gerard_butler_13111969: 1, }, director: { jan_de_bont_22101943: 1, },
 },
 {
 	id: 'LaRoy_Texas_2023', title: { ua: 'ЛаРой Техас', en: 'LaRoy, Texas', }, year: 2023, country: { usa: 1, fra: 1, },
@@ -2735,6 +2747,11 @@ const arrFilms = [
 	id: 'the_gods_must_be_crazy_2_1989', title: { ua: 'Мабуть боги з\'їхали з глузду - 2', en: 'The Gods Must Be Crazy II', }, year: 1989, country: { zaf: 1, bwa: 1, usa: 1, }, rating: 5,
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '0097443', wiki_ua: '%D0%9C%D0%B0%D0%B1%D1%83%D1%82%D1%8C,_%D0%B1%D0%BE%D0%B3%D0%B8_%D0%B7%27%D1%97%D1%85%D0%B0%D0%BB%D0%B8_%D0%B7_%D0%B3%D0%BB%D1%83%D0%B7%D0%B4%D1%83_II', },
+},
+{
+	id: 'the_forest_song_2023', title: { ua: 'Мавка. Лісова пісня', en: 'The Forest Song', }, year: 2023, country: { ukr: 1, },
+	genre: { cartoon: 1, },
+	internet: { imdb: '6685538', wiki_ua: '%D0%9C%D0%B0%D0%B2%D0%BA%D0%B0._%D0%9B%D1%96%D1%81%D0%BE%D0%B2%D0%B0_%D0%BF%D1%96%D1%81%D0%BD%D1%8F', },
 },
 {
 	id: 'madame_web_2024', title: { ua: 'Мадам Павутина', en: 'Madame Web', }, year: 2024, country: { usa: 1, },
@@ -3373,6 +3390,12 @@ const arrFilms = [
 	internet: { imdb: '0113948', wiki_ua: '%D0%9D%D0%B5%D0%BC%D0%B5%D0%B7%D0%B8%D0%B4%D0%B0_2:_%D0%A2%D1%83%D0%BC%D0%B0%D0%BD%D0%BD%D1%96%D1%81%D1%82%D1%8C', },
 },
 {
+	id: 'subservience_2024', title: { ua: 'Непокірна Еліс', en: 'Subservience', }, year: 2024, country: { usa: 1, },
+	genre: { sci_fi: 1, thriller: 1, }, hash: { robot: 1, },
+	internet: { imdb: '24871974', },
+	cast: { megan_fox_16051986: 1, },
+},
+{
 	id: 'the_unforgivable_2021', title: { ua: 'Непрощенна', en: 'The Unforgivable', }, year: 2021, country: { usa: 1, deu: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { justice: 1, },
 	internet: { imdb: '11233960', wiki_ua: '%D0%9D%D0%B5%D0%BF%D1%80%D0%BE%D1%89%D0%B5%D0%BD%D0%BD%D0%B0', },
@@ -3909,7 +3932,7 @@ const arrFilms = [
 	id: 'flesh_blood_1985', title: { ua: 'Плоть + Кров', en: 'Flesh+Blood', }, year: 1985, country: { esp: 1, ndl: 1, usa: 1, },
 	genre: { adventure: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0089153', wiki_ua: '%D0%9F%D0%BB%D0%BE%D1%82%D1%8C_%D1%96_%D0%BA%D1%80%D0%BE%D0%B2', },
-	cast: { rutger_hauer_23011944: 1, },
+	cast: { rutger_hauer_23011944: 1, }, director: { paul_verhoeven_18071938: 1, },
 },
 {
 	id: 'blind_date_1987', title: { ua: 'Побачення наосліп', en: 'Blind Date', }, year: 1987, country: { usa: 1, },
@@ -4064,6 +4087,12 @@ const arrFilms = [
 	cast: { jon_voight_29121938: 1, danny_trejo_16051944: 1, rebecca_de_mornay_29081959: 1, },
 },
 {
+	id: 'coming_to_America_1988', title: { ua: 'Поїздка до Америки', en: 'Coming to America', }, year: 1988, country: { usa: 1, }, 
+	genre: { comedy: 1, }, hash: { prince: 1, },
+	internet: { imdb: '0094898', wiki_ua: '%D0%9F%D0%BE%D1%97%D0%B7%D0%B4%D0%BA%D0%B0_%D0%B4%D0%BE_%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8', ashdivip: '14297', },
+	cast: { eddie_murphy_03041961: 1, samuel_l_jackson_21121948: 1, cuba_gooding_jr_02011968: 1, },
+},
+{
 	id: 'battlefield_Earth_2000', title: { ua: 'Поле битвы Земля', en: 'Battlefield Earth', }, year: 2000, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, aliens: 1, battle: 1, },
 	internet: { imdb: '0185183', wiki_ua: '%D0%9F%D0%BE%D0%BB%D0%B5_%D0%B1%D0%B8%D1%82%D0%B2%D0%B8_%E2%80%94_%D0%97%D0%B5%D0%BC%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '16399', },
@@ -4125,6 +4154,30 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, }, hash: { police: 1, },
 	internet: { imdb: '0108277', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_2000', },
 	cast: { bolo_yeung_03071946: 1, },
+},
+{
+	id: 'Beverly_Hills_cop_1984', title: { ua: 'Поліцейський із Беверлі-Гіллз', en: 'Beverly Hills Cop', }, year: 1984, country: { usa: 1, }, franchise: 'Beverly_Hills_cop',
+	genre: { action: 1, comedy: 1, }, hash: { police: 1, },
+	internet: { imdb: '0086960', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%96%D0%B7_%D0%91%D0%B5%D0%B2%D0%B5%D1%80%D0%BB%D1%96-%D0%93%D1%96%D0%BB%D0%BB%D0%B7', },
+	cast: { eddie_murphy_03041961: 1, },
+},
+{
+	id: 'Beverly_Hills_cop_2_1987', title: { ua: 'Поліцейський із Беверлі-Гіллз - 2', en: 'Beverly Hills Cop II', }, year: 1987, country: { usa: 1, }, franchise: 'Beverly_Hills_cop',
+	genre: { action: 1, comedy: 1, }, hash: { police: 1, },
+	internet: { imdb: '0092644', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%96%D0%B7_%D0%91%D0%B5%D0%B2%D0%B5%D1%80%D0%BB%D1%96-%D0%93%D1%96%D0%BB%D0%BB%D0%B7_2', },
+	cast: { eddie_murphy_03041961: 1, },
+},
+{
+	id: 'Beverly_Hills_cop_3_1994', title: { ua: 'Поліцейський із Беверлі-Гіллз - 3', en: 'Beverly Hills Cop III', }, year: 1994, country: { usa: 1, }, franchise: 'Beverly_Hills_cop',
+	genre: { action: 1, comedy: 1, }, hash: { police: 1, },
+	internet: { imdb: '0109254', },
+	cast: { eddie_murphy_03041961: 1, },
+},
+{
+	id: 'Beverly_Hills_cop_4_2024', title: { ua: 'Поліцейський із Беверлі-Гіллз - 4', en: 'Beverly Hills Cop: Axel F', }, year: 2024, country: { usa: 1, }, franchise: 'Beverly_Hills_cop',
+	genre: { action: 1, comedy: 1, }, hash: { police: 1, },
+	internet: { imdb: '3083016', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%96%D0%B7_%D0%91%D0%B5%D0%B2%D0%B5%D1%80%D0%BB%D1%96-%D0%93%D1%96%D0%BB%D0%BB%D0%B7:_%D0%90%D0%BA%D1%81%D0%B5%D0%BB%D1%8C_%D0%A4.', },
+	cast: { eddie_murphy_03041961: 1, kevin_bacon_08071958: 1, },
 },
 {
 	id: 'martial_outlaw_1993', title: { ua: 'Поліцейський поза законом', en: 'Martial Outlaw', }, year: 1993, country: { usa: 1, },
@@ -4825,7 +4878,12 @@ const arrFilms = [
 	id: 'twister_1996', title: { ua: 'Смерч', en: 'Twister', }, year: 1996, country: { usa: 1, },
 	genre: { thriller: 1, disaster: 1, },
 	internet: { imdb: '0117998', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%87_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
-	cast: { bill_paxton_17051955: 1, },
+	cast: { bill_paxton_17051955: 1, }, director: { jan_de_bont_22101943: 1, },
+},
+{
+	id: 'twisters_2024', title: { ua: 'Смерчі', en: 'Twisters', }, year: 2024, country: { usa: 1, }, franchise: 'twister',
+	genre: { thriller: 1, disaster: 1, adventure: 1, },
+	internet: { imdb: '12584954', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%87%D1%96', },
 },
 {
 	id: 'sniper_1993', title: { ua: 'Снайпер', en: 'Sniper', }, year: 1993, country: { usa: 1, },
@@ -5888,13 +5946,13 @@ const arrFilms = [
 	id: 'speed_1994', title: { ua: 'Швидкість', en: 'Speed', }, year: 1994, country: { usa: 1, }, rating: '5+',
 	genre: { action: 1, thriller: 1, }, hash: { bus: 1, terrorist: 1, hostage: 1, police: 1, subway: 1, },
 	internet: { imdb: '0111257', wiki_ua: '%D0%A8%D0%B2%D0%B8%D0%B4%D0%BA%D1%96%D1%81%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '13774', moviestape: 'Speed', },
-	cast: { keanu_reeves_02091964: 1, sandra_bullock_26071964: 1, dennis_hopper_17051936: 1, jeff_daniels_19021955: 1, joe_morton_18101947: 1, },
+	cast: { keanu_reeves_02091964: 1, sandra_bullock_26071964: 1, dennis_hopper_17051936: 1, jeff_daniels_19021955: 1, joe_morton_18101947: 1, }, director: { jan_de_bont_22101943: 1, },
 },
 {
 	id: 'speed_2_1997', title: { ua: 'Швидкість - 2', en: 'Speed 2: Cruise Control', }, year: 1997, country: { usa: 1, },
 	genre: { action: 1, sea: 1, }, hash: { ship: 1, sea: 1, trap: 1, },
 	internet: { imdb: '0120179', wiki_ua: '%D0%A8%D0%B2%D0%B8%D0%B4%D0%BA%D1%96%D1%81%D1%82%D1%8C_2:_%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C_%D0%BD%D0%B0%D0%B4_%D0%BA%D1%80%D1%83%D1%97%D0%B7%D0%BE%D0%BC', ashdivip: '72969', moviestape: 'Speed 2: Cruise Control', }, 
-	cast: { sandra_bullock_26071964: 1, willem_dafoe_22071955: 1, },
+	cast: { sandra_bullock_26071964: 1, willem_dafoe_22071955: 1, }, director: { jan_de_bont_22101943: 1, },
 },
 {
 	id: 'terminal_velocity_1994', title: { ua: 'Швидкість падіння', en: 'Terminal Velocity', }, year: 1994, country: { usa: 1, },

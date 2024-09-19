@@ -35,7 +35,7 @@ class ComponentCast {
 		let html = ''; 
 
 		//console.log( 'objData: ', objData );
-		console.log( 'objListPeople: ', objListPeople );
+		//console.log( 'objListPeople: ', objListPeople );
 
 		//let htmlCast = '';
 

@@ -32,10 +32,10 @@ const arrHashTags = [
 	
 
 
-	{ id: '-' 				, title: '--- --- КОСМОС --- ---' 	, app: { films: 1, }, },
-	{ id: 'space' 			, title: 'космос' 					, app: { films: 1, }, },
-	{ id: 'aliens' 			, title: 'інопланетяни' 			, app: { films: 1, }, },
-	{ id: 'planet' 			, title: 'планети' 					, app: { films: 1, }, }, // події на інших планетах
+	{ id: '-' 				, title: '--- --- КОСМОС --- ---' 		, app: { films: 1, }, },
+	{ id: 'space' 			, title: 'космос' 						, app: { films: 1, }, },
+	{ id: 'aliens' 			, title: 'інопланетяни' 				, app: { films: 1, }, },
+	{ id: 'planet' 			, title: 'планети' 						, app: { films: 1, }, }, // події на інших планетах
 	
 
 
@@ -74,6 +74,7 @@ const arrHashTags = [
 	{ id: 'pirates' 		, title: 'пірати' 						, app: { films: 1, }, },
 	{ id: 'cop' 			, title: 'поліцейські' 					, app: { films: 1, }, },
 	{ id: 'ghost' 			, title: 'привиди' 						, app: { films: 1, }, }, 
+	{ id: 'prince' 			, title: 'принц' 						, app: { films: 1, }, }, 
 	{ id: 'superhero' 		, title: 'супергерої' 					, app: { films: 1, }, },
 	{ id: 'terrorist' 		, title: 'терористи' 					, app: { films: 1, }, },
 	
