@@ -173,7 +173,7 @@ const arrFilms = [
 {
 	id: 'runaway_car_1996', title: { ua: 'Автомобіль-утікач', en: 'Runaway Car', }, year: 1996, country: { usa: 1, }, rating: '5+',
 	genre: { tv: 1, thriller: 1, }, hash: { trap: 1, cars: 1, road: 1, },
-	internet: { imdb: '0120041', },
+	internet: { imdb: '0120041', ashdivip: '127571', },
 	cast: { nina_siemaszko_14071970: 1, },
 },
 {
@@ -2462,7 +2462,7 @@ const arrFilms = [
 {
 	id: 'king_Solomon_s_mines_1985', title: { ua: 'Копальні царя Соломона', en: 'King Solomon\'s Mines', }, year: 1985, country: { usa: 1, }, rating: '5+',
 	genre: { adventure: 1, }, hash: { travel: 1, treasure: 1, },
-	internet: { imdb: '0089421', wiki_ru: '%D0%9A%D0%BE%D0%BF%D0%B8_%D1%86%D0%B0%D1%80%D1%8F_%D0%A1%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1985)', },
+	internet: { imdb: '0089421', wiki_ru: '%D0%9A%D0%BE%D0%BF%D0%B8_%D1%86%D0%B0%D1%80%D1%8F_%D0%A1%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1985)', ashdivip: '18724', },
 	cast: { sharon_stone_10031958: 1, },
 },
 {
@@ -2478,12 +2478,12 @@ const arrFilms = [
 {
 	id: 'the_lion_king_1994', title: { ua: 'Король-лев', en: 'The Lion King', }, year: 1994, country: { usa: 1, }, rating: '5+',
 	genre: { cartoon: 1, }, 
-	internet: { imdb: '0110357', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2', },
+	internet: { imdb: '0110357', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2', ashdivip: '3310', },
 },
 {
 	id: 'the_lion_king_2019', title: { ua: 'Король-лев', en: 'The Lion King', }, year: 2019, country: { usa: 1, },
 	genre: { cartoon: 1, }, 
-	internet: { imdb: '6105098', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', },
+	internet: { imdb: '6105098', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', ashdivip: '118711', },
 },
 {
 	id: 'short_circuit_1986', title: { ua: 'Коротке замикання', en: 'Short Circuit', }, year: 1986, country: { usa: 1, },
@@ -2600,7 +2600,7 @@ const arrFilms = [
 {
 	id: 'labyrinth_1986', title: { ua: 'Лабіринт', en: 'Labyrinth', }, year: 1986, country: { gbr: 1, usa: 1, }, rating: '5+',
 	genre: { fantasy: 1, adventure: 1, },
-	internet: { imdb: '0091369', wiki_ua: '%D0%9B%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)', },
+	internet: { imdb: '0091369', wiki_ua: '%D0%9B%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)', ashdivip: '17285', },
 	cast: { jennifer_connelly_12121970: 1, david_bowie_08011947: 1, },
 },
 {
@@ -2909,7 +2909,7 @@ const arrFilms = [
 {
 	id: 'mine_2016', title: { ua: 'Міна', en: 'Mine', }, year: 2016, country: { usa: 1, }, rating: '5+',
 	genre: { drama: 1, thriller: 1, }, hash: { oneman: 1, trap: 1, surviving: 1, desert: 1, army: 1, },
-	internet: { imdb: '3707104', wiki_ru: '%D0%9C%D0%B8%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2016)', },
+	internet: { imdb: '3707104', wiki_ru: '%D0%9C%D0%B8%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2016)', ashdivip: '130371', },
 },
 {
 	id: 'the_ministry_of_ungentlemanly_warfare_2024', title: { ua: 'Міністерство неджентльменської війни', en: 'The Ministry of Ungentlemanly Warfare', }, year: 2024, country: { usa: 1, gbr: 1, },
@@ -2982,7 +2982,7 @@ const arrFilms = [
 	cast: { tom_cruise_03071962: 1, michelle_monaghan_23031976: 1, ving_rhames_12051959: 1, alec_baldwin_03041958: 1, },
 },
 {
-	id: 'mission_impossible_7_2023', title: { ua: 'Місія неможлива - 7', en: 'Mission: Impossible - Dead Reckoning Part One', }, year: 2023, country: { usa: 1, }, rating: 5, franchise: 'mission_impossible',
+	id: 'mission_impossible_7_2023', title: { ua: 'Місія неможлива - 7', en: 'Mission: Impossible - Dead Reckoning Part One', }, year: 2023, country: { usa: 1, }, rating: '5+', franchise: 'mission_impossible',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '9603212', wiki_ua: '%D0%9C%D1%96%D1%81%D1%96%D1%8F_%D0%BD%D0%B5%D0%BC%D0%BE%D0%B6%D0%BB%D0%B8%D0%B2%D0%B0:_%D0%A0%D0%BE%D0%B7%D0%BF%D0%BB%D0%B0%D1%82%D0%B0._%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_%D0%BF%D0%B5%D1%80%D1%88%D0%B0', ashdivip: '105107', },
 	cast: { tom_cruise_03071962: 1, ving_rhames_12051959: 1, hayley_atwell_05041982: 1, },
@@ -4772,7 +4772,7 @@ const arrFilms = [
 {
 	id: 'mad_Max_2_1981', title: { ua: 'Скажений Макс - 2', en: 'Mad Max 2', }, year: 1981, country: { aus: 1, }, rating: '5+',
 	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, road: 1, cars: 1, },
-	internet: { imdb: '0082694', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81_2', },
+	internet: { imdb: '0082694', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81_2', ashdivip: '14262', },
 	cast: { mel_gibson_03011956: 1,  bruce_spence_17091945: 1, },
 },
 {
@@ -5498,15 +5498,20 @@ const arrFilms = [
 	internet: { imdb: '20420538', },
 },
 {
+	id: 'smile_2022', title: { ua: 'Усміхайся', en: 'Smile', }, year: 2022, country: { usa: 1, },
+	genre: { horror: 1, }, 
+	internet: { imdb: '15474916', wiki_ua: '%D0%A3%D1%81%D0%BC%D1%96%D1%85%D0%B0%D0%B9%D1%81%D1%8F', ashdivip: '81049', },
+},
+{
 	id: 'the_fugitive_1993', title: { ua: 'Утікач', en: 'The Fugitive', }, year: 1993, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, crime: 1, },
-	internet: { imdb: '0106977', wiki_ua: '%D0%A3%D1%82%D1%96%D0%BA%D0%B0%D1%87_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0106977', wiki_ua: '%D0%A3%D1%82%D1%96%D0%BA%D0%B0%D1%87_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '22343', },
 	cast: { harrison_ford_13071942: 1, tommy_lee_jones_15091946: 1, julianne_moore_03121960: 1, },
 },
 {
 	id: 'freejack_1992', title: { ua: 'Утікач із того світу', en: 'Freejack', }, year: 1992, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, sci_fi: 1, crime: 1, }, hash: { time: 1, future: 1, },
-	internet: { imdb: '0104299', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%86%D1%96%D1%8F_%C2%AB%D0%91%D0%B5%D0%B7%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%8F%C2%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0104299', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%86%D1%96%D1%8F_%C2%AB%D0%91%D0%B5%D0%B7%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%8F%C2%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '20376', },
 	cast: { emilio_estevez_12051962: 1, mick_jagger_26071943: 1, rene_russo_17021954: 1, anthony_hopkins_31121937: 1, },
 },
 {
