@@ -1938,6 +1938,11 @@ const arrFilms = [
 	cast: { chuck_norris_10031940: 1, },
 },
 {
+	id: 'cuckoo_2024', title: { ua: 'Зозуля', en: 'Cuckoo', }, year: 2024, country: { usa: 1, deu: 1, },
+	genre: { horror: 1, mystic: 1, },
+	internet: { imdb: '12349832', wiki_ua: '%D0%97%D0%BE%D0%B7%D1%83%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
+},
+{
 	id: 'golden_eye_1995', title: { ua: 'Золоте око', en: 'GoldenEye', }, year: 1995, country: { usa: 1, }, rating: 5, franchise: 'agent_007_Brosnan',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0113189', wiki_ua: '%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%B5_%D0%BE%D0%BA%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2636', auliki7: 'GoldenEye', },
@@ -2314,6 +2319,11 @@ const arrFilms = [
 	genre: { fantasy: 1, comedy: 1, },
 	internet: { imdb: '0389860', wiki_ua: '%D0%9A%D0%BB%D1%96%D0%BA:_%D0%97_%D0%BF%D1%83%D0%BB%D1%8C%D1%82%D0%BE%D0%BC_%D0%BF%D0%BE_%D0%B6%D0%B8%D1%82%D1%82%D1%8E', },
 	cast: { adam_sandler_09091966: 1, kate_beckinsale_26071973: 1, },
+},
+{
+	id: 'blink_twice_2024', title: { ua: 'Кліпни двічі', en: 'Blink Twice', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, },
+	internet: { imdb: '14858658', wiki_ua: '%D0%9A%D0%BB%D1%96%D0%BF%D0%BD%D0%B8_%D0%B4%D0%B2%D1%96%D1%87%D1%96', },
 },
 {
 	id: 'the_cell_2000', title: { ua: 'Клітка', en: 'The Cell', }, year: 2000, country: { usa: 1, deu: 1, },
@@ -2864,6 +2874,11 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0120749', wiki_ua: '%D0%9C%D0%B5%D1%80%D0%BA%D1%83%D1%80%D1%96%D0%B9_%D0%B2_%D0%BD%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%86%D1%96', },
 	cast: { bruce_willis_19031955: 1, alec_baldwin_03041958: 1, },
+},
+{
+	id: 'deadland_2023', title: { ua: 'Мертва земля', en: 'Deadland', }, year: 2023, country: { usa: 1, ven: 1, },
+	genre: { mystic: 1, western: 1, }, hash: { police: 1, cop: 1, },
+	internet: { imdb: '11317170',  },
 },
 {
 	id: 'dead_calm_1989', title: { ua: 'Мертвий штиль', en: 'Dead Calm', }, year: 1989, country: { aus: 1, },
