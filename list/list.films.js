@@ -1972,7 +1972,7 @@ const arrFilms = [
 {
 	id: 'zootopia_2016', title: { ua: 'Зоотрополіс', en: 'Zootopia', }, year: 2016, country: { usa: 1, },
 	genre: { cartoon: 1, }, hash: { police: 1, },
-	internet: { imdb: '2948356', wiki_ua: '%D0%97%D0%BE%D0%BE%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%96%D1%81', },
+	internet: { imdb: '2948356', wiki_ua: '%D0%97%D0%BE%D0%BE%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%96%D1%81', ashdivip: '454', },
 },
 {
 	id: 'stargate_1994', title: { ua: 'Зоряна брама', en: 'Stargate', }, year: 1994, country: { usa: 1, }, rating: 5,
@@ -3555,6 +3555,11 @@ const arrFilms = [
 	internet: { imdb: '1935194', wiki_ua: '%D0%9E%D0%B2%D0%B5%D1%80%D0%B4%D1%80%D0%B0%D0%B9%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
+	id: 'uglies_2024', title: { ua: 'Огидні', en: 'Uglies', }, year: 2024, country: { usa: 1, },
+	genre: { sci_fi: 1, }, hash: { utopia: 1, young: 1, },
+	internet: { imdb: '13186604', },
+},
+{
 	id: '1_chance_sur_2_1998', title: { ua: 'Один шанс на двох', en: '1 chance sur 2', }, year: 1998, country: { fra: 1, },
 	genre: { action: 1, comedy: 1, adventure: 1, },
 	internet: { imdb: '0119247', wiki_ru: '%D0%9E%D0%B4%D0%B8%D0%BD_%D1%88%D0%B0%D0%BD%D1%81_%D0%BD%D0%B0_%D0%B4%D0%B2%D0%BE%D0%B8%D1%85', },
@@ -3766,6 +3771,11 @@ const arrFilms = [
 	id: 'the_baker_2022', title: { ua: 'Пекар', en: 'The Baker', }, year: 2022, country: { usa: 1, deu: 1, gbr: 1, },
 	genre: { action: 1, crime: 1, }, hash: { children: 1, },
 	internet: { imdb: '3917710', wiki_ua: '%D0%9F%D0%B5%D0%BA%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', ashdivip: '104284', },
+},
+{
+	id: 'pacific_fear_2024', title: { ua: 'Пекельний серфінг', en: 'Pacific Fear', }, year: 2024, country: { fra: 1, },
+	genre: { horror: 1, }, hash: { island: 1, },
+	internet: { imdb: '28290159', },
 },
 {
 	id: 'sueurs_2002', title: { ua: 'Пекло', en: 'Sueurs', }, year: 2002, country: { fra: 1, },
@@ -4334,6 +4344,12 @@ const arrFilms = [
 	cast: { keanu_reeves_02091964: 1, },
 },
 {
+	id: 'slingshot_2024', title: { ua: 'Прискорення', en: 'Slingshot', }, year: 2024, country: { usa: 1, },
+	genre: { sci_fi: 1, }, hash: { space: 1, },
+	internet: { imdb: '12616480', },
+	cast: { laurence_fishburne_30071961: 1, casey_affleck_12081975: 1, },
+},
+{
 	id: 'the_hidden_1987', title: { ua: 'Прихований ворог', en: 'The Hidden', }, year: 1987, country: { usa: 1, }, rating: 5,
 	genre: { sci_fi: 1, thriller: 1,horror: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0093185', wiki_ua: '%D0%9F%D1%80%D0%B8%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9_%D0%B2%D0%BE%D1%80%D0%BE%D0%B3', ashdivip: '21363', },
@@ -4443,6 +4459,12 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, comedy: 1, }, hash: { sea: 1, },
 	internet: { imdb: '0119116', wiki_ua: '%D0%9F%27%D1%8F%D1%82%D0%B8%D0%B9_%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82', },
 	cast: { bruce_willis_19031955: 1, milla_jovovich_17121975: 1, gary_oldman_21031958: 1, chris_tucker_31081971: 1, brion_james_20021945: 1, }, director: { luc_besson_18031959: 1, },
+},
+{
+	id: 'Rebel_Ridge_2024', title: { ua: 'Ребел-Ридж', en: 'Rebel Ridge', }, year: 2024, country: { fra: 1, },
+	genre: { action: 1, crime: 1, }, hash: { police: 1, },
+	internet: { imdb: '11301886', },
+	cast: { don_johnson_15121949: 1, },
 },
 {
 	id: 'red_2010', title: { ua: 'РЕД', en: 'RED', }, year: 2010, country: { usa: 1, },
@@ -5053,6 +5075,12 @@ const arrFilms = [
 	genre: { action: 1, },
 	internet: { imdb: '0822854', wiki_ua: '%D0%A1%D1%82%D1%80%D1%96%D0%BB%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2007)', },
 	cast: { mark_wahlberg_05061971: 1, danny_glover_22071946: 1, rhona_mitra_09081976: 1, },
+},
+{
+	id: 'gunner_2024', title: { ua: 'Стрілець', en: 'Gunner', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '12598606', },
+	cast: { morgan_freeman_01061937: 1, },
 },
 {
 	id: 'Dredd_2012', title: { ua: 'Суддя Дредд', en: 'Dredd', }, year: 2012, country: { usa: 1, }, rating: 5,
