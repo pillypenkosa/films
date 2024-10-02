@@ -310,6 +310,11 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, ben_affleck_15081972: 1, liv_tyler_01071977: 1, steve_buscemi_13121957: 1, michael_clarke_duncan_10121957: 1, michael_bay_17021965: 1, },
 },
 {
+	id: 'stereoscope_2024', title: { ua: 'Астрал. Стереоскоп демона', en: 'Stereoscope', }, year: 2024, country: { usa: 1, },
+	genre: { horror: 1, },
+	internet: { imdb: '24326398', },
+},
+{
 	id: 'Atlas_2024', title: { ua: 'Атлас', en: 'Atlas', }, year: 2024, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { space: 1, robot: 1, battle: 1, },
 	internet: { imdb: '14856980', wiki_ua: '%D0%90%D1%82%D0%BB%D0%B0%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1455,6 +1460,12 @@ const arrFilms = [
 	genre: { thriller: 1, }, hash: { apocalypse: 1, surviving: 1, },
 	internet: { imdb: '0898367', wiki_ua: '%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2009)', },
 	cast: { charlize_theron_07081975: 1, },
+},
+{
+	id: 'bring_him_to_me_2023', title: { ua: 'Дорога в один кінець', en: 'Bring Him to Me', }, year: 2023, country: { aus: 1, },
+	genre: { thriller: 1, crime: 1, },
+	internet: { imdb: '24131660', },
+	cast: { barry_pepper_04041970: 1, },
 },
 {
 	id: 'highway_to_hell_1991', title: { ua: 'Дорога в пекло', en: 'Highway to Hell', }, year: 1991, country: { usa: 1, }, rating: 5,
@@ -2779,6 +2790,12 @@ const arrFilms = [
 	genre: { horror: 1, mystic: 1, }, hash: { cars: 1, },
 	internet: { imdb: '0091499', wiki_ua: '%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D0%BF%D1%80%D0%B8%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F', },
 	cast: { emilio_estevez_12051962: 1, stephen_king_21091947: 1, },
+},
+{
+	id: 'maximum_risk_1996', title: { ua: 'Максимальний ризик', en: 'Maximum Risk', }, year: 1996, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0117011', wiki_ua: '%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%80%D0%B8%D0%B7%D0%B8%D0%BA', },
+	cast: { jean_claude_van_damme_18101960: 1, },
 },
 {
 	id: 'maximum_conviction_2012', title: { ua: 'Максимальний термін', en: 'Maximum Conviction', }, year: 2012, country: { usa: 1, },
@@ -4117,6 +4134,11 @@ const arrFilms = [
 	cast: { pierce_brosnan_16051953: 1, },
 },
 {
+	id: 'the_train_of_death_2024', title: { ua: 'Поїзд смерті', en: 'The Train of Death', }, year: 2024, country: { idn: 1, },
+	genre: { horror: 1, }, hash: { train: 1, },
+	internet: { imdb: '29545351', },
+},
+{
 	id: 'runaway_train_1985', title: { ua: 'Поїзд-утікач', en: 'Runaway Train', }, year: 1985, country: { usa: 1, }, rating: '5+',
 	genre: { thriller: 1, }, hash: { train: 1, prison: 1, },
 	internet: { imdb: '0089941', wiki_ua: '%D0%9F%D0%BE%D1%82%D1%8F%D0%B3-%D1%83%D1%82%D1%96%D0%BA%D0%B0%D1%87', ashdivip: '113516', moviestape: 'Runaway.Train', },
@@ -5083,6 +5105,12 @@ const arrFilms = [
 	cast: { morgan_freeman_01061937: 1, },
 },
 {
+	id: 'the_substance_2024', title: { ua: 'Субстанція', en: 'The Substance', }, year: 2024, country: { usa: 1, fra: 1, gbr: 1,}, 	
+	genre: { horror: 1, trash: 1, }, 
+	internet: { imdb: '17526714', wiki_ua: '%D0%A1%D1%83%D0%B1%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { demi_moore_11111962: 1, },
+},
+{
 	id: 'Dredd_2012', title: { ua: 'Суддя Дредд', en: 'Dredd', }, year: 2012, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, utopia: 1, police: 1, justice: 1, drugs: 1, },
 	internet: { imdb: '1343727', wiki_ua: '%D0%A1%D1%83%D0%B4%D0%B4%D1%8F_%D0%94%D1%80%D0%B5%D0%B4%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2012)', ashdivip: '3444', },
@@ -5516,6 +5544,24 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, }, hash: { cowboy: 1, },
 	internet: { imdb: '0109493', wiki_ru: '%D0%A3_%D0%BA%D0%BE%D0%B2%D0%B1%D0%BE%D0%B5%D0%B2_%D1%82%D0%B0%D0%BA_%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%BE', },
 	cast: { woody_harrelson_23071961: 1, kiefer_sutherland_21121966: 1, },
+},
+{
+	id: 'the_quest_1996', title: { ua: 'У пошуках пригод', en: 'The Quest', }, year: 1996, country: { usa: 1, },
+	genre: { action: 1, adventure: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0117420', wiki_ua: '%D0%A3_%D0%BF%D0%BE%D1%88%D1%83%D0%BA%D0%B0%D1%85_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D0%B4', ashdivip: '20719', },
+	cast: { jean_claude_van_damme_18101960: 1, roger_moore_14101927: 1, },
+},
+{
+	id: 'kill_em_all_2017', title: { ua: 'Убий їх усіх', en: 'Kill\'em All', }, year: 2017, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { psycho: 1, },
+	internet: { imdb: '5767628', ashdivip: '21554', },
+	cast: { jean_claude_van_damme_18101960: 1, },
+},
+{
+	id: 'kill_em_all_2_2024', title: { ua: 'Убий їх усіх - 2', en: 'Kill\'em All 2', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '6549510', },
+	cast: { jean_claude_van_damme_18101960: 1, },
 },
 {
 	id: 'le_coup_du_parapluie_1980', title: { ua: 'Укол парасолькою', en: 'Le coup du parapluie', }, year: 1980, country: { fra: 1, },
