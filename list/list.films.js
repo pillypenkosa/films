@@ -172,7 +172,7 @@ const arrFilms = [
 },
 {
 	id: 'runaway_car_1996', title: { ua: 'Автомобіль-утікач', en: 'Runaway Car', }, year: 1996, country: { usa: 1, }, rating: '5+',
-	genre: { tv: 1, thriller: 1, }, hash: { trap: 1, cars: 1, road: 1, },
+	genre: { thriller: 1, }, hash: { trap: 1, cars: 1, road: 1, },
 	internet: { imdb: '0120041', ashdivip: '127571', },
 	cast: { nina_siemaszko_14071970: 1, },
 },
@@ -372,6 +372,11 @@ const arrFilms = [
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '0219965', wiki_ua: '%D0%91%D0%B0%D0%BD%D0%B4%D0%B8%D1%82%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { bruce_willis_19031955: 1, cate_blanchett_14051969: 1, },
+},
+{
+	id: 'baraka_1992', title: { ua: 'Барака', en: 'Baraka', }, year: 1992, country: { usa: 1, },
+	genre: { tv: 1, },
+	internet: { imdb: '0103767', wiki_ua: '%D0%91%D0%B0%D1%80%D0%B0%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1992)', },
 },
 {
 	id: 'barbie_2023', title: { ua: 'Барбі', en: 'Barbie', }, year: 2023, country: { usa: 1, },
@@ -1717,6 +1722,12 @@ const arrFilms = [
 	cast: { kurt_russell_17031951: 1, goldie_hawn_21111945: 1, },
 },
 {
+	id: 'fly_me_to_the_Moon_2024', title: { ua: 'Забери мене на Місяць', en: 'Fly Me to the Moon', }, year: 2024, country: { usa: 1, },
+	genre: { comedy: 1, }, hash: { space: 1, },
+	internet: { imdb: '1896747', wiki_ua: '%D0%97%D0%B0%D0%B1%D0%B5%D1%80%D0%B8_%D0%BC%D0%B5%D0%BD%D0%B5_%D0%BD%D0%B0_%D0%BC%D1%96%D1%81%D1%8F%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
+	cast: { scarlett_johansson_22111984: 1, woody_harrelson_23071961: 1, },
+},
+{
 	id: 'diner_1982', title: { ua: 'Забігайлівка', en: 'Diner', }, year: 1982, country: { usa: 1, },
 	genre: { comedy: 1, },
 	internet: { imdb: '0083833', wiki_ru: '%D0%97%D0%B0%D0%B1%D0%B5%D0%B3%D0%B0%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
@@ -2106,19 +2117,19 @@ const arrFilms = [
 {
 	id: 'now_you_see_me_2013', title: { ua: 'Ілюзія обману', en: 'Now You See Me', }, year: 2013, country: { fra: 1, usa: 1, }, rating: 5, franchise: 'you_see_me',
 	genre: { mystic: 1, thriller: 1, },
-	internet: { imdb: '1670345', wiki_ua: '%D0%86%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '1670345', wiki_ua: '%D0%86%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '1059', },
 	cast: { woody_harrelson_23071961: 1, morgan_freeman_01061937: 1, },
 },
 {
 	id: 'now_you_see_me_2_2016', title: { ua: 'Ілюзія обману - 2', en: 'Now You See Me 2', }, year: 2016, country: { usa: 1, }, rating: 5, franchise: 'you_see_me',
 	genre: { mystic: 1, thriller: 1, },
-	internet: { imdb: '3110958', wiki_ua: '%D0%86%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%83:_%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B9_%D0%B0%D0%BA%D1%82', },
+	internet: { imdb: '3110958', wiki_ua: '%D0%86%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%83:_%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B9_%D0%B0%D0%BA%D1%82', ashdivip: '1060', },
 	cast: { woody_harrelson_23071961: 1, morgan_freeman_01061937: 1, },
 },
 {
 	id: 'flightplan_2005', title: { ua: 'Ілюзія польоту', en: 'Flightplan', }, year: 2005, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, }, hash: { plane: 1, children: 1, },
-	internet: { imdb: '0408790', wiki_ru: '%D0%98%D0%BB%D0%BB%D1%8E%D0%B7%D0%B8%D1%8F_%D0%BF%D0%BE%D0%BB%D1%91%D1%82%D0%B0', },
+	internet: { imdb: '0408790', wiki_ru: '%D0%98%D0%BB%D0%BB%D1%8E%D0%B7%D0%B8%D1%8F_%D0%BF%D0%BE%D0%BB%D1%91%D1%82%D0%B0', ashdivip: '8322', },
 	cast: { jodie_foster_19111962: 1, sean_bean_17041959: 1, },
 },
 {
@@ -3636,6 +3647,12 @@ const arrFilms = [
 	cast: { milla_jovovich_17121975: 1, michelle_rodriguez_12071978: 1, },
 },
 {
+	id: 'unit_234_2024', title: { ua: 'Осередок 234', en: 'Unit 234', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, },
+	internet: { imdb: '6906106', },
+	cast: { don_johnson_15121949: 1, },
+},
+{
 	id: 'basic_instinct_1992', title: { ua: 'Основний інстинкт', en: 'Basic Instinct', }, year: 1992, country: { usa: 1, }, franchise: 'basic_instinct',
 	genre: { thriller: 1, },
 	internet: { imdb: '0103772', wiki_ua: '%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D1%96%D0%BD%D1%81%D1%82%D0%B8%D0%BD%D0%BA%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -4701,6 +4718,12 @@ const arrFilms = [
 	cast: { harrison_ford_13071942: 1, richard_crenna_30111926: 1, },
 },
 {
+	id: 'Sully_2016', title: { ua: 'Саллі', en: 'Sully', }, year: 2016, country: { usa: 1, },
+	genre: { disaster: 1, drama: 1, }, hash: { plane: 1, },
+	internet: { imdb: '3263904', wiki_ua: '%D0%A1%D0%B0%D0%BB%D0%BB%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', },
+	cast: { tom_hanks_09071956: 1, aaron_eckhart_12031968: 1, },
+},
+{
 	id: 'home_alone_1990', title: { ua: 'Сам удома', en: 'Home Alone', }, year: 1990, country: { usa: 1, }, rating: 5, franchise: 'home_alone',
 	genre: { comedy: 1, }, hash: { children: 1, },
 	internet: { imdb: '0099785', wiki_ua: '%D0%A1%D0%B0%D0%BC_%D1%83%D0%B4%D0%BE%D0%BC%D0%B0', },
@@ -4723,6 +4746,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0100029', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D0%B2%D0%BE%D0%BB%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1990)', },
 	cast: { jean_claude_van_damme_18101960: 1, },
+},
+{
+	id: 'wolfs_2024', title: { ua: 'Самотні вовки', en: 'Wolfs', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, comedy: 1, }, 
+	internet: { imdb: '14257582', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96_%D0%B2%D0%BE%D0%B2%D0%BA%D0%B8', },
+	cast: { george_clooney_06051961: 1, brad_pitt_18121963: 1, },
 },
 {
 	id: 'lone_wolf_McQuade_1983', title: { ua: 'Самотній вовк МакКвейд', en: 'Lone Wolf McQuade', }, year: 1983, country: { usa: 1, },
