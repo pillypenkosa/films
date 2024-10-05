@@ -5,6 +5,7 @@
 const arrFilmStudio = [
 
 	{ id: '_20_century' 		, title: '20th Century' 			, },
+	{ id: 'carolco' 			, title: 'Carolco Pictures' 		, },
 	{ id: 'columbia' 			, title: 'Columbia Pictures' 		, },
 	{ id: 'dimension' 			, title: 'Dimension Films' 			, },
 	{ id: 'dream_works' 		, title: 'DreamWorks' 				, },
