@@ -77,6 +77,7 @@ class ComponentMenu {
 
  		let optionActor = '<option value="all">Актори (всі)</option>';
  		let optionDirectors = '<option value="all">Режисери (всі)</option>';
+ 		let optionComposser = '<option value="all">Композитори (всі)</option>';
  		let optionStudio = '<option value="all">Кінокомпанії (всі)</option>';
 
 
@@ -122,6 +123,37 @@ class ComponentMenu {
 
 
 
+
+		arrFilmsCompossers.sort().forEach( k => {
+
+			let name = '';
+
+			if ( objListPeople[ k ] ) {
+
+				if ( objListPeople[ k ].name.n ) 
+					name += objListPeople[ k ].name.n;
+
+				if ( objListPeople[ k ].name.s ) 
+					name += ' ' + objListPeople[ k ].name.s;
+			}
+
+		 	optionComposser += `<option value="${ k }">${ name }</option>`;
+		});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		arrFilmStudio.forEach( k => {
 			optionStudio += `<option value="${ k.id }">${ k.title }</option>`;
 		});
@@ -164,6 +196,9 @@ class ComponentMenu {
 	 			</div>
 	 			<div>
 	 				<select data-id="director" onchange="${ this.name }.change( this )">${ optionDirectors }</select>
+	 			</div>
+	 			<div>
+	 				<select data-id="composser" onchange="${ this.name }.change( this )">${ optionComposser }</select>
 	 			</div>
 	 			<div>
 	 				<select data-id="studio" onchange="${ this.name }.change( this )">${ optionStudio }</select>

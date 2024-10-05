@@ -131,6 +131,22 @@ class ComponentWinIndex {
 			}
 		}
 
+
+		if ( data.composser ) {
+			if ( data.composser != 'all' ) {
+
+				this.arrSelectedFilms = this.arrSelectedFilms.filter( k => {
+
+					if ( k.composser ) {
+						if ( k.composser[ data.composser ] ) 
+							return true;
+					}
+				});
+			}
+		}
+
+
+
 		if ( data.country ) {
 			if ( data.country != 'all' ) {
 
@@ -517,6 +533,43 @@ class ComponentWinIndex {
 
 
 
+			let htmlComposser = '';
+			if ( k.composser ) {
+				for ( let kComposser in k.composser ) {
+					//console.log( kDirector );
+
+					let nameN = '';
+					let nameP = '';
+					let nameS = '';
+
+					if ( objListPeople[ kComposser ].name ) {
+						nameN = objListPeople[ kComposser ].name.n ? objListPeople[ kComposser ].name.n + ' ' : '';
+						nameP = objListPeople[ kComposser ].name.p ? objListPeople[ kComposser ].name.p + ' ' : '';
+						nameS = objListPeople[ kComposser ].name.s ? objListPeople[ kComposser ].name.s : '';
+					}
+
+					htmlComposser = `${ nameN + nameP + nameS }`;
+				}
+
+				htmlComposser = `<div>
+					<span class="key">композитор:</span> ${ htmlComposser }
+				</div>`;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			let htmlStudio = '';
 			if ( k.studio ) {
 				for ( let kStudio in k.studio ) {
@@ -547,6 +600,7 @@ class ComponentWinIndex {
 							<div class="country"><span class="key">країна:</span> ${ htmlCountry }</div>
 							<div class="genre"><span class="key">жанр:</span> ${ htmlGenre }</div>
 							${ htmlDirector }
+							${ htmlComposser }
 							${ htmlStudio }
 							${ htmlHash }
 						</div>

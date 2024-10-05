@@ -2652,7 +2652,7 @@ const arrFilms = [
 	studio: { paramount_pictures: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { treasure: 1, travel: 1, },
 	internet: { imdb: '0325703', wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82_%D1%80%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C:_%D0%BA%D0%BE%D0%BB%D0%B8%D1%81%D0%BA%D0%B0_%D0%B6%D0%B8%D1%82%D1%82%D1%8F', },
-	cast: { angelina_jolie_04061975: 1, gerard_butler_13111969: 1, }, director: { jan_de_bont_22101943: 1, },
+	cast: { angelina_jolie_04061975: 1, gerard_butler_13111969: 1, }, director: { jan_de_bont_22101943: 1, }, composser: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'LaRoy_Texas_2023', title: { ua: 'ЛаРой Техас', en: 'LaRoy, Texas', }, year: 2023, country: { usa: 1, fra: 1, },
@@ -3339,6 +3339,11 @@ const arrFilms = [
 	id: 'a_fond_2016', title: { ua: 'Не гальмуй', en: 'À fond', }, year: 2016, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, hash: { road: 1, },
 	internet: { imdb: '4993964', wiki_ua: '%D0%9D%D0%B5_%D0%B3%D0%B0%D0%BB%D1%8C%D0%BC%D1%83%D0%B9', },
+},
+{
+	id: 'speak_no_evil_2024', title: { ua: 'Не говори зі злом', en: 'Speak No Evil', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, horror: 1, }, hash: { children: 1, },
+	internet: { imdb: '27534307', wiki_ua: '%D0%9D%D0%B5_%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8_%D0%B7%D1%96_%D0%B7%D0%BB%D0%BE%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
 },
 {
 	id: 'barb_wire_1996', title: { ua: 'Не називай мене маленькою', en: 'Barb Wire', }, year: 1996, country: { usa: 1, },
@@ -6268,19 +6273,21 @@ const arrFilms = [
 },
 {
 	id: 'g_i_joe_2009', title: { ua: 'G.I. Joe: Атака кобри', en: 'G.I. Joe: The Rise of Cobra', }, year: 2009, country: { usa: 1, },
-	studio: { dream_works: 1, hasbro: 1, },
+	studio: { paramount_pictures: 1, dream_works: 1, hasbro: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, team: 1, },
 	internet: { imdb: '1046173', wiki_ua: '%D0%94%D0%B6%D1%96_%D0%90%D0%B9_%D0%94%D0%B6%D0%BE:_%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%9A%D0%BE%D0%B1%D1%80%D0%B8', },
 	composser: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'g_i_joe_2_2013', title: { ua: 'G.I. Joe: Атака кобри - 2', en: 'G.I. Joe: Retaliation', }, year: 2013, country: { usa: 1, },
+	studio: { paramount_pictures: 1, mgm: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, team: 1, },
 	internet: { imdb: '1583421', wiki_ua: 'G.I._Joe:_%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%9A%D0%BE%D0%B1%D1%80%D0%B8_2', },
 	cast: { dwayne_johnson_02051972: 1, bruce_willis_19031955: 1, },
 },
 {
 	id: 'swat_2003', title: { ua: 'S.W.A.T.: Спецназ міста янголів', en: 'S.W.A.T.', }, year: 2003, country: { usa: 1, },
+	studio: { columbia_pictures: 1, },
 	genre: { action: 1, crime: 1, }, hash: { team: 1, },
 	internet: { imdb: '0257076', wiki_ua: 'S.W.A.T.:_%D0%A1%D0%BF%D0%B5%D1%86%D0%BD%D0%B0%D0%B7_%D0%BC%D1%96%D1%81%D1%82%D0%B0_%D1%8F%D0%BD%D0%B3%D0%BE%D0%BB%D1%96%D0%B2', },
 	cast: { samuel_l_jackson_21121948: 1, michelle_rodriguez_12071978: 1, },
@@ -6293,9 +6300,10 @@ const arrFilms = [
 },
 {
 	id: 'uncharted_2022', title: { ua: 'Uncharted: Незвідане', en: 'Uncharted', }, year: 2022, country: { usa: 1, },
+	studio: { columbia_pictures: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '1464335', wiki_ua: 'Uncharted:_%D0%9D%D0%B5%D0%B7%D0%B2%D1%96%D0%B4%D0%B0%D0%BD%D0%B5', },
-	cast: { antonio_banderas_10081960: 1, mark_wahlberg_05061971: 1, },
+	cast: { antonio_banderas_10081960: 1, mark_wahlberg_05061971: 1, }, composser: { ramin_djawadi_19071974: 1, },
 },
 
 
@@ -6322,6 +6330,7 @@ let objFilmsCountry = {};
 
 let arrFilmsActors = [];
 let arrFilmsDirectors = [];
+let arrFilmsCompossers = [];
 
 
 
@@ -6351,11 +6360,32 @@ arrFilms.forEach( k => {
 	if ( k.director ) {
 		for ( let k3 in k.director ) {
 
-			if (  arrFilmsDirectors.indexOf( k3 ) == -1 ) 
+			if ( arrFilmsDirectors.indexOf( k3 ) == -1 ) 
 				arrFilmsDirectors.push( k3 );
 
 		}
 	}
+
+
+
+	if ( k.composser ) {
+		for ( let k3 in k.composser ) {
+
+			if ( arrFilmsCompossers.indexOf( k3 ) == -1 ) 
+				arrFilmsCompossers.push( k3 );
+
+		}
+	}
+
+
+
+
+
+
+
+
+
+
 
 
 });
