@@ -272,28 +272,32 @@ const arrFilms = [
 },
 {
 	id: 'american_gigolo_1980', title: { ua: 'Американський жиголо', en: 'American Gigolo', }, year: 1980, country: { usa: 1, },
+	studio: { paramount: 1, },
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0080365', wiki_ru: '%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B6%D0%B8%D0%B3%D0%BE%D0%BB%D0%BE', },
 	cast: { richard_gere_31081949: 1, bill_duke_26021943: 1, },
 },
 {
 	id: 'american_fiction_2023', title: { ua: 'Американське чтиво', en: 'American Fiction', }, year: 2023, country: { usa: 1, },
+	studio: { mgm: 1, },
 	genre: { drama: 1, comedy: 1, },
 	internet: { imdb: '23561236', wiki_ua: '%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B5_%D1%87%D1%82%D0%B8%D0%B2%D0%BE', },
 },
 {
 	id: 'anaconda_1997', title: { ua: 'Анаконда', en: 'Anaconda', }, year: 1997, country: { usa: 1, }, rating: 5,
+	studio: { columbia: 1, sony: 1, },
 	genre: { adventure: 1, horror: 1, }, hash: { snake: 1, jungle: 1, },
 	internet: { imdb: '0118615', wiki_ua: '%D0%90%D0%BD%D0%B0%D0%BA%D0%BE%D0%BD%D0%B4%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '14649', },
 	cast: { jennifer_lopez_24071969: 1, jon_voight_29121938: 1, danny_trejo_16051944: 1, },
 },
 {
-	id: 'app_2013', title: { ua: 'Андроід', en: 'App', }, year: 2013, country: { usa: 1, }, rating: 5,
+	id: 'app_2013', title: { ua: 'Андроід', en: 'App', }, year: 2013, country: { nld: 1, }, rating: 5,
 	genre: { thriller: 1, sci_fi: 1, }, hash: { cyber: 1, young: 1, phone: 1, },
 	internet: { imdb: '2536436', wiki_ua: '%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D1%97%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013)', ashdivip: '113205', },
 },
 {
 	id: 'anon_2018', title: { ua: 'Анон', en: 'Anon', }, year: 2018, country: { usa: 1, },
+	studio: { netflix: 1, },
 	genre: { sci_fi: 1, crime: 1, }, hash: { future: 1, utopia: 1, world: 1, },
 	internet: { imdb: '5397194', wiki_ua: '%D0%90%D0%BD%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
@@ -305,9 +309,10 @@ const arrFilms = [
 },
 {
 	id: 'apollo_13_1995', title: { ua: 'Аполлон 13', en: 'Apollo 13', }, year: 1995, country: { usa: 1, }, rating: 5,
+	studio: { imagine: 1, },
 	genre: { drama: 1, history: 1, }, hash: { real: 1, space: 1, },
 	internet: { imdb: '0112384', wiki_ua: '%D0%90%D0%BF%D0%BE%D0%BB%D0%BB%D0%BE%D0%BD-13_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '14886', },
-	cast: { tom_hanks_09071956: 1, kevin_bacon_08071958: 1, bill_paxton_17051955: 1, ed_harris_28111950: 1, },
+	cast: { tom_hanks_09071956: 1, kevin_bacon_08071958: 1, bill_paxton_17051955: 1, ed_harris_28111950: 1, }, director: { ron_howard_31031954: 1, }, composser: { james_horner_14081953: 1, }, 
 },
 {
 	id: 'upgrade_2018', title: { ua: 'Апгрейд', en: 'Upgrade', }, year: 2018, country: { aus: 1, },
@@ -327,9 +332,10 @@ const arrFilms = [
 },
 {
 	id: 'armageddon_1998', title: { ua: 'Армагеддон', en: 'Armageddon', }, year: 1998, country: { usa: 1, },
+	studio: { touchstone: 1, },
 	genre: { action: 1, disaster: 1, sci_fi: 1, }, hash: { apocalypse: 1, space: 1, },
 	internet: { imdb: '0120591', wiki_ua: '%D0%90%D1%80%D0%BC%D0%B0%D0%B3%D0%B5%D0%B4%D0%B4%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', ashdivip: '14016', },
-	cast: { bruce_willis_19031955: 1, ben_affleck_15081972: 1, liv_tyler_01071977: 1, steve_buscemi_13121957: 1, michael_clarke_duncan_10121957: 1, michael_bay_17021965: 1, },
+	cast: { bruce_willis_19031955: 1, ben_affleck_15081972: 1, liv_tyler_01071977: 1, steve_buscemi_13121957: 1, michael_clarke_duncan_10121957: 1, michael_bay_17021965: 1, }, director: { michael_bay_17021965: 1, },
 },
 {
 	id: 'stereoscope_2024', title: { ua: 'Астрал. Стереоскоп демона', en: 'Stereoscope', }, year: 2024, country: { usa: 1, },
@@ -355,9 +361,10 @@ const arrFilms = [
 },
 {
 	id: 'the_Thomas_Crown_affair_1999', title: { ua: 'Афера Томаса Крауна', en: 'The Thomas Crown Affair', }, year: 1999, country: { usa: 1, }, rating: 5,
+	studio: { mgm: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '0155267', wiki_ua: '%D0%90%D1%84%D0%B5%D1%80%D0%B0_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81%D0%B0_%D0%9A%D1%80%D0%B0%D1%83%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', ashdivip: '16225', },
-	cast: { pierce_brosnan_16051953: 1, },
+	cast: { pierce_brosnan_16051953: 1, }, composser: { Bill_Conti_13041942: 1, },
 },
 {
 	id: 'much_ado_about_1993', title: { ua: 'Багато галасу з нічого', en: 'Much Ado About', }, year: 1993, country: { gbr: 1, usa: 1, },
