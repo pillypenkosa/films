@@ -14,7 +14,7 @@ const objFilmFranchise = {
 agent_007_Brosnan 		: [ 'golden_eye_1995', 'tomorrow_never_dies_1997', 'the_world_is_not_enough_1999', 'die_another_day_2002', ],
 agent_007_Craig 		: [ 'casino_royale_2006', 'quantum_of_solace_2008', 'skyfall_2012', 'spectre_2015', 'no_time_to_die_2021', ],
 alien 					: [ 'alien_1979', 'aliens_1986', 'alien_3_1992', ],
-avatar 					: [ 'avatar_1_2009', 'avatar_2_2022', ],
+avatar 					: [ 'avatar_2009', 'avatar_2_2022', ],
 back_to_the_future 		: [ 'back_to_the_future_1985', 'back_to_the_future_2_1989', 'back_to_the_future_3_1990', ],
 backdraft 				: [ 'backdraft_1991', 'backdraft_2_2019', ],
 bad_boys 				: [ 'bad_boys_1995', 'bad_boys_2_2003', 'bad_boys_3_2020', 'bad_boys_4_2024', ],

@@ -149,7 +149,7 @@ const arrFilms = [
 	studio: { _20_century: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, planet: 1, world: 1, battle: 1, },
 	internet: { imdb: '0499549', wiki_ua: '%D0%90%D0%B2%D0%B0%D1%82%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '331', },
-	cast: { sam_worthington_02081976: 1, zoe_saldana_19061978: 1, sigourney_weaver_08101949: 1, michelle_rodriguez_12071978: 1, }, director: { james_cameron_16081954: 1, }, 
+	cast: { sam_worthington_02081976: 1, zoe_saldana_19061978: 1, sigourney_weaver_08101949: 1, michelle_rodriguez_12071978: 1, }, director: { james_cameron_16081954: 1, }, composser: { james_horner_14081953: 1, },
 },
 {
 	id: 'avatar_2_2022', title: { ua: 'Аватар - 2', en: 'Avatar: The Way of Water', }, year: 2022, country: { usa: 1, }, franchise: 'avatar',
