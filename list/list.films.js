@@ -146,18 +146,21 @@ const arrFilms = [
 },
 {
 	id: 'avatar_2009', title: { ua: 'Аватар', en: 'Avatar', }, year: 2009, country: { usa: 1, }, rating: 5, franchise: 'avatar',
+	studio: { _20_century: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, planet: 1, world: 1, battle: 1, },
 	internet: { imdb: '0499549', wiki_ua: '%D0%90%D0%B2%D0%B0%D1%82%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '331', },
-	cast: { sam_worthington_02081976: 1, zoe_saldana_19061978: 1, sigourney_weaver_08101949: 1, michelle_rodriguez_12071978: 1, },
+	cast: { sam_worthington_02081976: 1, zoe_saldana_19061978: 1, sigourney_weaver_08101949: 1, michelle_rodriguez_12071978: 1, }, director: { james_cameron_16081954: 1, }, 
 },
 {
 	id: 'avatar_2_2022', title: { ua: 'Аватар - 2', en: 'Avatar: The Way of Water', }, year: 2022, country: { usa: 1, }, franchise: 'avatar',
+	studio: { _20_century: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, planet: 1, world: 1, battle: 1, },
 	internet: { imdb: '1630029', wiki_ua: '%D0%90%D0%B2%D0%B0%D1%82%D0%B0%D1%80:_%D0%A8%D0%BB%D1%8F%D1%85_%D0%B2%D0%BE%D0%B4%D0%B8', ashdivip: '90444', },
-	cast: { sam_worthington_02081976: 1, zoe_saldana_19061978: 1, sigourney_weaver_08101949: 1, kate_winslet_05101975: 1, },
+	cast: { sam_worthington_02081976: 1, zoe_saldana_19061978: 1, sigourney_weaver_08101949: 1, kate_winslet_05101975: 1, }, director: { james_cameron_16081954: 1, }, 
 },
 {
 	id: 'the_aviator_2004', title: { ua: 'Авіатор', en: 'The Aviator', }, year: 2004, country: { usa: 1, },
+	studio: { warner: 1, miramax: 1, },
 	genre: { drama: 1, biography: 1, },
 	internet: { imdb: '0338751', wiki_ua: '%D0%90%D0%B2%D1%96%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { leonardo_dicaprio_11111974: 1, cate_blanchett_14051969: 1, kate_beckinsale_26071973: 1, alec_baldwin_03041958: 1, willem_dafoe_22071955: 1, },
@@ -170,6 +173,7 @@ const arrFilms = [
 },
 {
 	id: 'bus_stop_1956', title: { ua: 'Автобусна зупинка', en: 'Bus Stop', }, year: 1956, country: { usa: 1, },
+	studio: { _20_century: 1, },
 	genre: { comedy: 1, drama: 1, },
 	internet: { imdb: '0049038', wiki_ru: '%D0%90%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%BD%D0%B0%D1%8F_%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 	cast: { marilyn_monroe_01061926: 1, },
@@ -188,6 +192,7 @@ const arrFilms = [
 },
 {
 	id: 'the_hitchhikers_guide_to_the_galaxy_2005', title: { ua: 'Автостопом по галактиці', en: 'The Hitchhiker\'s Guide to the Galaxy', }, year: 2005, country: { usa: 1, },
+	studio: { touchstone: 1, netflix: 1, },
 	genre: { comedy: 1, sci_fi: 1, adventure: 1, }, hash: { space: 1, planet: 1, psycho: 1, },
 	internet: { imdb: '0371724', wiki_ua: '%D0%90%D0%B2%D1%82%D0%BE%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BC_%D0%BF%D0%BE_%D0%B3%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D1%86%D1%96', },
 	cast: { john_malkovich_09121953: 1, },
@@ -200,9 +205,10 @@ const arrFilms = [
 },
 {
 	id: 'the_devil_s_advocate_1997', title: { ua: 'Адвокат диявола', en: 'The Devil\'s Advocate', }, rating: 5,
+	studio: { warner: 1, },
 	year: 1997, country: { usa: 1, }, genre: { mystic: 1, drama: 1, }, hash: { justice: 1, },
 	internet: { imdb: '0118971', wiki_ua: '%D0%90%D0%B4%D0%B2%D0%BE%D0%BA%D0%B0%D1%82_%D0%94%D0%B8%D1%8F%D0%B2%D0%BE%D0%BB%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2219', },
-	cast: { keanu_reeves_02091964: 1, al_pacino_25041940: 1, charlize_theron_07081975: 1, connie_nielsen_03071965: 1, },
+	cast: { keanu_reeves_02091964: 1, al_pacino_25041940: 1, charlize_theron_07081975: 1, connie_nielsen_03071965: 1, }, composser: { james_newton_howard_09061951: 1, },
 },
 {
 	id: 'crank_2006', title: { ua: 'Адреналін', en: 'Crank', }, year: 2006, country: { usa: 1, }, 
