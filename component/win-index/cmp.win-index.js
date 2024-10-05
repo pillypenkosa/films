@@ -46,19 +46,10 @@ class ComponentWinIndex {
 
 			//<div id="showSelectedFilms">Оберіть категорію...</div>
 		html = `
-
-			<div id="showSelectedFilms">
-
-
-
+			<div id="showSelectedFilms"></div>
+			<div id="logo">
+				<img src="img/pic/logoDJS.png" alt="logo" />
 			</div>
-
-				<div id="logo">
-					<img src="img/pic/logoDJS.png" alt="logo" />
-				</div>
-
-
-
 		`;
 
 
@@ -186,6 +177,19 @@ class ComponentWinIndex {
 
 					if ( k.year == data.year ) 
 						return true;
+				});
+			}
+		}
+
+		if ( data.studio ) {
+			if ( data.studio != 'all' ) {
+
+				this.arrSelectedFilms = this.arrSelectedFilms.filter( k => {
+
+					if ( k.studio ) {
+						if ( k.studio[ data.studio ] ) 
+							return true;
+					}
 				});
 			}
 		}
@@ -486,11 +490,49 @@ class ComponentWinIndex {
 			if ( k.cast ) 
 				//htmlCast = `<div>Є актори</div>`;
 				htmlCast = Component( 'Cast', k.cast );
+
+			let htmlDirector = '';
+			if ( k.director ) {
+				for ( let kDirector in k.director ) {
+					//console.log( kDirector );
+
+					let nameN = '';
+					let nameP = '';
+					let nameS = '';
+
+					if ( objListPeople[ kDirector ].name ) {
+						nameN = objListPeople[ kDirector ].name.n ? objListPeople[ kDirector ].name.n + ' ' : '';
+						nameP = objListPeople[ kDirector ].name.p ? objListPeople[ kDirector ].name.p + ' ' : '';
+						nameS = objListPeople[ kDirector ].name.s ? objListPeople[ kDirector ].name.s : '';
+					}
+
+					htmlDirector = `${ nameN + nameP + nameS }`;
+				}
+
+				htmlDirector = `<div>
+					<span class="key">режисер:</span> ${ htmlDirector }
+				</div>`;
+			}
 			
 
 
 
-							//<div class="hash"><span class="key">хештеги:</span> ${ htmlHash }</div>
+			let htmlStudio = '';
+			if ( k.studio ) {
+				for ( let kStudio in k.studio ) {
+
+					if ( objFilmStudio[ kStudio ] ) 
+						htmlStudio += `<span>${ objFilmStudio[ kStudio ].title ? objFilmStudio[ kStudio ].title : '' }</span>, `;
+				}
+
+				htmlStudio = `<div class="">
+					<span class="key">кінокомпанія:</span> ${ htmlStudio.slice( 0, -2 ) }
+				</div>`;
+			}
+
+
+
+			//<div class="hash"><span class="key">хештеги:</span> ${ htmlHash }</div>
 			html += `<div class="each">
 
 				<div class="title">${ htmlTitle }</div>
@@ -504,6 +546,8 @@ class ComponentWinIndex {
 							<div class="year"><span class="key">рік:</span> ${ k.year ? k.year : '' }</div>
 							<div class="country"><span class="key">країна:</span> ${ htmlCountry }</div>
 							<div class="genre"><span class="key">жанр:</span> ${ htmlGenre }</div>
+							${ htmlDirector }
+							${ htmlStudio }
 							${ htmlHash }
 						</div>
 

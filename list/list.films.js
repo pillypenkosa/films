@@ -2649,6 +2649,7 @@ const arrFilms = [
 },
 {
 	id: 'Lara_Kroft_2_2003', title: { ua: 'Лара Крофт - 2', en: 'Lara Croft Tomb Raider: The Cradle of Life', }, year: 2003, country: { usa: 1, gbr: 1, deu: 1, jpn: 1, }, rating: 5,
+	studio: { paramount_pictures: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { treasure: 1, travel: 1, },
 	internet: { imdb: '0325703', wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82_%D1%80%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C:_%D0%BA%D0%BE%D0%BB%D0%B8%D1%81%D0%BA%D0%B0_%D0%B6%D0%B8%D1%82%D1%82%D1%8F', },
 	cast: { angelina_jolie_04061975: 1, gerard_butler_13111969: 1, }, director: { jan_de_bont_22101943: 1, },
@@ -4720,8 +4721,8 @@ const arrFilms = [
 {
 	id: 'Sully_2016', title: { ua: 'Саллі', en: 'Sully', }, year: 2016, country: { usa: 1, },
 	genre: { disaster: 1, drama: 1, }, hash: { plane: 1, },
-	internet: { imdb: '3263904', wiki_ua: '%D0%A1%D0%B0%D0%BB%D0%BB%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', },
-	cast: { tom_hanks_09071956: 1, aaron_eckhart_12031968: 1, },
+	internet: { imdb: '3263904', wiki_ua: '%D0%A1%D0%B0%D0%BB%D0%BB%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', ashdivip: '14102', },
+	cast: { tom_hanks_09071956: 1, aaron_eckhart_12031968: 1, }, director: { clint_eastwood_31051930: 1, },
 },
 {
 	id: 'home_alone_1990', title: { ua: 'Сам удома', en: 'Home Alone', }, year: 1990, country: { usa: 1, }, rating: 5, franchise: 'home_alone',
@@ -6267,8 +6268,10 @@ const arrFilms = [
 },
 {
 	id: 'g_i_joe_2009', title: { ua: 'G.I. Joe: Атака кобри', en: 'G.I. Joe: The Rise of Cobra', }, year: 2009, country: { usa: 1, },
+	studio: { dream_works: 1, hasbro: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, team: 1, },
 	internet: { imdb: '1046173', wiki_ua: '%D0%94%D0%B6%D1%96_%D0%90%D0%B9_%D0%94%D0%B6%D0%BE:_%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%9A%D0%BE%D0%B1%D1%80%D0%B8', },
+	composser: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'g_i_joe_2_2013', title: { ua: 'G.I. Joe: Атака кобри - 2', en: 'G.I. Joe: Retaliation', }, year: 2013, country: { usa: 1, },
