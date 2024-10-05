@@ -212,12 +212,14 @@ const arrFilms = [
 },
 {
 	id: 'crank_2006', title: { ua: 'Адреналін', en: 'Crank', }, year: 2006, country: { usa: 1, }, 
+	studio: { lionsgate: 1, netflix: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0479884', wiki_ua: '%D0%90%D0%B4%D1%80%D0%B5%D0%BD%D0%B0%D0%BB%D1%96%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2006)', },
 	cast: { jason_statham_26071967: 1, amy_smart_26031976: 1, },
 },
 {
 	id: 'crank_2_2009', title: { ua: 'Адреналін - 2', en: 'Crank: High Voltage', }, year: 2009, country: { usa: 1, },
+	studio: { lionsgate: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1121931', wiki_ua: '%D0%90%D0%B4%D1%80%D0%B5%D0%BD%D0%B0%D0%BB%D1%96%D0%BD_2:_%D0%92%D0%B8%D1%81%D0%BE%D0%BA%D0%B0_%D0%BD%D0%B0%D0%BF%D1%80%D1%83%D0%B3%D0%B0', },
 	cast: { jason_statham_26071967: 1, amy_smart_26031976: 1, },
@@ -230,12 +232,14 @@ const arrFilms = [
 },
 {
 	id: 'aquaman_2018', title: { ua: 'Аквамен', en: 'Aquaman', }, year: 2018, country: { usa: 1, },
+	studio: { warner: 1, },
 	genre: { action: 1, sci_fi: 1, fantasy: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '1477834', wiki_ua: '%D0%90%D0%BA%D0%B2%D0%B0%D0%BC%D0%B5%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { jason_momoa_01081979: 1, nicole_kidman_20061967: 1,  },
 },
 {
 	id: 'aquaman_2_2023', title: { ua: 'Аквамен і загублене королівство', en: 'Aquaman and the Lost Kingdom', }, year: 2023, country: { usa: 1, },
+	studio: { warner: 1, },
 	genre: { action: 1, sci_fi: 1, fantasy: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '9663764', wiki_ua: '%D0%90%D0%BA%D0%B2%D0%B0%D0%BC%D0%B5%D0%BD_%D1%96_%D0%B7%D0%B0%D0%B3%D1%83%D0%B1%D0%BB%D0%B5%D0%BD%D0%B5_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%96%D0%B2%D1%81%D1%82%D0%B2%D0%BE', },
 	cast: { jason_momoa_01081979: 1, nicole_kidman_20061967: 1,  },
@@ -248,6 +252,7 @@ const arrFilms = [
 },
 {
 	id: 'Alan_Quatermain_1986', title: { ua: 'Аллан Квотермейн і загублене Золоте місто', en: 'Allan Quatermain and the Lost City of Gold', }, year: 1986, country: { usa: 1, },
+	studio: { mgm: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0092534', wiki_ru: '%D0%90%D0%BB%D0%BB%D0%B0%D0%BD_%D0%9A%D1%83%D0%BE%D1%82%D0%B5%D1%80%D0%BC%D0%B5%D0%B9%D0%BD_%D0%B8_%D0%BF%D0%BE%D1%82%D0%B5%D1%80%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0', },
 	cast: { sharon_stone_10031958: 1, },
@@ -260,9 +265,10 @@ const arrFilms = [
 },
 {
 	id: 'Amelie_2001', title: { ua: 'Амелі', en: 'Le fabuleux destin d`Amélie Poulain', }, year: 2001, country: { usa: 1, }, rating: 5,
+	studio: { miramax: 1, },
 	genre: { drama: 1, comedy: 1, }, hash: { psycho: 1, young: 1, },
 	internet: { imdb: '0211915', wiki_ua: '%D0%90%D0%BC%D0%B5%D0%BB%D1%96', },
-	cast: { audrey_tautou_09081976: 1, jamel_debbouze_18061975: 1, },
+	cast: { audrey_tautou_09081976: 1, jamel_debbouze_18061975: 1, }, composser: { yann_tiersen_23071970: 1, },
 },
 {
 	id: 'american_gigolo_1980', title: { ua: 'Американський жиголо', en: 'American Gigolo', }, year: 1980, country: { usa: 1, },
@@ -3418,6 +3424,13 @@ const arrFilms = [
 	genre: { mystic: 1, drama: 1, },
 	internet: { imdb: '0217869', wiki_ua: '%D0%9D%D0%B5%D0%B2%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { bruce_willis_19031955: 1, samuel_l_jackson_21121948: 1, },
+},
+{
+	id: 'strangers_2024', title: { ua: 'Незнайомці', en: 'Strangers', }, year: 2024, country: { usa: 1, },
+	studio: { paramount: 1, },
+	genre: { thriller: 1, crime: 1, },
+	internet: { imdb: '32001482', },
+	cast: { jon_voight_29121938: 1, },
 },
 {
 	id: 'the_incredible_Hulk_2008', title: { ua: 'Неймовірний Халк', en: ' The Incredible Hulk', }, year: 2008, country: { usa: 1, },
