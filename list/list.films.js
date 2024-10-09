@@ -623,6 +623,11 @@ const arrFilms = [
 	cast: { tilda_swinton_05111960: 1, },
 },
 {
+	id: 'killer_heat_2024', title: { ua: 'Вбивча спека', en: 'Killer Heat', }, year: 2024, country: { usa: 1, },
+	genre: { drama: 1, detective: 1, },
+	internet: { imdb: '27419292', },
+},
+{
 	id: 'the_score_2001', title: { ua: 'Ведмежатник', en: 'The Score', }, year: 2001, country: { usa: 1, deu: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0227445', wiki_ua: '%D0%92%D0%B5%D0%B4%D0%BC%D0%B5%D0%B6%D0%B0%D1%82%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -666,6 +671,12 @@ const arrFilms = [
 	genre: { comedy: 1, drama: 1, },
 	internet: { imdb: '0142342', wiki_ua: '%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D1%82%D0%B0%D1%82%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', },
 	cast: { adam_sandler_09091966: 1, steve_buscemi_13121957: 1, },
+},
+{
+	id: 'Wednesday_2022', title: { ua: 'Венздей', en: 'Wednesday', }, year: 2022, country: { usa: 1, },
+	genre: { serial: 1, horror: 1, comedy: 1, },
+	internet: { imdb: '13443470', wiki_ua: '%D0%92%D0%B5%D0%BD%D0%B7%D0%B4%D0%B5%D0%B9', },
+	cast: { jenna_ortega_27092002: 1, catherine_zeta_jones_25091969: 1, },
 },
 {
 	id: 'vertical_limit_2000', title: { ua: 'Вертикальна межа', en: 'Vertical Limit', }, year: 2000, country: { usa: 1, }, rating: 5,
@@ -1092,6 +1103,11 @@ const arrFilms = [
 	id: 'ready_or_not_2019', title: { ua: 'Гра в хованки', en: 'Ready or Not', }, year: 2019, country: { usa: 1, },
 	genre: { horror: 1, },
 	internet: { imdb: '7798634', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%B2_%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%BA%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: 'the_killer_s_game_2024', title: { ua: 'Гра кілера', en: 'The Killer\'s Game', }, year: 2024, country: { usa: 1, }, 
+	genre: { action: 1, comedy: 1, crime: 1, },
+	internet: { imdb: '0327785', },
 },
 {
 	id: 'surviving_the_game_1994', title: { ua: 'Гра на виживання', en: 'Surviving the Game', }, year: 1994, country: { usa: 1, }, rating: 5,
@@ -2138,6 +2154,12 @@ const arrFilms = [
 	id: 'abgeschnitten_2018', title: { ua: 'Ізоляція', en: 'Abgeschnitten', }, year: 2018, country: { deu: 1, }, rating: 5,
 	genre: { action: 1, crime: 1, }, hash: { medicine: 1, biomedlab: 1, },
 	internet: { imdb: '3645988', },
+},
+{
+	id: 'lazareth_2024', title: { ua: 'Ізоляція страху', en: 'Lazareth', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, drama: 1, }, hash: { apocalypse: 1, },
+	internet: { imdb: '27676959', },
+	cast: { ashley_judd_19041968: 1, },
 },
 {
 	id: 'leave_the_world_behind_2023', title: { ua: 'Ілюзія безпеки', en: 'Leave the World Behind', }, year: 2023, country: { usa: 1, },
@@ -3569,6 +3591,11 @@ const arrFilms = [
 	internet: { imdb: '0187732', wiki_ru: '%D0%9D%D0%BE%D0%B2%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D1%86%D1%8B_%D1%81%D1%85%D0%BE%D0%B4%D1%8F%D1%82_%D1%81_%D1%83%D0%BC%D0%B0', },
 },
 {
+	id: 'new_life_2024', title: { ua: 'Нове життя', en: 'New Life', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, horror: 1, }, hash: { zombie: 1, virus: 1, },
+	internet: { imdb: '18973958', },
+},
+{
 	id: 'knives_out_2019', title: { ua: 'Ножі наголо', en: 'Knives Out', }, year: 2019, country: { usa: 1, },
 	genre: { comedy: 1, crime: 1, }, 
 	internet: { imdb: '8946378', wiki_ua: '%D0%9D%D0%BE%D0%B6%D1%96_%D0%BD%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE', },
@@ -3715,6 +3742,7 @@ const arrFilms = [
 },
 {
 	id: 'minority_report_2002', title: { ua: 'Особлива думка', en: 'Minority Report', }, year: 2002, country: { usa: 1, },
+	studio: { dream_works: 1, _20_century: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0181689', wiki_ua: '%D0%9E%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%B0_%D0%B4%D1%83%D0%BC%D0%BA%D0%B0', },
 	cast: { tom_cruise_03071962: 1, }, director: { steven_spielberg_18121946: 1, },
@@ -4041,6 +4069,11 @@ const arrFilms = [
 	id: 'el_hoyo_2019', title: { ua: 'Платформа', en: 'El hoyo', }, year: 2019, country: { esp: 1, },
 	genre: { thriller: 1, sci_fi: 1, trash: 1, }, hash: { prison: 1, },
 	internet: { imdb: '8228288', wiki_ua: '%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: 'el_hoyo_2_2024', title: { ua: 'Платформа - 2', en: 'El hoyo 2', }, year: 2024, country: { esp: 1, },
+	genre: { thriller: 1, sci_fi: 1, trash: 1, }, hash: { prison: 1, },
+	internet: { imdb: '27729779', wiki_ua: '%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0_2', },
 },
 {
 	id: 'flesh_blood_1985', title: { ua: 'Плоть + Кров', en: 'Flesh+Blood', }, year: 1985, country: { esp: 1, ndl: 1, usa: 1, },
@@ -5704,6 +5737,12 @@ const arrFilms = [
 	cast: { cameron_diaz_30081972: 1, justin_timberlake_31011981: 1, },
 },
 {
+	id: 'Miller_s_girl_2024', title: { ua: 'Фаворитка Міллера', en: 'Miller\'s Girl', }, year: 2024, country: { usa: 1, },
+	genre: { drama: 1, }, 
+	internet: { imdb: '8310486', wiki_ua: '%D0%A4%D0%B0%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D0%BA%D0%B0_%D0%9C%D1%96%D0%BB%D0%BB%D0%B5%D1%80%D0%B0', },
+	cast: { jenna_ortega_27092002: 1,  },
+},
+{
 	id: 'the_faculty_1998', title: { ua: 'Факультет', en: 'The Faculty', }, year: 1998, country: { usa: 1, },
 	genre: { horror: 1, sci_fi: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0133751', wiki_ua: '%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -5953,6 +5992,17 @@ const arrFilms = [
 	genre: { comedy: 1, adventure: 1, }, hash: { road: 1, },
 	internet: { imdb: '0057193', wiki_ua: '%D0%A6%D0%B5%D0%B9_%D1%88%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9,_%D1%88%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9,_%D1%88%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9,_%D1%88%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D1%81%D0%B2%D1%96%D1%82#%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D1%96_%D1%80%D0%BE%D0%BB%D1%96', },
 	cast: { peter_falk_16091927: 1, buster_keaton_04101895: 1, },
+},
+{
+	id: 'hellhound_2024', title: { ua: 'Цербер', en: 'Hellhound', }, year: 2024, country: { tha: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '22489042', },
+},
+{
+	id: 'hounds_of_war_2024', title: { ua: 'Цербери війни', en: 'Hounds of War', }, year: 2024, country: { usa: 1, }, 
+	genre: { action: 1, drama: 1, },
+	internet: { imdb: '12972134', },
+	cast: { rhona_mitra_09081976: 1, robert_patrick_05111958: 1, },
 },
 {
 	id: 'cicada_3301_2021', title: { ua: 'Цикада 3301: Квест для хакера', en: 'Dark Web: Cicada 3301', }, year: 2021, country: { usa: 1, },
