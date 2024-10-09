@@ -60,10 +60,17 @@ class ComponentMenu {
  			optionGenre += `<option value="${ k.id }">${ k.title }</option>`;
  		});
 
+
+
+
+ 		let arrFilmsYear = Object.keys( objFilmsYear ).reverse();
+ 		//console.log( arrFilmsYear );
+
  		let optionYear = '<option value="all">Рік (всі)</option>';
- 		for ( let k in objFilmsYear ) 
+ 		arrFilmsYear.forEach( k => {
  			optionYear += `<option value="${ k }">${ k }</option>`;
- 		
+ 		});
+
  		let optionCountry = '<option value="all">Країна (всі)</option>';
  		arrCountry.forEach( k => {
  			if ( objFilmsCountry[ k.id ] ) {
