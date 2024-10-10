@@ -506,6 +506,12 @@ const arrFilms = [
 	cast: { adriano_celentano_06011938: 1, carole_bouquet_18081957: 1, },
 },
 {
+	id: 'Beetlejuice_2024', title: { ua: 'Бітлджюс Бітлджюс', en: 'Beetlejuice Beetlejuice', }, year: 2024, country: { usa: 1, },
+	genre: { horror: 1, comedy: 1, fantasy: 1, }, hash: { ghost: 1, },
+	internet: { imdb: '2049403', wiki_ru: '%D0%91%D0%B8%D1%82%D0%BB%D0%B4%D0%B6%D1%83%D1%81_%D0%91%D0%B8%D1%82%D0%BB%D0%B4%D0%B6%D1%83%D1%81', },
+	cast: { winona_ryder_29101971: 1, catherine_ohara_04031954: 1, jenna_ortega_27092002: 1, monica_bellucci_30091964: 1, willem_dafoe_22071955: 1, },
+},
+{
 	id: 'the_blue_lagoon_1980', title: { ua: 'Блакитна лагуна', en: 'The Blue Lagoon', }, year: 1980, country: { usa: 1, }, rating: 5,
 	genre: { adventure: 1, }, hash: { island: 1, tropic: 1, beach: 1, },
 	internet: { imdb: '0080453', wiki_ua: '%D0%91%D0%BB%D0%B0%D0%BA%D0%B8%D1%82%D0%BD%D0%B0_%D0%BB%D0%B0%D0%B3%D1%83%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1980)', },
@@ -1987,6 +1993,12 @@ const arrFilms = [
 	cast: { elijah_wood_28011981: 1, morgan_freeman_01061937: 1, olexandr_mykola_baluev_06121958: 1, },
 },
 {
+	id: 'broken_arrow_1996', title: { ua: 'Зламана стріла', en: 'Broken Arrow', }, year: 1996, country: { usa: 1, },
+	genre: { action: 1, }, hash: { nuclear_bomb: 1, },
+	internet: { imdb: '0115759', wiki_ua: '%D0%97%D0%BB%D0%B0%D0%BC%D0%B0%D0%BD%D0%B0_%D1%81%D1%82%D1%80%D1%96%D0%BB%D0%B0', },
+	cast: { john_travolta_18021954: 1, christian_slater_18081969: 1, },
+},
+{
 	id: 'broken_bars_1995', title: { ua: 'Зламані прути', en: 'Broken Bars', }, year: 1995, country: { usa: 1, },
 	genre: { action: 1, }, hash: { fight: 1, prison: 1, drugs: 1, police: 1, },
 	internet: { imdb: '0112581', },
@@ -2307,7 +2319,7 @@ const arrFilms = [
 	id: 'Kuffs_1992', title: { ua: 'Каффс', en: 'Kuffs', }, year: 1992, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, }, hash: { police: 1, animal: 1, dog: 1, },
 	internet: { imdb: '0104647', wiki_ua: '%D0%9A%D0%B0%D1%84%D1%84%D1%81', ashdivip: '72496', },
-	cast: { milla_jovovich_17121975: 1, ashley_judd_19041968: 1, },
+	cast: { christian_slater_18081969: 1, milla_jovovich_17121975: 1, ashley_judd_19041968: 1, },
 },
 {
 	id: 'quantum_of_solace_2008', title: { ua: 'Квант милосердя', en: 'Quantum of Solace', }, year: 2008, country: { gbr: 1, usa: 1, }, franchise: 'agent_007_Craig',
@@ -2411,6 +2423,7 @@ const arrFilms = [
 	id: 'blink_twice_2024', title: { ua: 'Кліпни двічі', en: 'Blink Twice', }, year: 2024, country: { usa: 1, },
 	genre: { thriller: 1, },
 	internet: { imdb: '14858658', wiki_ua: '%D0%9A%D0%BB%D1%96%D0%BF%D0%BD%D0%B8_%D0%B4%D0%B2%D1%96%D1%87%D1%96', },
+	cast: { christian_slater_18081969: 1, },
 },
 {
 	id: 'the_cell_2000', title: { ua: 'Клітка', en: 'The Cell', }, year: 2000, country: { usa: 1, deu: 1, },
@@ -3552,7 +3565,7 @@ const arrFilms = [
 	id: 'bullet_to_the_head_2012', title: { ua: 'Нестримний', en: 'Bullet to the Head', }, year: 2012, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1308729', wiki_ua: '%D0%9D%D0%B5%D1%81%D1%82%D1%80%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { sylvester_stallone_06071946: 1, jason_momoa_01081979: 1, },
+	cast: { sylvester_stallone_06071946: 1, jason_momoa_01081979: 1, christian_slater_18081969: 1, },
 },
 {
 	id: 'the_expendables_2010', title: { ua: 'Нестримні', en: 'The Expendables', }, year: 2010, country: { usa: 1, }, rating: 5, franchise: 'the_expendables',
@@ -4437,7 +4450,7 @@ const arrFilms = [
 },
 {
 	id: 'true_lies_1995', title: { ua: 'Правдива брехня', en: 'True Lies', }, year: 1995, country: { usa: 1, }, rating: 5,
-	genre: { action: 1, }, hash: { terrorist: 1, },
+	genre: { action: 1, }, hash: { terrorist: 1, nuclear_bomb: 1, },
 	internet: { imdb: '0423412', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B4%D0%B8%D0%B2%D0%B0_%D0%B1%D1%80%D0%B5%D1%85%D0%BD%D1%8F', ashdivip: '1903', auliki7: 'True.Lies', },
 	cast: { arnold_schwarzenegger_30071947: 1, jamie_lee_curtis_22111958: 1, bill_paxton_17051955: 1, tia_carrere_02011967: 1, },
 },
@@ -4505,6 +4518,11 @@ const arrFilms = [
 	genre: { action: 1, comedy: 1, }, 
 	internet: { imdb: '13923084', wiki_ru: '%D0%9F%D0%B0%D1%86%D0%B0%D0%BD_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_%D0%B2%D1%81%D0%B5%D1%85', },
 	cast: { jessica_rothe_28051987: 1, },
+},
+{
+	id: '3_body_problem_2024', title: { ua: 'Проблема 3 тіл', en: '3 Body Problem', }, year: 2024, country: { usa: 1, },
+	genre: { serial: 1, sci_fi: 1, }, 
+	internet: { imdb: '13016388', wiki_ru: '%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D1%82%D1%80%D1%91%D1%85_%D1%82%D0%B5%D0%BB_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB,_2024)', },
 },
 {
 	id: 'passengers_2016', title: { ua: 'Пробудження', en: 'Passengers', }, year: 2016, country: { usa: 1, }, rating: 5,
@@ -5925,6 +5943,7 @@ const arrFilms = [
 	id: 'freelance_2023', title: { ua: 'Фрілансер', en: 'Freelance', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, hash: { travel: 1, },
 	internet: { imdb: '15744298', wiki_ru: '%D0%A2%D0%B5%D0%BB%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%BD%D0%B0_%D1%84%D1%80%D0%B8%D0%BB%D0%B0%D0%BD%D1%81%D0%B5', },
+	cast: { christian_slater_18081969: 1, },
 },
 {
 	id: 'Hachi_a_dog_s_tale_2009', title: { ua: 'Хатіко', en: 'Hachi: A Dog\'s Tale', }, year: 2009, country: { usa: 1, }, rating: 5,

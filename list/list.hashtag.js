@@ -12,9 +12,10 @@ const arrHashTags = [
 	{ id: 'war' 			, title: 'війна' 						, app: { films: 1, }, }, 
 	{ id: 'war1w' 			, title: 'війна1світова' 				, app: { films: 1, }, }, // Друга світова війна
 	{ id: 'war2w' 			, title: 'війна2світова' 				, app: { films: 1, }, }, // Друга світова війна
+	{ id: 'nuclear_bomb' 	, title: 'ЯдернаБомба' 					, app: { films: 1, }, }, // Друга світова війна
 
 
-	
+
 	{ id: '-' 				, title: '--- --- ГЕОГРАФІЯ --- ---' 	, app: { films: 1, }, },
 	{ id: 'mountains' 		, title: 'гори' 						, app: { films: 1, }, },
 	{ id: 'jungle' 			, title: 'джунглі' 						, app: { films: 1, }, }, 
