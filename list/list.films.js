@@ -4008,7 +4008,7 @@ const arrFilms = [
 	id: 'the_instigators_2024', title: { ua: 'Підбурювачі', en: 'The Instigators', }, year: 2024, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, },
 	internet: { imdb: '24169886', },
-	cast: { matt_damon_08101970: 1, casey_affleck_12081975: 1, ving_rhames_12051959: 1, Ron_Perlman_13041950: 1, },
+	cast: { matt_damon_08101970: 1, casey_affleck_12081975: 1, ving_rhames_12051959: 1, ron_perlman_13041950: 1, },
 },
 {
 	id: 'subway_1985', title: { ua: 'Підземка', en: 'Subway', }, year: 1985, country: { fra: 1, },
