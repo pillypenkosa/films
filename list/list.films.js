@@ -77,6 +77,7 @@ const arrFilms = [
 	studio: { dimension: 1, },
 	genre: { horror: 1, thriller: 1, },
 	internet: { imdb: '2059171', wiki_ua: '13_%D0%B3%D1%80%D1%96%D1%85%D1%96%D0%B2', },
+	cast: { ron_perlman_13041950: 1, },
 },
 {
 	id: '16_blocks_2006', title: { ua: '16 кварталів', en: '16 Blocks', }, year: 2006, country: { usa: 1, },
@@ -1550,6 +1551,7 @@ const arrFilms = [
 	id: 'drive_2011', title: { ua: 'Драйв', en: 'Drive', }, year: 2011, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0780504', wiki_ua: '%D0%94%D1%80%D0%B0%D0%B9%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { ron_perlman_13041950: 1, },
 },
 {
 	id: 'the_astronaut_s_wife_1999', title: { ua: 'Дружина астронавта', en: 'The Astronaut\'s Wife', }, year: 1999, country: { usa: 1, },
@@ -2194,7 +2196,7 @@ const arrFilms = [
 	id: 'der_name_der_Rose_1986', title: { ua: 'Ім\'я троянди', en: 'Der Name der Rose', }, year: 1986, country: { fra: 1, ita: 1, deu: 1, },
 	genre: { thriller: 1, mystic: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0091605', wiki_ru: '%D0%98%D0%BC%D1%8F_%D1%80%D0%BE%D0%B7%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
-	cast: { sean_connery_25081930: 1, },
+	cast: { sean_connery_25081930: 1, ron_perlman_13041950: 1, christian_slater_18081969: 1, },
 },
 {
 	id: 'Indiana_Johns_1981', title: { ua: 'Індіана Джонс', en: 'Raiders of the Lost Ark', }, year: 1981, country: { usa: 1, }, franchise: 'Indiana_Johns',
@@ -2535,6 +2537,11 @@ const arrFilms = [
 	genre: { adventure: 1, }, hash: { animal: 1, island: 1, },
 	internet: { imdb: '3731562', wiki_ua: '%D0%9A%D0%BE%D0%BD%D0%B3:_%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%A7%D0%B5%D1%80%D0%B5%D0%BF%D0%B0', ashdivip: '13797', },
 	cast: { brie_larson_01101989: 1, samuel_l_jackson_21121948: 1, },
+},
+{
+	id: 'the_witch_revenge_2024', title: { ua: 'Конотопська відьма', en: 'The Witch. Revenge', }, year: 2024, country: { ukr: 1, },
+	genre: { horror: 1, mystic: 1, }, hash: { war: 1, },
+	internet: { imdb: '32200215', wiki_ua: '%D0%9A%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BF%D1%81%D1%8C%D0%BA%D0%B0_%D0%B2%D1%96%D0%B4%D1%8C%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)',  },
 },
 {
 	id: 'Constantine_2005', title: { ua: 'Константин', en: 'Constantine', }, year: 2005, country: { usa: 1, },
@@ -3807,7 +3814,7 @@ const arrFilms = [
 	id: 'the_island_of_dr_Moreau_1996', title: { ua: 'Острів доктора Моро', en: 'The Island of Dr. Moreau', }, year: 1996, country: { usa: 1, }, rating: 1,
 	genre: { sci_fi: 1, horror: 1, thriller: 1, }, hash: { world: 1, animal: 1, island: 1, mutant: 1, },
 	internet: { imdb: '0116654', wiki_ua: '%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%BE%D1%80%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
-	cast: { val_kilmer_31121959: 1, marlon_brando_03041924: 1, mark_dacascos_26021964: 1, },
+	cast: { marlon_brando_03041924: 1, val_kilmer_31121959: 1, mark_dacascos_26021964: 1, ron_perlman_13041950: 1, },
 },
 {
 	id: 'London_has_fallen_2016', title: { ua: 'Падіння Лондону', en: 'London Has Fallen', }, year: 2016, country: { usa: 1, gbr: 1, bul: 1, },
@@ -3887,6 +3894,7 @@ const arrFilms = [
 	id: 'the_baker_2022', title: { ua: 'Пекар', en: 'The Baker', }, year: 2022, country: { usa: 1, deu: 1, gbr: 1, },
 	genre: { action: 1, crime: 1, }, hash: { children: 1, },
 	internet: { imdb: '3917710', wiki_ua: '%D0%9F%D0%B5%D0%BA%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', ashdivip: '104284', },
+	cast: { ron_perlman_13041950: 1, },
 },
 {
 	id: 'pacific_fear_2024', title: { ua: 'Пекельний серфінг', en: 'Pacific Fear', }, year: 2024, country: { fra: 1, },
@@ -4007,7 +4015,7 @@ const arrFilms = [
 {
 	id: 'the_instigators_2024', title: { ua: 'Підбурювачі', en: 'The Instigators', }, year: 2024, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, },
-	internet: { imdb: '24169886', },
+	internet: { imdb: '24169886', wiki_ua: '%D0%97%D0%B0%D1%87%D0%B8%D0%BD%D1%89%D0%B8%D0%BA%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { matt_damon_08101970: 1, casey_affleck_12081975: 1, ving_rhames_12051959: 1, ron_perlman_13041950: 1, },
 },
 {
@@ -4314,6 +4322,7 @@ const arrFilms = [
 	id: 'police_academy_7_1994', title: { ua: 'Поліцейська академія - 7', en: 'Police Academy: Mission to Moscow', }, year: 1994, country: { usa: 1, }, franchise: 'police_academy',
 	genre: { comedy: 1, }, hash: { police: 1, },
 	internet: { imdb: '0110857', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%8F_7:_%D0%9C%D1%96%D1%81%D1%96%D1%8F_%D0%B2_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%96', },
+	cast: { ron_perlman_13041950: 1, },
 },
 {
 	id: 'tc_2000_1993', title: { ua: 'Поліцейський 2000', en: 'TC 2000', }, year: 1993, country: { usa: 1, can: 1, },
