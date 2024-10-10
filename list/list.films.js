@@ -849,6 +849,11 @@ const arrFilms = [
 	cast: { shia_labeouf_11061986: 1, michael_douglas_25091944: 1, charlie_sheen_03091965: 1, oliver_stone_15091946: 1, },
 },
 {
+	id: 'afraid_2024', title: { ua: 'Вона слухає', en: 'AfrAId', }, year: 2024, country: { usa: 1, },
+	genre: { sci_fi: 1, thriller: 1, }, hash: { cyber: 1, },
+	internet: { imdb: '24577462', },
+},
+{
 	id: 'enemy_of_the_state_1998', title: { ua: 'Ворог держави', en: 'Enemy of the State', }, year: 1998, country: { usa: 1, },
 	genre: { action: 1, }, 
 	internet: { imdb: '0120660', wiki_ua: '%D0%92%D0%BE%D1%80%D0%BE%D0%B3_%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1386,13 +1391,13 @@ const arrFilms = [
 },
 {
 	id: 'jumanji_2017', title: { ua: 'Джуманджи', en: 'Jumanji: Welcome to the Jungle', }, year: 2017, country: { usa: 1, }, rating: 5,
-	genre: { fantasy: 1, adventure: 1, comedy: 1, }, hash: { travel: 1, jungle: 1, bodyChange: 1, cyber: 1, },
+	genre: { fantasy: 1, adventure: 1, comedy: 1, }, hash: { travel: 1, jungle: 1, bodyChange: 1, },
 	internet: { imdb: '2283362', wiki_ua: '%D0%94%D0%B6%D1%83%D0%BC%D0%B0%D0%BD%D0%B4%D0%B6%D1%96:_%D0%9F%D0%BE%D0%BA%D0%BB%D0%B8%D0%BA_%D0%B4%D0%B6%D1%83%D0%BD%D0%B3%D0%BB%D1%96%D0%B2', },
 	cast: { dwayne_johnson_02051972: 1, jack_black_28081969: 1, },
 },
 {
 	id: 'jumanji_2_2019', title: { ua: 'Джуманджи - 2', en: 'Jumanji: The Next Level', }, year: 2019, country: { usa: 1, }, rating: 5,
-	genre: { fantasy: 1, adventure: 1, comedy: 1, }, hash: { travel: 1, jungle: 1, bodyChange: 1, cyber: 1, },
+	genre: { fantasy: 1, adventure: 1, comedy: 1, }, hash: { travel: 1, jungle: 1, bodyChange: 1, },
 	internet: { imdb: '7975244', wiki_ua: '%D0%94%D0%B6%D1%83%D0%BC%D0%B0%D0%BD%D0%B4%D0%B6%D1%96:_%D0%9D%D0%B0%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%B8%D0%B9_%D1%80%D1%96%D0%B2%D0%B5%D0%BD%D1%8C', },
 	cast: { dwayne_johnson_02051972: 1, jack_black_28081969: 1, danny_glover_22071946: 1, danny_devito_17111944: 1, },
 },
@@ -4000,6 +4005,12 @@ const arrFilms = [
 	cast: { ben_affleck_15081972: 1, },
 },
 {
+	id: 'the_instigators_2024', title: { ua: 'Підбурювачі', en: 'The Instigators', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, },
+	internet: { imdb: '24169886', },
+	cast: { matt_damon_08101970: 1, casey_affleck_12081975: 1, ving_rhames_12051959: 1, Ron_Perlman_13041950: 1, },
+},
+{
 	id: 'subway_1985', title: { ua: 'Підземка', en: 'Subway', }, year: 1985, country: { fra: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { subway: 1, },
 	internet: { imdb: '0090095', wiki_ua: '%D0%9F%D1%96%D0%B4%D0%B7%D0%B5%D0%BC%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -5974,6 +5985,11 @@ const arrFilms = [
 	genre: { comedy: 1, fantasy: 1, },
 	internet: { imdb: '0096438', wiki_ua: '%D0%A5%D1%82%D0%BE_%D0%BF%D1%96%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%B2_%D0%BA%D1%80%D0%BE%D0%BB%D0%B8%D0%BA%D0%B0_%D0%A0%D0%BE%D0%B4%D0%B6%D0%B5%D1%80%D0%B0%3F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { christopher_lloyd_22101938: 1, },
+},
+{
+	id: 'it_s_what_s_inside_2024', title: { ua: 'Хто ти всередині', en: 'It\'s What\'s Inside', }, year: 2024, country: { usa: 1, },
+	genre: { sci_fi: 1, mystic:1 , comedy: 1, }, hash: { young: 1, bodyChange: 1, },	
+	internet: { imdb: '14577874', },
 },
 {
 	id: 'the_godfather_1972', title: { ua: 'Хрещений батько', en: 'The Godfather', }, year: 1972, country: { usa: 1, },
