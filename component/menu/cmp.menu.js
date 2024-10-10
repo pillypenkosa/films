@@ -150,22 +150,9 @@ class ComponentMenu {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 		arrFilmStudio.forEach( k => {
 			optionStudio += `<option value="${ k.id }">${ k.title }</option>`;
 		});
-
-
 
 
  		let optionLetter = '<option value="all">Літера (всі)</option>';
@@ -187,13 +174,10 @@ class ComponentMenu {
  		html += `
  			<div class="divSelectCat" data-id="divSelectCat">
 	 			<div>
-	 				<select data-id="genre" onchange="${ this.name }.change( this )">${ optionGenre }</select>
-	 			</div>
-	 			<div>
 	 				<select data-id="year" onchange="${ this.name }.change( this )">${ optionYear }</select>
 	 			</div>
 	 			<div>
-	 				<select data-id="hash" onchange="${ this.name }.change( this )">${ optionHash }</select>
+	 				<select data-id="genre" onchange="${ this.name }.change( this )">${ optionGenre }</select>
 	 			</div>
 	 			<div>
 	 				<select data-id="country" onchange="${ this.name }.change( this )">${ optionCountry }</select>
@@ -209,6 +193,9 @@ class ComponentMenu {
 	 			</div>
 	 			<div>
 	 				<select data-id="studio" onchange="${ this.name }.change( this )">${ optionStudio }</select>
+	 			</div>
+	 			<div>
+	 				<select data-id="hash" onchange="${ this.name }.change( this )">${ optionHash }</select>
 	 			</div>
 	 			<div>
 	 				<select data-id="letter" onchange="${ this.name }.change( this )">${ optionLetter }</select>
