@@ -2233,6 +2233,11 @@ const arrFilms = [
 	cast: { matthew_mcconaughey_04111969: 1, matt_damon_08101970: 1, casey_affleck_12081975: 1, },
 },
 {
+	id: 'another_end_2024', title: { ua: 'Інший фінал', en: 'Another End', }, year: 2014, country: { ita: 1, },
+	genre: { sci_fi: 1, drama: 1, }, hash: { future: 1, },
+	internet: { imdb: '26749648', wiki_ru: '%D0%94%D1%80%D1%83%D0%B3%D0%BE%D0%B9_%D0%B2%D1%8B%D1%85%D0%BE%D0%B4', },
+},
+{
 	id: 'the_irishman_2019', title: { ua: 'Ірландець', en: 'The Irishman', }, year: 2019, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { robbery: 1, bank: 1, },
 	internet: { imdb: '1302006', wiki_ua: '%D0%86%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', },
