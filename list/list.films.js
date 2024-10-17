@@ -334,7 +334,7 @@ const arrFilms = [
 	id: 'argylle_2024', title: { ua: 'Арґайл', en: 'Argylle', }, year: 2024, country: { gbr: 1, usa: 1, },
 	genre: { action: 1, comedy: 1, },
 	internet: { imdb: '15009428', wiki_ua: '%D0%90%D1%80%D2%91%D0%B0%D0%B9%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { catherine_ohara_04031954: 1, },
+	cast: { samuel_l_jackson_21121948: 1, john_cena_23071977: 1, catherine_ohara_04031954: 1, },
 },
 {
 	id: 'armageddon_1998', title: { ua: 'Армагеддон', en: 'Armageddon', }, year: 1998, country: { usa: 1, },
@@ -417,7 +417,7 @@ const arrFilms = [
 	id: 'barbie_2023', title: { ua: 'Барбі', en: 'Barbie', }, year: 2023, country: { usa: 1, },
 	genre: { fantasy: 1, comedy: 1, }, hash: { world: 1, },
 	internet: { imdb: '1517268', wiki_ua: '%D0%91%D0%B0%D1%80%D0%B1%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { margot_robbie_02071990: 1, },
+	cast: { margot_robbie_02071990: 1, john_cena_23071977: 1, },
 },
 {
 	id: 'si_wang_ta_1981', title: { ua: 'Башта смерті', en: 'Si wang ta', }, year: 1981, country: { hkg: 1, },
@@ -1493,7 +1493,7 @@ const arrFilms = [
 	id: 'trainwreck_2015', title: { ua: 'Дівчина без комплексів', en: 'Trainwreck', }, year: 2015, country: { usa: 1, },
 	genre: { comedy: 1, drama: 1, },
 	internet: { imdb: '3152624', wiki_ua: '%D0%94%D1%96%D0%B2%D1%87%D0%B8%D0%BD%D0%B0_%D0%B1%D0%B5%D0%B7_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B2', },
-	cast: { tilda_swinton_05111960: 1, brie_larson_01101989: 1, },
+	cast: { tilda_swinton_05111960: 1, brie_larson_01101989: 1, john_cena_23071977: 1, },
 },
 {
 	id: 'house_of_Gucci_2021', title: { ua: 'Дім Ґуччі', en: 'House of Gucci', }, year: 2021, country: { usa: 1, },
@@ -5977,13 +5977,13 @@ const arrFilms = [
 	id: 'fast_&_furious_9_2021', title: { ua: 'Форсаж - 9', en: 'F9', }, year: 2021, country: { usa: 1, }, franchise: 'fast_furious',
 	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
 	internet: { imdb: '5433138', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_9',	},
-	cast: { vin_diesel_18071967: 1, michelle_rodriguez_12071978: 1, dwayne_johnson_02051972: 1, charlize_theron_07081975: 1, kurt_russell_17031951: 1, },
+	cast: { vin_diesel_18071967: 1, michelle_rodriguez_12071978: 1, dwayne_johnson_02051972: 1, charlize_theron_07081975: 1, kurt_russell_17031951: 1, john_cena_23071977: 1, },
 },
 {
 	id: 'fast_&_furious_10_2023', title: { ua: 'Форсаж - 10', en: 'F9', }, year: 2023, country: { usa: 1, }, rating: 5, franchise: 'fast_furious',
 	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
 	internet: { imdb: '5433140', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_10', },
-	cast: { vin_diesel_18071967: 1, jason_statham_26071967: 1, michelle_rodriguez_12071978: 1, jason_momoa_01081979: 1, charlize_theron_07081975: 1, brie_larson_01101989: 1, },
+	cast: { vin_diesel_18071967: 1, jason_statham_26071967: 1, michelle_rodriguez_12071978: 1, jason_momoa_01081979: 1, charlize_theron_07081975: 1, brie_larson_01101989: 1, john_cena_23071977: 1, },
 },
 {
 	id: 'fast_&_furious_presents_Hobbs_&_Shaw_2019', title: { ua: 'Форсаж: Гоббс та Шоу', en: 'Fast & Furious Presents: Hobbs & Shaw', }, year: 2019, country: { usa: 1, },
@@ -6013,7 +6013,7 @@ const arrFilms = [
 	id: 'freelance_2023', title: { ua: 'Фрілансер', en: 'Freelance', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, hash: { travel: 1, },
 	internet: { imdb: '15744298', wiki_ru: '%D0%A2%D0%B5%D0%BB%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%BD%D0%B0_%D1%84%D1%80%D0%B8%D0%BB%D0%B0%D0%BD%D1%81%D0%B5', },
-	cast: { christian_slater_18081969: 1, },
+	cast: { john_cena_23071977: 1, christian_slater_18081969: 1, },
 },
 {
 	id: 'Hachi_a_dog_s_tale_2009', title: { ua: 'Хатіко', en: 'Hachi: A Dog\'s Tale', }, year: 2009, country: { usa: 1, }, rating: 5,
@@ -6423,6 +6423,12 @@ const arrFilms = [
 	genre: { fantasy: 1, comedy: 1, }, hash: { groundhog: 1, young: 1, },
 	internet: { imdb: '8155288', wiki_ua: '%D0%A9%D0%B0%D1%81%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%96_2', },
 	cast: { jessica_rothe_28051987: 1, },
+},
+{
+	id: 'one_more_shot_2024', title: { ua: 'Ще один постріл', en: 'One More Shot', }, year: 2024, country: { usa: 1, gbr: 1, },
+	genre: { action: 1, }, hash: { nuclear_bomb: 1, fight: 1, },
+	internet: { imdb: '27110516', },
+	cast: { scott_adkins_17061976: 1, michael_jai_white_10111967: 1, tom_berenger_31051949: 1, },
 },
 {
 	id: 'jaws_1975', title: { ua: 'Щелепи', en: 'Jaws', }, year: 1975, country: { usa: 1, },
