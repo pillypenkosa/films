@@ -321,6 +321,11 @@ const arrFilms = [
 	internet: { imdb: '6499752', wiki_ua: '%D0%90%D0%BF%D0%B3%D1%80%D0%B5%D0%B9%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
+	id: 'aporia_2023', title: { ua: 'Апорія', en: 'Aporia', }, year: 2023, country: { usa: 1, },
+	genre: { sci_fi: 1, drama: 1, }, hash: { time: 1, },
+	internet: { imdb: '8511466', },
+},
+{
 	id: 'Arabela_1979', title: { ua: 'Арабелла', en: 'Arabela', }, year: 1979, country: { usa: 1, },
 	genre: { serial: 1, fantasy: 1, comedy: 1, }, hash: { young: 1, children: 1, },
 	internet: { imdb: '0175381', wiki_ua: '%D0%90%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D0%BB%D0%B0_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
@@ -993,6 +998,11 @@ const arrFilms = [
 	genre: { parody: 1, comedy: 1, action: 1, }, hash: { army: 1, team: 1, },
 	internet: { imdb: '0107144', wiki_ua: '%D0%93%D0%B0%D1%80%D1%8F%D1%87%D1%96_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8!_%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_2', },
 	cast: { charlie_sheen_03091965: 1, valeria_golino_22101965: 1, brenda_bakke_15051963: 1, lloyd_bridges_15011913: 1, rowan_atkinson_06011955: 1, richard_crenna_30111926: 1, martin_sheen_03081940: 1, },
+},
+{
+	id: 'Hellboy_2024', title: { ua: 'Геллбой: Горбань', en: 'Hellboy: The Crooked Man', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, horror: 1, }, hash: { superhero: 1, },
+	internet: { imdb: '26757462', },
 },
 {
 	id: 'the_general_1926', title: { ua: 'Генерал', en: 'The General', }, year: 1926, country: { usa: 1, },
@@ -1941,6 +1951,11 @@ const arrFilms = [
 	cast: { william_baldwin_21021963: 1, donald_sutherland_17071935: 1, },
 },
 {
+	id: 'sound_of_freedom_2023', title: { ua: 'Звук свободи', en: 'Sound of Freedom', }, year: 2023, country: { usa: 1, }, 
+	genre: { drama: 1, crime: 1, },
+	internet: { imdb: '7599146', wiki_ua: '%D0%97%D0%B2%D1%83%D0%BA_%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8', },
+},
+{
 	id: 'sound_of_noise_2010', title: { ua: 'Звуки шуму', en: 'Sound of Noise', }, year: 2010, country: { swe: 1, fra: 1, }, rating: 5,
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '1278449', wiki_ua: '%D0%97%D0%B2%D1%83%D0%BA%D0%B8_%D1%88%D1%83%D0%BC%D1%83', },
@@ -2510,6 +2525,12 @@ const arrFilms = [
 	cast: { laurence_fishburne_30071961: 1, bill_paxton_17051955: 1, },
 },
 {
+	id: 'colonia_2015', title: { ua: 'Колонія Дігнідад', en: 'Colonia', }, year: 2015, country: { can: 1, },
+	genre: { drama: 1, thriller: 1, }, 
+	internet: { imdb: '4005402', wiki_ua: '%D0%9A%D0%BE%D0%BB%D0%BE%D0%BD%D1%96%D1%8F_%D0%94%D1%96%D0%B3%D0%BD%D1%96%D0%B4%D0%B0%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { emma_watson_15041990: 1, },
+},
+{
 	id: 'commando_1985', title: { ua: 'Командо', en: 'Commando', }, year: 1985, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, }, hash: { army: 1, terrorist: 1, children: 1, },
 	internet: { imdb: '0088944', wiki_ua: '%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '1825', },
@@ -2876,6 +2897,12 @@ const arrFilms = [
 	internet: { imdb: '6685538', wiki_ua: '%D0%9C%D0%B0%D0%B2%D0%BA%D0%B0._%D0%9B%D1%96%D1%81%D0%BE%D0%B2%D0%B0_%D0%BF%D1%96%D1%81%D0%BD%D1%8F', },
 },
 {
+	id: 'the_mauritanian_2021', title: { ua: 'Мавританець', en: 'The Mauritanian', }, year: 2021, country: { usa: 1, gbr: 1, },
+	genre: { drama: 1, crime: 1, },
+	internet: { imdb: '4761112', wiki_ua: '%D0%9C%D0%B0%D0%B2%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B5%D1%86%D1%8C', },
+	cast: { jodie_foster_19111962: 1, },
+},
+{
 	id: 'madame_web_2024', title: { ua: 'Мадам Павутина', en: 'Madame Web', }, year: 2024, country: { usa: 1, },
 	genre: { sci_fi: 1, action: 1, }, hash: { spider: 1, },
 	internet: { imdb: '11057302', wiki_ua: '%D0%9C%D0%B0%D0%B4%D0%B0%D0%BC_%D0%9F%D0%B0%D0%B2%D1%83%D1%82%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -2993,6 +3020,11 @@ const arrFilms = [
 	internet: { imdb: '11317170',  },
 },
 {
+	id: 'dead_sea_2024', title: { ua: 'Мертве море', en: 'Dead Sea', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, }, hash: { sea: 1, ship: 1, },
+	internet: { imdb: '11724920',  },
+},
+{
 	id: 'dead_calm_1989', title: { ua: 'Мертвий штиль', en: 'Dead Calm', }, year: 1989, country: { aus: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { sea: 1, },
 	internet: { imdb: '0097162', wiki_ru: '%D0%9C%D1%91%D1%80%D1%82%D0%B2%D1%8B%D0%B9_%D1%88%D1%82%D0%B8%D0%BB%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
@@ -3003,6 +3035,12 @@ const arrFilms = [
 	genre: { action: 1, adventure: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '4154796', wiki_ua: '%D0%9C%D0%B5%D1%81%D0%BD%D0%B8%D0%BA%D0%B8:_%D0%97%D0%B0%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D1%8F', },
 	cast: { chris_evans_13061981: 1, chris_hemsworth_11081983: 1, scarlett_johansson_22111984: 1, brie_larson_01101989: 1, gwyneth_paltrow_27091972: 1, zoe_saldana_19061978: 1, vin_diesel_18071967: 1, samuel_l_jackson_21121948: 1, rene_russo_17021954: 1, tilda_swinton_05111960: 1, michael_douglas_25091944: 1, michelle_pfeiffer_29041958: 1, natalie_portman_09061981: 1, don_cheadle_29111964: 1, },
+},
+{
+	id: 'papillon_2017', title: { ua: 'Метелик', en: 'Papillon', }, year: 2017, country: { usa: 1, cze: 1, esp: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { prison: 1, },
+	internet: { imdb: '5093026', wiki_ua: '%D0%9C%D0%B5%D1%82%D0%B5%D0%BB%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2017)', },
+	cast: { rami_malek_12051981: 1, },
 },
 {
 	id: 'we_were_soldiers_2002', title: { ua: 'Ми були солдатами', en: 'We Were Soldiers', }, year: 2002, country: { usa: 1, },
@@ -3321,6 +3359,11 @@ const arrFilms = [
 	genre: { action: 1, adventure: 1, comedy: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0327437', wiki_ua: '%D0%9D%D0%B0%D0%B2%D0%BA%D0%BE%D0%BB%D0%BE_%D1%81%D0%B2%D1%96%D1%82%D1%83_%D0%B7%D0%B0_80_%D0%B4%D0%BD%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2004)', },
 	cast: { jackie_chan_07041954: 1, arnold_schwarzenegger_30071947: 1, maggie_q_22051979: 1, },
+},
+{
+	id: 'the_watchers_2024', title: { ua: 'Наглядачі', en: 'The Watchers', }, year: 2024, country: { usa: 1, },
+	genre: { fantasy: 1, horror: 1, },
+	internet: { imdb: '26736843', wiki_ua: '%D0%9D%D0%B0%D0%B3%D0%BB%D1%8F%D0%B4%D0%B0%D1%87%D1%96', },
 },
 {
 	id: 'above_the_law_1988', title: { ua: 'Над законом', en: 'Above the Law', }, year: 1988, country: { usa: 1, hkg: 1, },
@@ -3710,6 +3753,11 @@ const arrFilms = [
 	genre: { action: 1, comedy: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '2404463', wiki_ua: '%D0%9E%D0%B7%D0%B1%D1%80%D0%BE%D1%94%D0%BD%D1%96_%D1%96_%D0%BD%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%BD%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013)', },
 	cast: { sandra_bullock_26071964: 1, },
+},
+{
+	id: 'Caddo_lake_2024', title: { ua: 'Озеро Каддо', en: 'Caddo Lake', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, },
+	internet: { imdb: '15552142', wiki_ru: '%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D0%9A%D0%B0%D0%B4%D0%B4%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'Oppenheimer_2023', title: { ua: 'Оппенгеймер', en: 'Oppenheimer', }, year: 2023, country: { usa: 1, gbr: 1, },
@@ -4654,6 +4702,12 @@ const arrFilms = [
 	cast: { gerard_butler_13111969: 1, },
 },
 {
+	id: 'chariot_2022', title: { ua: 'Реінкарнація: Збій системи', en: 'Chariot', }, year: 2022, country: { usa: 1, },
+	genre: { sci_fi: 1, drama: 1, }, 
+	internet: { imdb: '13942896', },
+	cast: { john_malkovich_09121953: 1, },
+},
+{
 	id: 'requiem_for_a_dream_2000', title: { ua: 'Реквієм за мрією', en: 'Requiem for a Dream', }, year: 2000, country: { usa: 1, },
 	genre: { drama: 1, },
 	internet: { imdb: '0180093', wiki_ua: '%D0%A0%D0%B5%D0%BA%D0%B2%D1%96%D1%94%D0%BC_%D0%B7%D0%B0_%D0%BC%D1%80%D1%96%D1%94%D1%8E_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -4954,6 +5008,11 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0079168', wiki_ua: '%D0%A1%D0%B8%D0%BB%D0%B0_%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE', },
 	cast: { chuck_norris_10031940: 1, },
+},
+{
+	id: 'blue_beetle_2023', title: { ua: 'Синій Жук', en: 'Blue Beetle', }, year: 2023, country: { usa: 1, can: 1, deu: 1, mex: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { superhero: 1, },
+	internet: { imdb: '9362930', wiki_ua: '%D0%A1%D0%B8%D0%BD%D1%96%D0%B9_%D0%96%D1%83%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'salt_on_our_skin_1992', title: { ua: 'Сіль на нашій шкірі', en: 'Salt on Our Skin', }, year: 2010, country: { deu: 1, fra: 1, can: 1, },
@@ -6003,6 +6062,12 @@ const arrFilms = [
 	internet: { imdb: '1706593', wiki_ua: '%D0%A5%D1%80%D0%BE%D0%BD%D1%96%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',  },
 },
 {
+	id: 'terminator_the_Sarah_Connor_chronicles_2008', title: { ua: 'Хроніки Сари Коннор', en: 'Terminator: The Sarah Connor Chronicles', }, year: 2008, country: { usa: 1, }, franchise: 'terminator',
+	genre: { serial: 1, action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, young: 1, police: 1, },
+	internet: { imdb: '0851851', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80:_%D0%A5%D1%80%D0%BE%D0%BD%D1%96%D0%BA%D0%B8_%D0%A1%D0%B0%D1%80%D0%B8_%D0%9A%D0%BE%D0%BD%D0%BD%D0%BE%D1%80', },
+	cast: { lena_headey_03101973: 1, },
+},
+{
 	id: 'mr_brooks_2007', title: { ua: 'Хто Ви містере Брукс', en: 'Mr. Brooks', }, year: 2007, country: { usa: 1, },
 	genre: { thriller: 1, drama: 1, crime: 1, },
 	internet: { imdb: '0780571', wiki_ua: '%D0%A5%D1%82%D0%BE_%D0%B2%D0%B8,_%D0%BC%D1%96%D1%81%D1%82%D0%B5%D1%80%D0%B5_%D0%91%D1%80%D1%83%D0%BA%D1%81%3F', },
@@ -6089,6 +6154,11 @@ const arrFilms = [
 	cast: { sandra_bullock_26071964: 1, samuel_l_jackson_21121948: 1, ashley_judd_19041968: 1, kevin_spacey_26071959: 1, donald_sutherland_17071935: 1, chris_cooper_09071951: 1, matthew_mcconaughey_04111969: 1, },
 },
 {
+	id: 'latency_2024', title: { ua: 'Час очікування', en: 'Latency', }, year: 2024, country: { usa: 1, tha: 1, },
+	genre: { action: 1, sci_fi: 1, horror: 1, }, hash: { cyber: 1, },
+	internet: { imdb: '23146644', },
+},
+{
 	id: 'paycheck_2003', title: { ua: 'Час розплати', en: 'Paycheck', }, year: 2003, country: { can: 1, usa: 1, },
 	genre: { action: 1, sci_fi: 1, },
 	internet: { imdb: '0338337', wiki_ua: '%D0%A7%D0%B0%D1%81_%D1%80%D0%BE%D0%B7%D0%BF%D0%BB%D0%B0%D1%82%D0%B8', },
@@ -6166,6 +6236,11 @@ const arrFilms = [
 	cast: { dolph_lundgren_03111957: 1, claire_stansfield_27081964: 1, },
 },
 {
+	id: 'clear_mind_2024', title: { ua: 'Чисті думки', en: 'ClearMind', }, year: 2024, country: { usa: 1, },
+	genre: { comedy: 1, thriller: 1, },
+	internet: { imdb: '15320066', },
+},
+{
 	id: 'nuts_1987', title: { ua: 'Чокнуті', en: 'Nuts', }, year: 1987, country: { usa: 1, },
 	genre: { thriller: 1, },
 	internet: { imdb: '0093660', wiki_ua: '%D0%A7%D0%BE%D0%BA%D0%BD%D1%83%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -6204,6 +6279,11 @@ const arrFilms = [
 	genre: { sci_fi: 1, horror: 1, }, hash: { space: 1, aliens: 1, },
 	internet: { imdb: '0103644', wiki_ua: '%D0%A7%D1%83%D0%B6%D0%B8%D0%B9_3', },
 	cast: { sigourney_weaver_08101949: 1, },
+},
+{
+	id: 'alien_romulus_2024', title: { ua: 'Чужий: Ромул', en: 'Alien: Romulus', }, year: 2024, country: { usa: 1, }, franchise: 'alien',
+	genre: { sci_fi: 1, horror: 1, }, hash: { space: 1, aliens: 1, young: 1, },
+	internet: { imdb: '18412256', wiki_ua: '%D0%A7%D1%83%D0%B6%D0%B8%D0%B9:_%D0%A0%D0%BE%D0%BC%D1%83%D0%BB', },
 },
 {
 	id: 'aliens_1986', title: { ua: 'Чужі', en: 'Aliens', }, year: 1986, country: { usa: 1, }, franchise: 'alien',

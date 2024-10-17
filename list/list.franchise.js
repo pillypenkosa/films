@@ -13,7 +13,7 @@ const objFilmFranchise = {
 
 agent_007_Brosnan 		: [ 'golden_eye_1995', 'tomorrow_never_dies_1997', 'the_world_is_not_enough_1999', 'die_another_day_2002', ],
 agent_007_Craig 		: [ 'casino_royale_2006', 'quantum_of_solace_2008', 'skyfall_2012', 'spectre_2015', 'no_time_to_die_2021', ],
-alien 					: [ 'alien_1979', 'aliens_1986', 'alien_3_1992', ],
+alien 					: [ 'alien_1979', 'aliens_1986', 'alien_3_1992', 'alien_romulus_2024', ],
 avatar 					: [ 'avatar_2009', 'avatar_2_2022', ],
 back_to_the_future 		: [ 'back_to_the_future_1985', 'back_to_the_future_2_1989', 'back_to_the_future_3_1990', ],
 backdraft 				: [ 'backdraft_1991', 'backdraft_2_2019', ],
@@ -39,7 +39,7 @@ romancing_the_stone 	: [ 'romancing_the_stone_1984', 'the_jewel_of_the_Nile_1985
 speed 					: [ 'speed_1994', 'speed_2_1997', ],
 star_wars 				: [ 'star_wars_1977', 'star_wars_1980', 'star_wars_1983', ],
 taxi 					: [ 'taxi_1998', 'taxi_2_2000', 'taxi_3_2003', 'taxi_4_2007', ],
-terminator 				: [ 'terminator_1_1984', 'terminator_2_1991', 'terminator_3_2003', 'terminator_4_2009', 'terminator_5_2015', 'terminator_6_2019', ],
+terminator 				: [ 'terminator_1_1984', 'terminator_2_1991', 'terminator_3_2003', 'terminator_the_Sarah_Connor_chronicles_2008', 'terminator_4_2009', 'terminator_5_2015', 'terminator_6_2019', ],
 the_crow				: [ 'the_crow_1994', 'the_crow_2024', ],
 the_delta_force 		: [ 'the_delta_force_1986', 'the_delta_force_2_1990', ],
 the_expendables 		: [ 'the_expendables_2010', 'the_expendables_2_2012', 'the_expendables_3_2014', 'the_expendables_4_2023', ],
