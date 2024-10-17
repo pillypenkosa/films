@@ -861,7 +861,7 @@ const arrFilms = [
 	cast: { shia_labeouf_11061986: 1, michael_douglas_25091944: 1, charlie_sheen_03091965: 1, oliver_stone_15091946: 1, },
 },
 {
-	id: 'afraid_2024', title: { ua: 'Вона слухає', en: 'AfrAId', }, year: 2024, country: { usa: 1, },
+	id: 'afraid_2024', title: { ua: 'Воно слухає', en: 'AfrAId', }, year: 2024, country: { usa: 1, },
 	genre: { sci_fi: 1, thriller: 1, }, hash: { cyber: 1, },
 	internet: { imdb: '24577462', },
 },
@@ -1371,6 +1371,12 @@ const arrFilms = [
 	cast: { tom_cruise_03071962: 1, },
 },
 {
+	id: 'jackpot_2024', title: { ua: 'Джекпот', en: 'Jackpot!', }, year: 2024, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '26940324', },
+	cast: { john_cena_23071977: 1, },
+},
+{
 	id: 'Joe_Versus_the_volcano_1990', title: { ua: 'Джо проти вулкану', en: 'Joe Versus the Volcano', }, year: 1990, country: { usa: 1, },
 	genre: { comedy: 1, },
 	internet: { imdb: '0099892', wiki_ua: '%D0%94%D0%B6%D0%BE_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_%D0%B2%D1%83%D0%BB%D0%BA%D0%B0%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1703,6 +1709,11 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1137450', wiki_ua: '%D0%96%D0%B0%D0%B3%D0%B0_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
 	cast: { bruce_willis_19031955: 1, dean_norris_08041963: 1, elisabeth_shue_06101963: 1, },
+},
+{
+	id: 'greedy_people_2024', title: { ua: 'Жадібні люди', en: 'Greedy People', }, year: 2024, country: { usa: 1, },
+	genre: { drama: 1, crime: 1, comedy: 1, },
+	internet: { imdb: '20201748', },
 },
 {
 	id: 'the_Amityville_horror_2005', title: { ua: 'Жах Амітивілля', en: 'The Amityville Horror', }, year: 2005, country: { usa: 1, },
@@ -2526,7 +2537,7 @@ const arrFilms = [
 },
 {
 	id: 'colonia_2015', title: { ua: 'Колонія Дігнідад', en: 'Colonia', }, year: 2015, country: { can: 1, },
-	genre: { drama: 1, thriller: 1, }, 
+	genre: { drama: 1, thriller: 1, }, hash: { prison: 1, },
 	internet: { imdb: '4005402', wiki_ua: '%D0%9A%D0%BE%D0%BB%D0%BE%D0%BD%D1%96%D1%8F_%D0%94%D1%96%D0%B3%D0%BD%D1%96%D0%B4%D0%B0%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { emma_watson_15041990: 1, },
 },
