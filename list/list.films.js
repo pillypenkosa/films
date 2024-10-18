@@ -1705,6 +1705,12 @@ const arrFilms = [
 	cast: { ashton_kutcher_07021978: 1, amy_smart_26031976: 1, },
 },
 {
+	id: 'paradox_effect_2024', title: { ua: 'Ефект парадокса', en: 'Paradox Effect', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '14416430', },
+	cast: { olga_kurylenko_14111979: 1, },
+},
+{
 	id: 'death_wish_2018', title: { ua: 'Жага смерті', en: 'Death Wish', }, year: 2018, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1137450', wiki_ua: '%D0%96%D0%B0%D0%B3%D0%B0_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
@@ -2123,6 +2129,11 @@ const arrFilms = [
 	genre: { comedy: 1, },
 	internet: { imdb: '0107478', wiki_ua: '%D0%97%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BD%D0%BE_%D0%B2_%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D1%86%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { whoopi_goldberg_13111955: 1, will_smith_25091968: 1, },
+},
+{
+	id: 'the_shift_2023', title: { ua: 'Зсув', en: 'The Shift', }, year: 2023, country: { usa: 1, },
+	genre: { fantasy: 1, drama: 1, },
+	internet: { imdb: '19406606', },
 },
 {
 	id: 'critters_1986', title: { ua: 'Зубастики', en: 'Critters', }, year: 1986, country: { usa: 1, },
@@ -2909,7 +2920,7 @@ const arrFilms = [
 },
 {
 	id: 'the_mauritanian_2021', title: { ua: 'Мавританець', en: 'The Mauritanian', }, year: 2021, country: { usa: 1, gbr: 1, },
-	genre: { drama: 1, crime: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { prison: 1, terrorist: 1, },
 	internet: { imdb: '4761112', wiki_ua: '%D0%9C%D0%B0%D0%B2%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B5%D1%86%D1%8C', },
 	cast: { jodie_foster_19111962: 1, },
 },
@@ -3795,6 +3806,12 @@ const arrFilms = [
 	cast: { megan_fox_16051986: 1, bruce_willis_19031955: 1, },
 },
 {
+	id: 'the_wasp_2024', title: { ua: 'Оса', en: 'The Wasp', }, year: 2024, country: { usa: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { psycho: 1, },
+	internet: { imdb: '21958136', },
+	cast: { natalie_dormer_11021982: 1, },
+},
+{
 	id: 'the_proposal_2009', title: { ua: 'Освідчення', en: 'The Proposal', }, year: 2009, country: { usa: 1, },
 	genre: { comedy: 1, drama: 1, }, 
 	internet: { imdb: '1041829', wiki_ua: '%D0%9E%D1%81%D0%B2%D1%96%D0%B4%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2009)', },
@@ -3887,6 +3904,11 @@ const arrFilms = [
 	genre: { sci_fi: 1, horror: 1, thriller: 1, }, hash: { world: 1, animal: 1, island: 1, mutant: 1, },
 	internet: { imdb: '0116654', wiki_ua: '%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%BE%D1%80%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
 	cast: { marlon_brando_03041924: 1, val_kilmer_31121959: 1, mark_dacascos_26021964: 1, ron_perlman_13041950: 1, },
+},
+{
+	id: 'demise_2024', title: { ua: 'Павутина пристрасті', en: 'Demise', }, year: 2024, country: { usa: 1, }, 
+	genre: { drama: 1, thriller: 1, }, 
+	internet: { imdb: '15558362',  },
 },
 {
 	id: 'London_has_fallen_2016', title: { ua: 'Падіння Лондону', en: 'London Has Fallen', }, year: 2016, country: { usa: 1, gbr: 1, bul: 1, },
@@ -4066,6 +4088,11 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, },
 	internet: { imdb: '1276104', wiki_ua: '%D0%9F%D0%B5%D1%82%D0%BB%D1%8F_%D1%87%D0%B0%D1%81%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { bruce_willis_19031955: 1, emily_blunt_23021983: 1, jeff_daniels_19021955: 1, },
+},
+{
+	id: 'omni_loop_2024', title: { ua: 'Петля часу', en: 'Omni Loop', }, year: 2024, country: { usa: 1, },
+	genre: { fantasy: 1, drama: 1, }, hash: { time: 1, },
+	internet: { imdb: '28150132', },
 },
 {
 	id: 'the_cave_2005', title: { ua: 'Печера', en: 'The Cave', }, year: 2005, country: { usa: 1, },
